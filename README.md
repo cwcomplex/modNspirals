@@ -1,4 +1,4 @@
 modNspirals
 ===========
 
-mod N spirals
+mod N = { 0, 1, ..., N-1 }
