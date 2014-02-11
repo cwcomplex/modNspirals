@@ -25,24 +25,26 @@ colors = [ "\33[01;30m",
   "\33[22;35m",
   "\33[01;35m" ]
 
-def generateImages(block, maxSquareSize, N, fileprefix):
+def toRGB1(rc, N):
+  r = (block[rc[0], rc[1]] + 1) * N
+  g = int(((block[rc[0], rc[1]] + 1) * N) / 2)
+  b = int(((block[rc[0], rc[1]] + 1) * N/2))
+  return (r, g, b)    
 
-# Probably an easier way for me to put dictionary into the image .. hrm.
+
+def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
   im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
 
   for rc in block.keys():
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * N)
- 
-      # weird ass map
-      r = (block[rc[0], rc[1]] + 1) * N
-      g = int(((block[rc[0], rc[1]] + 1) * N) / 2)
-      b = int(((block[rc[0], rc[1]] + 1) * N/2))
-      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
+
+#      (r, g, b) = toRGB1(rc, N) 
+#      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
   im.save(fileprefix+"-grey.png")
-  im2.save(fileprefix+"-color.png")
+#  im2.save(fileprefix+"-color.png")
   del im
-  del im2
+#  del im2
 
 
 
@@ -52,7 +54,6 @@ def generateSquare(N, k):
 
   # Generate the (mod N) set
   modNSet = range(0, N)
-
 
   # Must prove this by combining patterns from multiple N patterns
   maxSquareSize = k*N
@@ -66,12 +67,15 @@ def generateSquare(N, k):
   squareCount = 0
 
   block = {}
-
+  prev = currentPosition
   for jj in range(0, maxIterationCount+5):
     for mn in modNSet:
-      # We are moving right
+      prev = currentPosition
+
       if currentPosition[1] == 0:
         print "y=0, dx=%d, dy=%d" % ( dx, dy)
+
+      # We are moving right
       if dx == 1:
         testEntry = ( currentPosition[0], currentPosition[1] + 1 )
         if testEntry not in block:
@@ -138,7 +142,6 @@ def generateSquare(N, k):
     if gmpy.is_square(len(coords)):
       root = int(sqrt(len(coords)))
       squareCount += 1
-      print "SQUARE %d: %dx%d itercnt: %d coords=%d" % (squareCount, root, root, jj+1, len(coords))
       minx = min(coords, key=operator.itemgetter(0))
       maxx = max(coords, key=operator.itemgetter(0))
       miny = min(coords, key=operator.itemgetter(1))
@@ -147,18 +150,26 @@ def generateSquare(N, k):
         print "min/max dumb test failed!"
  
       if squareCount == k:
-#        print sorted(coords)
+        print "N=%d k=%d: %dx%d itercnt: %d coords=%d" % (N, squareCount, root, root, jj+1, len(coords))
+        if not (root == k*N and (jj+1) == k*k*N):
+          print "FAIL (kNxkN, kkN) test N=%d k=%d" % (N, squareCount)
+        else:
+          print "PASS (kNxkN, kkN) test"
+#        print currentPosition, prev, maxy
+        if prev[1] < maxy[1]:
+          print "TOP N=%d k=%d" % (N, k)
+        else:
+          print "BOTTOM N=%d k=%d" % (N, k)
+
         generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, k))
         del block
         return
-#    else:
-#      print "NOT SQUARE: len=%d" % len(coords)
 
 def main():
 
 #### I NEED square count detection
-  for N in range(5, 50):
-    for k in range(2, 20): 
+  for N in range(2, 51):
+    for k in range(1,101): 
       generateSquare(N, k)
 #  generateSquare(21, 25)
 
