@@ -36,8 +36,10 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
   im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
 
+  step = int(255/N) + 1
   for rc in block.keys():
-      im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * N)
+
+      im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * step)
 
 #      (r, g, b) = toRGB1(rc, N) 
 #      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
@@ -149,28 +151,29 @@ def generateSquare(N, k):
       if (maxx[0]-minx[0]) != (maxy[1]-miny[1]):
         print "min/max dumb test failed!"
  
-      if squareCount == k:
-        print "N=%d k=%d: %dx%d itercnt: %d coords=%d" % (N, squareCount, root, root, jj+1, len(coords))
-        if not (root == k*N and (jj+1) == k*k*N):
-          print "FAIL (kNxkN, kkN) test N=%d k=%d" % (N, squareCount)
-        else:
-          print "PASS (kNxkN, kkN) test"
-#        print currentPosition, prev, maxy
-        if prev[1] < maxy[1]:
-          print "TOP N=%d k=%d" % (N, k)
-        else:
-          print "BOTTOM N=%d k=%d" % (N, k)
+      print "N=%d k=%d: %dx%d itercnt: %d coords=%d" % (N, squareCount, root, root, jj+1, len(coords))
+      if not (root == squareCount*N and (jj+1) == squareCount*squareCount*N):
+        print "FAIL (kNxkN, kkN) test N=%d k=%d" % (N, squareCount)
+      else:
+        print "PASS (kNxkN, kkN) test"
+#     print currentPosition, prev, maxy
+      if prev[1] < maxy[1]:
+        print "TOP N=%d k=%d" % (N, squareCount)
+      else:
+        print "BOTTOM N=%d k=%d" % (N, squareCount)
 
-        generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, k))
+      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
+      if squareCount == k:
         del block
         return
 
 def main():
 
 #### I NEED square count detection
-  for N in range(2, 51):
-    for k in range(1,101): 
-      generateSquare(N, k)
+  for N in range(11, 51):
+    generateSquare(N, 101)
+#    for k in range(1,101): 
+#      generateSquare(N, k)
 #  generateSquare(21, 25)
 
 if __name__ == "__main__":
