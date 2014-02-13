@@ -34,18 +34,18 @@ def toRGB1(rc, N):
 
 def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
-  im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
+#  im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
 
   step = int(255/N) + 1
   for rc in block.keys():
-
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * step)
 
 #      (r, g, b) = toRGB1(rc, N) 
 #      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
   im.save(fileprefix+"-grey.png")
-#  im2.save(fileprefix+"-color.png")
   del im
+
+#  im2.save(fileprefix+"-color.png")
 #  del im2
 
 
@@ -170,8 +170,8 @@ def generateSquare(N, k):
 def main():
 
 #### I NEED square count detection
-  for N in range(11, 51):
-    generateSquare(N, 101)
+  for N in range(2, 51):
+    generateSquare(N, 50)
 #    for k in range(1,101): 
 #      generateSquare(N, k)
 #  generateSquare(21, 25)
