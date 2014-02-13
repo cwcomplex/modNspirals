@@ -1,0 +1,4557 @@
+Generating square for N=2 k=50
+
+N=2 k=1: 2x2 itercnt: 2 coords=4
+PASS (kNxkN, kkN) test
+TOP N=2 k=1
+N=2 k=2: 4x4 itercnt: 8 coords=16
+PASS (kNxkN, kkN) test
+TOP N=2 k=2
+N=2 k=3: 6x6 itercnt: 18 coords=36
+PASS (kNxkN, kkN) test
+TOP N=2 k=3
+N=2 k=4: 8x8 itercnt: 32 coords=64
+PASS (kNxkN, kkN) test
+TOP N=2 k=4
+N=2 k=5: 10x10 itercnt: 50 coords=100
+PASS (kNxkN, kkN) test
+TOP N=2 k=5
+N=2 k=6: 12x12 itercnt: 72 coords=144
+PASS (kNxkN, kkN) test
+TOP N=2 k=6
+N=2 k=7: 14x14 itercnt: 98 coords=196
+PASS (kNxkN, kkN) test
+TOP N=2 k=7
+N=2 k=8: 16x16 itercnt: 128 coords=256
+PASS (kNxkN, kkN) test
+TOP N=2 k=8
+N=2 k=9: 18x18 itercnt: 162 coords=324
+PASS (kNxkN, kkN) test
+TOP N=2 k=9
+N=2 k=10: 20x20 itercnt: 200 coords=400
+PASS (kNxkN, kkN) test
+TOP N=2 k=10
+N=2 k=11: 22x22 itercnt: 242 coords=484
+PASS (kNxkN, kkN) test
+TOP N=2 k=11
+N=2 k=12: 24x24 itercnt: 288 coords=576
+PASS (kNxkN, kkN) test
+TOP N=2 k=12
+N=2 k=13: 26x26 itercnt: 338 coords=676
+PASS (kNxkN, kkN) test
+TOP N=2 k=13
+N=2 k=14: 28x28 itercnt: 392 coords=784
+PASS (kNxkN, kkN) test
+TOP N=2 k=14
+N=2 k=15: 30x30 itercnt: 450 coords=900
+PASS (kNxkN, kkN) test
+TOP N=2 k=15
+N=2 k=16: 32x32 itercnt: 512 coords=1024
+PASS (kNxkN, kkN) test
+TOP N=2 k=16
+N=2 k=17: 34x34 itercnt: 578 coords=1156
+PASS (kNxkN, kkN) test
+TOP N=2 k=17
+N=2 k=18: 36x36 itercnt: 648 coords=1296
+PASS (kNxkN, kkN) test
+TOP N=2 k=18
+N=2 k=19: 38x38 itercnt: 722 coords=1444
+PASS (kNxkN, kkN) test
+TOP N=2 k=19
+N=2 k=20: 40x40 itercnt: 800 coords=1600
+PASS (kNxkN, kkN) test
+TOP N=2 k=20
+N=2 k=21: 42x42 itercnt: 882 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=2 k=21
+N=2 k=22: 44x44 itercnt: 968 coords=1936
+PASS (kNxkN, kkN) test
+TOP N=2 k=22
+N=2 k=23: 46x46 itercnt: 1058 coords=2116
+PASS (kNxkN, kkN) test
+TOP N=2 k=23
+N=2 k=24: 48x48 itercnt: 1152 coords=2304
+PASS (kNxkN, kkN) test
+TOP N=2 k=24
+N=2 k=25: 50x50 itercnt: 1250 coords=2500
+PASS (kNxkN, kkN) test
+TOP N=2 k=25
+N=2 k=26: 52x52 itercnt: 1352 coords=2704
+PASS (kNxkN, kkN) test
+TOP N=2 k=26
+N=2 k=27: 54x54 itercnt: 1458 coords=2916
+PASS (kNxkN, kkN) test
+TOP N=2 k=27
+N=2 k=28: 56x56 itercnt: 1568 coords=3136
+PASS (kNxkN, kkN) test
+TOP N=2 k=28
+N=2 k=29: 58x58 itercnt: 1682 coords=3364
+PASS (kNxkN, kkN) test
+TOP N=2 k=29
+N=2 k=30: 60x60 itercnt: 1800 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=2 k=30
+N=2 k=31: 62x62 itercnt: 1922 coords=3844
+PASS (kNxkN, kkN) test
+TOP N=2 k=31
+N=2 k=32: 64x64 itercnt: 2048 coords=4096
+PASS (kNxkN, kkN) test
+TOP N=2 k=32
+N=2 k=33: 66x66 itercnt: 2178 coords=4356
+PASS (kNxkN, kkN) test
+TOP N=2 k=33
+N=2 k=34: 68x68 itercnt: 2312 coords=4624
+PASS (kNxkN, kkN) test
+TOP N=2 k=34
+N=2 k=35: 70x70 itercnt: 2450 coords=4900
+PASS (kNxkN, kkN) test
+TOP N=2 k=35
+N=2 k=36: 72x72 itercnt: 2592 coords=5184
+PASS (kNxkN, kkN) test
+TOP N=2 k=36
+N=2 k=37: 74x74 itercnt: 2738 coords=5476
+PASS (kNxkN, kkN) test
+TOP N=2 k=37
+N=2 k=38: 76x76 itercnt: 2888 coords=5776
+PASS (kNxkN, kkN) test
+TOP N=2 k=38
+N=2 k=39: 78x78 itercnt: 3042 coords=6084
+PASS (kNxkN, kkN) test
+TOP N=2 k=39
+N=2 k=40: 80x80 itercnt: 3200 coords=6400
+PASS (kNxkN, kkN) test
+TOP N=2 k=40
+N=2 k=41: 82x82 itercnt: 3362 coords=6724
+PASS (kNxkN, kkN) test
+TOP N=2 k=41
+N=2 k=42: 84x84 itercnt: 3528 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=2 k=42
+N=2 k=43: 86x86 itercnt: 3698 coords=7396
+PASS (kNxkN, kkN) test
+TOP N=2 k=43
+N=2 k=44: 88x88 itercnt: 3872 coords=7744
+PASS (kNxkN, kkN) test
+TOP N=2 k=44
+N=2 k=45: 90x90 itercnt: 4050 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=2 k=45
+N=2 k=46: 92x92 itercnt: 4232 coords=8464
+PASS (kNxkN, kkN) test
+TOP N=2 k=46
+N=2 k=47: 94x94 itercnt: 4418 coords=8836
+PASS (kNxkN, kkN) test
+TOP N=2 k=47
+N=2 k=48: 96x96 itercnt: 4608 coords=9216
+PASS (kNxkN, kkN) test
+TOP N=2 k=48
+N=2 k=49: 98x98 itercnt: 4802 coords=9604
+PASS (kNxkN, kkN) test
+TOP N=2 k=49
+N=2 k=50: 100x100 itercnt: 5000 coords=10000
+PASS (kNxkN, kkN) test
+TOP N=2 k=50
+Generating square for N=3 k=50
+
+N=3 k=1: 3x3 itercnt: 3 coords=9
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=1
+N=3 k=2: 6x6 itercnt: 12 coords=36
+PASS (kNxkN, kkN) test
+TOP N=3 k=2
+N=3 k=3: 9x9 itercnt: 27 coords=81
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=3
+N=3 k=4: 12x12 itercnt: 48 coords=144
+PASS (kNxkN, kkN) test
+TOP N=3 k=4
+N=3 k=5: 15x15 itercnt: 75 coords=225
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=5
+N=3 k=6: 18x18 itercnt: 108 coords=324
+PASS (kNxkN, kkN) test
+TOP N=3 k=6
+N=3 k=7: 21x21 itercnt: 147 coords=441
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=7
+N=3 k=8: 24x24 itercnt: 192 coords=576
+PASS (kNxkN, kkN) test
+TOP N=3 k=8
+N=3 k=9: 27x27 itercnt: 243 coords=729
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=9
+N=3 k=10: 30x30 itercnt: 300 coords=900
+PASS (kNxkN, kkN) test
+TOP N=3 k=10
+N=3 k=11: 33x33 itercnt: 363 coords=1089
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=11
+N=3 k=12: 36x36 itercnt: 432 coords=1296
+PASS (kNxkN, kkN) test
+TOP N=3 k=12
+N=3 k=13: 39x39 itercnt: 507 coords=1521
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=13
+N=3 k=14: 42x42 itercnt: 588 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=3 k=14
+N=3 k=15: 45x45 itercnt: 675 coords=2025
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=15
+N=3 k=16: 48x48 itercnt: 768 coords=2304
+PASS (kNxkN, kkN) test
+TOP N=3 k=16
+N=3 k=17: 51x51 itercnt: 867 coords=2601
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=17
+N=3 k=18: 54x54 itercnt: 972 coords=2916
+PASS (kNxkN, kkN) test
+TOP N=3 k=18
+N=3 k=19: 57x57 itercnt: 1083 coords=3249
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=19
+N=3 k=20: 60x60 itercnt: 1200 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=3 k=20
+N=3 k=21: 63x63 itercnt: 1323 coords=3969
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=21
+N=3 k=22: 66x66 itercnt: 1452 coords=4356
+PASS (kNxkN, kkN) test
+TOP N=3 k=22
+N=3 k=23: 69x69 itercnt: 1587 coords=4761
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=23
+N=3 k=24: 72x72 itercnt: 1728 coords=5184
+PASS (kNxkN, kkN) test
+TOP N=3 k=24
+N=3 k=25: 75x75 itercnt: 1875 coords=5625
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=25
+N=3 k=26: 78x78 itercnt: 2028 coords=6084
+PASS (kNxkN, kkN) test
+TOP N=3 k=26
+N=3 k=27: 81x81 itercnt: 2187 coords=6561
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=27
+N=3 k=28: 84x84 itercnt: 2352 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=3 k=28
+N=3 k=29: 87x87 itercnt: 2523 coords=7569
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=29
+N=3 k=30: 90x90 itercnt: 2700 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=3 k=30
+N=3 k=31: 93x93 itercnt: 2883 coords=8649
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=31
+N=3 k=32: 96x96 itercnt: 3072 coords=9216
+PASS (kNxkN, kkN) test
+TOP N=3 k=32
+N=3 k=33: 99x99 itercnt: 3267 coords=9801
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=33
+N=3 k=34: 102x102 itercnt: 3468 coords=10404
+PASS (kNxkN, kkN) test
+TOP N=3 k=34
+N=3 k=35: 105x105 itercnt: 3675 coords=11025
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=35
+N=3 k=36: 108x108 itercnt: 3888 coords=11664
+PASS (kNxkN, kkN) test
+TOP N=3 k=36
+N=3 k=37: 111x111 itercnt: 4107 coords=12321
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=37
+N=3 k=38: 114x114 itercnt: 4332 coords=12996
+PASS (kNxkN, kkN) test
+TOP N=3 k=38
+N=3 k=39: 117x117 itercnt: 4563 coords=13689
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=39
+N=3 k=40: 120x120 itercnt: 4800 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=3 k=40
+N=3 k=41: 123x123 itercnt: 5043 coords=15129
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=41
+N=3 k=42: 126x126 itercnt: 5292 coords=15876
+PASS (kNxkN, kkN) test
+TOP N=3 k=42
+N=3 k=43: 129x129 itercnt: 5547 coords=16641
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=43
+N=3 k=44: 132x132 itercnt: 5808 coords=17424
+PASS (kNxkN, kkN) test
+TOP N=3 k=44
+N=3 k=45: 135x135 itercnt: 6075 coords=18225
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=45
+N=3 k=46: 138x138 itercnt: 6348 coords=19044
+PASS (kNxkN, kkN) test
+TOP N=3 k=46
+N=3 k=47: 141x141 itercnt: 6627 coords=19881
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=47
+N=3 k=48: 144x144 itercnt: 6912 coords=20736
+PASS (kNxkN, kkN) test
+TOP N=3 k=48
+N=3 k=49: 147x147 itercnt: 7203 coords=21609
+PASS (kNxkN, kkN) test
+BOTTOM N=3 k=49
+N=3 k=50: 150x150 itercnt: 7500 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=3 k=50
+Generating square for N=4 k=50
+
+N=4 k=1: 2x2 itercnt: 1 coords=4
+FAIL (kNxkN, kkN) test N=4 k=1
+TOP N=4 k=1
+N=4 k=2: 4x4 itercnt: 4 coords=16
+FAIL (kNxkN, kkN) test N=4 k=2
+TOP N=4 k=2
+N=4 k=3: 6x6 itercnt: 9 coords=36
+FAIL (kNxkN, kkN) test N=4 k=3
+TOP N=4 k=3
+N=4 k=4: 8x8 itercnt: 16 coords=64
+FAIL (kNxkN, kkN) test N=4 k=4
+TOP N=4 k=4
+N=4 k=5: 10x10 itercnt: 25 coords=100
+FAIL (kNxkN, kkN) test N=4 k=5
+TOP N=4 k=5
+N=4 k=6: 12x12 itercnt: 36 coords=144
+FAIL (kNxkN, kkN) test N=4 k=6
+TOP N=4 k=6
+N=4 k=7: 14x14 itercnt: 49 coords=196
+FAIL (kNxkN, kkN) test N=4 k=7
+TOP N=4 k=7
+N=4 k=8: 16x16 itercnt: 64 coords=256
+FAIL (kNxkN, kkN) test N=4 k=8
+TOP N=4 k=8
+N=4 k=9: 18x18 itercnt: 81 coords=324
+FAIL (kNxkN, kkN) test N=4 k=9
+TOP N=4 k=9
+N=4 k=10: 20x20 itercnt: 100 coords=400
+FAIL (kNxkN, kkN) test N=4 k=10
+TOP N=4 k=10
+N=4 k=11: 22x22 itercnt: 121 coords=484
+FAIL (kNxkN, kkN) test N=4 k=11
+TOP N=4 k=11
+N=4 k=12: 24x24 itercnt: 144 coords=576
+FAIL (kNxkN, kkN) test N=4 k=12
+TOP N=4 k=12
+N=4 k=13: 26x26 itercnt: 169 coords=676
+FAIL (kNxkN, kkN) test N=4 k=13
+TOP N=4 k=13
+N=4 k=14: 28x28 itercnt: 196 coords=784
+FAIL (kNxkN, kkN) test N=4 k=14
+TOP N=4 k=14
+N=4 k=15: 30x30 itercnt: 225 coords=900
+FAIL (kNxkN, kkN) test N=4 k=15
+TOP N=4 k=15
+N=4 k=16: 32x32 itercnt: 256 coords=1024
+FAIL (kNxkN, kkN) test N=4 k=16
+TOP N=4 k=16
+N=4 k=17: 34x34 itercnt: 289 coords=1156
+FAIL (kNxkN, kkN) test N=4 k=17
+TOP N=4 k=17
+N=4 k=18: 36x36 itercnt: 324 coords=1296
+FAIL (kNxkN, kkN) test N=4 k=18
+TOP N=4 k=18
+N=4 k=19: 38x38 itercnt: 361 coords=1444
+FAIL (kNxkN, kkN) test N=4 k=19
+TOP N=4 k=19
+N=4 k=20: 40x40 itercnt: 400 coords=1600
+FAIL (kNxkN, kkN) test N=4 k=20
+TOP N=4 k=20
+N=4 k=21: 42x42 itercnt: 441 coords=1764
+FAIL (kNxkN, kkN) test N=4 k=21
+TOP N=4 k=21
+N=4 k=22: 44x44 itercnt: 484 coords=1936
+FAIL (kNxkN, kkN) test N=4 k=22
+TOP N=4 k=22
+N=4 k=23: 46x46 itercnt: 529 coords=2116
+FAIL (kNxkN, kkN) test N=4 k=23
+TOP N=4 k=23
+N=4 k=24: 48x48 itercnt: 576 coords=2304
+FAIL (kNxkN, kkN) test N=4 k=24
+TOP N=4 k=24
+N=4 k=25: 50x50 itercnt: 625 coords=2500
+FAIL (kNxkN, kkN) test N=4 k=25
+TOP N=4 k=25
+N=4 k=26: 52x52 itercnt: 676 coords=2704
+FAIL (kNxkN, kkN) test N=4 k=26
+TOP N=4 k=26
+N=4 k=27: 54x54 itercnt: 729 coords=2916
+FAIL (kNxkN, kkN) test N=4 k=27
+TOP N=4 k=27
+N=4 k=28: 56x56 itercnt: 784 coords=3136
+FAIL (kNxkN, kkN) test N=4 k=28
+TOP N=4 k=28
+N=4 k=29: 58x58 itercnt: 841 coords=3364
+FAIL (kNxkN, kkN) test N=4 k=29
+TOP N=4 k=29
+N=4 k=30: 60x60 itercnt: 900 coords=3600
+FAIL (kNxkN, kkN) test N=4 k=30
+TOP N=4 k=30
+N=4 k=31: 62x62 itercnt: 961 coords=3844
+FAIL (kNxkN, kkN) test N=4 k=31
+TOP N=4 k=31
+N=4 k=32: 64x64 itercnt: 1024 coords=4096
+FAIL (kNxkN, kkN) test N=4 k=32
+TOP N=4 k=32
+N=4 k=33: 66x66 itercnt: 1089 coords=4356
+FAIL (kNxkN, kkN) test N=4 k=33
+TOP N=4 k=33
+N=4 k=34: 68x68 itercnt: 1156 coords=4624
+FAIL (kNxkN, kkN) test N=4 k=34
+TOP N=4 k=34
+N=4 k=35: 70x70 itercnt: 1225 coords=4900
+FAIL (kNxkN, kkN) test N=4 k=35
+TOP N=4 k=35
+N=4 k=36: 72x72 itercnt: 1296 coords=5184
+FAIL (kNxkN, kkN) test N=4 k=36
+TOP N=4 k=36
+N=4 k=37: 74x74 itercnt: 1369 coords=5476
+FAIL (kNxkN, kkN) test N=4 k=37
+TOP N=4 k=37
+N=4 k=38: 76x76 itercnt: 1444 coords=5776
+FAIL (kNxkN, kkN) test N=4 k=38
+TOP N=4 k=38
+N=4 k=39: 78x78 itercnt: 1521 coords=6084
+FAIL (kNxkN, kkN) test N=4 k=39
+TOP N=4 k=39
+N=4 k=40: 80x80 itercnt: 1600 coords=6400
+FAIL (kNxkN, kkN) test N=4 k=40
+TOP N=4 k=40
+N=4 k=41: 82x82 itercnt: 1681 coords=6724
+FAIL (kNxkN, kkN) test N=4 k=41
+TOP N=4 k=41
+N=4 k=42: 84x84 itercnt: 1764 coords=7056
+FAIL (kNxkN, kkN) test N=4 k=42
+TOP N=4 k=42
+N=4 k=43: 86x86 itercnt: 1849 coords=7396
+FAIL (kNxkN, kkN) test N=4 k=43
+TOP N=4 k=43
+N=4 k=44: 88x88 itercnt: 1936 coords=7744
+FAIL (kNxkN, kkN) test N=4 k=44
+TOP N=4 k=44
+N=4 k=45: 90x90 itercnt: 2025 coords=8100
+FAIL (kNxkN, kkN) test N=4 k=45
+TOP N=4 k=45
+N=4 k=46: 92x92 itercnt: 2116 coords=8464
+FAIL (kNxkN, kkN) test N=4 k=46
+TOP N=4 k=46
+N=4 k=47: 94x94 itercnt: 2209 coords=8836
+FAIL (kNxkN, kkN) test N=4 k=47
+TOP N=4 k=47
+N=4 k=48: 96x96 itercnt: 2304 coords=9216
+FAIL (kNxkN, kkN) test N=4 k=48
+TOP N=4 k=48
+N=4 k=49: 98x98 itercnt: 2401 coords=9604
+FAIL (kNxkN, kkN) test N=4 k=49
+TOP N=4 k=49
+N=4 k=50: 100x100 itercnt: 2500 coords=10000
+FAIL (kNxkN, kkN) test N=4 k=50
+TOP N=4 k=50
+Generating square for N=5 k=50
+
+N=5 k=1: 5x5 itercnt: 5 coords=25
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=1
+N=5 k=2: 10x10 itercnt: 20 coords=100
+PASS (kNxkN, kkN) test
+TOP N=5 k=2
+N=5 k=3: 15x15 itercnt: 45 coords=225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=3
+N=5 k=4: 20x20 itercnt: 80 coords=400
+PASS (kNxkN, kkN) test
+TOP N=5 k=4
+N=5 k=5: 25x25 itercnt: 125 coords=625
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=5
+N=5 k=6: 30x30 itercnt: 180 coords=900
+PASS (kNxkN, kkN) test
+TOP N=5 k=6
+N=5 k=7: 35x35 itercnt: 245 coords=1225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=7
+N=5 k=8: 40x40 itercnt: 320 coords=1600
+PASS (kNxkN, kkN) test
+TOP N=5 k=8
+N=5 k=9: 45x45 itercnt: 405 coords=2025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=9
+N=5 k=10: 50x50 itercnt: 500 coords=2500
+PASS (kNxkN, kkN) test
+TOP N=5 k=10
+N=5 k=11: 55x55 itercnt: 605 coords=3025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=11
+N=5 k=12: 60x60 itercnt: 720 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=5 k=12
+N=5 k=13: 65x65 itercnt: 845 coords=4225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=13
+N=5 k=14: 70x70 itercnt: 980 coords=4900
+PASS (kNxkN, kkN) test
+TOP N=5 k=14
+N=5 k=15: 75x75 itercnt: 1125 coords=5625
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=15
+N=5 k=16: 80x80 itercnt: 1280 coords=6400
+PASS (kNxkN, kkN) test
+TOP N=5 k=16
+N=5 k=17: 85x85 itercnt: 1445 coords=7225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=17
+N=5 k=18: 90x90 itercnt: 1620 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=5 k=18
+N=5 k=19: 95x95 itercnt: 1805 coords=9025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=19
+N=5 k=20: 100x100 itercnt: 2000 coords=10000
+PASS (kNxkN, kkN) test
+TOP N=5 k=20
+N=5 k=21: 105x105 itercnt: 2205 coords=11025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=21
+N=5 k=22: 110x110 itercnt: 2420 coords=12100
+PASS (kNxkN, kkN) test
+TOP N=5 k=22
+N=5 k=23: 115x115 itercnt: 2645 coords=13225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=23
+N=5 k=24: 120x120 itercnt: 2880 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=5 k=24
+N=5 k=25: 125x125 itercnt: 3125 coords=15625
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=25
+N=5 k=26: 130x130 itercnt: 3380 coords=16900
+PASS (kNxkN, kkN) test
+TOP N=5 k=26
+N=5 k=27: 135x135 itercnt: 3645 coords=18225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=27
+N=5 k=28: 140x140 itercnt: 3920 coords=19600
+PASS (kNxkN, kkN) test
+TOP N=5 k=28
+N=5 k=29: 145x145 itercnt: 4205 coords=21025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=29
+N=5 k=30: 150x150 itercnt: 4500 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=5 k=30
+N=5 k=31: 155x155 itercnt: 4805 coords=24025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=31
+N=5 k=32: 160x160 itercnt: 5120 coords=25600
+PASS (kNxkN, kkN) test
+TOP N=5 k=32
+N=5 k=33: 165x165 itercnt: 5445 coords=27225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=33
+N=5 k=34: 170x170 itercnt: 5780 coords=28900
+PASS (kNxkN, kkN) test
+TOP N=5 k=34
+N=5 k=35: 175x175 itercnt: 6125 coords=30625
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=35
+N=5 k=36: 180x180 itercnt: 6480 coords=32400
+PASS (kNxkN, kkN) test
+TOP N=5 k=36
+N=5 k=37: 185x185 itercnt: 6845 coords=34225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=37
+N=5 k=38: 190x190 itercnt: 7220 coords=36100
+PASS (kNxkN, kkN) test
+TOP N=5 k=38
+N=5 k=39: 195x195 itercnt: 7605 coords=38025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=39
+N=5 k=40: 200x200 itercnt: 8000 coords=40000
+PASS (kNxkN, kkN) test
+TOP N=5 k=40
+N=5 k=41: 205x205 itercnt: 8405 coords=42025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=41
+N=5 k=42: 210x210 itercnt: 8820 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=5 k=42
+N=5 k=43: 215x215 itercnt: 9245 coords=46225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=43
+N=5 k=44: 220x220 itercnt: 9680 coords=48400
+PASS (kNxkN, kkN) test
+TOP N=5 k=44
+N=5 k=45: 225x225 itercnt: 10125 coords=50625
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=45
+N=5 k=46: 230x230 itercnt: 10580 coords=52900
+PASS (kNxkN, kkN) test
+TOP N=5 k=46
+N=5 k=47: 235x235 itercnt: 11045 coords=55225
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=47
+N=5 k=48: 240x240 itercnt: 11520 coords=57600
+PASS (kNxkN, kkN) test
+TOP N=5 k=48
+N=5 k=49: 245x245 itercnt: 12005 coords=60025
+PASS (kNxkN, kkN) test
+BOTTOM N=5 k=49
+N=5 k=50: 250x250 itercnt: 12500 coords=62500
+PASS (kNxkN, kkN) test
+TOP N=5 k=50
+Generating square for N=6 k=50
+
+N=6 k=1: 6x6 itercnt: 6 coords=36
+PASS (kNxkN, kkN) test
+TOP N=6 k=1
+N=6 k=2: 12x12 itercnt: 24 coords=144
+PASS (kNxkN, kkN) test
+TOP N=6 k=2
+N=6 k=3: 18x18 itercnt: 54 coords=324
+PASS (kNxkN, kkN) test
+TOP N=6 k=3
+N=6 k=4: 24x24 itercnt: 96 coords=576
+PASS (kNxkN, kkN) test
+TOP N=6 k=4
+N=6 k=5: 30x30 itercnt: 150 coords=900
+PASS (kNxkN, kkN) test
+TOP N=6 k=5
+N=6 k=6: 36x36 itercnt: 216 coords=1296
+PASS (kNxkN, kkN) test
+TOP N=6 k=6
+N=6 k=7: 42x42 itercnt: 294 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=6 k=7
+N=6 k=8: 48x48 itercnt: 384 coords=2304
+PASS (kNxkN, kkN) test
+TOP N=6 k=8
+N=6 k=9: 54x54 itercnt: 486 coords=2916
+PASS (kNxkN, kkN) test
+TOP N=6 k=9
+N=6 k=10: 60x60 itercnt: 600 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=6 k=10
+N=6 k=11: 66x66 itercnt: 726 coords=4356
+PASS (kNxkN, kkN) test
+TOP N=6 k=11
+N=6 k=12: 72x72 itercnt: 864 coords=5184
+PASS (kNxkN, kkN) test
+TOP N=6 k=12
+N=6 k=13: 78x78 itercnt: 1014 coords=6084
+PASS (kNxkN, kkN) test
+TOP N=6 k=13
+N=6 k=14: 84x84 itercnt: 1176 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=6 k=14
+N=6 k=15: 90x90 itercnt: 1350 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=6 k=15
+N=6 k=16: 96x96 itercnt: 1536 coords=9216
+PASS (kNxkN, kkN) test
+TOP N=6 k=16
+N=6 k=17: 102x102 itercnt: 1734 coords=10404
+PASS (kNxkN, kkN) test
+TOP N=6 k=17
+N=6 k=18: 108x108 itercnt: 1944 coords=11664
+PASS (kNxkN, kkN) test
+TOP N=6 k=18
+N=6 k=19: 114x114 itercnt: 2166 coords=12996
+PASS (kNxkN, kkN) test
+TOP N=6 k=19
+N=6 k=20: 120x120 itercnt: 2400 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=6 k=20
+N=6 k=21: 126x126 itercnt: 2646 coords=15876
+PASS (kNxkN, kkN) test
+TOP N=6 k=21
+N=6 k=22: 132x132 itercnt: 2904 coords=17424
+PASS (kNxkN, kkN) test
+TOP N=6 k=22
+N=6 k=23: 138x138 itercnt: 3174 coords=19044
+PASS (kNxkN, kkN) test
+TOP N=6 k=23
+N=6 k=24: 144x144 itercnt: 3456 coords=20736
+PASS (kNxkN, kkN) test
+TOP N=6 k=24
+N=6 k=25: 150x150 itercnt: 3750 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=6 k=25
+N=6 k=26: 156x156 itercnt: 4056 coords=24336
+PASS (kNxkN, kkN) test
+TOP N=6 k=26
+N=6 k=27: 162x162 itercnt: 4374 coords=26244
+PASS (kNxkN, kkN) test
+TOP N=6 k=27
+N=6 k=28: 168x168 itercnt: 4704 coords=28224
+PASS (kNxkN, kkN) test
+TOP N=6 k=28
+N=6 k=29: 174x174 itercnt: 5046 coords=30276
+PASS (kNxkN, kkN) test
+TOP N=6 k=29
+N=6 k=30: 180x180 itercnt: 5400 coords=32400
+PASS (kNxkN, kkN) test
+TOP N=6 k=30
+N=6 k=31: 186x186 itercnt: 5766 coords=34596
+PASS (kNxkN, kkN) test
+TOP N=6 k=31
+N=6 k=32: 192x192 itercnt: 6144 coords=36864
+PASS (kNxkN, kkN) test
+TOP N=6 k=32
+N=6 k=33: 198x198 itercnt: 6534 coords=39204
+PASS (kNxkN, kkN) test
+TOP N=6 k=33
+N=6 k=34: 204x204 itercnt: 6936 coords=41616
+PASS (kNxkN, kkN) test
+TOP N=6 k=34
+N=6 k=35: 210x210 itercnt: 7350 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=6 k=35
+N=6 k=36: 216x216 itercnt: 7776 coords=46656
+PASS (kNxkN, kkN) test
+TOP N=6 k=36
+N=6 k=37: 222x222 itercnt: 8214 coords=49284
+PASS (kNxkN, kkN) test
+TOP N=6 k=37
+N=6 k=38: 228x228 itercnt: 8664 coords=51984
+PASS (kNxkN, kkN) test
+TOP N=6 k=38
+N=6 k=39: 234x234 itercnt: 9126 coords=54756
+PASS (kNxkN, kkN) test
+TOP N=6 k=39
+N=6 k=40: 240x240 itercnt: 9600 coords=57600
+PASS (kNxkN, kkN) test
+TOP N=6 k=40
+N=6 k=41: 246x246 itercnt: 10086 coords=60516
+PASS (kNxkN, kkN) test
+TOP N=6 k=41
+N=6 k=42: 252x252 itercnt: 10584 coords=63504
+PASS (kNxkN, kkN) test
+TOP N=6 k=42
+N=6 k=43: 258x258 itercnt: 11094 coords=66564
+PASS (kNxkN, kkN) test
+TOP N=6 k=43
+N=6 k=44: 264x264 itercnt: 11616 coords=69696
+PASS (kNxkN, kkN) test
+TOP N=6 k=44
+N=6 k=45: 270x270 itercnt: 12150 coords=72900
+PASS (kNxkN, kkN) test
+TOP N=6 k=45
+N=6 k=46: 276x276 itercnt: 12696 coords=76176
+PASS (kNxkN, kkN) test
+TOP N=6 k=46
+N=6 k=47: 282x282 itercnt: 13254 coords=79524
+PASS (kNxkN, kkN) test
+TOP N=6 k=47
+N=6 k=48: 288x288 itercnt: 13824 coords=82944
+PASS (kNxkN, kkN) test
+TOP N=6 k=48
+N=6 k=49: 294x294 itercnt: 14406 coords=86436
+PASS (kNxkN, kkN) test
+TOP N=6 k=49
+N=6 k=50: 300x300 itercnt: 15000 coords=90000
+PASS (kNxkN, kkN) test
+TOP N=6 k=50
+Generating square for N=7 k=50
+
+N=7 k=1: 7x7 itercnt: 7 coords=49
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=1
+N=7 k=2: 14x14 itercnt: 28 coords=196
+PASS (kNxkN, kkN) test
+TOP N=7 k=2
+N=7 k=3: 21x21 itercnt: 63 coords=441
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=3
+N=7 k=4: 28x28 itercnt: 112 coords=784
+PASS (kNxkN, kkN) test
+TOP N=7 k=4
+N=7 k=5: 35x35 itercnt: 175 coords=1225
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=5
+N=7 k=6: 42x42 itercnt: 252 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=7 k=6
+N=7 k=7: 49x49 itercnt: 343 coords=2401
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=7
+N=7 k=8: 56x56 itercnt: 448 coords=3136
+PASS (kNxkN, kkN) test
+TOP N=7 k=8
+N=7 k=9: 63x63 itercnt: 567 coords=3969
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=9
+N=7 k=10: 70x70 itercnt: 700 coords=4900
+PASS (kNxkN, kkN) test
+TOP N=7 k=10
+N=7 k=11: 77x77 itercnt: 847 coords=5929
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=11
+N=7 k=12: 84x84 itercnt: 1008 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=7 k=12
+N=7 k=13: 91x91 itercnt: 1183 coords=8281
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=13
+N=7 k=14: 98x98 itercnt: 1372 coords=9604
+PASS (kNxkN, kkN) test
+TOP N=7 k=14
+N=7 k=15: 105x105 itercnt: 1575 coords=11025
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=15
+N=7 k=16: 112x112 itercnt: 1792 coords=12544
+PASS (kNxkN, kkN) test
+TOP N=7 k=16
+N=7 k=17: 119x119 itercnt: 2023 coords=14161
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=17
+N=7 k=18: 126x126 itercnt: 2268 coords=15876
+PASS (kNxkN, kkN) test
+TOP N=7 k=18
+N=7 k=19: 133x133 itercnt: 2527 coords=17689
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=19
+N=7 k=20: 140x140 itercnt: 2800 coords=19600
+PASS (kNxkN, kkN) test
+TOP N=7 k=20
+N=7 k=21: 147x147 itercnt: 3087 coords=21609
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=21
+N=7 k=22: 154x154 itercnt: 3388 coords=23716
+PASS (kNxkN, kkN) test
+TOP N=7 k=22
+N=7 k=23: 161x161 itercnt: 3703 coords=25921
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=23
+N=7 k=24: 168x168 itercnt: 4032 coords=28224
+PASS (kNxkN, kkN) test
+TOP N=7 k=24
+N=7 k=25: 175x175 itercnt: 4375 coords=30625
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=25
+N=7 k=26: 182x182 itercnt: 4732 coords=33124
+PASS (kNxkN, kkN) test
+TOP N=7 k=26
+N=7 k=27: 189x189 itercnt: 5103 coords=35721
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=27
+N=7 k=28: 196x196 itercnt: 5488 coords=38416
+PASS (kNxkN, kkN) test
+TOP N=7 k=28
+N=7 k=29: 203x203 itercnt: 5887 coords=41209
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=29
+N=7 k=30: 210x210 itercnt: 6300 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=7 k=30
+N=7 k=31: 217x217 itercnt: 6727 coords=47089
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=31
+N=7 k=32: 224x224 itercnt: 7168 coords=50176
+PASS (kNxkN, kkN) test
+TOP N=7 k=32
+N=7 k=33: 231x231 itercnt: 7623 coords=53361
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=33
+N=7 k=34: 238x238 itercnt: 8092 coords=56644
+PASS (kNxkN, kkN) test
+TOP N=7 k=34
+N=7 k=35: 245x245 itercnt: 8575 coords=60025
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=35
+N=7 k=36: 252x252 itercnt: 9072 coords=63504
+PASS (kNxkN, kkN) test
+TOP N=7 k=36
+N=7 k=37: 259x259 itercnt: 9583 coords=67081
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=37
+N=7 k=38: 266x266 itercnt: 10108 coords=70756
+PASS (kNxkN, kkN) test
+TOP N=7 k=38
+N=7 k=39: 273x273 itercnt: 10647 coords=74529
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=39
+N=7 k=40: 280x280 itercnt: 11200 coords=78400
+PASS (kNxkN, kkN) test
+TOP N=7 k=40
+N=7 k=41: 287x287 itercnt: 11767 coords=82369
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=41
+N=7 k=42: 294x294 itercnt: 12348 coords=86436
+PASS (kNxkN, kkN) test
+TOP N=7 k=42
+N=7 k=43: 301x301 itercnt: 12943 coords=90601
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=43
+N=7 k=44: 308x308 itercnt: 13552 coords=94864
+PASS (kNxkN, kkN) test
+TOP N=7 k=44
+N=7 k=45: 315x315 itercnt: 14175 coords=99225
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=45
+N=7 k=46: 322x322 itercnt: 14812 coords=103684
+PASS (kNxkN, kkN) test
+TOP N=7 k=46
+N=7 k=47: 329x329 itercnt: 15463 coords=108241
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=47
+N=7 k=48: 336x336 itercnt: 16128 coords=112896
+PASS (kNxkN, kkN) test
+TOP N=7 k=48
+N=7 k=49: 343x343 itercnt: 16807 coords=117649
+PASS (kNxkN, kkN) test
+BOTTOM N=7 k=49
+N=7 k=50: 350x350 itercnt: 17500 coords=122500
+PASS (kNxkN, kkN) test
+TOP N=7 k=50
+Generating square for N=8 k=50
+
+N=8 k=1: 4x4 itercnt: 2 coords=16
+FAIL (kNxkN, kkN) test N=8 k=1
+TOP N=8 k=1
+N=8 k=2: 8x8 itercnt: 8 coords=64
+FAIL (kNxkN, kkN) test N=8 k=2
+TOP N=8 k=2
+N=8 k=3: 12x12 itercnt: 18 coords=144
+FAIL (kNxkN, kkN) test N=8 k=3
+TOP N=8 k=3
+N=8 k=4: 16x16 itercnt: 32 coords=256
+FAIL (kNxkN, kkN) test N=8 k=4
+TOP N=8 k=4
+N=8 k=5: 20x20 itercnt: 50 coords=400
+FAIL (kNxkN, kkN) test N=8 k=5
+TOP N=8 k=5
+N=8 k=6: 24x24 itercnt: 72 coords=576
+FAIL (kNxkN, kkN) test N=8 k=6
+TOP N=8 k=6
+N=8 k=7: 28x28 itercnt: 98 coords=784
+FAIL (kNxkN, kkN) test N=8 k=7
+TOP N=8 k=7
+N=8 k=8: 32x32 itercnt: 128 coords=1024
+FAIL (kNxkN, kkN) test N=8 k=8
+TOP N=8 k=8
+N=8 k=9: 36x36 itercnt: 162 coords=1296
+FAIL (kNxkN, kkN) test N=8 k=9
+TOP N=8 k=9
+N=8 k=10: 40x40 itercnt: 200 coords=1600
+FAIL (kNxkN, kkN) test N=8 k=10
+TOP N=8 k=10
+N=8 k=11: 44x44 itercnt: 242 coords=1936
+FAIL (kNxkN, kkN) test N=8 k=11
+TOP N=8 k=11
+N=8 k=12: 48x48 itercnt: 288 coords=2304
+FAIL (kNxkN, kkN) test N=8 k=12
+TOP N=8 k=12
+N=8 k=13: 52x52 itercnt: 338 coords=2704
+FAIL (kNxkN, kkN) test N=8 k=13
+TOP N=8 k=13
+N=8 k=14: 56x56 itercnt: 392 coords=3136
+FAIL (kNxkN, kkN) test N=8 k=14
+TOP N=8 k=14
+N=8 k=15: 60x60 itercnt: 450 coords=3600
+FAIL (kNxkN, kkN) test N=8 k=15
+TOP N=8 k=15
+N=8 k=16: 64x64 itercnt: 512 coords=4096
+FAIL (kNxkN, kkN) test N=8 k=16
+TOP N=8 k=16
+N=8 k=17: 68x68 itercnt: 578 coords=4624
+FAIL (kNxkN, kkN) test N=8 k=17
+TOP N=8 k=17
+N=8 k=18: 72x72 itercnt: 648 coords=5184
+FAIL (kNxkN, kkN) test N=8 k=18
+TOP N=8 k=18
+N=8 k=19: 76x76 itercnt: 722 coords=5776
+FAIL (kNxkN, kkN) test N=8 k=19
+TOP N=8 k=19
+N=8 k=20: 80x80 itercnt: 800 coords=6400
+FAIL (kNxkN, kkN) test N=8 k=20
+TOP N=8 k=20
+N=8 k=21: 84x84 itercnt: 882 coords=7056
+FAIL (kNxkN, kkN) test N=8 k=21
+TOP N=8 k=21
+N=8 k=22: 88x88 itercnt: 968 coords=7744
+FAIL (kNxkN, kkN) test N=8 k=22
+TOP N=8 k=22
+N=8 k=23: 92x92 itercnt: 1058 coords=8464
+FAIL (kNxkN, kkN) test N=8 k=23
+TOP N=8 k=23
+N=8 k=24: 96x96 itercnt: 1152 coords=9216
+FAIL (kNxkN, kkN) test N=8 k=24
+TOP N=8 k=24
+N=8 k=25: 100x100 itercnt: 1250 coords=10000
+FAIL (kNxkN, kkN) test N=8 k=25
+TOP N=8 k=25
+N=8 k=26: 104x104 itercnt: 1352 coords=10816
+FAIL (kNxkN, kkN) test N=8 k=26
+TOP N=8 k=26
+N=8 k=27: 108x108 itercnt: 1458 coords=11664
+FAIL (kNxkN, kkN) test N=8 k=27
+TOP N=8 k=27
+N=8 k=28: 112x112 itercnt: 1568 coords=12544
+FAIL (kNxkN, kkN) test N=8 k=28
+TOP N=8 k=28
+N=8 k=29: 116x116 itercnt: 1682 coords=13456
+FAIL (kNxkN, kkN) test N=8 k=29
+TOP N=8 k=29
+N=8 k=30: 120x120 itercnt: 1800 coords=14400
+FAIL (kNxkN, kkN) test N=8 k=30
+TOP N=8 k=30
+N=8 k=31: 124x124 itercnt: 1922 coords=15376
+FAIL (kNxkN, kkN) test N=8 k=31
+TOP N=8 k=31
+N=8 k=32: 128x128 itercnt: 2048 coords=16384
+FAIL (kNxkN, kkN) test N=8 k=32
+TOP N=8 k=32
+N=8 k=33: 132x132 itercnt: 2178 coords=17424
+FAIL (kNxkN, kkN) test N=8 k=33
+TOP N=8 k=33
+N=8 k=34: 136x136 itercnt: 2312 coords=18496
+FAIL (kNxkN, kkN) test N=8 k=34
+TOP N=8 k=34
+N=8 k=35: 140x140 itercnt: 2450 coords=19600
+FAIL (kNxkN, kkN) test N=8 k=35
+TOP N=8 k=35
+N=8 k=36: 144x144 itercnt: 2592 coords=20736
+FAIL (kNxkN, kkN) test N=8 k=36
+TOP N=8 k=36
+N=8 k=37: 148x148 itercnt: 2738 coords=21904
+FAIL (kNxkN, kkN) test N=8 k=37
+TOP N=8 k=37
+N=8 k=38: 152x152 itercnt: 2888 coords=23104
+FAIL (kNxkN, kkN) test N=8 k=38
+TOP N=8 k=38
+N=8 k=39: 156x156 itercnt: 3042 coords=24336
+FAIL (kNxkN, kkN) test N=8 k=39
+TOP N=8 k=39
+N=8 k=40: 160x160 itercnt: 3200 coords=25600
+FAIL (kNxkN, kkN) test N=8 k=40
+TOP N=8 k=40
+N=8 k=41: 164x164 itercnt: 3362 coords=26896
+FAIL (kNxkN, kkN) test N=8 k=41
+TOP N=8 k=41
+N=8 k=42: 168x168 itercnt: 3528 coords=28224
+FAIL (kNxkN, kkN) test N=8 k=42
+TOP N=8 k=42
+N=8 k=43: 172x172 itercnt: 3698 coords=29584
+FAIL (kNxkN, kkN) test N=8 k=43
+TOP N=8 k=43
+N=8 k=44: 176x176 itercnt: 3872 coords=30976
+FAIL (kNxkN, kkN) test N=8 k=44
+TOP N=8 k=44
+N=8 k=45: 180x180 itercnt: 4050 coords=32400
+FAIL (kNxkN, kkN) test N=8 k=45
+TOP N=8 k=45
+N=8 k=46: 184x184 itercnt: 4232 coords=33856
+FAIL (kNxkN, kkN) test N=8 k=46
+TOP N=8 k=46
+N=8 k=47: 188x188 itercnt: 4418 coords=35344
+FAIL (kNxkN, kkN) test N=8 k=47
+TOP N=8 k=47
+N=8 k=48: 192x192 itercnt: 4608 coords=36864
+FAIL (kNxkN, kkN) test N=8 k=48
+TOP N=8 k=48
+N=8 k=49: 196x196 itercnt: 4802 coords=38416
+FAIL (kNxkN, kkN) test N=8 k=49
+TOP N=8 k=49
+N=8 k=50: 200x200 itercnt: 5000 coords=40000
+FAIL (kNxkN, kkN) test N=8 k=50
+TOP N=8 k=50
+Generating square for N=9 k=50
+
+N=9 k=1: 3x3 itercnt: 1 coords=9
+FAIL (kNxkN, kkN) test N=9 k=1
+BOTTOM N=9 k=1
+N=9 k=2: 6x6 itercnt: 4 coords=36
+FAIL (kNxkN, kkN) test N=9 k=2
+TOP N=9 k=2
+N=9 k=3: 9x9 itercnt: 9 coords=81
+FAIL (kNxkN, kkN) test N=9 k=3
+BOTTOM N=9 k=3
+N=9 k=4: 12x12 itercnt: 16 coords=144
+FAIL (kNxkN, kkN) test N=9 k=4
+TOP N=9 k=4
+N=9 k=5: 15x15 itercnt: 25 coords=225
+FAIL (kNxkN, kkN) test N=9 k=5
+BOTTOM N=9 k=5
+N=9 k=6: 18x18 itercnt: 36 coords=324
+FAIL (kNxkN, kkN) test N=9 k=6
+TOP N=9 k=6
+N=9 k=7: 21x21 itercnt: 49 coords=441
+FAIL (kNxkN, kkN) test N=9 k=7
+BOTTOM N=9 k=7
+N=9 k=8: 24x24 itercnt: 64 coords=576
+FAIL (kNxkN, kkN) test N=9 k=8
+TOP N=9 k=8
+N=9 k=9: 27x27 itercnt: 81 coords=729
+FAIL (kNxkN, kkN) test N=9 k=9
+BOTTOM N=9 k=9
+N=9 k=10: 30x30 itercnt: 100 coords=900
+FAIL (kNxkN, kkN) test N=9 k=10
+TOP N=9 k=10
+N=9 k=11: 33x33 itercnt: 121 coords=1089
+FAIL (kNxkN, kkN) test N=9 k=11
+BOTTOM N=9 k=11
+N=9 k=12: 36x36 itercnt: 144 coords=1296
+FAIL (kNxkN, kkN) test N=9 k=12
+TOP N=9 k=12
+N=9 k=13: 39x39 itercnt: 169 coords=1521
+FAIL (kNxkN, kkN) test N=9 k=13
+BOTTOM N=9 k=13
+N=9 k=14: 42x42 itercnt: 196 coords=1764
+FAIL (kNxkN, kkN) test N=9 k=14
+TOP N=9 k=14
+N=9 k=15: 45x45 itercnt: 225 coords=2025
+FAIL (kNxkN, kkN) test N=9 k=15
+BOTTOM N=9 k=15
+N=9 k=16: 48x48 itercnt: 256 coords=2304
+FAIL (kNxkN, kkN) test N=9 k=16
+TOP N=9 k=16
+N=9 k=17: 51x51 itercnt: 289 coords=2601
+FAIL (kNxkN, kkN) test N=9 k=17
+BOTTOM N=9 k=17
+N=9 k=18: 54x54 itercnt: 324 coords=2916
+FAIL (kNxkN, kkN) test N=9 k=18
+TOP N=9 k=18
+N=9 k=19: 57x57 itercnt: 361 coords=3249
+FAIL (kNxkN, kkN) test N=9 k=19
+BOTTOM N=9 k=19
+N=9 k=20: 60x60 itercnt: 400 coords=3600
+FAIL (kNxkN, kkN) test N=9 k=20
+TOP N=9 k=20
+N=9 k=21: 63x63 itercnt: 441 coords=3969
+FAIL (kNxkN, kkN) test N=9 k=21
+BOTTOM N=9 k=21
+N=9 k=22: 66x66 itercnt: 484 coords=4356
+FAIL (kNxkN, kkN) test N=9 k=22
+TOP N=9 k=22
+N=9 k=23: 69x69 itercnt: 529 coords=4761
+FAIL (kNxkN, kkN) test N=9 k=23
+BOTTOM N=9 k=23
+N=9 k=24: 72x72 itercnt: 576 coords=5184
+FAIL (kNxkN, kkN) test N=9 k=24
+TOP N=9 k=24
+N=9 k=25: 75x75 itercnt: 625 coords=5625
+FAIL (kNxkN, kkN) test N=9 k=25
+BOTTOM N=9 k=25
+N=9 k=26: 78x78 itercnt: 676 coords=6084
+FAIL (kNxkN, kkN) test N=9 k=26
+TOP N=9 k=26
+N=9 k=27: 81x81 itercnt: 729 coords=6561
+FAIL (kNxkN, kkN) test N=9 k=27
+BOTTOM N=9 k=27
+N=9 k=28: 84x84 itercnt: 784 coords=7056
+FAIL (kNxkN, kkN) test N=9 k=28
+TOP N=9 k=28
+N=9 k=29: 87x87 itercnt: 841 coords=7569
+FAIL (kNxkN, kkN) test N=9 k=29
+BOTTOM N=9 k=29
+N=9 k=30: 90x90 itercnt: 900 coords=8100
+FAIL (kNxkN, kkN) test N=9 k=30
+TOP N=9 k=30
+N=9 k=31: 93x93 itercnt: 961 coords=8649
+FAIL (kNxkN, kkN) test N=9 k=31
+BOTTOM N=9 k=31
+N=9 k=32: 96x96 itercnt: 1024 coords=9216
+FAIL (kNxkN, kkN) test N=9 k=32
+TOP N=9 k=32
+N=9 k=33: 99x99 itercnt: 1089 coords=9801
+FAIL (kNxkN, kkN) test N=9 k=33
+BOTTOM N=9 k=33
+N=9 k=34: 102x102 itercnt: 1156 coords=10404
+FAIL (kNxkN, kkN) test N=9 k=34
+TOP N=9 k=34
+N=9 k=35: 105x105 itercnt: 1225 coords=11025
+FAIL (kNxkN, kkN) test N=9 k=35
+BOTTOM N=9 k=35
+N=9 k=36: 108x108 itercnt: 1296 coords=11664
+FAIL (kNxkN, kkN) test N=9 k=36
+TOP N=9 k=36
+N=9 k=37: 111x111 itercnt: 1369 coords=12321
+FAIL (kNxkN, kkN) test N=9 k=37
+BOTTOM N=9 k=37
+N=9 k=38: 114x114 itercnt: 1444 coords=12996
+FAIL (kNxkN, kkN) test N=9 k=38
+TOP N=9 k=38
+N=9 k=39: 117x117 itercnt: 1521 coords=13689
+FAIL (kNxkN, kkN) test N=9 k=39
+BOTTOM N=9 k=39
+N=9 k=40: 120x120 itercnt: 1600 coords=14400
+FAIL (kNxkN, kkN) test N=9 k=40
+TOP N=9 k=40
+N=9 k=41: 123x123 itercnt: 1681 coords=15129
+FAIL (kNxkN, kkN) test N=9 k=41
+BOTTOM N=9 k=41
+N=9 k=42: 126x126 itercnt: 1764 coords=15876
+FAIL (kNxkN, kkN) test N=9 k=42
+TOP N=9 k=42
+N=9 k=43: 129x129 itercnt: 1849 coords=16641
+FAIL (kNxkN, kkN) test N=9 k=43
+BOTTOM N=9 k=43
+N=9 k=44: 132x132 itercnt: 1936 coords=17424
+FAIL (kNxkN, kkN) test N=9 k=44
+TOP N=9 k=44
+N=9 k=45: 135x135 itercnt: 2025 coords=18225
+FAIL (kNxkN, kkN) test N=9 k=45
+BOTTOM N=9 k=45
+N=9 k=46: 138x138 itercnt: 2116 coords=19044
+FAIL (kNxkN, kkN) test N=9 k=46
+TOP N=9 k=46
+N=9 k=47: 141x141 itercnt: 2209 coords=19881
+FAIL (kNxkN, kkN) test N=9 k=47
+BOTTOM N=9 k=47
+N=9 k=48: 144x144 itercnt: 2304 coords=20736
+FAIL (kNxkN, kkN) test N=9 k=48
+TOP N=9 k=48
+N=9 k=49: 147x147 itercnt: 2401 coords=21609
+FAIL (kNxkN, kkN) test N=9 k=49
+BOTTOM N=9 k=49
+N=9 k=50: 150x150 itercnt: 2500 coords=22500
+FAIL (kNxkN, kkN) test N=9 k=50
+TOP N=9 k=50
+Generating square for N=10 k=50
+
+N=10 k=1: 10x10 itercnt: 10 coords=100
+PASS (kNxkN, kkN) test
+TOP N=10 k=1
+N=10 k=2: 20x20 itercnt: 40 coords=400
+PASS (kNxkN, kkN) test
+TOP N=10 k=2
+N=10 k=3: 30x30 itercnt: 90 coords=900
+PASS (kNxkN, kkN) test
+TOP N=10 k=3
+N=10 k=4: 40x40 itercnt: 160 coords=1600
+PASS (kNxkN, kkN) test
+TOP N=10 k=4
+N=10 k=5: 50x50 itercnt: 250 coords=2500
+PASS (kNxkN, kkN) test
+TOP N=10 k=5
+N=10 k=6: 60x60 itercnt: 360 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=10 k=6
+N=10 k=7: 70x70 itercnt: 490 coords=4900
+PASS (kNxkN, kkN) test
+TOP N=10 k=7
+N=10 k=8: 80x80 itercnt: 640 coords=6400
+PASS (kNxkN, kkN) test
+TOP N=10 k=8
+N=10 k=9: 90x90 itercnt: 810 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=10 k=9
+N=10 k=10: 100x100 itercnt: 1000 coords=10000
+PASS (kNxkN, kkN) test
+TOP N=10 k=10
+N=10 k=11: 110x110 itercnt: 1210 coords=12100
+PASS (kNxkN, kkN) test
+TOP N=10 k=11
+N=10 k=12: 120x120 itercnt: 1440 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=10 k=12
+N=10 k=13: 130x130 itercnt: 1690 coords=16900
+PASS (kNxkN, kkN) test
+TOP N=10 k=13
+N=10 k=14: 140x140 itercnt: 1960 coords=19600
+PASS (kNxkN, kkN) test
+TOP N=10 k=14
+N=10 k=15: 150x150 itercnt: 2250 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=10 k=15
+N=10 k=16: 160x160 itercnt: 2560 coords=25600
+PASS (kNxkN, kkN) test
+TOP N=10 k=16
+N=10 k=17: 170x170 itercnt: 2890 coords=28900
+PASS (kNxkN, kkN) test
+TOP N=10 k=17
+N=10 k=18: 180x180 itercnt: 3240 coords=32400
+PASS (kNxkN, kkN) test
+TOP N=10 k=18
+N=10 k=19: 190x190 itercnt: 3610 coords=36100
+PASS (kNxkN, kkN) test
+TOP N=10 k=19
+N=10 k=20: 200x200 itercnt: 4000 coords=40000
+PASS (kNxkN, kkN) test
+TOP N=10 k=20
+N=10 k=21: 210x210 itercnt: 4410 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=10 k=21
+N=10 k=22: 220x220 itercnt: 4840 coords=48400
+PASS (kNxkN, kkN) test
+TOP N=10 k=22
+N=10 k=23: 230x230 itercnt: 5290 coords=52900
+PASS (kNxkN, kkN) test
+TOP N=10 k=23
+N=10 k=24: 240x240 itercnt: 5760 coords=57600
+PASS (kNxkN, kkN) test
+TOP N=10 k=24
+N=10 k=25: 250x250 itercnt: 6250 coords=62500
+PASS (kNxkN, kkN) test
+TOP N=10 k=25
+N=10 k=26: 260x260 itercnt: 6760 coords=67600
+PASS (kNxkN, kkN) test
+TOP N=10 k=26
+N=10 k=27: 270x270 itercnt: 7290 coords=72900
+PASS (kNxkN, kkN) test
+TOP N=10 k=27
+N=10 k=28: 280x280 itercnt: 7840 coords=78400
+PASS (kNxkN, kkN) test
+TOP N=10 k=28
+N=10 k=29: 290x290 itercnt: 8410 coords=84100
+PASS (kNxkN, kkN) test
+TOP N=10 k=29
+N=10 k=30: 300x300 itercnt: 9000 coords=90000
+PASS (kNxkN, kkN) test
+TOP N=10 k=30
+N=10 k=31: 310x310 itercnt: 9610 coords=96100
+PASS (kNxkN, kkN) test
+TOP N=10 k=31
+N=10 k=32: 320x320 itercnt: 10240 coords=102400
+PASS (kNxkN, kkN) test
+TOP N=10 k=32
+N=10 k=33: 330x330 itercnt: 10890 coords=108900
+PASS (kNxkN, kkN) test
+TOP N=10 k=33
+N=10 k=34: 340x340 itercnt: 11560 coords=115600
+PASS (kNxkN, kkN) test
+TOP N=10 k=34
+N=10 k=35: 350x350 itercnt: 12250 coords=122500
+PASS (kNxkN, kkN) test
+TOP N=10 k=35
+N=10 k=36: 360x360 itercnt: 12960 coords=129600
+PASS (kNxkN, kkN) test
+TOP N=10 k=36
+N=10 k=37: 370x370 itercnt: 13690 coords=136900
+PASS (kNxkN, kkN) test
+TOP N=10 k=37
+N=10 k=38: 380x380 itercnt: 14440 coords=144400
+PASS (kNxkN, kkN) test
+TOP N=10 k=38
+N=10 k=39: 390x390 itercnt: 15210 coords=152100
+PASS (kNxkN, kkN) test
+TOP N=10 k=39
+N=10 k=40: 400x400 itercnt: 16000 coords=160000
+PASS (kNxkN, kkN) test
+TOP N=10 k=40
+N=10 k=41: 410x410 itercnt: 16810 coords=168100
+PASS (kNxkN, kkN) test
+TOP N=10 k=41
+N=10 k=42: 420x420 itercnt: 17640 coords=176400
+PASS (kNxkN, kkN) test
+TOP N=10 k=42
+N=10 k=43: 430x430 itercnt: 18490 coords=184900
+PASS (kNxkN, kkN) test
+TOP N=10 k=43
+N=10 k=44: 440x440 itercnt: 19360 coords=193600
+PASS (kNxkN, kkN) test
+TOP N=10 k=44
+N=10 k=45: 450x450 itercnt: 20250 coords=202500
+PASS (kNxkN, kkN) test
+TOP N=10 k=45
+N=10 k=46: 460x460 itercnt: 21160 coords=211600
+PASS (kNxkN, kkN) test
+TOP N=10 k=46
+N=10 k=47: 470x470 itercnt: 22090 coords=220900
+PASS (kNxkN, kkN) test
+TOP N=10 k=47
+N=10 k=48: 480x480 itercnt: 23040 coords=230400
+PASS (kNxkN, kkN) test
+TOP N=10 k=48
+N=10 k=49: 490x490 itercnt: 24010 coords=240100
+PASS (kNxkN, kkN) test
+TOP N=10 k=49
+N=10 k=50: 500x500 itercnt: 25000 coords=250000
+PASS (kNxkN, kkN) test
+TOP N=10 k=50
+Generating square for N=11 k=50
+
+N=11 k=1: 11x11 itercnt: 11 coords=121
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=1
+N=11 k=2: 22x22 itercnt: 44 coords=484
+PASS (kNxkN, kkN) test
+TOP N=11 k=2
+N=11 k=3: 33x33 itercnt: 99 coords=1089
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=3
+N=11 k=4: 44x44 itercnt: 176 coords=1936
+PASS (kNxkN, kkN) test
+TOP N=11 k=4
+N=11 k=5: 55x55 itercnt: 275 coords=3025
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=5
+N=11 k=6: 66x66 itercnt: 396 coords=4356
+PASS (kNxkN, kkN) test
+TOP N=11 k=6
+N=11 k=7: 77x77 itercnt: 539 coords=5929
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=7
+N=11 k=8: 88x88 itercnt: 704 coords=7744
+PASS (kNxkN, kkN) test
+TOP N=11 k=8
+N=11 k=9: 99x99 itercnt: 891 coords=9801
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=9
+N=11 k=10: 110x110 itercnt: 1100 coords=12100
+PASS (kNxkN, kkN) test
+TOP N=11 k=10
+N=11 k=11: 121x121 itercnt: 1331 coords=14641
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=11
+N=11 k=12: 132x132 itercnt: 1584 coords=17424
+PASS (kNxkN, kkN) test
+TOP N=11 k=12
+N=11 k=13: 143x143 itercnt: 1859 coords=20449
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=13
+N=11 k=14: 154x154 itercnt: 2156 coords=23716
+PASS (kNxkN, kkN) test
+TOP N=11 k=14
+N=11 k=15: 165x165 itercnt: 2475 coords=27225
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=15
+N=11 k=16: 176x176 itercnt: 2816 coords=30976
+PASS (kNxkN, kkN) test
+TOP N=11 k=16
+N=11 k=17: 187x187 itercnt: 3179 coords=34969
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=17
+N=11 k=18: 198x198 itercnt: 3564 coords=39204
+PASS (kNxkN, kkN) test
+TOP N=11 k=18
+N=11 k=19: 209x209 itercnt: 3971 coords=43681
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=19
+N=11 k=20: 220x220 itercnt: 4400 coords=48400
+PASS (kNxkN, kkN) test
+TOP N=11 k=20
+N=11 k=21: 231x231 itercnt: 4851 coords=53361
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=21
+N=11 k=22: 242x242 itercnt: 5324 coords=58564
+PASS (kNxkN, kkN) test
+TOP N=11 k=22
+N=11 k=23: 253x253 itercnt: 5819 coords=64009
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=23
+N=11 k=24: 264x264 itercnt: 6336 coords=69696
+PASS (kNxkN, kkN) test
+TOP N=11 k=24
+N=11 k=25: 275x275 itercnt: 6875 coords=75625
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=25
+N=11 k=26: 286x286 itercnt: 7436 coords=81796
+PASS (kNxkN, kkN) test
+TOP N=11 k=26
+N=11 k=27: 297x297 itercnt: 8019 coords=88209
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=27
+N=11 k=28: 308x308 itercnt: 8624 coords=94864
+PASS (kNxkN, kkN) test
+TOP N=11 k=28
+N=11 k=29: 319x319 itercnt: 9251 coords=101761
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=29
+N=11 k=30: 330x330 itercnt: 9900 coords=108900
+PASS (kNxkN, kkN) test
+TOP N=11 k=30
+N=11 k=31: 341x341 itercnt: 10571 coords=116281
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=31
+N=11 k=32: 352x352 itercnt: 11264 coords=123904
+PASS (kNxkN, kkN) test
+TOP N=11 k=32
+N=11 k=33: 363x363 itercnt: 11979 coords=131769
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=33
+N=11 k=34: 374x374 itercnt: 12716 coords=139876
+PASS (kNxkN, kkN) test
+TOP N=11 k=34
+N=11 k=35: 385x385 itercnt: 13475 coords=148225
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=35
+N=11 k=36: 396x396 itercnt: 14256 coords=156816
+PASS (kNxkN, kkN) test
+TOP N=11 k=36
+N=11 k=37: 407x407 itercnt: 15059 coords=165649
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=37
+N=11 k=38: 418x418 itercnt: 15884 coords=174724
+PASS (kNxkN, kkN) test
+TOP N=11 k=38
+N=11 k=39: 429x429 itercnt: 16731 coords=184041
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=39
+N=11 k=40: 440x440 itercnt: 17600 coords=193600
+PASS (kNxkN, kkN) test
+TOP N=11 k=40
+N=11 k=41: 451x451 itercnt: 18491 coords=203401
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=41
+N=11 k=42: 462x462 itercnt: 19404 coords=213444
+PASS (kNxkN, kkN) test
+TOP N=11 k=42
+N=11 k=43: 473x473 itercnt: 20339 coords=223729
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=43
+N=11 k=44: 484x484 itercnt: 21296 coords=234256
+PASS (kNxkN, kkN) test
+TOP N=11 k=44
+N=11 k=45: 495x495 itercnt: 22275 coords=245025
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=45
+N=11 k=46: 506x506 itercnt: 23276 coords=256036
+PASS (kNxkN, kkN) test
+TOP N=11 k=46
+N=11 k=47: 517x517 itercnt: 24299 coords=267289
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=47
+N=11 k=48: 528x528 itercnt: 25344 coords=278784
+PASS (kNxkN, kkN) test
+TOP N=11 k=48
+N=11 k=49: 539x539 itercnt: 26411 coords=290521
+PASS (kNxkN, kkN) test
+BOTTOM N=11 k=49
+N=11 k=50: 550x550 itercnt: 27500 coords=302500
+PASS (kNxkN, kkN) test
+TOP N=11 k=50
+Generating square for N=12 k=50
+
+N=12 k=1: 6x6 itercnt: 3 coords=36
+FAIL (kNxkN, kkN) test N=12 k=1
+TOP N=12 k=1
+N=12 k=2: 12x12 itercnt: 12 coords=144
+FAIL (kNxkN, kkN) test N=12 k=2
+TOP N=12 k=2
+N=12 k=3: 18x18 itercnt: 27 coords=324
+FAIL (kNxkN, kkN) test N=12 k=3
+TOP N=12 k=3
+N=12 k=4: 24x24 itercnt: 48 coords=576
+FAIL (kNxkN, kkN) test N=12 k=4
+TOP N=12 k=4
+N=12 k=5: 30x30 itercnt: 75 coords=900
+FAIL (kNxkN, kkN) test N=12 k=5
+TOP N=12 k=5
+N=12 k=6: 36x36 itercnt: 108 coords=1296
+FAIL (kNxkN, kkN) test N=12 k=6
+TOP N=12 k=6
+N=12 k=7: 42x42 itercnt: 147 coords=1764
+FAIL (kNxkN, kkN) test N=12 k=7
+TOP N=12 k=7
+N=12 k=8: 48x48 itercnt: 192 coords=2304
+FAIL (kNxkN, kkN) test N=12 k=8
+TOP N=12 k=8
+N=12 k=9: 54x54 itercnt: 243 coords=2916
+FAIL (kNxkN, kkN) test N=12 k=9
+TOP N=12 k=9
+N=12 k=10: 60x60 itercnt: 300 coords=3600
+FAIL (kNxkN, kkN) test N=12 k=10
+TOP N=12 k=10
+N=12 k=11: 66x66 itercnt: 363 coords=4356
+FAIL (kNxkN, kkN) test N=12 k=11
+TOP N=12 k=11
+N=12 k=12: 72x72 itercnt: 432 coords=5184
+FAIL (kNxkN, kkN) test N=12 k=12
+TOP N=12 k=12
+N=12 k=13: 78x78 itercnt: 507 coords=6084
+FAIL (kNxkN, kkN) test N=12 k=13
+TOP N=12 k=13
+N=12 k=14: 84x84 itercnt: 588 coords=7056
+FAIL (kNxkN, kkN) test N=12 k=14
+TOP N=12 k=14
+N=12 k=15: 90x90 itercnt: 675 coords=8100
+FAIL (kNxkN, kkN) test N=12 k=15
+TOP N=12 k=15
+N=12 k=16: 96x96 itercnt: 768 coords=9216
+FAIL (kNxkN, kkN) test N=12 k=16
+TOP N=12 k=16
+N=12 k=17: 102x102 itercnt: 867 coords=10404
+FAIL (kNxkN, kkN) test N=12 k=17
+TOP N=12 k=17
+N=12 k=18: 108x108 itercnt: 972 coords=11664
+FAIL (kNxkN, kkN) test N=12 k=18
+TOP N=12 k=18
+N=12 k=19: 114x114 itercnt: 1083 coords=12996
+FAIL (kNxkN, kkN) test N=12 k=19
+TOP N=12 k=19
+N=12 k=20: 120x120 itercnt: 1200 coords=14400
+FAIL (kNxkN, kkN) test N=12 k=20
+TOP N=12 k=20
+N=12 k=21: 126x126 itercnt: 1323 coords=15876
+FAIL (kNxkN, kkN) test N=12 k=21
+TOP N=12 k=21
+N=12 k=22: 132x132 itercnt: 1452 coords=17424
+FAIL (kNxkN, kkN) test N=12 k=22
+TOP N=12 k=22
+N=12 k=23: 138x138 itercnt: 1587 coords=19044
+FAIL (kNxkN, kkN) test N=12 k=23
+TOP N=12 k=23
+N=12 k=24: 144x144 itercnt: 1728 coords=20736
+FAIL (kNxkN, kkN) test N=12 k=24
+TOP N=12 k=24
+N=12 k=25: 150x150 itercnt: 1875 coords=22500
+FAIL (kNxkN, kkN) test N=12 k=25
+TOP N=12 k=25
+N=12 k=26: 156x156 itercnt: 2028 coords=24336
+FAIL (kNxkN, kkN) test N=12 k=26
+TOP N=12 k=26
+N=12 k=27: 162x162 itercnt: 2187 coords=26244
+FAIL (kNxkN, kkN) test N=12 k=27
+TOP N=12 k=27
+N=12 k=28: 168x168 itercnt: 2352 coords=28224
+FAIL (kNxkN, kkN) test N=12 k=28
+TOP N=12 k=28
+N=12 k=29: 174x174 itercnt: 2523 coords=30276
+FAIL (kNxkN, kkN) test N=12 k=29
+TOP N=12 k=29
+N=12 k=30: 180x180 itercnt: 2700 coords=32400
+FAIL (kNxkN, kkN) test N=12 k=30
+TOP N=12 k=30
+N=12 k=31: 186x186 itercnt: 2883 coords=34596
+FAIL (kNxkN, kkN) test N=12 k=31
+TOP N=12 k=31
+N=12 k=32: 192x192 itercnt: 3072 coords=36864
+FAIL (kNxkN, kkN) test N=12 k=32
+TOP N=12 k=32
+N=12 k=33: 198x198 itercnt: 3267 coords=39204
+FAIL (kNxkN, kkN) test N=12 k=33
+TOP N=12 k=33
+N=12 k=34: 204x204 itercnt: 3468 coords=41616
+FAIL (kNxkN, kkN) test N=12 k=34
+TOP N=12 k=34
+N=12 k=35: 210x210 itercnt: 3675 coords=44100
+FAIL (kNxkN, kkN) test N=12 k=35
+TOP N=12 k=35
+N=12 k=36: 216x216 itercnt: 3888 coords=46656
+FAIL (kNxkN, kkN) test N=12 k=36
+TOP N=12 k=36
+N=12 k=37: 222x222 itercnt: 4107 coords=49284
+FAIL (kNxkN, kkN) test N=12 k=37
+TOP N=12 k=37
+N=12 k=38: 228x228 itercnt: 4332 coords=51984
+FAIL (kNxkN, kkN) test N=12 k=38
+TOP N=12 k=38
+N=12 k=39: 234x234 itercnt: 4563 coords=54756
+FAIL (kNxkN, kkN) test N=12 k=39
+TOP N=12 k=39
+N=12 k=40: 240x240 itercnt: 4800 coords=57600
+FAIL (kNxkN, kkN) test N=12 k=40
+TOP N=12 k=40
+N=12 k=41: 246x246 itercnt: 5043 coords=60516
+FAIL (kNxkN, kkN) test N=12 k=41
+TOP N=12 k=41
+N=12 k=42: 252x252 itercnt: 5292 coords=63504
+FAIL (kNxkN, kkN) test N=12 k=42
+TOP N=12 k=42
+N=12 k=43: 258x258 itercnt: 5547 coords=66564
+FAIL (kNxkN, kkN) test N=12 k=43
+TOP N=12 k=43
+N=12 k=44: 264x264 itercnt: 5808 coords=69696
+FAIL (kNxkN, kkN) test N=12 k=44
+TOP N=12 k=44
+N=12 k=45: 270x270 itercnt: 6075 coords=72900
+FAIL (kNxkN, kkN) test N=12 k=45
+TOP N=12 k=45
+N=12 k=46: 276x276 itercnt: 6348 coords=76176
+FAIL (kNxkN, kkN) test N=12 k=46
+TOP N=12 k=46
+N=12 k=47: 282x282 itercnt: 6627 coords=79524
+FAIL (kNxkN, kkN) test N=12 k=47
+TOP N=12 k=47
+N=12 k=48: 288x288 itercnt: 6912 coords=82944
+FAIL (kNxkN, kkN) test N=12 k=48
+TOP N=12 k=48
+N=12 k=49: 294x294 itercnt: 7203 coords=86436
+FAIL (kNxkN, kkN) test N=12 k=49
+TOP N=12 k=49
+N=12 k=50: 300x300 itercnt: 7500 coords=90000
+FAIL (kNxkN, kkN) test N=12 k=50
+TOP N=12 k=50
+Generating square for N=13 k=50
+
+N=13 k=1: 13x13 itercnt: 13 coords=169
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=1
+N=13 k=2: 26x26 itercnt: 52 coords=676
+PASS (kNxkN, kkN) test
+TOP N=13 k=2
+N=13 k=3: 39x39 itercnt: 117 coords=1521
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=3
+N=13 k=4: 52x52 itercnt: 208 coords=2704
+PASS (kNxkN, kkN) test
+TOP N=13 k=4
+N=13 k=5: 65x65 itercnt: 325 coords=4225
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=5
+N=13 k=6: 78x78 itercnt: 468 coords=6084
+PASS (kNxkN, kkN) test
+TOP N=13 k=6
+N=13 k=7: 91x91 itercnt: 637 coords=8281
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=7
+N=13 k=8: 104x104 itercnt: 832 coords=10816
+PASS (kNxkN, kkN) test
+TOP N=13 k=8
+N=13 k=9: 117x117 itercnt: 1053 coords=13689
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=9
+N=13 k=10: 130x130 itercnt: 1300 coords=16900
+PASS (kNxkN, kkN) test
+TOP N=13 k=10
+N=13 k=11: 143x143 itercnt: 1573 coords=20449
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=11
+N=13 k=12: 156x156 itercnt: 1872 coords=24336
+PASS (kNxkN, kkN) test
+TOP N=13 k=12
+N=13 k=13: 169x169 itercnt: 2197 coords=28561
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=13
+N=13 k=14: 182x182 itercnt: 2548 coords=33124
+PASS (kNxkN, kkN) test
+TOP N=13 k=14
+N=13 k=15: 195x195 itercnt: 2925 coords=38025
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=15
+N=13 k=16: 208x208 itercnt: 3328 coords=43264
+PASS (kNxkN, kkN) test
+TOP N=13 k=16
+N=13 k=17: 221x221 itercnt: 3757 coords=48841
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=17
+N=13 k=18: 234x234 itercnt: 4212 coords=54756
+PASS (kNxkN, kkN) test
+TOP N=13 k=18
+N=13 k=19: 247x247 itercnt: 4693 coords=61009
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=19
+N=13 k=20: 260x260 itercnt: 5200 coords=67600
+PASS (kNxkN, kkN) test
+TOP N=13 k=20
+N=13 k=21: 273x273 itercnt: 5733 coords=74529
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=21
+N=13 k=22: 286x286 itercnt: 6292 coords=81796
+PASS (kNxkN, kkN) test
+TOP N=13 k=22
+N=13 k=23: 299x299 itercnt: 6877 coords=89401
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=23
+N=13 k=24: 312x312 itercnt: 7488 coords=97344
+PASS (kNxkN, kkN) test
+TOP N=13 k=24
+N=13 k=25: 325x325 itercnt: 8125 coords=105625
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=25
+N=13 k=26: 338x338 itercnt: 8788 coords=114244
+PASS (kNxkN, kkN) test
+TOP N=13 k=26
+N=13 k=27: 351x351 itercnt: 9477 coords=123201
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=27
+N=13 k=28: 364x364 itercnt: 10192 coords=132496
+PASS (kNxkN, kkN) test
+TOP N=13 k=28
+N=13 k=29: 377x377 itercnt: 10933 coords=142129
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=29
+N=13 k=30: 390x390 itercnt: 11700 coords=152100
+PASS (kNxkN, kkN) test
+TOP N=13 k=30
+N=13 k=31: 403x403 itercnt: 12493 coords=162409
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=31
+N=13 k=32: 416x416 itercnt: 13312 coords=173056
+PASS (kNxkN, kkN) test
+TOP N=13 k=32
+N=13 k=33: 429x429 itercnt: 14157 coords=184041
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=33
+N=13 k=34: 442x442 itercnt: 15028 coords=195364
+PASS (kNxkN, kkN) test
+TOP N=13 k=34
+N=13 k=35: 455x455 itercnt: 15925 coords=207025
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=35
+N=13 k=36: 468x468 itercnt: 16848 coords=219024
+PASS (kNxkN, kkN) test
+TOP N=13 k=36
+N=13 k=37: 481x481 itercnt: 17797 coords=231361
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=37
+N=13 k=38: 494x494 itercnt: 18772 coords=244036
+PASS (kNxkN, kkN) test
+TOP N=13 k=38
+N=13 k=39: 507x507 itercnt: 19773 coords=257049
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=39
+N=13 k=40: 520x520 itercnt: 20800 coords=270400
+PASS (kNxkN, kkN) test
+TOP N=13 k=40
+N=13 k=41: 533x533 itercnt: 21853 coords=284089
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=41
+N=13 k=42: 546x546 itercnt: 22932 coords=298116
+PASS (kNxkN, kkN) test
+TOP N=13 k=42
+N=13 k=43: 559x559 itercnt: 24037 coords=312481
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=43
+N=13 k=44: 572x572 itercnt: 25168 coords=327184
+PASS (kNxkN, kkN) test
+TOP N=13 k=44
+N=13 k=45: 585x585 itercnt: 26325 coords=342225
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=45
+N=13 k=46: 598x598 itercnt: 27508 coords=357604
+PASS (kNxkN, kkN) test
+TOP N=13 k=46
+N=13 k=47: 611x611 itercnt: 28717 coords=373321
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=47
+N=13 k=48: 624x624 itercnt: 29952 coords=389376
+PASS (kNxkN, kkN) test
+TOP N=13 k=48
+N=13 k=49: 637x637 itercnt: 31213 coords=405769
+PASS (kNxkN, kkN) test
+BOTTOM N=13 k=49
+N=13 k=50: 650x650 itercnt: 32500 coords=422500
+PASS (kNxkN, kkN) test
+TOP N=13 k=50
+Generating square for N=14 k=50
+
+N=14 k=1: 14x14 itercnt: 14 coords=196
+PASS (kNxkN, kkN) test
+TOP N=14 k=1
+N=14 k=2: 28x28 itercnt: 56 coords=784
+PASS (kNxkN, kkN) test
+TOP N=14 k=2
+N=14 k=3: 42x42 itercnt: 126 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=14 k=3
+N=14 k=4: 56x56 itercnt: 224 coords=3136
+PASS (kNxkN, kkN) test
+TOP N=14 k=4
+N=14 k=5: 70x70 itercnt: 350 coords=4900
+PASS (kNxkN, kkN) test
+TOP N=14 k=5
+N=14 k=6: 84x84 itercnt: 504 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=14 k=6
+N=14 k=7: 98x98 itercnt: 686 coords=9604
+PASS (kNxkN, kkN) test
+TOP N=14 k=7
+N=14 k=8: 112x112 itercnt: 896 coords=12544
+PASS (kNxkN, kkN) test
+TOP N=14 k=8
+N=14 k=9: 126x126 itercnt: 1134 coords=15876
+PASS (kNxkN, kkN) test
+TOP N=14 k=9
+N=14 k=10: 140x140 itercnt: 1400 coords=19600
+PASS (kNxkN, kkN) test
+TOP N=14 k=10
+N=14 k=11: 154x154 itercnt: 1694 coords=23716
+PASS (kNxkN, kkN) test
+TOP N=14 k=11
+N=14 k=12: 168x168 itercnt: 2016 coords=28224
+PASS (kNxkN, kkN) test
+TOP N=14 k=12
+N=14 k=13: 182x182 itercnt: 2366 coords=33124
+PASS (kNxkN, kkN) test
+TOP N=14 k=13
+N=14 k=14: 196x196 itercnt: 2744 coords=38416
+PASS (kNxkN, kkN) test
+TOP N=14 k=14
+N=14 k=15: 210x210 itercnt: 3150 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=14 k=15
+N=14 k=16: 224x224 itercnt: 3584 coords=50176
+PASS (kNxkN, kkN) test
+TOP N=14 k=16
+N=14 k=17: 238x238 itercnt: 4046 coords=56644
+PASS (kNxkN, kkN) test
+TOP N=14 k=17
+N=14 k=18: 252x252 itercnt: 4536 coords=63504
+PASS (kNxkN, kkN) test
+TOP N=14 k=18
+N=14 k=19: 266x266 itercnt: 5054 coords=70756
+PASS (kNxkN, kkN) test
+TOP N=14 k=19
+N=14 k=20: 280x280 itercnt: 5600 coords=78400
+PASS (kNxkN, kkN) test
+TOP N=14 k=20
+N=14 k=21: 294x294 itercnt: 6174 coords=86436
+PASS (kNxkN, kkN) test
+TOP N=14 k=21
+N=14 k=22: 308x308 itercnt: 6776 coords=94864
+PASS (kNxkN, kkN) test
+TOP N=14 k=22
+N=14 k=23: 322x322 itercnt: 7406 coords=103684
+PASS (kNxkN, kkN) test
+TOP N=14 k=23
+N=14 k=24: 336x336 itercnt: 8064 coords=112896
+PASS (kNxkN, kkN) test
+TOP N=14 k=24
+N=14 k=25: 350x350 itercnt: 8750 coords=122500
+PASS (kNxkN, kkN) test
+TOP N=14 k=25
+N=14 k=26: 364x364 itercnt: 9464 coords=132496
+PASS (kNxkN, kkN) test
+TOP N=14 k=26
+N=14 k=27: 378x378 itercnt: 10206 coords=142884
+PASS (kNxkN, kkN) test
+TOP N=14 k=27
+N=14 k=28: 392x392 itercnt: 10976 coords=153664
+PASS (kNxkN, kkN) test
+TOP N=14 k=28
+N=14 k=29: 406x406 itercnt: 11774 coords=164836
+PASS (kNxkN, kkN) test
+TOP N=14 k=29
+N=14 k=30: 420x420 itercnt: 12600 coords=176400
+PASS (kNxkN, kkN) test
+TOP N=14 k=30
+N=14 k=31: 434x434 itercnt: 13454 coords=188356
+PASS (kNxkN, kkN) test
+TOP N=14 k=31
+N=14 k=32: 448x448 itercnt: 14336 coords=200704
+PASS (kNxkN, kkN) test
+TOP N=14 k=32
+N=14 k=33: 462x462 itercnt: 15246 coords=213444
+PASS (kNxkN, kkN) test
+TOP N=14 k=33
+N=14 k=34: 476x476 itercnt: 16184 coords=226576
+PASS (kNxkN, kkN) test
+TOP N=14 k=34
+N=14 k=35: 490x490 itercnt: 17150 coords=240100
+PASS (kNxkN, kkN) test
+TOP N=14 k=35
+N=14 k=36: 504x504 itercnt: 18144 coords=254016
+PASS (kNxkN, kkN) test
+TOP N=14 k=36
+N=14 k=37: 518x518 itercnt: 19166 coords=268324
+PASS (kNxkN, kkN) test
+TOP N=14 k=37
+N=14 k=38: 532x532 itercnt: 20216 coords=283024
+PASS (kNxkN, kkN) test
+TOP N=14 k=38
+N=14 k=39: 546x546 itercnt: 21294 coords=298116
+PASS (kNxkN, kkN) test
+TOP N=14 k=39
+N=14 k=40: 560x560 itercnt: 22400 coords=313600
+PASS (kNxkN, kkN) test
+TOP N=14 k=40
+N=14 k=41: 574x574 itercnt: 23534 coords=329476
+PASS (kNxkN, kkN) test
+TOP N=14 k=41
+N=14 k=42: 588x588 itercnt: 24696 coords=345744
+PASS (kNxkN, kkN) test
+TOP N=14 k=42
+N=14 k=43: 602x602 itercnt: 25886 coords=362404
+PASS (kNxkN, kkN) test
+TOP N=14 k=43
+N=14 k=44: 616x616 itercnt: 27104 coords=379456
+PASS (kNxkN, kkN) test
+TOP N=14 k=44
+N=14 k=45: 630x630 itercnt: 28350 coords=396900
+PASS (kNxkN, kkN) test
+TOP N=14 k=45
+N=14 k=46: 644x644 itercnt: 29624 coords=414736
+PASS (kNxkN, kkN) test
+TOP N=14 k=46
+N=14 k=47: 658x658 itercnt: 30926 coords=432964
+PASS (kNxkN, kkN) test
+TOP N=14 k=47
+N=14 k=48: 672x672 itercnt: 32256 coords=451584
+PASS (kNxkN, kkN) test
+TOP N=14 k=48
+N=14 k=49: 686x686 itercnt: 33614 coords=470596
+PASS (kNxkN, kkN) test
+TOP N=14 k=49
+N=14 k=50: 700x700 itercnt: 35000 coords=490000
+PASS (kNxkN, kkN) test
+TOP N=14 k=50
+Generating square for N=15 k=50
+
+N=15 k=1: 15x15 itercnt: 15 coords=225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=1
+N=15 k=2: 30x30 itercnt: 60 coords=900
+PASS (kNxkN, kkN) test
+TOP N=15 k=2
+N=15 k=3: 45x45 itercnt: 135 coords=2025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=3
+N=15 k=4: 60x60 itercnt: 240 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=15 k=4
+N=15 k=5: 75x75 itercnt: 375 coords=5625
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=5
+N=15 k=6: 90x90 itercnt: 540 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=15 k=6
+N=15 k=7: 105x105 itercnt: 735 coords=11025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=7
+N=15 k=8: 120x120 itercnt: 960 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=15 k=8
+N=15 k=9: 135x135 itercnt: 1215 coords=18225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=9
+N=15 k=10: 150x150 itercnt: 1500 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=15 k=10
+N=15 k=11: 165x165 itercnt: 1815 coords=27225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=11
+N=15 k=12: 180x180 itercnt: 2160 coords=32400
+PASS (kNxkN, kkN) test
+TOP N=15 k=12
+N=15 k=13: 195x195 itercnt: 2535 coords=38025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=13
+N=15 k=14: 210x210 itercnt: 2940 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=15 k=14
+N=15 k=15: 225x225 itercnt: 3375 coords=50625
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=15
+N=15 k=16: 240x240 itercnt: 3840 coords=57600
+PASS (kNxkN, kkN) test
+TOP N=15 k=16
+N=15 k=17: 255x255 itercnt: 4335 coords=65025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=17
+N=15 k=18: 270x270 itercnt: 4860 coords=72900
+PASS (kNxkN, kkN) test
+TOP N=15 k=18
+N=15 k=19: 285x285 itercnt: 5415 coords=81225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=19
+N=15 k=20: 300x300 itercnt: 6000 coords=90000
+PASS (kNxkN, kkN) test
+TOP N=15 k=20
+N=15 k=21: 315x315 itercnt: 6615 coords=99225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=21
+N=15 k=22: 330x330 itercnt: 7260 coords=108900
+PASS (kNxkN, kkN) test
+TOP N=15 k=22
+N=15 k=23: 345x345 itercnt: 7935 coords=119025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=23
+N=15 k=24: 360x360 itercnt: 8640 coords=129600
+PASS (kNxkN, kkN) test
+TOP N=15 k=24
+N=15 k=25: 375x375 itercnt: 9375 coords=140625
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=25
+N=15 k=26: 390x390 itercnt: 10140 coords=152100
+PASS (kNxkN, kkN) test
+TOP N=15 k=26
+N=15 k=27: 405x405 itercnt: 10935 coords=164025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=27
+N=15 k=28: 420x420 itercnt: 11760 coords=176400
+PASS (kNxkN, kkN) test
+TOP N=15 k=28
+N=15 k=29: 435x435 itercnt: 12615 coords=189225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=29
+N=15 k=30: 450x450 itercnt: 13500 coords=202500
+PASS (kNxkN, kkN) test
+TOP N=15 k=30
+N=15 k=31: 465x465 itercnt: 14415 coords=216225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=31
+N=15 k=32: 480x480 itercnt: 15360 coords=230400
+PASS (kNxkN, kkN) test
+TOP N=15 k=32
+N=15 k=33: 495x495 itercnt: 16335 coords=245025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=33
+N=15 k=34: 510x510 itercnt: 17340 coords=260100
+PASS (kNxkN, kkN) test
+TOP N=15 k=34
+N=15 k=35: 525x525 itercnt: 18375 coords=275625
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=35
+N=15 k=36: 540x540 itercnt: 19440 coords=291600
+PASS (kNxkN, kkN) test
+TOP N=15 k=36
+N=15 k=37: 555x555 itercnt: 20535 coords=308025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=37
+N=15 k=38: 570x570 itercnt: 21660 coords=324900
+PASS (kNxkN, kkN) test
+TOP N=15 k=38
+N=15 k=39: 585x585 itercnt: 22815 coords=342225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=39
+N=15 k=40: 600x600 itercnt: 24000 coords=360000
+PASS (kNxkN, kkN) test
+TOP N=15 k=40
+N=15 k=41: 615x615 itercnt: 25215 coords=378225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=41
+N=15 k=42: 630x630 itercnt: 26460 coords=396900
+PASS (kNxkN, kkN) test
+TOP N=15 k=42
+N=15 k=43: 645x645 itercnt: 27735 coords=416025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=43
+N=15 k=44: 660x660 itercnt: 29040 coords=435600
+PASS (kNxkN, kkN) test
+TOP N=15 k=44
+N=15 k=45: 675x675 itercnt: 30375 coords=455625
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=45
+N=15 k=46: 690x690 itercnt: 31740 coords=476100
+PASS (kNxkN, kkN) test
+TOP N=15 k=46
+N=15 k=47: 705x705 itercnt: 33135 coords=497025
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=47
+N=15 k=48: 720x720 itercnt: 34560 coords=518400
+PASS (kNxkN, kkN) test
+TOP N=15 k=48
+N=15 k=49: 735x735 itercnt: 36015 coords=540225
+PASS (kNxkN, kkN) test
+BOTTOM N=15 k=49
+N=15 k=50: 750x750 itercnt: 37500 coords=562500
+PASS (kNxkN, kkN) test
+TOP N=15 k=50
+Generating square for N=16 k=50
+
+N=16 k=1: 4x4 itercnt: 1 coords=16
+FAIL (kNxkN, kkN) test N=16 k=1
+TOP N=16 k=1
+N=16 k=2: 8x8 itercnt: 4 coords=64
+FAIL (kNxkN, kkN) test N=16 k=2
+TOP N=16 k=2
+N=16 k=3: 12x12 itercnt: 9 coords=144
+FAIL (kNxkN, kkN) test N=16 k=3
+TOP N=16 k=3
+N=16 k=4: 16x16 itercnt: 16 coords=256
+FAIL (kNxkN, kkN) test N=16 k=4
+TOP N=16 k=4
+N=16 k=5: 20x20 itercnt: 25 coords=400
+FAIL (kNxkN, kkN) test N=16 k=5
+TOP N=16 k=5
+N=16 k=6: 24x24 itercnt: 36 coords=576
+FAIL (kNxkN, kkN) test N=16 k=6
+TOP N=16 k=6
+N=16 k=7: 28x28 itercnt: 49 coords=784
+FAIL (kNxkN, kkN) test N=16 k=7
+TOP N=16 k=7
+N=16 k=8: 32x32 itercnt: 64 coords=1024
+FAIL (kNxkN, kkN) test N=16 k=8
+TOP N=16 k=8
+N=16 k=9: 36x36 itercnt: 81 coords=1296
+FAIL (kNxkN, kkN) test N=16 k=9
+TOP N=16 k=9
+N=16 k=10: 40x40 itercnt: 100 coords=1600
+FAIL (kNxkN, kkN) test N=16 k=10
+TOP N=16 k=10
+N=16 k=11: 44x44 itercnt: 121 coords=1936
+FAIL (kNxkN, kkN) test N=16 k=11
+TOP N=16 k=11
+N=16 k=12: 48x48 itercnt: 144 coords=2304
+FAIL (kNxkN, kkN) test N=16 k=12
+TOP N=16 k=12
+N=16 k=13: 52x52 itercnt: 169 coords=2704
+FAIL (kNxkN, kkN) test N=16 k=13
+TOP N=16 k=13
+N=16 k=14: 56x56 itercnt: 196 coords=3136
+FAIL (kNxkN, kkN) test N=16 k=14
+TOP N=16 k=14
+N=16 k=15: 60x60 itercnt: 225 coords=3600
+FAIL (kNxkN, kkN) test N=16 k=15
+TOP N=16 k=15
+N=16 k=16: 64x64 itercnt: 256 coords=4096
+FAIL (kNxkN, kkN) test N=16 k=16
+TOP N=16 k=16
+N=16 k=17: 68x68 itercnt: 289 coords=4624
+FAIL (kNxkN, kkN) test N=16 k=17
+TOP N=16 k=17
+N=16 k=18: 72x72 itercnt: 324 coords=5184
+FAIL (kNxkN, kkN) test N=16 k=18
+TOP N=16 k=18
+N=16 k=19: 76x76 itercnt: 361 coords=5776
+FAIL (kNxkN, kkN) test N=16 k=19
+TOP N=16 k=19
+N=16 k=20: 80x80 itercnt: 400 coords=6400
+FAIL (kNxkN, kkN) test N=16 k=20
+TOP N=16 k=20
+N=16 k=21: 84x84 itercnt: 441 coords=7056
+FAIL (kNxkN, kkN) test N=16 k=21
+TOP N=16 k=21
+N=16 k=22: 88x88 itercnt: 484 coords=7744
+FAIL (kNxkN, kkN) test N=16 k=22
+TOP N=16 k=22
+N=16 k=23: 92x92 itercnt: 529 coords=8464
+FAIL (kNxkN, kkN) test N=16 k=23
+TOP N=16 k=23
+N=16 k=24: 96x96 itercnt: 576 coords=9216
+FAIL (kNxkN, kkN) test N=16 k=24
+TOP N=16 k=24
+N=16 k=25: 100x100 itercnt: 625 coords=10000
+FAIL (kNxkN, kkN) test N=16 k=25
+TOP N=16 k=25
+N=16 k=26: 104x104 itercnt: 676 coords=10816
+FAIL (kNxkN, kkN) test N=16 k=26
+TOP N=16 k=26
+N=16 k=27: 108x108 itercnt: 729 coords=11664
+FAIL (kNxkN, kkN) test N=16 k=27
+TOP N=16 k=27
+N=16 k=28: 112x112 itercnt: 784 coords=12544
+FAIL (kNxkN, kkN) test N=16 k=28
+TOP N=16 k=28
+N=16 k=29: 116x116 itercnt: 841 coords=13456
+FAIL (kNxkN, kkN) test N=16 k=29
+TOP N=16 k=29
+N=16 k=30: 120x120 itercnt: 900 coords=14400
+FAIL (kNxkN, kkN) test N=16 k=30
+TOP N=16 k=30
+N=16 k=31: 124x124 itercnt: 961 coords=15376
+FAIL (kNxkN, kkN) test N=16 k=31
+TOP N=16 k=31
+N=16 k=32: 128x128 itercnt: 1024 coords=16384
+FAIL (kNxkN, kkN) test N=16 k=32
+TOP N=16 k=32
+N=16 k=33: 132x132 itercnt: 1089 coords=17424
+FAIL (kNxkN, kkN) test N=16 k=33
+TOP N=16 k=33
+N=16 k=34: 136x136 itercnt: 1156 coords=18496
+FAIL (kNxkN, kkN) test N=16 k=34
+TOP N=16 k=34
+N=16 k=35: 140x140 itercnt: 1225 coords=19600
+FAIL (kNxkN, kkN) test N=16 k=35
+TOP N=16 k=35
+N=16 k=36: 144x144 itercnt: 1296 coords=20736
+FAIL (kNxkN, kkN) test N=16 k=36
+TOP N=16 k=36
+N=16 k=37: 148x148 itercnt: 1369 coords=21904
+FAIL (kNxkN, kkN) test N=16 k=37
+TOP N=16 k=37
+N=16 k=38: 152x152 itercnt: 1444 coords=23104
+FAIL (kNxkN, kkN) test N=16 k=38
+TOP N=16 k=38
+N=16 k=39: 156x156 itercnt: 1521 coords=24336
+FAIL (kNxkN, kkN) test N=16 k=39
+TOP N=16 k=39
+N=16 k=40: 160x160 itercnt: 1600 coords=25600
+FAIL (kNxkN, kkN) test N=16 k=40
+TOP N=16 k=40
+N=16 k=41: 164x164 itercnt: 1681 coords=26896
+FAIL (kNxkN, kkN) test N=16 k=41
+TOP N=16 k=41
+N=16 k=42: 168x168 itercnt: 1764 coords=28224
+FAIL (kNxkN, kkN) test N=16 k=42
+TOP N=16 k=42
+N=16 k=43: 172x172 itercnt: 1849 coords=29584
+FAIL (kNxkN, kkN) test N=16 k=43
+TOP N=16 k=43
+N=16 k=44: 176x176 itercnt: 1936 coords=30976
+FAIL (kNxkN, kkN) test N=16 k=44
+TOP N=16 k=44
+N=16 k=45: 180x180 itercnt: 2025 coords=32400
+FAIL (kNxkN, kkN) test N=16 k=45
+TOP N=16 k=45
+N=16 k=46: 184x184 itercnt: 2116 coords=33856
+FAIL (kNxkN, kkN) test N=16 k=46
+TOP N=16 k=46
+N=16 k=47: 188x188 itercnt: 2209 coords=35344
+FAIL (kNxkN, kkN) test N=16 k=47
+TOP N=16 k=47
+N=16 k=48: 192x192 itercnt: 2304 coords=36864
+FAIL (kNxkN, kkN) test N=16 k=48
+TOP N=16 k=48
+N=16 k=49: 196x196 itercnt: 2401 coords=38416
+FAIL (kNxkN, kkN) test N=16 k=49
+TOP N=16 k=49
+N=16 k=50: 200x200 itercnt: 2500 coords=40000
+FAIL (kNxkN, kkN) test N=16 k=50
+TOP N=16 k=50
+Generating square for N=17 k=50
+
+N=17 k=1: 17x17 itercnt: 17 coords=289
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=1
+N=17 k=2: 34x34 itercnt: 68 coords=1156
+PASS (kNxkN, kkN) test
+TOP N=17 k=2
+N=17 k=3: 51x51 itercnt: 153 coords=2601
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=3
+N=17 k=4: 68x68 itercnt: 272 coords=4624
+PASS (kNxkN, kkN) test
+TOP N=17 k=4
+N=17 k=5: 85x85 itercnt: 425 coords=7225
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=5
+N=17 k=6: 102x102 itercnt: 612 coords=10404
+PASS (kNxkN, kkN) test
+TOP N=17 k=6
+N=17 k=7: 119x119 itercnt: 833 coords=14161
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=7
+N=17 k=8: 136x136 itercnt: 1088 coords=18496
+PASS (kNxkN, kkN) test
+TOP N=17 k=8
+N=17 k=9: 153x153 itercnt: 1377 coords=23409
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=9
+N=17 k=10: 170x170 itercnt: 1700 coords=28900
+PASS (kNxkN, kkN) test
+TOP N=17 k=10
+N=17 k=11: 187x187 itercnt: 2057 coords=34969
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=11
+N=17 k=12: 204x204 itercnt: 2448 coords=41616
+PASS (kNxkN, kkN) test
+TOP N=17 k=12
+N=17 k=13: 221x221 itercnt: 2873 coords=48841
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=13
+N=17 k=14: 238x238 itercnt: 3332 coords=56644
+PASS (kNxkN, kkN) test
+TOP N=17 k=14
+N=17 k=15: 255x255 itercnt: 3825 coords=65025
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=15
+N=17 k=16: 272x272 itercnt: 4352 coords=73984
+PASS (kNxkN, kkN) test
+TOP N=17 k=16
+N=17 k=17: 289x289 itercnt: 4913 coords=83521
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=17
+N=17 k=18: 306x306 itercnt: 5508 coords=93636
+PASS (kNxkN, kkN) test
+TOP N=17 k=18
+N=17 k=19: 323x323 itercnt: 6137 coords=104329
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=19
+N=17 k=20: 340x340 itercnt: 6800 coords=115600
+PASS (kNxkN, kkN) test
+TOP N=17 k=20
+N=17 k=21: 357x357 itercnt: 7497 coords=127449
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=21
+N=17 k=22: 374x374 itercnt: 8228 coords=139876
+PASS (kNxkN, kkN) test
+TOP N=17 k=22
+N=17 k=23: 391x391 itercnt: 8993 coords=152881
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=23
+N=17 k=24: 408x408 itercnt: 9792 coords=166464
+PASS (kNxkN, kkN) test
+TOP N=17 k=24
+N=17 k=25: 425x425 itercnt: 10625 coords=180625
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=25
+N=17 k=26: 442x442 itercnt: 11492 coords=195364
+PASS (kNxkN, kkN) test
+TOP N=17 k=26
+N=17 k=27: 459x459 itercnt: 12393 coords=210681
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=27
+N=17 k=28: 476x476 itercnt: 13328 coords=226576
+PASS (kNxkN, kkN) test
+TOP N=17 k=28
+N=17 k=29: 493x493 itercnt: 14297 coords=243049
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=29
+N=17 k=30: 510x510 itercnt: 15300 coords=260100
+PASS (kNxkN, kkN) test
+TOP N=17 k=30
+N=17 k=31: 527x527 itercnt: 16337 coords=277729
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=31
+N=17 k=32: 544x544 itercnt: 17408 coords=295936
+PASS (kNxkN, kkN) test
+TOP N=17 k=32
+N=17 k=33: 561x561 itercnt: 18513 coords=314721
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=33
+N=17 k=34: 578x578 itercnt: 19652 coords=334084
+PASS (kNxkN, kkN) test
+TOP N=17 k=34
+N=17 k=35: 595x595 itercnt: 20825 coords=354025
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=35
+N=17 k=36: 612x612 itercnt: 22032 coords=374544
+PASS (kNxkN, kkN) test
+TOP N=17 k=36
+N=17 k=37: 629x629 itercnt: 23273 coords=395641
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=37
+N=17 k=38: 646x646 itercnt: 24548 coords=417316
+PASS (kNxkN, kkN) test
+TOP N=17 k=38
+N=17 k=39: 663x663 itercnt: 25857 coords=439569
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=39
+N=17 k=40: 680x680 itercnt: 27200 coords=462400
+PASS (kNxkN, kkN) test
+TOP N=17 k=40
+N=17 k=41: 697x697 itercnt: 28577 coords=485809
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=41
+N=17 k=42: 714x714 itercnt: 29988 coords=509796
+PASS (kNxkN, kkN) test
+TOP N=17 k=42
+N=17 k=43: 731x731 itercnt: 31433 coords=534361
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=43
+N=17 k=44: 748x748 itercnt: 32912 coords=559504
+PASS (kNxkN, kkN) test
+TOP N=17 k=44
+N=17 k=45: 765x765 itercnt: 34425 coords=585225
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=45
+N=17 k=46: 782x782 itercnt: 35972 coords=611524
+PASS (kNxkN, kkN) test
+TOP N=17 k=46
+N=17 k=47: 799x799 itercnt: 37553 coords=638401
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=47
+N=17 k=48: 816x816 itercnt: 39168 coords=665856
+PASS (kNxkN, kkN) test
+TOP N=17 k=48
+N=17 k=49: 833x833 itercnt: 40817 coords=693889
+PASS (kNxkN, kkN) test
+BOTTOM N=17 k=49
+N=17 k=50: 850x850 itercnt: 42500 coords=722500
+PASS (kNxkN, kkN) test
+TOP N=17 k=50
+Generating square for N=18 k=50
+
+N=18 k=1: 6x6 itercnt: 2 coords=36
+FAIL (kNxkN, kkN) test N=18 k=1
+TOP N=18 k=1
+N=18 k=2: 12x12 itercnt: 8 coords=144
+FAIL (kNxkN, kkN) test N=18 k=2
+TOP N=18 k=2
+N=18 k=3: 18x18 itercnt: 18 coords=324
+FAIL (kNxkN, kkN) test N=18 k=3
+TOP N=18 k=3
+N=18 k=4: 24x24 itercnt: 32 coords=576
+FAIL (kNxkN, kkN) test N=18 k=4
+TOP N=18 k=4
+N=18 k=5: 30x30 itercnt: 50 coords=900
+FAIL (kNxkN, kkN) test N=18 k=5
+TOP N=18 k=5
+N=18 k=6: 36x36 itercnt: 72 coords=1296
+FAIL (kNxkN, kkN) test N=18 k=6
+TOP N=18 k=6
+N=18 k=7: 42x42 itercnt: 98 coords=1764
+FAIL (kNxkN, kkN) test N=18 k=7
+TOP N=18 k=7
+N=18 k=8: 48x48 itercnt: 128 coords=2304
+FAIL (kNxkN, kkN) test N=18 k=8
+TOP N=18 k=8
+N=18 k=9: 54x54 itercnt: 162 coords=2916
+FAIL (kNxkN, kkN) test N=18 k=9
+TOP N=18 k=9
+N=18 k=10: 60x60 itercnt: 200 coords=3600
+FAIL (kNxkN, kkN) test N=18 k=10
+TOP N=18 k=10
+N=18 k=11: 66x66 itercnt: 242 coords=4356
+FAIL (kNxkN, kkN) test N=18 k=11
+TOP N=18 k=11
+N=18 k=12: 72x72 itercnt: 288 coords=5184
+FAIL (kNxkN, kkN) test N=18 k=12
+TOP N=18 k=12
+N=18 k=13: 78x78 itercnt: 338 coords=6084
+FAIL (kNxkN, kkN) test N=18 k=13
+TOP N=18 k=13
+N=18 k=14: 84x84 itercnt: 392 coords=7056
+FAIL (kNxkN, kkN) test N=18 k=14
+TOP N=18 k=14
+N=18 k=15: 90x90 itercnt: 450 coords=8100
+FAIL (kNxkN, kkN) test N=18 k=15
+TOP N=18 k=15
+N=18 k=16: 96x96 itercnt: 512 coords=9216
+FAIL (kNxkN, kkN) test N=18 k=16
+TOP N=18 k=16
+N=18 k=17: 102x102 itercnt: 578 coords=10404
+FAIL (kNxkN, kkN) test N=18 k=17
+TOP N=18 k=17
+N=18 k=18: 108x108 itercnt: 648 coords=11664
+FAIL (kNxkN, kkN) test N=18 k=18
+TOP N=18 k=18
+N=18 k=19: 114x114 itercnt: 722 coords=12996
+FAIL (kNxkN, kkN) test N=18 k=19
+TOP N=18 k=19
+N=18 k=20: 120x120 itercnt: 800 coords=14400
+FAIL (kNxkN, kkN) test N=18 k=20
+TOP N=18 k=20
+N=18 k=21: 126x126 itercnt: 882 coords=15876
+FAIL (kNxkN, kkN) test N=18 k=21
+TOP N=18 k=21
+N=18 k=22: 132x132 itercnt: 968 coords=17424
+FAIL (kNxkN, kkN) test N=18 k=22
+TOP N=18 k=22
+N=18 k=23: 138x138 itercnt: 1058 coords=19044
+FAIL (kNxkN, kkN) test N=18 k=23
+TOP N=18 k=23
+N=18 k=24: 144x144 itercnt: 1152 coords=20736
+FAIL (kNxkN, kkN) test N=18 k=24
+TOP N=18 k=24
+N=18 k=25: 150x150 itercnt: 1250 coords=22500
+FAIL (kNxkN, kkN) test N=18 k=25
+TOP N=18 k=25
+N=18 k=26: 156x156 itercnt: 1352 coords=24336
+FAIL (kNxkN, kkN) test N=18 k=26
+TOP N=18 k=26
+N=18 k=27: 162x162 itercnt: 1458 coords=26244
+FAIL (kNxkN, kkN) test N=18 k=27
+TOP N=18 k=27
+N=18 k=28: 168x168 itercnt: 1568 coords=28224
+FAIL (kNxkN, kkN) test N=18 k=28
+TOP N=18 k=28
+N=18 k=29: 174x174 itercnt: 1682 coords=30276
+FAIL (kNxkN, kkN) test N=18 k=29
+TOP N=18 k=29
+N=18 k=30: 180x180 itercnt: 1800 coords=32400
+FAIL (kNxkN, kkN) test N=18 k=30
+TOP N=18 k=30
+N=18 k=31: 186x186 itercnt: 1922 coords=34596
+FAIL (kNxkN, kkN) test N=18 k=31
+TOP N=18 k=31
+N=18 k=32: 192x192 itercnt: 2048 coords=36864
+FAIL (kNxkN, kkN) test N=18 k=32
+TOP N=18 k=32
+N=18 k=33: 198x198 itercnt: 2178 coords=39204
+FAIL (kNxkN, kkN) test N=18 k=33
+TOP N=18 k=33
+N=18 k=34: 204x204 itercnt: 2312 coords=41616
+FAIL (kNxkN, kkN) test N=18 k=34
+TOP N=18 k=34
+N=18 k=35: 210x210 itercnt: 2450 coords=44100
+FAIL (kNxkN, kkN) test N=18 k=35
+TOP N=18 k=35
+N=18 k=36: 216x216 itercnt: 2592 coords=46656
+FAIL (kNxkN, kkN) test N=18 k=36
+TOP N=18 k=36
+N=18 k=37: 222x222 itercnt: 2738 coords=49284
+FAIL (kNxkN, kkN) test N=18 k=37
+TOP N=18 k=37
+N=18 k=38: 228x228 itercnt: 2888 coords=51984
+FAIL (kNxkN, kkN) test N=18 k=38
+TOP N=18 k=38
+N=18 k=39: 234x234 itercnt: 3042 coords=54756
+FAIL (kNxkN, kkN) test N=18 k=39
+TOP N=18 k=39
+N=18 k=40: 240x240 itercnt: 3200 coords=57600
+FAIL (kNxkN, kkN) test N=18 k=40
+TOP N=18 k=40
+N=18 k=41: 246x246 itercnt: 3362 coords=60516
+FAIL (kNxkN, kkN) test N=18 k=41
+TOP N=18 k=41
+N=18 k=42: 252x252 itercnt: 3528 coords=63504
+FAIL (kNxkN, kkN) test N=18 k=42
+TOP N=18 k=42
+N=18 k=43: 258x258 itercnt: 3698 coords=66564
+FAIL (kNxkN, kkN) test N=18 k=43
+TOP N=18 k=43
+N=18 k=44: 264x264 itercnt: 3872 coords=69696
+FAIL (kNxkN, kkN) test N=18 k=44
+TOP N=18 k=44
+N=18 k=45: 270x270 itercnt: 4050 coords=72900
+FAIL (kNxkN, kkN) test N=18 k=45
+TOP N=18 k=45
+N=18 k=46: 276x276 itercnt: 4232 coords=76176
+FAIL (kNxkN, kkN) test N=18 k=46
+TOP N=18 k=46
+N=18 k=47: 282x282 itercnt: 4418 coords=79524
+FAIL (kNxkN, kkN) test N=18 k=47
+TOP N=18 k=47
+N=18 k=48: 288x288 itercnt: 4608 coords=82944
+FAIL (kNxkN, kkN) test N=18 k=48
+TOP N=18 k=48
+N=18 k=49: 294x294 itercnt: 4802 coords=86436
+FAIL (kNxkN, kkN) test N=18 k=49
+TOP N=18 k=49
+N=18 k=50: 300x300 itercnt: 5000 coords=90000
+FAIL (kNxkN, kkN) test N=18 k=50
+TOP N=18 k=50
+Generating square for N=19 k=50
+
+N=19 k=1: 19x19 itercnt: 19 coords=361
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=1
+N=19 k=2: 38x38 itercnt: 76 coords=1444
+PASS (kNxkN, kkN) test
+TOP N=19 k=2
+N=19 k=3: 57x57 itercnt: 171 coords=3249
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=3
+N=19 k=4: 76x76 itercnt: 304 coords=5776
+PASS (kNxkN, kkN) test
+TOP N=19 k=4
+N=19 k=5: 95x95 itercnt: 475 coords=9025
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=5
+N=19 k=6: 114x114 itercnt: 684 coords=12996
+PASS (kNxkN, kkN) test
+TOP N=19 k=6
+N=19 k=7: 133x133 itercnt: 931 coords=17689
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=7
+N=19 k=8: 152x152 itercnt: 1216 coords=23104
+PASS (kNxkN, kkN) test
+TOP N=19 k=8
+N=19 k=9: 171x171 itercnt: 1539 coords=29241
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=9
+N=19 k=10: 190x190 itercnt: 1900 coords=36100
+PASS (kNxkN, kkN) test
+TOP N=19 k=10
+N=19 k=11: 209x209 itercnt: 2299 coords=43681
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=11
+N=19 k=12: 228x228 itercnt: 2736 coords=51984
+PASS (kNxkN, kkN) test
+TOP N=19 k=12
+N=19 k=13: 247x247 itercnt: 3211 coords=61009
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=13
+N=19 k=14: 266x266 itercnt: 3724 coords=70756
+PASS (kNxkN, kkN) test
+TOP N=19 k=14
+N=19 k=15: 285x285 itercnt: 4275 coords=81225
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=15
+N=19 k=16: 304x304 itercnt: 4864 coords=92416
+PASS (kNxkN, kkN) test
+TOP N=19 k=16
+N=19 k=17: 323x323 itercnt: 5491 coords=104329
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=17
+N=19 k=18: 342x342 itercnt: 6156 coords=116964
+PASS (kNxkN, kkN) test
+TOP N=19 k=18
+N=19 k=19: 361x361 itercnt: 6859 coords=130321
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=19
+N=19 k=20: 380x380 itercnt: 7600 coords=144400
+PASS (kNxkN, kkN) test
+TOP N=19 k=20
+N=19 k=21: 399x399 itercnt: 8379 coords=159201
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=21
+N=19 k=22: 418x418 itercnt: 9196 coords=174724
+PASS (kNxkN, kkN) test
+TOP N=19 k=22
+N=19 k=23: 437x437 itercnt: 10051 coords=190969
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=23
+N=19 k=24: 456x456 itercnt: 10944 coords=207936
+PASS (kNxkN, kkN) test
+TOP N=19 k=24
+N=19 k=25: 475x475 itercnt: 11875 coords=225625
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=25
+N=19 k=26: 494x494 itercnt: 12844 coords=244036
+PASS (kNxkN, kkN) test
+TOP N=19 k=26
+N=19 k=27: 513x513 itercnt: 13851 coords=263169
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=27
+N=19 k=28: 532x532 itercnt: 14896 coords=283024
+PASS (kNxkN, kkN) test
+TOP N=19 k=28
+N=19 k=29: 551x551 itercnt: 15979 coords=303601
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=29
+N=19 k=30: 570x570 itercnt: 17100 coords=324900
+PASS (kNxkN, kkN) test
+TOP N=19 k=30
+N=19 k=31: 589x589 itercnt: 18259 coords=346921
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=31
+N=19 k=32: 608x608 itercnt: 19456 coords=369664
+PASS (kNxkN, kkN) test
+TOP N=19 k=32
+N=19 k=33: 627x627 itercnt: 20691 coords=393129
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=33
+N=19 k=34: 646x646 itercnt: 21964 coords=417316
+PASS (kNxkN, kkN) test
+TOP N=19 k=34
+N=19 k=35: 665x665 itercnt: 23275 coords=442225
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=35
+N=19 k=36: 684x684 itercnt: 24624 coords=467856
+PASS (kNxkN, kkN) test
+TOP N=19 k=36
+N=19 k=37: 703x703 itercnt: 26011 coords=494209
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=37
+N=19 k=38: 722x722 itercnt: 27436 coords=521284
+PASS (kNxkN, kkN) test
+TOP N=19 k=38
+N=19 k=39: 741x741 itercnt: 28899 coords=549081
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=39
+N=19 k=40: 760x760 itercnt: 30400 coords=577600
+PASS (kNxkN, kkN) test
+TOP N=19 k=40
+N=19 k=41: 779x779 itercnt: 31939 coords=606841
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=41
+N=19 k=42: 798x798 itercnt: 33516 coords=636804
+PASS (kNxkN, kkN) test
+TOP N=19 k=42
+N=19 k=43: 817x817 itercnt: 35131 coords=667489
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=43
+N=19 k=44: 836x836 itercnt: 36784 coords=698896
+PASS (kNxkN, kkN) test
+TOP N=19 k=44
+N=19 k=45: 855x855 itercnt: 38475 coords=731025
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=45
+N=19 k=46: 874x874 itercnt: 40204 coords=763876
+PASS (kNxkN, kkN) test
+TOP N=19 k=46
+N=19 k=47: 893x893 itercnt: 41971 coords=797449
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=47
+N=19 k=48: 912x912 itercnt: 43776 coords=831744
+PASS (kNxkN, kkN) test
+TOP N=19 k=48
+N=19 k=49: 931x931 itercnt: 45619 coords=866761
+PASS (kNxkN, kkN) test
+BOTTOM N=19 k=49
+N=19 k=50: 950x950 itercnt: 47500 coords=902500
+PASS (kNxkN, kkN) test
+TOP N=19 k=50
+Generating square for N=20 k=50
+
+N=20 k=1: 10x10 itercnt: 5 coords=100
+FAIL (kNxkN, kkN) test N=20 k=1
+TOP N=20 k=1
+N=20 k=2: 20x20 itercnt: 20 coords=400
+FAIL (kNxkN, kkN) test N=20 k=2
+TOP N=20 k=2
+N=20 k=3: 30x30 itercnt: 45 coords=900
+FAIL (kNxkN, kkN) test N=20 k=3
+TOP N=20 k=3
+N=20 k=4: 40x40 itercnt: 80 coords=1600
+FAIL (kNxkN, kkN) test N=20 k=4
+TOP N=20 k=4
+N=20 k=5: 50x50 itercnt: 125 coords=2500
+FAIL (kNxkN, kkN) test N=20 k=5
+TOP N=20 k=5
+N=20 k=6: 60x60 itercnt: 180 coords=3600
+FAIL (kNxkN, kkN) test N=20 k=6
+TOP N=20 k=6
+N=20 k=7: 70x70 itercnt: 245 coords=4900
+FAIL (kNxkN, kkN) test N=20 k=7
+TOP N=20 k=7
+N=20 k=8: 80x80 itercnt: 320 coords=6400
+FAIL (kNxkN, kkN) test N=20 k=8
+TOP N=20 k=8
+N=20 k=9: 90x90 itercnt: 405 coords=8100
+FAIL (kNxkN, kkN) test N=20 k=9
+TOP N=20 k=9
+N=20 k=10: 100x100 itercnt: 500 coords=10000
+FAIL (kNxkN, kkN) test N=20 k=10
+TOP N=20 k=10
+N=20 k=11: 110x110 itercnt: 605 coords=12100
+FAIL (kNxkN, kkN) test N=20 k=11
+TOP N=20 k=11
+N=20 k=12: 120x120 itercnt: 720 coords=14400
+FAIL (kNxkN, kkN) test N=20 k=12
+TOP N=20 k=12
+N=20 k=13: 130x130 itercnt: 845 coords=16900
+FAIL (kNxkN, kkN) test N=20 k=13
+TOP N=20 k=13
+N=20 k=14: 140x140 itercnt: 980 coords=19600
+FAIL (kNxkN, kkN) test N=20 k=14
+TOP N=20 k=14
+N=20 k=15: 150x150 itercnt: 1125 coords=22500
+FAIL (kNxkN, kkN) test N=20 k=15
+TOP N=20 k=15
+N=20 k=16: 160x160 itercnt: 1280 coords=25600
+FAIL (kNxkN, kkN) test N=20 k=16
+TOP N=20 k=16
+N=20 k=17: 170x170 itercnt: 1445 coords=28900
+FAIL (kNxkN, kkN) test N=20 k=17
+TOP N=20 k=17
+N=20 k=18: 180x180 itercnt: 1620 coords=32400
+FAIL (kNxkN, kkN) test N=20 k=18
+TOP N=20 k=18
+N=20 k=19: 190x190 itercnt: 1805 coords=36100
+FAIL (kNxkN, kkN) test N=20 k=19
+TOP N=20 k=19
+N=20 k=20: 200x200 itercnt: 2000 coords=40000
+FAIL (kNxkN, kkN) test N=20 k=20
+TOP N=20 k=20
+N=20 k=21: 210x210 itercnt: 2205 coords=44100
+FAIL (kNxkN, kkN) test N=20 k=21
+TOP N=20 k=21
+N=20 k=22: 220x220 itercnt: 2420 coords=48400
+FAIL (kNxkN, kkN) test N=20 k=22
+TOP N=20 k=22
+N=20 k=23: 230x230 itercnt: 2645 coords=52900
+FAIL (kNxkN, kkN) test N=20 k=23
+TOP N=20 k=23
+N=20 k=24: 240x240 itercnt: 2880 coords=57600
+FAIL (kNxkN, kkN) test N=20 k=24
+TOP N=20 k=24
+N=20 k=25: 250x250 itercnt: 3125 coords=62500
+FAIL (kNxkN, kkN) test N=20 k=25
+TOP N=20 k=25
+N=20 k=26: 260x260 itercnt: 3380 coords=67600
+FAIL (kNxkN, kkN) test N=20 k=26
+TOP N=20 k=26
+N=20 k=27: 270x270 itercnt: 3645 coords=72900
+FAIL (kNxkN, kkN) test N=20 k=27
+TOP N=20 k=27
+N=20 k=28: 280x280 itercnt: 3920 coords=78400
+FAIL (kNxkN, kkN) test N=20 k=28
+TOP N=20 k=28
+N=20 k=29: 290x290 itercnt: 4205 coords=84100
+FAIL (kNxkN, kkN) test N=20 k=29
+TOP N=20 k=29
+N=20 k=30: 300x300 itercnt: 4500 coords=90000
+FAIL (kNxkN, kkN) test N=20 k=30
+TOP N=20 k=30
+N=20 k=31: 310x310 itercnt: 4805 coords=96100
+FAIL (kNxkN, kkN) test N=20 k=31
+TOP N=20 k=31
+N=20 k=32: 320x320 itercnt: 5120 coords=102400
+FAIL (kNxkN, kkN) test N=20 k=32
+TOP N=20 k=32
+N=20 k=33: 330x330 itercnt: 5445 coords=108900
+FAIL (kNxkN, kkN) test N=20 k=33
+TOP N=20 k=33
+N=20 k=34: 340x340 itercnt: 5780 coords=115600
+FAIL (kNxkN, kkN) test N=20 k=34
+TOP N=20 k=34
+N=20 k=35: 350x350 itercnt: 6125 coords=122500
+FAIL (kNxkN, kkN) test N=20 k=35
+TOP N=20 k=35
+N=20 k=36: 360x360 itercnt: 6480 coords=129600
+FAIL (kNxkN, kkN) test N=20 k=36
+TOP N=20 k=36
+N=20 k=37: 370x370 itercnt: 6845 coords=136900
+FAIL (kNxkN, kkN) test N=20 k=37
+TOP N=20 k=37
+N=20 k=38: 380x380 itercnt: 7220 coords=144400
+FAIL (kNxkN, kkN) test N=20 k=38
+TOP N=20 k=38
+N=20 k=39: 390x390 itercnt: 7605 coords=152100
+FAIL (kNxkN, kkN) test N=20 k=39
+TOP N=20 k=39
+N=20 k=40: 400x400 itercnt: 8000 coords=160000
+FAIL (kNxkN, kkN) test N=20 k=40
+TOP N=20 k=40
+N=20 k=41: 410x410 itercnt: 8405 coords=168100
+FAIL (kNxkN, kkN) test N=20 k=41
+TOP N=20 k=41
+N=20 k=42: 420x420 itercnt: 8820 coords=176400
+FAIL (kNxkN, kkN) test N=20 k=42
+TOP N=20 k=42
+N=20 k=43: 430x430 itercnt: 9245 coords=184900
+FAIL (kNxkN, kkN) test N=20 k=43
+TOP N=20 k=43
+N=20 k=44: 440x440 itercnt: 9680 coords=193600
+FAIL (kNxkN, kkN) test N=20 k=44
+TOP N=20 k=44
+N=20 k=45: 450x450 itercnt: 10125 coords=202500
+FAIL (kNxkN, kkN) test N=20 k=45
+TOP N=20 k=45
+N=20 k=46: 460x460 itercnt: 10580 coords=211600
+FAIL (kNxkN, kkN) test N=20 k=46
+TOP N=20 k=46
+N=20 k=47: 470x470 itercnt: 11045 coords=220900
+FAIL (kNxkN, kkN) test N=20 k=47
+TOP N=20 k=47
+N=20 k=48: 480x480 itercnt: 11520 coords=230400
+FAIL (kNxkN, kkN) test N=20 k=48
+TOP N=20 k=48
+N=20 k=49: 490x490 itercnt: 12005 coords=240100
+FAIL (kNxkN, kkN) test N=20 k=49
+TOP N=20 k=49
+N=20 k=50: 500x500 itercnt: 12500 coords=250000
+FAIL (kNxkN, kkN) test N=20 k=50
+TOP N=20 k=50
+Generating square for N=21 k=50
+
+N=21 k=1: 21x21 itercnt: 21 coords=441
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=1
+N=21 k=2: 42x42 itercnt: 84 coords=1764
+PASS (kNxkN, kkN) test
+TOP N=21 k=2
+N=21 k=3: 63x63 itercnt: 189 coords=3969
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=3
+N=21 k=4: 84x84 itercnt: 336 coords=7056
+PASS (kNxkN, kkN) test
+TOP N=21 k=4
+N=21 k=5: 105x105 itercnt: 525 coords=11025
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=5
+N=21 k=6: 126x126 itercnt: 756 coords=15876
+PASS (kNxkN, kkN) test
+TOP N=21 k=6
+N=21 k=7: 147x147 itercnt: 1029 coords=21609
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=7
+N=21 k=8: 168x168 itercnt: 1344 coords=28224
+PASS (kNxkN, kkN) test
+TOP N=21 k=8
+N=21 k=9: 189x189 itercnt: 1701 coords=35721
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=9
+N=21 k=10: 210x210 itercnt: 2100 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=21 k=10
+N=21 k=11: 231x231 itercnt: 2541 coords=53361
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=11
+N=21 k=12: 252x252 itercnt: 3024 coords=63504
+PASS (kNxkN, kkN) test
+TOP N=21 k=12
+N=21 k=13: 273x273 itercnt: 3549 coords=74529
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=13
+N=21 k=14: 294x294 itercnt: 4116 coords=86436
+PASS (kNxkN, kkN) test
+TOP N=21 k=14
+N=21 k=15: 315x315 itercnt: 4725 coords=99225
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=15
+N=21 k=16: 336x336 itercnt: 5376 coords=112896
+PASS (kNxkN, kkN) test
+TOP N=21 k=16
+N=21 k=17: 357x357 itercnt: 6069 coords=127449
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=17
+N=21 k=18: 378x378 itercnt: 6804 coords=142884
+PASS (kNxkN, kkN) test
+TOP N=21 k=18
+N=21 k=19: 399x399 itercnt: 7581 coords=159201
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=19
+N=21 k=20: 420x420 itercnt: 8400 coords=176400
+PASS (kNxkN, kkN) test
+TOP N=21 k=20
+N=21 k=21: 441x441 itercnt: 9261 coords=194481
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=21
+N=21 k=22: 462x462 itercnt: 10164 coords=213444
+PASS (kNxkN, kkN) test
+TOP N=21 k=22
+N=21 k=23: 483x483 itercnt: 11109 coords=233289
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=23
+N=21 k=24: 504x504 itercnt: 12096 coords=254016
+PASS (kNxkN, kkN) test
+TOP N=21 k=24
+N=21 k=25: 525x525 itercnt: 13125 coords=275625
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=25
+N=21 k=26: 546x546 itercnt: 14196 coords=298116
+PASS (kNxkN, kkN) test
+TOP N=21 k=26
+N=21 k=27: 567x567 itercnt: 15309 coords=321489
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=27
+N=21 k=28: 588x588 itercnt: 16464 coords=345744
+PASS (kNxkN, kkN) test
+TOP N=21 k=28
+N=21 k=29: 609x609 itercnt: 17661 coords=370881
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=29
+N=21 k=30: 630x630 itercnt: 18900 coords=396900
+PASS (kNxkN, kkN) test
+TOP N=21 k=30
+N=21 k=31: 651x651 itercnt: 20181 coords=423801
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=31
+N=21 k=32: 672x672 itercnt: 21504 coords=451584
+PASS (kNxkN, kkN) test
+TOP N=21 k=32
+N=21 k=33: 693x693 itercnt: 22869 coords=480249
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=33
+N=21 k=34: 714x714 itercnt: 24276 coords=509796
+PASS (kNxkN, kkN) test
+TOP N=21 k=34
+N=21 k=35: 735x735 itercnt: 25725 coords=540225
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=35
+N=21 k=36: 756x756 itercnt: 27216 coords=571536
+PASS (kNxkN, kkN) test
+TOP N=21 k=36
+N=21 k=37: 777x777 itercnt: 28749 coords=603729
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=37
+N=21 k=38: 798x798 itercnt: 30324 coords=636804
+PASS (kNxkN, kkN) test
+TOP N=21 k=38
+N=21 k=39: 819x819 itercnt: 31941 coords=670761
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=39
+N=21 k=40: 840x840 itercnt: 33600 coords=705600
+PASS (kNxkN, kkN) test
+TOP N=21 k=40
+N=21 k=41: 861x861 itercnt: 35301 coords=741321
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=41
+N=21 k=42: 882x882 itercnt: 37044 coords=777924
+PASS (kNxkN, kkN) test
+TOP N=21 k=42
+N=21 k=43: 903x903 itercnt: 38829 coords=815409
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=43
+N=21 k=44: 924x924 itercnt: 40656 coords=853776
+PASS (kNxkN, kkN) test
+TOP N=21 k=44
+N=21 k=45: 945x945 itercnt: 42525 coords=893025
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=45
+N=21 k=46: 966x966 itercnt: 44436 coords=933156
+PASS (kNxkN, kkN) test
+TOP N=21 k=46
+N=21 k=47: 987x987 itercnt: 46389 coords=974169
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=47
+N=21 k=48: 1008x1008 itercnt: 48384 coords=1016064
+PASS (kNxkN, kkN) test
+TOP N=21 k=48
+N=21 k=49: 1029x1029 itercnt: 50421 coords=1058841
+PASS (kNxkN, kkN) test
+BOTTOM N=21 k=49
+N=21 k=50: 1050x1050 itercnt: 52500 coords=1102500
+PASS (kNxkN, kkN) test
+TOP N=21 k=50
+Generating square for N=22 k=50
+
+N=22 k=1: 22x22 itercnt: 22 coords=484
+PASS (kNxkN, kkN) test
+TOP N=22 k=1
+N=22 k=2: 44x44 itercnt: 88 coords=1936
+PASS (kNxkN, kkN) test
+TOP N=22 k=2
+N=22 k=3: 66x66 itercnt: 198 coords=4356
+PASS (kNxkN, kkN) test
+TOP N=22 k=3
+N=22 k=4: 88x88 itercnt: 352 coords=7744
+PASS (kNxkN, kkN) test
+TOP N=22 k=4
+N=22 k=5: 110x110 itercnt: 550 coords=12100
+PASS (kNxkN, kkN) test
+TOP N=22 k=5
+N=22 k=6: 132x132 itercnt: 792 coords=17424
+PASS (kNxkN, kkN) test
+TOP N=22 k=6
+N=22 k=7: 154x154 itercnt: 1078 coords=23716
+PASS (kNxkN, kkN) test
+TOP N=22 k=7
+N=22 k=8: 176x176 itercnt: 1408 coords=30976
+PASS (kNxkN, kkN) test
+TOP N=22 k=8
+N=22 k=9: 198x198 itercnt: 1782 coords=39204
+PASS (kNxkN, kkN) test
+TOP N=22 k=9
+N=22 k=10: 220x220 itercnt: 2200 coords=48400
+PASS (kNxkN, kkN) test
+TOP N=22 k=10
+N=22 k=11: 242x242 itercnt: 2662 coords=58564
+PASS (kNxkN, kkN) test
+TOP N=22 k=11
+N=22 k=12: 264x264 itercnt: 3168 coords=69696
+PASS (kNxkN, kkN) test
+TOP N=22 k=12
+N=22 k=13: 286x286 itercnt: 3718 coords=81796
+PASS (kNxkN, kkN) test
+TOP N=22 k=13
+N=22 k=14: 308x308 itercnt: 4312 coords=94864
+PASS (kNxkN, kkN) test
+TOP N=22 k=14
+N=22 k=15: 330x330 itercnt: 4950 coords=108900
+PASS (kNxkN, kkN) test
+TOP N=22 k=15
+N=22 k=16: 352x352 itercnt: 5632 coords=123904
+PASS (kNxkN, kkN) test
+TOP N=22 k=16
+N=22 k=17: 374x374 itercnt: 6358 coords=139876
+PASS (kNxkN, kkN) test
+TOP N=22 k=17
+N=22 k=18: 396x396 itercnt: 7128 coords=156816
+PASS (kNxkN, kkN) test
+TOP N=22 k=18
+N=22 k=19: 418x418 itercnt: 7942 coords=174724
+PASS (kNxkN, kkN) test
+TOP N=22 k=19
+N=22 k=20: 440x440 itercnt: 8800 coords=193600
+PASS (kNxkN, kkN) test
+TOP N=22 k=20
+N=22 k=21: 462x462 itercnt: 9702 coords=213444
+PASS (kNxkN, kkN) test
+TOP N=22 k=21
+N=22 k=22: 484x484 itercnt: 10648 coords=234256
+PASS (kNxkN, kkN) test
+TOP N=22 k=22
+N=22 k=23: 506x506 itercnt: 11638 coords=256036
+PASS (kNxkN, kkN) test
+TOP N=22 k=23
+N=22 k=24: 528x528 itercnt: 12672 coords=278784
+PASS (kNxkN, kkN) test
+TOP N=22 k=24
+N=22 k=25: 550x550 itercnt: 13750 coords=302500
+PASS (kNxkN, kkN) test
+TOP N=22 k=25
+N=22 k=26: 572x572 itercnt: 14872 coords=327184
+PASS (kNxkN, kkN) test
+TOP N=22 k=26
+N=22 k=27: 594x594 itercnt: 16038 coords=352836
+PASS (kNxkN, kkN) test
+TOP N=22 k=27
+N=22 k=28: 616x616 itercnt: 17248 coords=379456
+PASS (kNxkN, kkN) test
+TOP N=22 k=28
+N=22 k=29: 638x638 itercnt: 18502 coords=407044
+PASS (kNxkN, kkN) test
+TOP N=22 k=29
+N=22 k=30: 660x660 itercnt: 19800 coords=435600
+PASS (kNxkN, kkN) test
+TOP N=22 k=30
+N=22 k=31: 682x682 itercnt: 21142 coords=465124
+PASS (kNxkN, kkN) test
+TOP N=22 k=31
+N=22 k=32: 704x704 itercnt: 22528 coords=495616
+PASS (kNxkN, kkN) test
+TOP N=22 k=32
+N=22 k=33: 726x726 itercnt: 23958 coords=527076
+PASS (kNxkN, kkN) test
+TOP N=22 k=33
+N=22 k=34: 748x748 itercnt: 25432 coords=559504
+PASS (kNxkN, kkN) test
+TOP N=22 k=34
+N=22 k=35: 770x770 itercnt: 26950 coords=592900
+PASS (kNxkN, kkN) test
+TOP N=22 k=35
+N=22 k=36: 792x792 itercnt: 28512 coords=627264
+PASS (kNxkN, kkN) test
+TOP N=22 k=36
+N=22 k=37: 814x814 itercnt: 30118 coords=662596
+PASS (kNxkN, kkN) test
+TOP N=22 k=37
+N=22 k=38: 836x836 itercnt: 31768 coords=698896
+PASS (kNxkN, kkN) test
+TOP N=22 k=38
+N=22 k=39: 858x858 itercnt: 33462 coords=736164
+PASS (kNxkN, kkN) test
+TOP N=22 k=39
+N=22 k=40: 880x880 itercnt: 35200 coords=774400
+PASS (kNxkN, kkN) test
+TOP N=22 k=40
+N=22 k=41: 902x902 itercnt: 36982 coords=813604
+PASS (kNxkN, kkN) test
+TOP N=22 k=41
+N=22 k=42: 924x924 itercnt: 38808 coords=853776
+PASS (kNxkN, kkN) test
+TOP N=22 k=42
+N=22 k=43: 946x946 itercnt: 40678 coords=894916
+PASS (kNxkN, kkN) test
+TOP N=22 k=43
+N=22 k=44: 968x968 itercnt: 42592 coords=937024
+PASS (kNxkN, kkN) test
+TOP N=22 k=44
+N=22 k=45: 990x990 itercnt: 44550 coords=980100
+PASS (kNxkN, kkN) test
+TOP N=22 k=45
+N=22 k=46: 1012x1012 itercnt: 46552 coords=1024144
+PASS (kNxkN, kkN) test
+TOP N=22 k=46
+N=22 k=47: 1034x1034 itercnt: 48598 coords=1069156
+PASS (kNxkN, kkN) test
+TOP N=22 k=47
+N=22 k=48: 1056x1056 itercnt: 50688 coords=1115136
+PASS (kNxkN, kkN) test
+TOP N=22 k=48
+N=22 k=49: 1078x1078 itercnt: 52822 coords=1162084
+PASS (kNxkN, kkN) test
+TOP N=22 k=49
+N=22 k=50: 1100x1100 itercnt: 55000 coords=1210000
+PASS (kNxkN, kkN) test
+TOP N=22 k=50
+Generating square for N=23 k=50
+
+N=23 k=1: 23x23 itercnt: 23 coords=529
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=1
+N=23 k=2: 46x46 itercnt: 92 coords=2116
+PASS (kNxkN, kkN) test
+TOP N=23 k=2
+N=23 k=3: 69x69 itercnt: 207 coords=4761
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=3
+N=23 k=4: 92x92 itercnt: 368 coords=8464
+PASS (kNxkN, kkN) test
+TOP N=23 k=4
+N=23 k=5: 115x115 itercnt: 575 coords=13225
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=5
+N=23 k=6: 138x138 itercnt: 828 coords=19044
+PASS (kNxkN, kkN) test
+TOP N=23 k=6
+N=23 k=7: 161x161 itercnt: 1127 coords=25921
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=7
+N=23 k=8: 184x184 itercnt: 1472 coords=33856
+PASS (kNxkN, kkN) test
+TOP N=23 k=8
+N=23 k=9: 207x207 itercnt: 1863 coords=42849
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=9
+N=23 k=10: 230x230 itercnt: 2300 coords=52900
+PASS (kNxkN, kkN) test
+TOP N=23 k=10
+N=23 k=11: 253x253 itercnt: 2783 coords=64009
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=11
+N=23 k=12: 276x276 itercnt: 3312 coords=76176
+PASS (kNxkN, kkN) test
+TOP N=23 k=12
+N=23 k=13: 299x299 itercnt: 3887 coords=89401
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=13
+N=23 k=14: 322x322 itercnt: 4508 coords=103684
+PASS (kNxkN, kkN) test
+TOP N=23 k=14
+N=23 k=15: 345x345 itercnt: 5175 coords=119025
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=15
+N=23 k=16: 368x368 itercnt: 5888 coords=135424
+PASS (kNxkN, kkN) test
+TOP N=23 k=16
+N=23 k=17: 391x391 itercnt: 6647 coords=152881
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=17
+N=23 k=18: 414x414 itercnt: 7452 coords=171396
+PASS (kNxkN, kkN) test
+TOP N=23 k=18
+N=23 k=19: 437x437 itercnt: 8303 coords=190969
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=19
+N=23 k=20: 460x460 itercnt: 9200 coords=211600
+PASS (kNxkN, kkN) test
+TOP N=23 k=20
+N=23 k=21: 483x483 itercnt: 10143 coords=233289
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=21
+N=23 k=22: 506x506 itercnt: 11132 coords=256036
+PASS (kNxkN, kkN) test
+TOP N=23 k=22
+N=23 k=23: 529x529 itercnt: 12167 coords=279841
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=23
+N=23 k=24: 552x552 itercnt: 13248 coords=304704
+PASS (kNxkN, kkN) test
+TOP N=23 k=24
+N=23 k=25: 575x575 itercnt: 14375 coords=330625
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=25
+N=23 k=26: 598x598 itercnt: 15548 coords=357604
+PASS (kNxkN, kkN) test
+TOP N=23 k=26
+N=23 k=27: 621x621 itercnt: 16767 coords=385641
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=27
+N=23 k=28: 644x644 itercnt: 18032 coords=414736
+PASS (kNxkN, kkN) test
+TOP N=23 k=28
+N=23 k=29: 667x667 itercnt: 19343 coords=444889
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=29
+N=23 k=30: 690x690 itercnt: 20700 coords=476100
+PASS (kNxkN, kkN) test
+TOP N=23 k=30
+N=23 k=31: 713x713 itercnt: 22103 coords=508369
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=31
+N=23 k=32: 736x736 itercnt: 23552 coords=541696
+PASS (kNxkN, kkN) test
+TOP N=23 k=32
+N=23 k=33: 759x759 itercnt: 25047 coords=576081
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=33
+N=23 k=34: 782x782 itercnt: 26588 coords=611524
+PASS (kNxkN, kkN) test
+TOP N=23 k=34
+N=23 k=35: 805x805 itercnt: 28175 coords=648025
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=35
+N=23 k=36: 828x828 itercnt: 29808 coords=685584
+PASS (kNxkN, kkN) test
+TOP N=23 k=36
+N=23 k=37: 851x851 itercnt: 31487 coords=724201
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=37
+N=23 k=38: 874x874 itercnt: 33212 coords=763876
+PASS (kNxkN, kkN) test
+TOP N=23 k=38
+N=23 k=39: 897x897 itercnt: 34983 coords=804609
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=39
+N=23 k=40: 920x920 itercnt: 36800 coords=846400
+PASS (kNxkN, kkN) test
+TOP N=23 k=40
+N=23 k=41: 943x943 itercnt: 38663 coords=889249
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=41
+N=23 k=42: 966x966 itercnt: 40572 coords=933156
+PASS (kNxkN, kkN) test
+TOP N=23 k=42
+N=23 k=43: 989x989 itercnt: 42527 coords=978121
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=43
+N=23 k=44: 1012x1012 itercnt: 44528 coords=1024144
+PASS (kNxkN, kkN) test
+TOP N=23 k=44
+N=23 k=45: 1035x1035 itercnt: 46575 coords=1071225
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=45
+N=23 k=46: 1058x1058 itercnt: 48668 coords=1119364
+PASS (kNxkN, kkN) test
+TOP N=23 k=46
+N=23 k=47: 1081x1081 itercnt: 50807 coords=1168561
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=47
+N=23 k=48: 1104x1104 itercnt: 52992 coords=1218816
+PASS (kNxkN, kkN) test
+TOP N=23 k=48
+N=23 k=49: 1127x1127 itercnt: 55223 coords=1270129
+PASS (kNxkN, kkN) test
+BOTTOM N=23 k=49
+N=23 k=50: 1150x1150 itercnt: 57500 coords=1322500
+PASS (kNxkN, kkN) test
+TOP N=23 k=50
+Generating square for N=24 k=50
+
+N=24 k=1: 12x12 itercnt: 6 coords=144
+FAIL (kNxkN, kkN) test N=24 k=1
+TOP N=24 k=1
+N=24 k=2: 24x24 itercnt: 24 coords=576
+FAIL (kNxkN, kkN) test N=24 k=2
+TOP N=24 k=2
+N=24 k=3: 36x36 itercnt: 54 coords=1296
+FAIL (kNxkN, kkN) test N=24 k=3
+TOP N=24 k=3
+N=24 k=4: 48x48 itercnt: 96 coords=2304
+FAIL (kNxkN, kkN) test N=24 k=4
+TOP N=24 k=4
+N=24 k=5: 60x60 itercnt: 150 coords=3600
+FAIL (kNxkN, kkN) test N=24 k=5
+TOP N=24 k=5
+N=24 k=6: 72x72 itercnt: 216 coords=5184
+FAIL (kNxkN, kkN) test N=24 k=6
+TOP N=24 k=6
+N=24 k=7: 84x84 itercnt: 294 coords=7056
+FAIL (kNxkN, kkN) test N=24 k=7
+TOP N=24 k=7
+N=24 k=8: 96x96 itercnt: 384 coords=9216
+FAIL (kNxkN, kkN) test N=24 k=8
+TOP N=24 k=8
+N=24 k=9: 108x108 itercnt: 486 coords=11664
+FAIL (kNxkN, kkN) test N=24 k=9
+TOP N=24 k=9
+N=24 k=10: 120x120 itercnt: 600 coords=14400
+FAIL (kNxkN, kkN) test N=24 k=10
+TOP N=24 k=10
+N=24 k=11: 132x132 itercnt: 726 coords=17424
+FAIL (kNxkN, kkN) test N=24 k=11
+TOP N=24 k=11
+N=24 k=12: 144x144 itercnt: 864 coords=20736
+FAIL (kNxkN, kkN) test N=24 k=12
+TOP N=24 k=12
+N=24 k=13: 156x156 itercnt: 1014 coords=24336
+FAIL (kNxkN, kkN) test N=24 k=13
+TOP N=24 k=13
+N=24 k=14: 168x168 itercnt: 1176 coords=28224
+FAIL (kNxkN, kkN) test N=24 k=14
+TOP N=24 k=14
+N=24 k=15: 180x180 itercnt: 1350 coords=32400
+FAIL (kNxkN, kkN) test N=24 k=15
+TOP N=24 k=15
+N=24 k=16: 192x192 itercnt: 1536 coords=36864
+FAIL (kNxkN, kkN) test N=24 k=16
+TOP N=24 k=16
+N=24 k=17: 204x204 itercnt: 1734 coords=41616
+FAIL (kNxkN, kkN) test N=24 k=17
+TOP N=24 k=17
+N=24 k=18: 216x216 itercnt: 1944 coords=46656
+FAIL (kNxkN, kkN) test N=24 k=18
+TOP N=24 k=18
+N=24 k=19: 228x228 itercnt: 2166 coords=51984
+FAIL (kNxkN, kkN) test N=24 k=19
+TOP N=24 k=19
+N=24 k=20: 240x240 itercnt: 2400 coords=57600
+FAIL (kNxkN, kkN) test N=24 k=20
+TOP N=24 k=20
+N=24 k=21: 252x252 itercnt: 2646 coords=63504
+FAIL (kNxkN, kkN) test N=24 k=21
+TOP N=24 k=21
+N=24 k=22: 264x264 itercnt: 2904 coords=69696
+FAIL (kNxkN, kkN) test N=24 k=22
+TOP N=24 k=22
+N=24 k=23: 276x276 itercnt: 3174 coords=76176
+FAIL (kNxkN, kkN) test N=24 k=23
+TOP N=24 k=23
+N=24 k=24: 288x288 itercnt: 3456 coords=82944
+FAIL (kNxkN, kkN) test N=24 k=24
+TOP N=24 k=24
+N=24 k=25: 300x300 itercnt: 3750 coords=90000
+FAIL (kNxkN, kkN) test N=24 k=25
+TOP N=24 k=25
+N=24 k=26: 312x312 itercnt: 4056 coords=97344
+FAIL (kNxkN, kkN) test N=24 k=26
+TOP N=24 k=26
+N=24 k=27: 324x324 itercnt: 4374 coords=104976
+FAIL (kNxkN, kkN) test N=24 k=27
+TOP N=24 k=27
+N=24 k=28: 336x336 itercnt: 4704 coords=112896
+FAIL (kNxkN, kkN) test N=24 k=28
+TOP N=24 k=28
+N=24 k=29: 348x348 itercnt: 5046 coords=121104
+FAIL (kNxkN, kkN) test N=24 k=29
+TOP N=24 k=29
+N=24 k=30: 360x360 itercnt: 5400 coords=129600
+FAIL (kNxkN, kkN) test N=24 k=30
+TOP N=24 k=30
+N=24 k=31: 372x372 itercnt: 5766 coords=138384
+FAIL (kNxkN, kkN) test N=24 k=31
+TOP N=24 k=31
+N=24 k=32: 384x384 itercnt: 6144 coords=147456
+FAIL (kNxkN, kkN) test N=24 k=32
+TOP N=24 k=32
+N=24 k=33: 396x396 itercnt: 6534 coords=156816
+FAIL (kNxkN, kkN) test N=24 k=33
+TOP N=24 k=33
+N=24 k=34: 408x408 itercnt: 6936 coords=166464
+FAIL (kNxkN, kkN) test N=24 k=34
+TOP N=24 k=34
+N=24 k=35: 420x420 itercnt: 7350 coords=176400
+FAIL (kNxkN, kkN) test N=24 k=35
+TOP N=24 k=35
+N=24 k=36: 432x432 itercnt: 7776 coords=186624
+FAIL (kNxkN, kkN) test N=24 k=36
+TOP N=24 k=36
+N=24 k=37: 444x444 itercnt: 8214 coords=197136
+FAIL (kNxkN, kkN) test N=24 k=37
+TOP N=24 k=37
+N=24 k=38: 456x456 itercnt: 8664 coords=207936
+FAIL (kNxkN, kkN) test N=24 k=38
+TOP N=24 k=38
+N=24 k=39: 468x468 itercnt: 9126 coords=219024
+FAIL (kNxkN, kkN) test N=24 k=39
+TOP N=24 k=39
+N=24 k=40: 480x480 itercnt: 9600 coords=230400
+FAIL (kNxkN, kkN) test N=24 k=40
+TOP N=24 k=40
+N=24 k=41: 492x492 itercnt: 10086 coords=242064
+FAIL (kNxkN, kkN) test N=24 k=41
+TOP N=24 k=41
+N=24 k=42: 504x504 itercnt: 10584 coords=254016
+FAIL (kNxkN, kkN) test N=24 k=42
+TOP N=24 k=42
+N=24 k=43: 516x516 itercnt: 11094 coords=266256
+FAIL (kNxkN, kkN) test N=24 k=43
+TOP N=24 k=43
+N=24 k=44: 528x528 itercnt: 11616 coords=278784
+FAIL (kNxkN, kkN) test N=24 k=44
+TOP N=24 k=44
+N=24 k=45: 540x540 itercnt: 12150 coords=291600
+FAIL (kNxkN, kkN) test N=24 k=45
+TOP N=24 k=45
+N=24 k=46: 552x552 itercnt: 12696 coords=304704
+FAIL (kNxkN, kkN) test N=24 k=46
+TOP N=24 k=46
+N=24 k=47: 564x564 itercnt: 13254 coords=318096
+FAIL (kNxkN, kkN) test N=24 k=47
+TOP N=24 k=47
+N=24 k=48: 576x576 itercnt: 13824 coords=331776
+FAIL (kNxkN, kkN) test N=24 k=48
+TOP N=24 k=48
+N=24 k=49: 588x588 itercnt: 14406 coords=345744
+FAIL (kNxkN, kkN) test N=24 k=49
+TOP N=24 k=49
+N=24 k=50: 600x600 itercnt: 15000 coords=360000
+FAIL (kNxkN, kkN) test N=24 k=50
+TOP N=24 k=50
+Generating square for N=25 k=50
+
+N=25 k=1: 5x5 itercnt: 1 coords=25
+FAIL (kNxkN, kkN) test N=25 k=1
+BOTTOM N=25 k=1
+N=25 k=2: 10x10 itercnt: 4 coords=100
+FAIL (kNxkN, kkN) test N=25 k=2
+TOP N=25 k=2
+N=25 k=3: 15x15 itercnt: 9 coords=225
+FAIL (kNxkN, kkN) test N=25 k=3
+BOTTOM N=25 k=3
+N=25 k=4: 20x20 itercnt: 16 coords=400
+FAIL (kNxkN, kkN) test N=25 k=4
+TOP N=25 k=4
+N=25 k=5: 25x25 itercnt: 25 coords=625
+FAIL (kNxkN, kkN) test N=25 k=5
+BOTTOM N=25 k=5
+N=25 k=6: 30x30 itercnt: 36 coords=900
+FAIL (kNxkN, kkN) test N=25 k=6
+TOP N=25 k=6
+N=25 k=7: 35x35 itercnt: 49 coords=1225
+FAIL (kNxkN, kkN) test N=25 k=7
+BOTTOM N=25 k=7
+N=25 k=8: 40x40 itercnt: 64 coords=1600
+FAIL (kNxkN, kkN) test N=25 k=8
+TOP N=25 k=8
+N=25 k=9: 45x45 itercnt: 81 coords=2025
+FAIL (kNxkN, kkN) test N=25 k=9
+BOTTOM N=25 k=9
+N=25 k=10: 50x50 itercnt: 100 coords=2500
+FAIL (kNxkN, kkN) test N=25 k=10
+TOP N=25 k=10
+N=25 k=11: 55x55 itercnt: 121 coords=3025
+FAIL (kNxkN, kkN) test N=25 k=11
+BOTTOM N=25 k=11
+N=25 k=12: 60x60 itercnt: 144 coords=3600
+FAIL (kNxkN, kkN) test N=25 k=12
+TOP N=25 k=12
+N=25 k=13: 65x65 itercnt: 169 coords=4225
+FAIL (kNxkN, kkN) test N=25 k=13
+BOTTOM N=25 k=13
+N=25 k=14: 70x70 itercnt: 196 coords=4900
+FAIL (kNxkN, kkN) test N=25 k=14
+TOP N=25 k=14
+N=25 k=15: 75x75 itercnt: 225 coords=5625
+FAIL (kNxkN, kkN) test N=25 k=15
+BOTTOM N=25 k=15
+N=25 k=16: 80x80 itercnt: 256 coords=6400
+FAIL (kNxkN, kkN) test N=25 k=16
+TOP N=25 k=16
+N=25 k=17: 85x85 itercnt: 289 coords=7225
+FAIL (kNxkN, kkN) test N=25 k=17
+BOTTOM N=25 k=17
+N=25 k=18: 90x90 itercnt: 324 coords=8100
+FAIL (kNxkN, kkN) test N=25 k=18
+TOP N=25 k=18
+N=25 k=19: 95x95 itercnt: 361 coords=9025
+FAIL (kNxkN, kkN) test N=25 k=19
+BOTTOM N=25 k=19
+N=25 k=20: 100x100 itercnt: 400 coords=10000
+FAIL (kNxkN, kkN) test N=25 k=20
+TOP N=25 k=20
+N=25 k=21: 105x105 itercnt: 441 coords=11025
+FAIL (kNxkN, kkN) test N=25 k=21
+BOTTOM N=25 k=21
+N=25 k=22: 110x110 itercnt: 484 coords=12100
+FAIL (kNxkN, kkN) test N=25 k=22
+TOP N=25 k=22
+N=25 k=23: 115x115 itercnt: 529 coords=13225
+FAIL (kNxkN, kkN) test N=25 k=23
+BOTTOM N=25 k=23
+N=25 k=24: 120x120 itercnt: 576 coords=14400
+FAIL (kNxkN, kkN) test N=25 k=24
+TOP N=25 k=24
+N=25 k=25: 125x125 itercnt: 625 coords=15625
+FAIL (kNxkN, kkN) test N=25 k=25
+BOTTOM N=25 k=25
+N=25 k=26: 130x130 itercnt: 676 coords=16900
+FAIL (kNxkN, kkN) test N=25 k=26
+TOP N=25 k=26
+N=25 k=27: 135x135 itercnt: 729 coords=18225
+FAIL (kNxkN, kkN) test N=25 k=27
+BOTTOM N=25 k=27
+N=25 k=28: 140x140 itercnt: 784 coords=19600
+FAIL (kNxkN, kkN) test N=25 k=28
+TOP N=25 k=28
+N=25 k=29: 145x145 itercnt: 841 coords=21025
+FAIL (kNxkN, kkN) test N=25 k=29
+BOTTOM N=25 k=29
+N=25 k=30: 150x150 itercnt: 900 coords=22500
+FAIL (kNxkN, kkN) test N=25 k=30
+TOP N=25 k=30
+N=25 k=31: 155x155 itercnt: 961 coords=24025
+FAIL (kNxkN, kkN) test N=25 k=31
+BOTTOM N=25 k=31
+N=25 k=32: 160x160 itercnt: 1024 coords=25600
+FAIL (kNxkN, kkN) test N=25 k=32
+TOP N=25 k=32
+N=25 k=33: 165x165 itercnt: 1089 coords=27225
+FAIL (kNxkN, kkN) test N=25 k=33
+BOTTOM N=25 k=33
+N=25 k=34: 170x170 itercnt: 1156 coords=28900
+FAIL (kNxkN, kkN) test N=25 k=34
+TOP N=25 k=34
+N=25 k=35: 175x175 itercnt: 1225 coords=30625
+FAIL (kNxkN, kkN) test N=25 k=35
+BOTTOM N=25 k=35
+N=25 k=36: 180x180 itercnt: 1296 coords=32400
+FAIL (kNxkN, kkN) test N=25 k=36
+TOP N=25 k=36
+N=25 k=37: 185x185 itercnt: 1369 coords=34225
+FAIL (kNxkN, kkN) test N=25 k=37
+BOTTOM N=25 k=37
+N=25 k=38: 190x190 itercnt: 1444 coords=36100
+FAIL (kNxkN, kkN) test N=25 k=38
+TOP N=25 k=38
+N=25 k=39: 195x195 itercnt: 1521 coords=38025
+FAIL (kNxkN, kkN) test N=25 k=39
+BOTTOM N=25 k=39
+N=25 k=40: 200x200 itercnt: 1600 coords=40000
+FAIL (kNxkN, kkN) test N=25 k=40
+TOP N=25 k=40
+N=25 k=41: 205x205 itercnt: 1681 coords=42025
+FAIL (kNxkN, kkN) test N=25 k=41
+BOTTOM N=25 k=41
+N=25 k=42: 210x210 itercnt: 1764 coords=44100
+FAIL (kNxkN, kkN) test N=25 k=42
+TOP N=25 k=42
+N=25 k=43: 215x215 itercnt: 1849 coords=46225
+FAIL (kNxkN, kkN) test N=25 k=43
+BOTTOM N=25 k=43
+N=25 k=44: 220x220 itercnt: 1936 coords=48400
+FAIL (kNxkN, kkN) test N=25 k=44
+TOP N=25 k=44
+N=25 k=45: 225x225 itercnt: 2025 coords=50625
+FAIL (kNxkN, kkN) test N=25 k=45
+BOTTOM N=25 k=45
+N=25 k=46: 230x230 itercnt: 2116 coords=52900
+FAIL (kNxkN, kkN) test N=25 k=46
+TOP N=25 k=46
+N=25 k=47: 235x235 itercnt: 2209 coords=55225
+FAIL (kNxkN, kkN) test N=25 k=47
+BOTTOM N=25 k=47
+N=25 k=48: 240x240 itercnt: 2304 coords=57600
+FAIL (kNxkN, kkN) test N=25 k=48
+TOP N=25 k=48
+N=25 k=49: 245x245 itercnt: 2401 coords=60025
+FAIL (kNxkN, kkN) test N=25 k=49
+BOTTOM N=25 k=49
+N=25 k=50: 250x250 itercnt: 2500 coords=62500
+FAIL (kNxkN, kkN) test N=25 k=50
+TOP N=25 k=50
+Generating square for N=26 k=50
+
+N=26 k=1: 26x26 itercnt: 26 coords=676
+PASS (kNxkN, kkN) test
+TOP N=26 k=1
+N=26 k=2: 52x52 itercnt: 104 coords=2704
+PASS (kNxkN, kkN) test
+TOP N=26 k=2
+N=26 k=3: 78x78 itercnt: 234 coords=6084
+PASS (kNxkN, kkN) test
+TOP N=26 k=3
+N=26 k=4: 104x104 itercnt: 416 coords=10816
+PASS (kNxkN, kkN) test
+TOP N=26 k=4
+N=26 k=5: 130x130 itercnt: 650 coords=16900
+PASS (kNxkN, kkN) test
+TOP N=26 k=5
+N=26 k=6: 156x156 itercnt: 936 coords=24336
+PASS (kNxkN, kkN) test
+TOP N=26 k=6
+N=26 k=7: 182x182 itercnt: 1274 coords=33124
+PASS (kNxkN, kkN) test
+TOP N=26 k=7
+N=26 k=8: 208x208 itercnt: 1664 coords=43264
+PASS (kNxkN, kkN) test
+TOP N=26 k=8
+N=26 k=9: 234x234 itercnt: 2106 coords=54756
+PASS (kNxkN, kkN) test
+TOP N=26 k=9
+N=26 k=10: 260x260 itercnt: 2600 coords=67600
+PASS (kNxkN, kkN) test
+TOP N=26 k=10
+N=26 k=11: 286x286 itercnt: 3146 coords=81796
+PASS (kNxkN, kkN) test
+TOP N=26 k=11
+N=26 k=12: 312x312 itercnt: 3744 coords=97344
+PASS (kNxkN, kkN) test
+TOP N=26 k=12
+N=26 k=13: 338x338 itercnt: 4394 coords=114244
+PASS (kNxkN, kkN) test
+TOP N=26 k=13
+N=26 k=14: 364x364 itercnt: 5096 coords=132496
+PASS (kNxkN, kkN) test
+TOP N=26 k=14
+N=26 k=15: 390x390 itercnt: 5850 coords=152100
+PASS (kNxkN, kkN) test
+TOP N=26 k=15
+N=26 k=16: 416x416 itercnt: 6656 coords=173056
+PASS (kNxkN, kkN) test
+TOP N=26 k=16
+N=26 k=17: 442x442 itercnt: 7514 coords=195364
+PASS (kNxkN, kkN) test
+TOP N=26 k=17
+N=26 k=18: 468x468 itercnt: 8424 coords=219024
+PASS (kNxkN, kkN) test
+TOP N=26 k=18
+N=26 k=19: 494x494 itercnt: 9386 coords=244036
+PASS (kNxkN, kkN) test
+TOP N=26 k=19
+N=26 k=20: 520x520 itercnt: 10400 coords=270400
+PASS (kNxkN, kkN) test
+TOP N=26 k=20
+N=26 k=21: 546x546 itercnt: 11466 coords=298116
+PASS (kNxkN, kkN) test
+TOP N=26 k=21
+N=26 k=22: 572x572 itercnt: 12584 coords=327184
+PASS (kNxkN, kkN) test
+TOP N=26 k=22
+N=26 k=23: 598x598 itercnt: 13754 coords=357604
+PASS (kNxkN, kkN) test
+TOP N=26 k=23
+N=26 k=24: 624x624 itercnt: 14976 coords=389376
+PASS (kNxkN, kkN) test
+TOP N=26 k=24
+N=26 k=25: 650x650 itercnt: 16250 coords=422500
+PASS (kNxkN, kkN) test
+TOP N=26 k=25
+N=26 k=26: 676x676 itercnt: 17576 coords=456976
+PASS (kNxkN, kkN) test
+TOP N=26 k=26
+N=26 k=27: 702x702 itercnt: 18954 coords=492804
+PASS (kNxkN, kkN) test
+TOP N=26 k=27
+N=26 k=28: 728x728 itercnt: 20384 coords=529984
+PASS (kNxkN, kkN) test
+TOP N=26 k=28
+N=26 k=29: 754x754 itercnt: 21866 coords=568516
+PASS (kNxkN, kkN) test
+TOP N=26 k=29
+N=26 k=30: 780x780 itercnt: 23400 coords=608400
+PASS (kNxkN, kkN) test
+TOP N=26 k=30
+N=26 k=31: 806x806 itercnt: 24986 coords=649636
+PASS (kNxkN, kkN) test
+TOP N=26 k=31
+N=26 k=32: 832x832 itercnt: 26624 coords=692224
+PASS (kNxkN, kkN) test
+TOP N=26 k=32
+N=26 k=33: 858x858 itercnt: 28314 coords=736164
+PASS (kNxkN, kkN) test
+TOP N=26 k=33
+N=26 k=34: 884x884 itercnt: 30056 coords=781456
+PASS (kNxkN, kkN) test
+TOP N=26 k=34
+N=26 k=35: 910x910 itercnt: 31850 coords=828100
+PASS (kNxkN, kkN) test
+TOP N=26 k=35
+N=26 k=36: 936x936 itercnt: 33696 coords=876096
+PASS (kNxkN, kkN) test
+TOP N=26 k=36
+N=26 k=37: 962x962 itercnt: 35594 coords=925444
+PASS (kNxkN, kkN) test
+TOP N=26 k=37
+N=26 k=38: 988x988 itercnt: 37544 coords=976144
+PASS (kNxkN, kkN) test
+TOP N=26 k=38
+N=26 k=39: 1014x1014 itercnt: 39546 coords=1028196
+PASS (kNxkN, kkN) test
+TOP N=26 k=39
+N=26 k=40: 1040x1040 itercnt: 41600 coords=1081600
+PASS (kNxkN, kkN) test
+TOP N=26 k=40
+N=26 k=41: 1066x1066 itercnt: 43706 coords=1136356
+PASS (kNxkN, kkN) test
+TOP N=26 k=41
+N=26 k=42: 1092x1092 itercnt: 45864 coords=1192464
+PASS (kNxkN, kkN) test
+TOP N=26 k=42
+N=26 k=43: 1118x1118 itercnt: 48074 coords=1249924
+PASS (kNxkN, kkN) test
+TOP N=26 k=43
+N=26 k=44: 1144x1144 itercnt: 50336 coords=1308736
+PASS (kNxkN, kkN) test
+TOP N=26 k=44
+N=26 k=45: 1170x1170 itercnt: 52650 coords=1368900
+PASS (kNxkN, kkN) test
+TOP N=26 k=45
+N=26 k=46: 1196x1196 itercnt: 55016 coords=1430416
+PASS (kNxkN, kkN) test
+TOP N=26 k=46
+N=26 k=47: 1222x1222 itercnt: 57434 coords=1493284
+PASS (kNxkN, kkN) test
+TOP N=26 k=47
+N=26 k=48: 1248x1248 itercnt: 59904 coords=1557504
+PASS (kNxkN, kkN) test
+TOP N=26 k=48
+N=26 k=49: 1274x1274 itercnt: 62426 coords=1623076
+PASS (kNxkN, kkN) test
+TOP N=26 k=49
+N=26 k=50: 1300x1300 itercnt: 65000 coords=1690000
+PASS (kNxkN, kkN) test
+TOP N=26 k=50
+Generating square for N=27 k=50
+
+N=27 k=1: 9x9 itercnt: 3 coords=81
+FAIL (kNxkN, kkN) test N=27 k=1
+BOTTOM N=27 k=1
+N=27 k=2: 18x18 itercnt: 12 coords=324
+FAIL (kNxkN, kkN) test N=27 k=2
+TOP N=27 k=2
+N=27 k=3: 27x27 itercnt: 27 coords=729
+FAIL (kNxkN, kkN) test N=27 k=3
+BOTTOM N=27 k=3
+N=27 k=4: 36x36 itercnt: 48 coords=1296
+FAIL (kNxkN, kkN) test N=27 k=4
+TOP N=27 k=4
+N=27 k=5: 45x45 itercnt: 75 coords=2025
+FAIL (kNxkN, kkN) test N=27 k=5
+BOTTOM N=27 k=5
+N=27 k=6: 54x54 itercnt: 108 coords=2916
+FAIL (kNxkN, kkN) test N=27 k=6
+TOP N=27 k=6
+N=27 k=7: 63x63 itercnt: 147 coords=3969
+FAIL (kNxkN, kkN) test N=27 k=7
+BOTTOM N=27 k=7
+N=27 k=8: 72x72 itercnt: 192 coords=5184
+FAIL (kNxkN, kkN) test N=27 k=8
+TOP N=27 k=8
+N=27 k=9: 81x81 itercnt: 243 coords=6561
+FAIL (kNxkN, kkN) test N=27 k=9
+BOTTOM N=27 k=9
+N=27 k=10: 90x90 itercnt: 300 coords=8100
+FAIL (kNxkN, kkN) test N=27 k=10
+TOP N=27 k=10
+N=27 k=11: 99x99 itercnt: 363 coords=9801
+FAIL (kNxkN, kkN) test N=27 k=11
+BOTTOM N=27 k=11
+N=27 k=12: 108x108 itercnt: 432 coords=11664
+FAIL (kNxkN, kkN) test N=27 k=12
+TOP N=27 k=12
+N=27 k=13: 117x117 itercnt: 507 coords=13689
+FAIL (kNxkN, kkN) test N=27 k=13
+BOTTOM N=27 k=13
+N=27 k=14: 126x126 itercnt: 588 coords=15876
+FAIL (kNxkN, kkN) test N=27 k=14
+TOP N=27 k=14
+N=27 k=15: 135x135 itercnt: 675 coords=18225
+FAIL (kNxkN, kkN) test N=27 k=15
+BOTTOM N=27 k=15
+N=27 k=16: 144x144 itercnt: 768 coords=20736
+FAIL (kNxkN, kkN) test N=27 k=16
+TOP N=27 k=16
+N=27 k=17: 153x153 itercnt: 867 coords=23409
+FAIL (kNxkN, kkN) test N=27 k=17
+BOTTOM N=27 k=17
+N=27 k=18: 162x162 itercnt: 972 coords=26244
+FAIL (kNxkN, kkN) test N=27 k=18
+TOP N=27 k=18
+N=27 k=19: 171x171 itercnt: 1083 coords=29241
+FAIL (kNxkN, kkN) test N=27 k=19
+BOTTOM N=27 k=19
+N=27 k=20: 180x180 itercnt: 1200 coords=32400
+FAIL (kNxkN, kkN) test N=27 k=20
+TOP N=27 k=20
+N=27 k=21: 189x189 itercnt: 1323 coords=35721
+FAIL (kNxkN, kkN) test N=27 k=21
+BOTTOM N=27 k=21
+N=27 k=22: 198x198 itercnt: 1452 coords=39204
+FAIL (kNxkN, kkN) test N=27 k=22
+TOP N=27 k=22
+N=27 k=23: 207x207 itercnt: 1587 coords=42849
+FAIL (kNxkN, kkN) test N=27 k=23
+BOTTOM N=27 k=23
+N=27 k=24: 216x216 itercnt: 1728 coords=46656
+FAIL (kNxkN, kkN) test N=27 k=24
+TOP N=27 k=24
+N=27 k=25: 225x225 itercnt: 1875 coords=50625
+FAIL (kNxkN, kkN) test N=27 k=25
+BOTTOM N=27 k=25
+N=27 k=26: 234x234 itercnt: 2028 coords=54756
+FAIL (kNxkN, kkN) test N=27 k=26
+TOP N=27 k=26
+N=27 k=27: 243x243 itercnt: 2187 coords=59049
+FAIL (kNxkN, kkN) test N=27 k=27
+BOTTOM N=27 k=27
+N=27 k=28: 252x252 itercnt: 2352 coords=63504
+FAIL (kNxkN, kkN) test N=27 k=28
+TOP N=27 k=28
+N=27 k=29: 261x261 itercnt: 2523 coords=68121
+FAIL (kNxkN, kkN) test N=27 k=29
+BOTTOM N=27 k=29
+N=27 k=30: 270x270 itercnt: 2700 coords=72900
+FAIL (kNxkN, kkN) test N=27 k=30
+TOP N=27 k=30
+N=27 k=31: 279x279 itercnt: 2883 coords=77841
+FAIL (kNxkN, kkN) test N=27 k=31
+BOTTOM N=27 k=31
+N=27 k=32: 288x288 itercnt: 3072 coords=82944
+FAIL (kNxkN, kkN) test N=27 k=32
+TOP N=27 k=32
+N=27 k=33: 297x297 itercnt: 3267 coords=88209
+FAIL (kNxkN, kkN) test N=27 k=33
+BOTTOM N=27 k=33
+N=27 k=34: 306x306 itercnt: 3468 coords=93636
+FAIL (kNxkN, kkN) test N=27 k=34
+TOP N=27 k=34
+N=27 k=35: 315x315 itercnt: 3675 coords=99225
+FAIL (kNxkN, kkN) test N=27 k=35
+BOTTOM N=27 k=35
+N=27 k=36: 324x324 itercnt: 3888 coords=104976
+FAIL (kNxkN, kkN) test N=27 k=36
+TOP N=27 k=36
+N=27 k=37: 333x333 itercnt: 4107 coords=110889
+FAIL (kNxkN, kkN) test N=27 k=37
+BOTTOM N=27 k=37
+N=27 k=38: 342x342 itercnt: 4332 coords=116964
+FAIL (kNxkN, kkN) test N=27 k=38
+TOP N=27 k=38
+N=27 k=39: 351x351 itercnt: 4563 coords=123201
+FAIL (kNxkN, kkN) test N=27 k=39
+BOTTOM N=27 k=39
+N=27 k=40: 360x360 itercnt: 4800 coords=129600
+FAIL (kNxkN, kkN) test N=27 k=40
+TOP N=27 k=40
+N=27 k=41: 369x369 itercnt: 5043 coords=136161
+FAIL (kNxkN, kkN) test N=27 k=41
+BOTTOM N=27 k=41
+N=27 k=42: 378x378 itercnt: 5292 coords=142884
+FAIL (kNxkN, kkN) test N=27 k=42
+TOP N=27 k=42
+N=27 k=43: 387x387 itercnt: 5547 coords=149769
+FAIL (kNxkN, kkN) test N=27 k=43
+BOTTOM N=27 k=43
+N=27 k=44: 396x396 itercnt: 5808 coords=156816
+FAIL (kNxkN, kkN) test N=27 k=44
+TOP N=27 k=44
+N=27 k=45: 405x405 itercnt: 6075 coords=164025
+FAIL (kNxkN, kkN) test N=27 k=45
+BOTTOM N=27 k=45
+N=27 k=46: 414x414 itercnt: 6348 coords=171396
+FAIL (kNxkN, kkN) test N=27 k=46
+TOP N=27 k=46
+N=27 k=47: 423x423 itercnt: 6627 coords=178929
+FAIL (kNxkN, kkN) test N=27 k=47
+BOTTOM N=27 k=47
+N=27 k=48: 432x432 itercnt: 6912 coords=186624
+FAIL (kNxkN, kkN) test N=27 k=48
+TOP N=27 k=48
+N=27 k=49: 441x441 itercnt: 7203 coords=194481
+FAIL (kNxkN, kkN) test N=27 k=49
+BOTTOM N=27 k=49
+N=27 k=50: 450x450 itercnt: 7500 coords=202500
+FAIL (kNxkN, kkN) test N=27 k=50
+TOP N=27 k=50
+Generating square for N=28 k=50
+
+N=28 k=1: 14x14 itercnt: 7 coords=196
+FAIL (kNxkN, kkN) test N=28 k=1
+TOP N=28 k=1
+N=28 k=2: 28x28 itercnt: 28 coords=784
+FAIL (kNxkN, kkN) test N=28 k=2
+TOP N=28 k=2
+N=28 k=3: 42x42 itercnt: 63 coords=1764
+FAIL (kNxkN, kkN) test N=28 k=3
+TOP N=28 k=3
+N=28 k=4: 56x56 itercnt: 112 coords=3136
+FAIL (kNxkN, kkN) test N=28 k=4
+TOP N=28 k=4
+N=28 k=5: 70x70 itercnt: 175 coords=4900
+FAIL (kNxkN, kkN) test N=28 k=5
+TOP N=28 k=5
+N=28 k=6: 84x84 itercnt: 252 coords=7056
+FAIL (kNxkN, kkN) test N=28 k=6
+TOP N=28 k=6
+N=28 k=7: 98x98 itercnt: 343 coords=9604
+FAIL (kNxkN, kkN) test N=28 k=7
+TOP N=28 k=7
+N=28 k=8: 112x112 itercnt: 448 coords=12544
+FAIL (kNxkN, kkN) test N=28 k=8
+TOP N=28 k=8
+N=28 k=9: 126x126 itercnt: 567 coords=15876
+FAIL (kNxkN, kkN) test N=28 k=9
+TOP N=28 k=9
+N=28 k=10: 140x140 itercnt: 700 coords=19600
+FAIL (kNxkN, kkN) test N=28 k=10
+TOP N=28 k=10
+N=28 k=11: 154x154 itercnt: 847 coords=23716
+FAIL (kNxkN, kkN) test N=28 k=11
+TOP N=28 k=11
+N=28 k=12: 168x168 itercnt: 1008 coords=28224
+FAIL (kNxkN, kkN) test N=28 k=12
+TOP N=28 k=12
+N=28 k=13: 182x182 itercnt: 1183 coords=33124
+FAIL (kNxkN, kkN) test N=28 k=13
+TOP N=28 k=13
+N=28 k=14: 196x196 itercnt: 1372 coords=38416
+FAIL (kNxkN, kkN) test N=28 k=14
+TOP N=28 k=14
+N=28 k=15: 210x210 itercnt: 1575 coords=44100
+FAIL (kNxkN, kkN) test N=28 k=15
+TOP N=28 k=15
+N=28 k=16: 224x224 itercnt: 1792 coords=50176
+FAIL (kNxkN, kkN) test N=28 k=16
+TOP N=28 k=16
+N=28 k=17: 238x238 itercnt: 2023 coords=56644
+FAIL (kNxkN, kkN) test N=28 k=17
+TOP N=28 k=17
+N=28 k=18: 252x252 itercnt: 2268 coords=63504
+FAIL (kNxkN, kkN) test N=28 k=18
+TOP N=28 k=18
+N=28 k=19: 266x266 itercnt: 2527 coords=70756
+FAIL (kNxkN, kkN) test N=28 k=19
+TOP N=28 k=19
+N=28 k=20: 280x280 itercnt: 2800 coords=78400
+FAIL (kNxkN, kkN) test N=28 k=20
+TOP N=28 k=20
+N=28 k=21: 294x294 itercnt: 3087 coords=86436
+FAIL (kNxkN, kkN) test N=28 k=21
+TOP N=28 k=21
+N=28 k=22: 308x308 itercnt: 3388 coords=94864
+FAIL (kNxkN, kkN) test N=28 k=22
+TOP N=28 k=22
+N=28 k=23: 322x322 itercnt: 3703 coords=103684
+FAIL (kNxkN, kkN) test N=28 k=23
+TOP N=28 k=23
+N=28 k=24: 336x336 itercnt: 4032 coords=112896
+FAIL (kNxkN, kkN) test N=28 k=24
+TOP N=28 k=24
+N=28 k=25: 350x350 itercnt: 4375 coords=122500
+FAIL (kNxkN, kkN) test N=28 k=25
+TOP N=28 k=25
+N=28 k=26: 364x364 itercnt: 4732 coords=132496
+FAIL (kNxkN, kkN) test N=28 k=26
+TOP N=28 k=26
+N=28 k=27: 378x378 itercnt: 5103 coords=142884
+FAIL (kNxkN, kkN) test N=28 k=27
+TOP N=28 k=27
+N=28 k=28: 392x392 itercnt: 5488 coords=153664
+FAIL (kNxkN, kkN) test N=28 k=28
+TOP N=28 k=28
+N=28 k=29: 406x406 itercnt: 5887 coords=164836
+FAIL (kNxkN, kkN) test N=28 k=29
+TOP N=28 k=29
+N=28 k=30: 420x420 itercnt: 6300 coords=176400
+FAIL (kNxkN, kkN) test N=28 k=30
+TOP N=28 k=30
+N=28 k=31: 434x434 itercnt: 6727 coords=188356
+FAIL (kNxkN, kkN) test N=28 k=31
+TOP N=28 k=31
+N=28 k=32: 448x448 itercnt: 7168 coords=200704
+FAIL (kNxkN, kkN) test N=28 k=32
+TOP N=28 k=32
+N=28 k=33: 462x462 itercnt: 7623 coords=213444
+FAIL (kNxkN, kkN) test N=28 k=33
+TOP N=28 k=33
+N=28 k=34: 476x476 itercnt: 8092 coords=226576
+FAIL (kNxkN, kkN) test N=28 k=34
+TOP N=28 k=34
+N=28 k=35: 490x490 itercnt: 8575 coords=240100
+FAIL (kNxkN, kkN) test N=28 k=35
+TOP N=28 k=35
+N=28 k=36: 504x504 itercnt: 9072 coords=254016
+FAIL (kNxkN, kkN) test N=28 k=36
+TOP N=28 k=36
+N=28 k=37: 518x518 itercnt: 9583 coords=268324
+FAIL (kNxkN, kkN) test N=28 k=37
+TOP N=28 k=37
+N=28 k=38: 532x532 itercnt: 10108 coords=283024
+FAIL (kNxkN, kkN) test N=28 k=38
+TOP N=28 k=38
+N=28 k=39: 546x546 itercnt: 10647 coords=298116
+FAIL (kNxkN, kkN) test N=28 k=39
+TOP N=28 k=39
+N=28 k=40: 560x560 itercnt: 11200 coords=313600
+FAIL (kNxkN, kkN) test N=28 k=40
+TOP N=28 k=40
+N=28 k=41: 574x574 itercnt: 11767 coords=329476
+FAIL (kNxkN, kkN) test N=28 k=41
+TOP N=28 k=41
+N=28 k=42: 588x588 itercnt: 12348 coords=345744
+FAIL (kNxkN, kkN) test N=28 k=42
+TOP N=28 k=42
+N=28 k=43: 602x602 itercnt: 12943 coords=362404
+FAIL (kNxkN, kkN) test N=28 k=43
+TOP N=28 k=43
+N=28 k=44: 616x616 itercnt: 13552 coords=379456
+FAIL (kNxkN, kkN) test N=28 k=44
+TOP N=28 k=44
+N=28 k=45: 630x630 itercnt: 14175 coords=396900
+FAIL (kNxkN, kkN) test N=28 k=45
+TOP N=28 k=45
+N=28 k=46: 644x644 itercnt: 14812 coords=414736
+FAIL (kNxkN, kkN) test N=28 k=46
+TOP N=28 k=46
+N=28 k=47: 658x658 itercnt: 15463 coords=432964
+FAIL (kNxkN, kkN) test N=28 k=47
+TOP N=28 k=47
+N=28 k=48: 672x672 itercnt: 16128 coords=451584
+FAIL (kNxkN, kkN) test N=28 k=48
+TOP N=28 k=48
+N=28 k=49: 686x686 itercnt: 16807 coords=470596
+FAIL (kNxkN, kkN) test N=28 k=49
+TOP N=28 k=49
+N=28 k=50: 700x700 itercnt: 17500 coords=490000
+FAIL (kNxkN, kkN) test N=28 k=50
+TOP N=28 k=50
+Generating square for N=29 k=50
+
+N=29 k=1: 29x29 itercnt: 29 coords=841
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=1
+N=29 k=2: 58x58 itercnt: 116 coords=3364
+PASS (kNxkN, kkN) test
+TOP N=29 k=2
+N=29 k=3: 87x87 itercnt: 261 coords=7569
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=3
+N=29 k=4: 116x116 itercnt: 464 coords=13456
+PASS (kNxkN, kkN) test
+TOP N=29 k=4
+N=29 k=5: 145x145 itercnt: 725 coords=21025
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=5
+N=29 k=6: 174x174 itercnt: 1044 coords=30276
+PASS (kNxkN, kkN) test
+TOP N=29 k=6
+N=29 k=7: 203x203 itercnt: 1421 coords=41209
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=7
+N=29 k=8: 232x232 itercnt: 1856 coords=53824
+PASS (kNxkN, kkN) test
+TOP N=29 k=8
+N=29 k=9: 261x261 itercnt: 2349 coords=68121
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=9
+N=29 k=10: 290x290 itercnt: 2900 coords=84100
+PASS (kNxkN, kkN) test
+TOP N=29 k=10
+N=29 k=11: 319x319 itercnt: 3509 coords=101761
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=11
+N=29 k=12: 348x348 itercnt: 4176 coords=121104
+PASS (kNxkN, kkN) test
+TOP N=29 k=12
+N=29 k=13: 377x377 itercnt: 4901 coords=142129
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=13
+N=29 k=14: 406x406 itercnt: 5684 coords=164836
+PASS (kNxkN, kkN) test
+TOP N=29 k=14
+N=29 k=15: 435x435 itercnt: 6525 coords=189225
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=15
+N=29 k=16: 464x464 itercnt: 7424 coords=215296
+PASS (kNxkN, kkN) test
+TOP N=29 k=16
+N=29 k=17: 493x493 itercnt: 8381 coords=243049
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=17
+N=29 k=18: 522x522 itercnt: 9396 coords=272484
+PASS (kNxkN, kkN) test
+TOP N=29 k=18
+N=29 k=19: 551x551 itercnt: 10469 coords=303601
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=19
+N=29 k=20: 580x580 itercnt: 11600 coords=336400
+PASS (kNxkN, kkN) test
+TOP N=29 k=20
+N=29 k=21: 609x609 itercnt: 12789 coords=370881
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=21
+N=29 k=22: 638x638 itercnt: 14036 coords=407044
+PASS (kNxkN, kkN) test
+TOP N=29 k=22
+N=29 k=23: 667x667 itercnt: 15341 coords=444889
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=23
+N=29 k=24: 696x696 itercnt: 16704 coords=484416
+PASS (kNxkN, kkN) test
+TOP N=29 k=24
+N=29 k=25: 725x725 itercnt: 18125 coords=525625
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=25
+N=29 k=26: 754x754 itercnt: 19604 coords=568516
+PASS (kNxkN, kkN) test
+TOP N=29 k=26
+N=29 k=27: 783x783 itercnt: 21141 coords=613089
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=27
+N=29 k=28: 812x812 itercnt: 22736 coords=659344
+PASS (kNxkN, kkN) test
+TOP N=29 k=28
+N=29 k=29: 841x841 itercnt: 24389 coords=707281
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=29
+N=29 k=30: 870x870 itercnt: 26100 coords=756900
+PASS (kNxkN, kkN) test
+TOP N=29 k=30
+N=29 k=31: 899x899 itercnt: 27869 coords=808201
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=31
+N=29 k=32: 928x928 itercnt: 29696 coords=861184
+PASS (kNxkN, kkN) test
+TOP N=29 k=32
+N=29 k=33: 957x957 itercnt: 31581 coords=915849
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=33
+N=29 k=34: 986x986 itercnt: 33524 coords=972196
+PASS (kNxkN, kkN) test
+TOP N=29 k=34
+N=29 k=35: 1015x1015 itercnt: 35525 coords=1030225
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=35
+N=29 k=36: 1044x1044 itercnt: 37584 coords=1089936
+PASS (kNxkN, kkN) test
+TOP N=29 k=36
+N=29 k=37: 1073x1073 itercnt: 39701 coords=1151329
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=37
+N=29 k=38: 1102x1102 itercnt: 41876 coords=1214404
+PASS (kNxkN, kkN) test
+TOP N=29 k=38
+N=29 k=39: 1131x1131 itercnt: 44109 coords=1279161
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=39
+N=29 k=40: 1160x1160 itercnt: 46400 coords=1345600
+PASS (kNxkN, kkN) test
+TOP N=29 k=40
+N=29 k=41: 1189x1189 itercnt: 48749 coords=1413721
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=41
+N=29 k=42: 1218x1218 itercnt: 51156 coords=1483524
+PASS (kNxkN, kkN) test
+TOP N=29 k=42
+N=29 k=43: 1247x1247 itercnt: 53621 coords=1555009
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=43
+N=29 k=44: 1276x1276 itercnt: 56144 coords=1628176
+PASS (kNxkN, kkN) test
+TOP N=29 k=44
+N=29 k=45: 1305x1305 itercnt: 58725 coords=1703025
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=45
+N=29 k=46: 1334x1334 itercnt: 61364 coords=1779556
+PASS (kNxkN, kkN) test
+TOP N=29 k=46
+N=29 k=47: 1363x1363 itercnt: 64061 coords=1857769
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=47
+N=29 k=48: 1392x1392 itercnt: 66816 coords=1937664
+PASS (kNxkN, kkN) test
+TOP N=29 k=48
+N=29 k=49: 1421x1421 itercnt: 69629 coords=2019241
+PASS (kNxkN, kkN) test
+BOTTOM N=29 k=49
+N=29 k=50: 1450x1450 itercnt: 72500 coords=2102500
+PASS (kNxkN, kkN) test
+TOP N=29 k=50
+Generating square for N=30 k=50
+
+N=30 k=1: 30x30 itercnt: 30 coords=900
+PASS (kNxkN, kkN) test
+TOP N=30 k=1
+N=30 k=2: 60x60 itercnt: 120 coords=3600
+PASS (kNxkN, kkN) test
+TOP N=30 k=2
+N=30 k=3: 90x90 itercnt: 270 coords=8100
+PASS (kNxkN, kkN) test
+TOP N=30 k=3
+N=30 k=4: 120x120 itercnt: 480 coords=14400
+PASS (kNxkN, kkN) test
+TOP N=30 k=4
+N=30 k=5: 150x150 itercnt: 750 coords=22500
+PASS (kNxkN, kkN) test
+TOP N=30 k=5
+N=30 k=6: 180x180 itercnt: 1080 coords=32400
+PASS (kNxkN, kkN) test
+TOP N=30 k=6
+N=30 k=7: 210x210 itercnt: 1470 coords=44100
+PASS (kNxkN, kkN) test
+TOP N=30 k=7
+N=30 k=8: 240x240 itercnt: 1920 coords=57600
+PASS (kNxkN, kkN) test
+TOP N=30 k=8
+N=30 k=9: 270x270 itercnt: 2430 coords=72900
+PASS (kNxkN, kkN) test
+TOP N=30 k=9
+N=30 k=10: 300x300 itercnt: 3000 coords=90000
+PASS (kNxkN, kkN) test
+TOP N=30 k=10
+N=30 k=11: 330x330 itercnt: 3630 coords=108900
+PASS (kNxkN, kkN) test
+TOP N=30 k=11
+N=30 k=12: 360x360 itercnt: 4320 coords=129600
+PASS (kNxkN, kkN) test
+TOP N=30 k=12
+N=30 k=13: 390x390 itercnt: 5070 coords=152100
+PASS (kNxkN, kkN) test
+TOP N=30 k=13
+N=30 k=14: 420x420 itercnt: 5880 coords=176400
+PASS (kNxkN, kkN) test
+TOP N=30 k=14
+N=30 k=15: 450x450 itercnt: 6750 coords=202500
+PASS (kNxkN, kkN) test
+TOP N=30 k=15
+N=30 k=16: 480x480 itercnt: 7680 coords=230400
+PASS (kNxkN, kkN) test
+TOP N=30 k=16
+N=30 k=17: 510x510 itercnt: 8670 coords=260100
+PASS (kNxkN, kkN) test
+TOP N=30 k=17
+N=30 k=18: 540x540 itercnt: 9720 coords=291600
+PASS (kNxkN, kkN) test
+TOP N=30 k=18
+N=30 k=19: 570x570 itercnt: 10830 coords=324900
+PASS (kNxkN, kkN) test
+TOP N=30 k=19
+N=30 k=20: 600x600 itercnt: 12000 coords=360000
+PASS (kNxkN, kkN) test
+TOP N=30 k=20
+N=30 k=21: 630x630 itercnt: 13230 coords=396900
+PASS (kNxkN, kkN) test
+TOP N=30 k=21
+N=30 k=22: 660x660 itercnt: 14520 coords=435600
+PASS (kNxkN, kkN) test
+TOP N=30 k=22
+N=30 k=23: 690x690 itercnt: 15870 coords=476100
+PASS (kNxkN, kkN) test
+TOP N=30 k=23
+N=30 k=24: 720x720 itercnt: 17280 coords=518400
+PASS (kNxkN, kkN) test
+TOP N=30 k=24
+N=30 k=25: 750x750 itercnt: 18750 coords=562500
+PASS (kNxkN, kkN) test
+TOP N=30 k=25
+N=30 k=26: 780x780 itercnt: 20280 coords=608400
+PASS (kNxkN, kkN) test
+TOP N=30 k=26
+N=30 k=27: 810x810 itercnt: 21870 coords=656100
+PASS (kNxkN, kkN) test
+TOP N=30 k=27
+N=30 k=28: 840x840 itercnt: 23520 coords=705600
+PASS (kNxkN, kkN) test
+TOP N=30 k=28
+N=30 k=29: 870x870 itercnt: 25230 coords=756900
+PASS (kNxkN, kkN) test
+TOP N=30 k=29
+N=30 k=30: 900x900 itercnt: 27000 coords=810000
+PASS (kNxkN, kkN) test
+TOP N=30 k=30
+N=30 k=31: 930x930 itercnt: 28830 coords=864900
+PASS (kNxkN, kkN) test
+TOP N=30 k=31
+N=30 k=32: 960x960 itercnt: 30720 coords=921600
+PASS (kNxkN, kkN) test
+TOP N=30 k=32
+N=30 k=33: 990x990 itercnt: 32670 coords=980100
+PASS (kNxkN, kkN) test
+TOP N=30 k=33
+N=30 k=34: 1020x1020 itercnt: 34680 coords=1040400
+PASS (kNxkN, kkN) test
+TOP N=30 k=34
+N=30 k=35: 1050x1050 itercnt: 36750 coords=1102500
+PASS (kNxkN, kkN) test
+TOP N=30 k=35
+N=30 k=36: 1080x1080 itercnt: 38880 coords=1166400
+PASS (kNxkN, kkN) test
+TOP N=30 k=36
+N=30 k=37: 1110x1110 itercnt: 41070 coords=1232100
+PASS (kNxkN, kkN) test
+TOP N=30 k=37
+N=30 k=38: 1140x1140 itercnt: 43320 coords=1299600
+PASS (kNxkN, kkN) test
+TOP N=30 k=38
+N=30 k=39: 1170x1170 itercnt: 45630 coords=1368900
+PASS (kNxkN, kkN) test
+TOP N=30 k=39
+N=30 k=40: 1200x1200 itercnt: 48000 coords=1440000
+PASS (kNxkN, kkN) test
+TOP N=30 k=40
+N=30 k=41: 1230x1230 itercnt: 50430 coords=1512900
+PASS (kNxkN, kkN) test
+TOP N=30 k=41
+N=30 k=42: 1260x1260 itercnt: 52920 coords=1587600
+PASS (kNxkN, kkN) test
+TOP N=30 k=42
+N=30 k=43: 1290x1290 itercnt: 55470 coords=1664100
+PASS (kNxkN, kkN) test
+TOP N=30 k=43
+N=30 k=44: 1320x1320 itercnt: 58080 coords=1742400
+PASS (kNxkN, kkN) test
+TOP N=30 k=44
+N=30 k=45: 1350x1350 itercnt: 60750 coords=1822500
+PASS (kNxkN, kkN) test
+TOP N=30 k=45
+N=30 k=46: 1380x1380 itercnt: 63480 coords=1904400
+PASS (kNxkN, kkN) test
+TOP N=30 k=46
+N=30 k=47: 1410x1410 itercnt: 66270 coords=1988100
+PASS (kNxkN, kkN) test
+TOP N=30 k=47
+N=30 k=48: 1440x1440 itercnt: 69120 coords=2073600
+PASS (kNxkN, kkN) test
+TOP N=30 k=48
+N=30 k=49: 1470x1470 itercnt: 72030 coords=2160900
+PASS (kNxkN, kkN) test
+TOP N=30 k=49
+N=30 k=50: 1500x1500 itercnt: 75000 coords=2250000
+PASS (kNxkN, kkN) test
+TOP N=30 k=50
+Generating square for N=31 k=50
+
+N=31 k=1: 31x31 itercnt: 31 coords=961
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=1
+N=31 k=2: 62x62 itercnt: 124 coords=3844
+PASS (kNxkN, kkN) test
+TOP N=31 k=2
+N=31 k=3: 93x93 itercnt: 279 coords=8649
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=3
+N=31 k=4: 124x124 itercnt: 496 coords=15376
+PASS (kNxkN, kkN) test
+TOP N=31 k=4
+N=31 k=5: 155x155 itercnt: 775 coords=24025
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=5
+N=31 k=6: 186x186 itercnt: 1116 coords=34596
+PASS (kNxkN, kkN) test
+TOP N=31 k=6
+N=31 k=7: 217x217 itercnt: 1519 coords=47089
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=7
+N=31 k=8: 248x248 itercnt: 1984 coords=61504
+PASS (kNxkN, kkN) test
+TOP N=31 k=8
+N=31 k=9: 279x279 itercnt: 2511 coords=77841
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=9
+N=31 k=10: 310x310 itercnt: 3100 coords=96100
+PASS (kNxkN, kkN) test
+TOP N=31 k=10
+N=31 k=11: 341x341 itercnt: 3751 coords=116281
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=11
+N=31 k=12: 372x372 itercnt: 4464 coords=138384
+PASS (kNxkN, kkN) test
+TOP N=31 k=12
+N=31 k=13: 403x403 itercnt: 5239 coords=162409
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=13
+N=31 k=14: 434x434 itercnt: 6076 coords=188356
+PASS (kNxkN, kkN) test
+TOP N=31 k=14
+N=31 k=15: 465x465 itercnt: 6975 coords=216225
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=15
+N=31 k=16: 496x496 itercnt: 7936 coords=246016
+PASS (kNxkN, kkN) test
+TOP N=31 k=16
+N=31 k=17: 527x527 itercnt: 8959 coords=277729
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=17
+N=31 k=18: 558x558 itercnt: 10044 coords=311364
+PASS (kNxkN, kkN) test
+TOP N=31 k=18
+N=31 k=19: 589x589 itercnt: 11191 coords=346921
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=19
+N=31 k=20: 620x620 itercnt: 12400 coords=384400
+PASS (kNxkN, kkN) test
+TOP N=31 k=20
+N=31 k=21: 651x651 itercnt: 13671 coords=423801
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=21
+N=31 k=22: 682x682 itercnt: 15004 coords=465124
+PASS (kNxkN, kkN) test
+TOP N=31 k=22
+N=31 k=23: 713x713 itercnt: 16399 coords=508369
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=23
+N=31 k=24: 744x744 itercnt: 17856 coords=553536
+PASS (kNxkN, kkN) test
+TOP N=31 k=24
+N=31 k=25: 775x775 itercnt: 19375 coords=600625
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=25
+N=31 k=26: 806x806 itercnt: 20956 coords=649636
+PASS (kNxkN, kkN) test
+TOP N=31 k=26
+N=31 k=27: 837x837 itercnt: 22599 coords=700569
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=27
+N=31 k=28: 868x868 itercnt: 24304 coords=753424
+PASS (kNxkN, kkN) test
+TOP N=31 k=28
+N=31 k=29: 899x899 itercnt: 26071 coords=808201
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=29
+N=31 k=30: 930x930 itercnt: 27900 coords=864900
+PASS (kNxkN, kkN) test
+TOP N=31 k=30
+N=31 k=31: 961x961 itercnt: 29791 coords=923521
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=31
+N=31 k=32: 992x992 itercnt: 31744 coords=984064
+PASS (kNxkN, kkN) test
+TOP N=31 k=32
+N=31 k=33: 1023x1023 itercnt: 33759 coords=1046529
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=33
+N=31 k=34: 1054x1054 itercnt: 35836 coords=1110916
+PASS (kNxkN, kkN) test
+TOP N=31 k=34
+N=31 k=35: 1085x1085 itercnt: 37975 coords=1177225
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=35
+N=31 k=36: 1116x1116 itercnt: 40176 coords=1245456
+PASS (kNxkN, kkN) test
+TOP N=31 k=36
+N=31 k=37: 1147x1147 itercnt: 42439 coords=1315609
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=37
+N=31 k=38: 1178x1178 itercnt: 44764 coords=1387684
+PASS (kNxkN, kkN) test
+TOP N=31 k=38
+N=31 k=39: 1209x1209 itercnt: 47151 coords=1461681
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=39
+N=31 k=40: 1240x1240 itercnt: 49600 coords=1537600
+PASS (kNxkN, kkN) test
+TOP N=31 k=40
+N=31 k=41: 1271x1271 itercnt: 52111 coords=1615441
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=41
+N=31 k=42: 1302x1302 itercnt: 54684 coords=1695204
+PASS (kNxkN, kkN) test
+TOP N=31 k=42
+N=31 k=43: 1333x1333 itercnt: 57319 coords=1776889
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=43
+N=31 k=44: 1364x1364 itercnt: 60016 coords=1860496
+PASS (kNxkN, kkN) test
+TOP N=31 k=44
+N=31 k=45: 1395x1395 itercnt: 62775 coords=1946025
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=45
+N=31 k=46: 1426x1426 itercnt: 65596 coords=2033476
+PASS (kNxkN, kkN) test
+TOP N=31 k=46
+N=31 k=47: 1457x1457 itercnt: 68479 coords=2122849
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=47
+N=31 k=48: 1488x1488 itercnt: 71424 coords=2214144
+PASS (kNxkN, kkN) test
+TOP N=31 k=48
+N=31 k=49: 1519x1519 itercnt: 74431 coords=2307361
+PASS (kNxkN, kkN) test
+BOTTOM N=31 k=49
