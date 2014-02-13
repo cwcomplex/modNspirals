@@ -15,4 +15,8 @@ Conj. Given N >= 2 in |N and k => 1 in |N, the k-th square will have
     
 Conj. For some values of N, k*N-by-k*N, k*k*N is exact.
 
- 
+Conj. For 4|N, the above is not exact.  
+
+Conj. All odd squares flip flop corners they end on for values of k
+
+supported with run.log output
