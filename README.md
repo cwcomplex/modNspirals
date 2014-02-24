@@ -19,10 +19,11 @@ Conj. For 4|N, the above is not exact.
 
 Conj. For 4|N case, we have some that follow (kN)/2-by-(kN)/2 and 
       iterations being a*k^2 where a = N/4. So, N=20,k=3 -> (30x30, 45)
-      *Tested for N=4,8,20,24,28
+      *Tests imply works for N=4,8,20,24,28
      
 Conj. The above 4|N case fails for N=16, which follows (kN)/4-by-(kN)/4
       and k^2 iterations.
+      *test runs imply valid
 
 Conj. All odd squares flip flop corners they end on for values of k
 
