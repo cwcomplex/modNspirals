@@ -154,7 +154,7 @@ def main():
   if len(sys.argv) == 2 and sys.argv[1] == '-i':
     genIm = True
 
-  N_MAX=64
+  N_MAX=128
   k_MAX=5
   for N in range(2, N_MAX+1):
     for k in range(1,k_MAX+1):
@@ -170,7 +170,10 @@ def main():
       elif gend[N,k][0] == 0.5*k*N and gend[N,k][1] == 0.25*k*k*N:
         type = "((1/2)kN, (1/4)kkN)"
       else:
-        type = "No Match"
+        if gend[N,k][0] < k*N and gend[N,k][1] < k*k*N:
+          type = "No Match bounded"
+        else:
+          type = "No Match broke bounds"
 
       print "[%d, %d]: (%d, %d) ~~ %s" % (N, k, gend[N,k][0], gend[N,k][1], type)
       

@@ -78,11 +78,11 @@
 [17, 3]: (51, 153) ~~ (kN, kkN)
 [17, 4]: (68, 272) ~~ (kN, kkN)
 [17, 5]: (85, 425) ~~ (kN, kkN)
-[18, 1]: (6, 2) ~~ No Match
-[18, 2]: (12, 8) ~~ No Match
-[18, 3]: (18, 18) ~~ No Match
-[18, 4]: (24, 32) ~~ No Match
-[18, 5]: (30, 50) ~~ No Match
+[18, 1]: (6, 2) ~~ No Match bounded
+[18, 2]: (12, 8) ~~ No Match bounded
+[18, 3]: (18, 18) ~~ No Match bounded
+[18, 4]: (24, 32) ~~ No Match bounded
+[18, 5]: (30, 50) ~~ No Match bounded
 [19, 1]: (19, 19) ~~ (kN, kkN)
 [19, 2]: (38, 76) ~~ (kN, kkN)
 [19, 3]: (57, 171) ~~ (kN, kkN)
@@ -123,11 +123,11 @@
 [26, 3]: (78, 234) ~~ (kN, kkN)
 [26, 4]: (104, 416) ~~ (kN, kkN)
 [26, 5]: (130, 650) ~~ (kN, kkN)
-[27, 1]: (9, 3) ~~ No Match
-[27, 2]: (18, 12) ~~ No Match
-[27, 3]: (27, 27) ~~ No Match
-[27, 4]: (36, 48) ~~ No Match
-[27, 5]: (45, 75) ~~ No Match
+[27, 1]: (9, 3) ~~ No Match bounded
+[27, 2]: (18, 12) ~~ No Match bounded
+[27, 3]: (27, 27) ~~ No Match bounded
+[27, 4]: (36, 48) ~~ No Match bounded
+[27, 5]: (45, 75) ~~ No Match bounded
 [28, 1]: (14, 7) ~~ ((1/2)kN, (1/4)kkN)
 [28, 2]: (28, 28) ~~ ((1/2)kN, (1/4)kkN)
 [28, 3]: (42, 63) ~~ ((1/2)kN, (1/4)kkN)
@@ -148,11 +148,11 @@
 [31, 3]: (93, 279) ~~ (kN, kkN)
 [31, 4]: (124, 496) ~~ (kN, kkN)
 [31, 5]: (155, 775) ~~ (kN, kkN)
-[32, 1]: (8, 2) ~~ No Match
-[32, 2]: (16, 8) ~~ No Match
-[32, 3]: (24, 18) ~~ No Match
-[32, 4]: (32, 32) ~~ No Match
-[32, 5]: (40, 50) ~~ No Match
+[32, 1]: (8, 2) ~~ No Match bounded
+[32, 2]: (16, 8) ~~ No Match bounded
+[32, 3]: (24, 18) ~~ No Match bounded
+[32, 4]: (32, 32) ~~ No Match bounded
+[32, 5]: (40, 50) ~~ No Match bounded
 [33, 1]: (33, 33) ~~ (kN, kkN)
 [33, 2]: (66, 132) ~~ (kN, kkN)
 [33, 3]: (99, 297) ~~ (kN, kkN)
@@ -213,11 +213,11 @@
 [44, 3]: (66, 99) ~~ ((1/2)kN, (1/4)kkN)
 [44, 4]: (88, 176) ~~ ((1/2)kN, (1/4)kkN)
 [44, 5]: (110, 275) ~~ ((1/2)kN, (1/4)kkN)
-[45, 1]: (15, 5) ~~ No Match
-[45, 2]: (30, 20) ~~ No Match
-[45, 3]: (45, 45) ~~ No Match
-[45, 4]: (60, 80) ~~ No Match
-[45, 5]: (75, 125) ~~ No Match
+[45, 1]: (15, 5) ~~ No Match bounded
+[45, 2]: (30, 20) ~~ No Match bounded
+[45, 3]: (45, 45) ~~ No Match bounded
+[45, 4]: (60, 80) ~~ No Match bounded
+[45, 5]: (75, 125) ~~ No Match bounded
 [46, 1]: (46, 46) ~~ (kN, kkN)
 [46, 2]: (92, 184) ~~ (kN, kkN)
 [46, 3]: (138, 414) ~~ (kN, kkN)
@@ -228,21 +228,21 @@
 [47, 3]: (141, 423) ~~ (kN, kkN)
 [47, 4]: (188, 752) ~~ (kN, kkN)
 [47, 5]: (235, 1175) ~~ (kN, kkN)
-[48, 1]: (12, 3) ~~ No Match
-[48, 2]: (24, 12) ~~ No Match
-[48, 3]: (36, 27) ~~ No Match
-[48, 4]: (48, 48) ~~ No Match
-[48, 5]: (60, 75) ~~ No Match
+[48, 1]: (12, 3) ~~ No Match bounded
+[48, 2]: (24, 12) ~~ No Match bounded
+[48, 3]: (36, 27) ~~ No Match bounded
+[48, 4]: (48, 48) ~~ No Match bounded
+[48, 5]: (60, 75) ~~ No Match bounded
 [49, 1]: (7, 1) ~~ (sqrt(N)k, kk)
 [49, 2]: (14, 4) ~~ (sqrt(N)k, kk)
 [49, 3]: (21, 9) ~~ (sqrt(N)k, kk)
 [49, 4]: (28, 16) ~~ (sqrt(N)k, kk)
 [49, 5]: (35, 25) ~~ (sqrt(N)k, kk)
-[50, 1]: (10, 2) ~~ No Match
-[50, 2]: (20, 8) ~~ No Match
-[50, 3]: (30, 18) ~~ No Match
-[50, 4]: (40, 32) ~~ No Match
-[50, 5]: (50, 50) ~~ No Match
+[50, 1]: (10, 2) ~~ No Match bounded
+[50, 2]: (20, 8) ~~ No Match bounded
+[50, 3]: (30, 18) ~~ No Match bounded
+[50, 4]: (40, 32) ~~ No Match bounded
+[50, 5]: (50, 50) ~~ No Match bounded
 [51, 1]: (51, 51) ~~ (kN, kkN)
 [51, 2]: (102, 204) ~~ (kN, kkN)
 [51, 3]: (153, 459) ~~ (kN, kkN)
@@ -258,11 +258,11 @@
 [53, 3]: (159, 477) ~~ (kN, kkN)
 [53, 4]: (212, 848) ~~ (kN, kkN)
 [53, 5]: (265, 1325) ~~ (kN, kkN)
-[54, 1]: (18, 6) ~~ No Match
-[54, 2]: (36, 24) ~~ No Match
-[54, 3]: (54, 54) ~~ No Match
-[54, 4]: (72, 96) ~~ No Match
-[54, 5]: (90, 150) ~~ No Match
+[54, 1]: (18, 6) ~~ No Match bounded
+[54, 2]: (36, 24) ~~ No Match bounded
+[54, 3]: (54, 54) ~~ No Match bounded
+[54, 4]: (72, 96) ~~ No Match bounded
+[54, 5]: (90, 150) ~~ No Match bounded
 [55, 1]: (55, 55) ~~ (kN, kkN)
 [55, 2]: (110, 220) ~~ (kN, kkN)
 [55, 3]: (165, 495) ~~ (kN, kkN)
@@ -303,11 +303,11 @@
 [62, 3]: (186, 558) ~~ (kN, kkN)
 [62, 4]: (248, 992) ~~ (kN, kkN)
 [62, 5]: (310, 1550) ~~ (kN, kkN)
-[63, 1]: (21, 7) ~~ No Match
-[63, 2]: (42, 28) ~~ No Match
-[63, 3]: (63, 63) ~~ No Match
-[63, 4]: (84, 112) ~~ No Match
-[63, 5]: (105, 175) ~~ No Match
+[63, 1]: (21, 7) ~~ No Match bounded
+[63, 2]: (42, 28) ~~ No Match bounded
+[63, 3]: (63, 63) ~~ No Match bounded
+[63, 4]: (84, 112) ~~ No Match bounded
+[63, 5]: (105, 175) ~~ No Match bounded
 [64, 1]: (8, 1) ~~ (sqrt(N)k, kk)
 [64, 2]: (16, 4) ~~ (sqrt(N)k, kk)
 [64, 3]: (24, 9) ~~ (sqrt(N)k, kk)
@@ -348,11 +348,11 @@
 [71, 3]: (213, 639) ~~ (kN, kkN)
 [71, 4]: (284, 1136) ~~ (kN, kkN)
 [71, 5]: (355, 1775) ~~ (kN, kkN)
-[72, 1]: (12, 2) ~~ No Match
-[72, 2]: (24, 8) ~~ No Match
-[72, 3]: (36, 18) ~~ No Match
-[72, 4]: (48, 32) ~~ No Match
-[72, 5]: (60, 50) ~~ No Match
+[72, 1]: (12, 2) ~~ No Match bounded
+[72, 2]: (24, 8) ~~ No Match bounded
+[72, 3]: (36, 18) ~~ No Match bounded
+[72, 4]: (48, 32) ~~ No Match bounded
+[72, 5]: (60, 50) ~~ No Match bounded
 [73, 1]: (73, 73) ~~ (kN, kkN)
 [73, 2]: (146, 292) ~~ (kN, kkN)
 [73, 3]: (219, 657) ~~ (kN, kkN)
@@ -363,11 +363,11 @@
 [74, 3]: (222, 666) ~~ (kN, kkN)
 [74, 4]: (296, 1184) ~~ (kN, kkN)
 [74, 5]: (370, 1850) ~~ (kN, kkN)
-[75, 1]: (15, 3) ~~ No Match
-[75, 2]: (30, 12) ~~ No Match
-[75, 3]: (45, 27) ~~ No Match
-[75, 4]: (60, 48) ~~ No Match
-[75, 5]: (75, 75) ~~ No Match
+[75, 1]: (15, 3) ~~ No Match bounded
+[75, 2]: (30, 12) ~~ No Match bounded
+[75, 3]: (45, 27) ~~ No Match bounded
+[75, 4]: (60, 48) ~~ No Match bounded
+[75, 5]: (75, 75) ~~ No Match bounded
 [76, 1]: (38, 19) ~~ ((1/2)kN, (1/4)kkN)
 [76, 2]: (76, 76) ~~ ((1/2)kN, (1/4)kkN)
 [76, 3]: (114, 171) ~~ ((1/2)kN, (1/4)kkN)
@@ -388,11 +388,11 @@
 [79, 3]: (237, 711) ~~ (kN, kkN)
 [79, 4]: (316, 1264) ~~ (kN, kkN)
 [79, 5]: (395, 1975) ~~ (kN, kkN)
-[80, 1]: (20, 5) ~~ No Match
-[80, 2]: (40, 20) ~~ No Match
-[80, 3]: (60, 45) ~~ No Match
-[80, 4]: (80, 80) ~~ No Match
-[80, 5]: (100, 125) ~~ No Match
+[80, 1]: (20, 5) ~~ No Match bounded
+[80, 2]: (40, 20) ~~ No Match bounded
+[80, 3]: (60, 45) ~~ No Match bounded
+[80, 4]: (80, 80) ~~ No Match bounded
+[80, 5]: (100, 125) ~~ No Match bounded
 [81, 1]: (9, 1) ~~ (sqrt(N)k, kk)
 [81, 2]: (18, 4) ~~ (sqrt(N)k, kk)
 [81, 3]: (27, 9) ~~ (sqrt(N)k, kk)
@@ -438,11 +438,11 @@
 [89, 3]: (267, 801) ~~ (kN, kkN)
 [89, 4]: (356, 1424) ~~ (kN, kkN)
 [89, 5]: (445, 2225) ~~ (kN, kkN)
-[90, 1]: (30, 10) ~~ No Match
-[90, 2]: (60, 40) ~~ No Match
-[90, 3]: (90, 90) ~~ No Match
-[90, 4]: (120, 160) ~~ No Match
-[90, 5]: (150, 250) ~~ No Match
+[90, 1]: (30, 10) ~~ No Match bounded
+[90, 2]: (60, 40) ~~ No Match bounded
+[90, 3]: (90, 90) ~~ No Match bounded
+[90, 4]: (120, 160) ~~ No Match bounded
+[90, 5]: (150, 250) ~~ No Match bounded
 [91, 1]: (91, 91) ~~ (kN, kkN)
 [91, 2]: (182, 364) ~~ (kN, kkN)
 [91, 3]: (273, 819) ~~ (kN, kkN)
@@ -468,26 +468,26 @@
 [95, 3]: (285, 855) ~~ (kN, kkN)
 [95, 4]: (380, 1520) ~~ (kN, kkN)
 [95, 5]: (475, 2375) ~~ (kN, kkN)
-[96, 1]: (24, 6) ~~ No Match
-[96, 2]: (48, 24) ~~ No Match
-[96, 3]: (72, 54) ~~ No Match
-[96, 4]: (96, 96) ~~ No Match
-[96, 5]: (120, 150) ~~ No Match
+[96, 1]: (24, 6) ~~ No Match bounded
+[96, 2]: (48, 24) ~~ No Match bounded
+[96, 3]: (72, 54) ~~ No Match bounded
+[96, 4]: (96, 96) ~~ No Match bounded
+[96, 5]: (120, 150) ~~ No Match bounded
 [97, 1]: (97, 97) ~~ (kN, kkN)
 [97, 2]: (194, 388) ~~ (kN, kkN)
 [97, 3]: (291, 873) ~~ (kN, kkN)
 [97, 4]: (388, 1552) ~~ (kN, kkN)
 [97, 5]: (485, 2425) ~~ (kN, kkN)
-[98, 1]: (14, 2) ~~ No Match
-[98, 2]: (28, 8) ~~ No Match
-[98, 3]: (42, 18) ~~ No Match
-[98, 4]: (56, 32) ~~ No Match
-[98, 5]: (70, 50) ~~ No Match
-[99, 1]: (33, 11) ~~ No Match
-[99, 2]: (66, 44) ~~ No Match
-[99, 3]: (99, 99) ~~ No Match
-[99, 4]: (132, 176) ~~ No Match
-[99, 5]: (165, 275) ~~ No Match
+[98, 1]: (14, 2) ~~ No Match bounded
+[98, 2]: (28, 8) ~~ No Match bounded
+[98, 3]: (42, 18) ~~ No Match bounded
+[98, 4]: (56, 32) ~~ No Match bounded
+[98, 5]: (70, 50) ~~ No Match bounded
+[99, 1]: (33, 11) ~~ No Match bounded
+[99, 2]: (66, 44) ~~ No Match bounded
+[99, 3]: (99, 99) ~~ No Match bounded
+[99, 4]: (132, 176) ~~ No Match bounded
+[99, 5]: (165, 275) ~~ No Match bounded
 [100, 1]: (10, 1) ~~ (sqrt(N)k, kk)
 [100, 2]: (20, 4) ~~ (sqrt(N)k, kk)
 [100, 3]: (30, 9) ~~ (sqrt(N)k, kk)
@@ -528,11 +528,11 @@
 [107, 3]: (321, 963) ~~ (kN, kkN)
 [107, 4]: (428, 1712) ~~ (kN, kkN)
 [107, 5]: (535, 2675) ~~ (kN, kkN)
-[108, 1]: (18, 3) ~~ No Match
-[108, 2]: (36, 12) ~~ No Match
-[108, 3]: (54, 27) ~~ No Match
-[108, 4]: (72, 48) ~~ No Match
-[108, 5]: (90, 75) ~~ No Match
+[108, 1]: (18, 3) ~~ No Match bounded
+[108, 2]: (36, 12) ~~ No Match bounded
+[108, 3]: (54, 27) ~~ No Match bounded
+[108, 4]: (72, 48) ~~ No Match bounded
+[108, 5]: (90, 75) ~~ No Match bounded
 [109, 1]: (109, 109) ~~ (kN, kkN)
 [109, 2]: (218, 436) ~~ (kN, kkN)
 [109, 3]: (327, 981) ~~ (kN, kkN)
@@ -548,11 +548,11 @@
 [111, 3]: (333, 999) ~~ (kN, kkN)
 [111, 4]: (444, 1776) ~~ (kN, kkN)
 [111, 5]: (555, 2775) ~~ (kN, kkN)
-[112, 1]: (28, 7) ~~ No Match
-[112, 2]: (56, 28) ~~ No Match
-[112, 3]: (84, 63) ~~ No Match
-[112, 4]: (112, 112) ~~ No Match
-[112, 5]: (140, 175) ~~ No Match
+[112, 1]: (28, 7) ~~ No Match bounded
+[112, 2]: (56, 28) ~~ No Match bounded
+[112, 3]: (84, 63) ~~ No Match bounded
+[112, 4]: (112, 112) ~~ No Match bounded
+[112, 5]: (140, 175) ~~ No Match bounded
 [113, 1]: (113, 113) ~~ (kN, kkN)
 [113, 2]: (226, 452) ~~ (kN, kkN)
 [113, 3]: (339, 1017) ~~ (kN, kkN)
@@ -573,11 +573,11 @@
 [116, 3]: (174, 261) ~~ ((1/2)kN, (1/4)kkN)
 [116, 4]: (232, 464) ~~ ((1/2)kN, (1/4)kkN)
 [116, 5]: (290, 725) ~~ ((1/2)kN, (1/4)kkN)
-[117, 1]: (39, 13) ~~ No Match
-[117, 2]: (78, 52) ~~ No Match
-[117, 3]: (117, 117) ~~ No Match
-[117, 4]: (156, 208) ~~ No Match
-[117, 5]: (195, 325) ~~ No Match
+[117, 1]: (39, 13) ~~ No Match bounded
+[117, 2]: (78, 52) ~~ No Match bounded
+[117, 3]: (117, 117) ~~ No Match bounded
+[117, 4]: (156, 208) ~~ No Match bounded
+[117, 5]: (195, 325) ~~ No Match bounded
 [118, 1]: (118, 118) ~~ (kN, kkN)
 [118, 2]: (236, 472) ~~ (kN, kkN)
 [118, 3]: (354, 1062) ~~ (kN, kkN)
@@ -613,23 +613,23 @@
 [124, 3]: (186, 279) ~~ ((1/2)kN, (1/4)kkN)
 [124, 4]: (248, 496) ~~ ((1/2)kN, (1/4)kkN)
 [124, 5]: (310, 775) ~~ ((1/2)kN, (1/4)kkN)
-[125, 1]: (25, 5) ~~ No Match
-[125, 2]: (50, 20) ~~ No Match
-[125, 3]: (75, 45) ~~ No Match
-[125, 4]: (100, 80) ~~ No Match
-[125, 5]: (125, 125) ~~ No Match
-[126, 1]: (42, 14) ~~ No Match
-[126, 2]: (84, 56) ~~ No Match
-[126, 3]: (126, 126) ~~ No Match
-[126, 4]: (168, 224) ~~ No Match
-[126, 5]: (210, 350) ~~ No Match
+[125, 1]: (25, 5) ~~ No Match bounded
+[125, 2]: (50, 20) ~~ No Match bounded
+[125, 3]: (75, 45) ~~ No Match bounded
+[125, 4]: (100, 80) ~~ No Match bounded
+[125, 5]: (125, 125) ~~ No Match bounded
+[126, 1]: (42, 14) ~~ No Match bounded
+[126, 2]: (84, 56) ~~ No Match bounded
+[126, 3]: (126, 126) ~~ No Match bounded
+[126, 4]: (168, 224) ~~ No Match bounded
+[126, 5]: (210, 350) ~~ No Match bounded
 [127, 1]: (127, 127) ~~ (kN, kkN)
 [127, 2]: (254, 508) ~~ (kN, kkN)
 [127, 3]: (381, 1143) ~~ (kN, kkN)
 [127, 4]: (508, 2032) ~~ (kN, kkN)
 [127, 5]: (635, 3175) ~~ (kN, kkN)
-[128, 1]: (16, 2) ~~ No Match
-[128, 2]: (32, 8) ~~ No Match
-[128, 3]: (48, 18) ~~ No Match
-[128, 4]: (64, 32) ~~ No Match
-[128, 5]: (80, 50) ~~ No Match
+[128, 1]: (16, 2) ~~ No Match bounded
+[128, 2]: (32, 8) ~~ No Match bounded
+[128, 3]: (48, 18) ~~ No Match bounded
+[128, 4]: (64, 32) ~~ No Match bounded
+[128, 5]: (80, 50) ~~ No Match bounded
