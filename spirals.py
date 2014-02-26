@@ -42,41 +42,32 @@ def generateImages(block, maxSquareSize, N, fileprefix):
 
 #      (r, g, b) = toRGB1(rc, N) 
 #      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
+
+
   im.save(fileprefix+"-grey.png")
   del im
-
 #  im2.save(fileprefix+"-color.png")
 #  del im2
 
 
-
-
 def generateSquare(N, k):
-  print "Generating square for N=%d k=%d\n" % (N, k)
 
   # Generate the (mod N) set
   modNSet = range(0, N)
-
   # Must prove this by combining patterns from multiple N patterns
   maxSquareSize = k*N
   maxIterationCount = k*k*N
-
   currentPosition = [ int(maxSquareSize / 2), int(maxSquareSize / 2) ]
-
   dx = 1
   dy = 0
-
   squareCount = 0
-
   block = {}
   prev = currentPosition
   for jj in range(0, maxIterationCount+5):
     for mn in modNSet:
       prev = currentPosition
-
       if currentPosition[1] == 0:
         print "y=0, dx=%d, dy=%d" % ( dx, dy)
-
       # We are moving right
       if dx == 1:
         testEntry = ( currentPosition[0], currentPosition[1] + 1 )
@@ -89,7 +80,6 @@ def generateSquare(N, k):
         block[currentPosition[0] + 1, currentPosition[1]] = mn
         currentPosition[0] += 1
         continue
-
       # We are moving left
       elif dx == -1: 
         testEntry = ( currentPosition[0], currentPosition[1] - 1 )
@@ -102,7 +92,6 @@ def generateSquare(N, k):
         block[currentPosition[0] - 1, currentPosition[1]] = mn
         currentPosition[0] -= 1
         continue
-
       # We are moving up
       elif dy == 1:
         testEntry = ( currentPosition[0] - 1, currentPosition[1] )
@@ -115,7 +104,6 @@ def generateSquare(N, k):
         block[currentPosition[0], currentPosition[1] + 1] = mn
         currentPosition[1] += 1
         continue
-
       # We are moving down
       elif dy == -1:
         testEntry = ( currentPosition[0] + 1, currentPosition[1] )
@@ -151,30 +139,42 @@ def generateSquare(N, k):
       if (maxx[0]-minx[0]) != (maxy[1]-miny[1]):
         print "min/max dumb test failed!"
  
-      print "N=%d k=%d: %dx%d itercnt: %d coords=%d" % (N, squareCount, root, root, jj+1, len(coords))
-      if not (root == squareCount*N and (jj+1) == squareCount*squareCount*N):
-        print "FAIL (kNxkN, kkN) test N=%d k=%d" % (N, squareCount)
-      else:
-        print "PASS (kNxkN, kkN) test"
-#     print currentPosition, prev, maxy
-      if prev[1] < maxy[1]:
-        print "TOP N=%d k=%d" % (N, squareCount)
-      else:
-        print "BOTTOM N=%d k=%d" % (N, squareCount)
+      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
+        
 
-      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
+      # 
+      if N % 4 != 0:
+        if not ((root == squareCount*N) and ((jj+1) == squareCount*squareCount*N)):
+          sq_out += " FAIL (kN-by-kN, kkN)"
+        else:
+          sq_out += " PASS (kN-by-kN, kkN)"
+      else:
+        if not ((root == (squareCount*N)/2) and ((jj+1) == (squareCount*squareCount*N)/4)):
+          sq_out += " FAIL (kN/2-by-kN/2, kkN/4)"
+        else:
+          sq_out += " PASS (kN/2-by-kN/2, kkN/4)"
+ 
+      if prev[1] < maxy[1]:
+        sq_out += " TOP"
+      else:
+        sq_out += " BOTTOM" 
+
+#      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
       if squareCount == k:
+        print sq_out 
         del block
         return
 
+
 def main():
+  genIm = False 
 
-#### I NEED square count detection
-  for N in range(2, 51):
-    generateSquare(N, 50)
-#    for k in range(1,101): 
-#      generateSquare(N, k)
-#  generateSquare(21, 25)
+  if len(sys.argv) == 2 and sys.argv[1] == '-i':
+    genIm = True
 
+  for N in range(2, 65):
+    for k in range(1,6):
+      generateSquare(N, k)
+    
 if __name__ == "__main__":
   main()
