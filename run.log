@@ -1,630 +1,635 @@
-N=2 k=1: 2x2 itercnt: 2 PASS (kN-by-kN, kkN) TOP
- root=2
-N=2 k=2: 4x4 itercnt: 8 PASS (kN-by-kN, kkN) TOP
- root=4
-N=2 k=3: 6x6 itercnt: 18 PASS (kN-by-kN, kkN) TOP
- root=6
-N=2 k=4: 8x8 itercnt: 32 PASS (kN-by-kN, kkN) TOP
- root=8
-N=2 k=5: 10x10 itercnt: 50 PASS (kN-by-kN, kkN) TOP
- root=10
-N=3 k=1: 3x3 itercnt: 3 PASS (kN-by-kN, kkN) BOTTOM
- root=3
-N=3 k=2: 6x6 itercnt: 12 PASS (kN-by-kN, kkN) TOP
- root=6
-N=3 k=3: 9x9 itercnt: 27 PASS (kN-by-kN, kkN) BOTTOM
- root=9
-N=3 k=4: 12x12 itercnt: 48 PASS (kN-by-kN, kkN) TOP
- root=12
-N=3 k=5: 15x15 itercnt: 75 PASS (kN-by-kN, kkN) BOTTOM
- root=15
-N=4 k=1: 2x2 itercnt: 1 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=2
-N=4 k=2: 4x4 itercnt: 4 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=4
-N=4 k=3: 6x6 itercnt: 9 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=6
-N=4 k=4: 8x8 itercnt: 16 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=8
-N=4 k=5: 10x10 itercnt: 25 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=10
-N=5 k=1: 5x5 itercnt: 5 PASS (kN-by-kN, kkN) BOTTOM
- root=5
-N=5 k=2: 10x10 itercnt: 20 PASS (kN-by-kN, kkN) TOP
- root=10
-N=5 k=3: 15x15 itercnt: 45 PASS (kN-by-kN, kkN) BOTTOM
- root=15
-N=5 k=4: 20x20 itercnt: 80 PASS (kN-by-kN, kkN) TOP
- root=20
-N=5 k=5: 25x25 itercnt: 125 PASS (kN-by-kN, kkN) BOTTOM
- root=25
-N=6 k=1: 6x6 itercnt: 6 PASS (kN-by-kN, kkN) TOP
- root=6
-N=6 k=2: 12x12 itercnt: 24 PASS (kN-by-kN, kkN) TOP
- root=12
-N=6 k=3: 18x18 itercnt: 54 PASS (kN-by-kN, kkN) TOP
- root=18
-N=6 k=4: 24x24 itercnt: 96 PASS (kN-by-kN, kkN) TOP
- root=24
-N=6 k=5: 30x30 itercnt: 150 PASS (kN-by-kN, kkN) TOP
- root=30
-N=7 k=1: 7x7 itercnt: 7 PASS (kN-by-kN, kkN) BOTTOM
- root=7
-N=7 k=2: 14x14 itercnt: 28 PASS (kN-by-kN, kkN) TOP
- root=14
-N=7 k=3: 21x21 itercnt: 63 PASS (kN-by-kN, kkN) BOTTOM
- root=21
-N=7 k=4: 28x28 itercnt: 112 PASS (kN-by-kN, kkN) TOP
- root=28
-N=7 k=5: 35x35 itercnt: 175 PASS (kN-by-kN, kkN) BOTTOM
- root=35
-N=8 k=1: 4x4 itercnt: 2 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=4
-N=8 k=2: 8x8 itercnt: 8 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=8
-N=8 k=3: 12x12 itercnt: 18 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=8 k=4: 16x16 itercnt: 32 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=16
-N=8 k=5: 20x20 itercnt: 50 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=20
-N=9 k=1: 3x3 itercnt: 1 FAIL (kN-by-kN, kkN) BOTTOM
- root=3
-N=9 k=2: 6x6 itercnt: 4 FAIL (kN-by-kN, kkN) TOP
- root=6
-N=9 k=3: 9x9 itercnt: 9 FAIL (kN-by-kN, kkN) BOTTOM
- root=9
-N=9 k=4: 12x12 itercnt: 16 FAIL (kN-by-kN, kkN) TOP
- root=12
-N=9 k=5: 15x15 itercnt: 25 FAIL (kN-by-kN, kkN) BOTTOM
- root=15
-N=10 k=1: 10x10 itercnt: 10 PASS (kN-by-kN, kkN) TOP
- root=10
-N=10 k=2: 20x20 itercnt: 40 PASS (kN-by-kN, kkN) TOP
- root=20
-N=10 k=3: 30x30 itercnt: 90 PASS (kN-by-kN, kkN) TOP
- root=30
-N=10 k=4: 40x40 itercnt: 160 PASS (kN-by-kN, kkN) TOP
- root=40
-N=10 k=5: 50x50 itercnt: 250 PASS (kN-by-kN, kkN) TOP
- root=50
-N=11 k=1: 11x11 itercnt: 11 PASS (kN-by-kN, kkN) BOTTOM
- root=11
-N=11 k=2: 22x22 itercnt: 44 PASS (kN-by-kN, kkN) TOP
- root=22
-N=11 k=3: 33x33 itercnt: 99 PASS (kN-by-kN, kkN) BOTTOM
- root=33
-N=11 k=4: 44x44 itercnt: 176 PASS (kN-by-kN, kkN) TOP
- root=44
-N=11 k=5: 55x55 itercnt: 275 PASS (kN-by-kN, kkN) BOTTOM
- root=55
-N=12 k=1: 6x6 itercnt: 3 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=6
-N=12 k=2: 12x12 itercnt: 12 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=12 k=3: 18x18 itercnt: 27 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=18
-N=12 k=4: 24x24 itercnt: 48 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=12 k=5: 30x30 itercnt: 75 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=30
-N=13 k=1: 13x13 itercnt: 13 PASS (kN-by-kN, kkN) BOTTOM
- root=13
-N=13 k=2: 26x26 itercnt: 52 PASS (kN-by-kN, kkN) TOP
- root=26
-N=13 k=3: 39x39 itercnt: 117 PASS (kN-by-kN, kkN) BOTTOM
- root=39
-N=13 k=4: 52x52 itercnt: 208 PASS (kN-by-kN, kkN) TOP
- root=52
-N=13 k=5: 65x65 itercnt: 325 PASS (kN-by-kN, kkN) BOTTOM
- root=65
-N=14 k=1: 14x14 itercnt: 14 PASS (kN-by-kN, kkN) TOP
- root=14
-N=14 k=2: 28x28 itercnt: 56 PASS (kN-by-kN, kkN) TOP
- root=28
-N=14 k=3: 42x42 itercnt: 126 PASS (kN-by-kN, kkN) TOP
- root=42
-N=14 k=4: 56x56 itercnt: 224 PASS (kN-by-kN, kkN) TOP
- root=56
-N=14 k=5: 70x70 itercnt: 350 PASS (kN-by-kN, kkN) TOP
- root=70
-N=15 k=1: 15x15 itercnt: 15 PASS (kN-by-kN, kkN) BOTTOM
- root=15
-N=15 k=2: 30x30 itercnt: 60 PASS (kN-by-kN, kkN) TOP
- root=30
-N=15 k=3: 45x45 itercnt: 135 PASS (kN-by-kN, kkN) BOTTOM
- root=45
-N=15 k=4: 60x60 itercnt: 240 PASS (kN-by-kN, kkN) TOP
- root=60
-N=15 k=5: 75x75 itercnt: 375 PASS (kN-by-kN, kkN) BOTTOM
- root=75
-N=16 k=1: 4x4 itercnt: 1 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=4
-N=16 k=2: 8x8 itercnt: 4 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=8
-N=16 k=3: 12x12 itercnt: 9 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=16 k=4: 16x16 itercnt: 16 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=16
-N=16 k=5: 20x20 itercnt: 25 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=20
-N=17 k=1: 17x17 itercnt: 17 PASS (kN-by-kN, kkN) BOTTOM
- root=17
-N=17 k=2: 34x34 itercnt: 68 PASS (kN-by-kN, kkN) TOP
- root=34
-N=17 k=3: 51x51 itercnt: 153 PASS (kN-by-kN, kkN) BOTTOM
- root=51
-N=17 k=4: 68x68 itercnt: 272 PASS (kN-by-kN, kkN) TOP
- root=68
-N=17 k=5: 85x85 itercnt: 425 PASS (kN-by-kN, kkN) BOTTOM
- root=85
-N=18 k=1: 6x6 itercnt: 2 FAIL (kN-by-kN, kkN) TOP
- root=6
-N=18 k=2: 12x12 itercnt: 8 FAIL (kN-by-kN, kkN) TOP
- root=12
-N=18 k=3: 18x18 itercnt: 18 FAIL (kN-by-kN, kkN) TOP
- root=18
-N=18 k=4: 24x24 itercnt: 32 FAIL (kN-by-kN, kkN) TOP
- root=24
-N=18 k=5: 30x30 itercnt: 50 FAIL (kN-by-kN, kkN) TOP
- root=30
-N=19 k=1: 19x19 itercnt: 19 PASS (kN-by-kN, kkN) BOTTOM
- root=19
-N=19 k=2: 38x38 itercnt: 76 PASS (kN-by-kN, kkN) TOP
- root=38
-N=19 k=3: 57x57 itercnt: 171 PASS (kN-by-kN, kkN) BOTTOM
- root=57
-N=19 k=4: 76x76 itercnt: 304 PASS (kN-by-kN, kkN) TOP
- root=76
-N=19 k=5: 95x95 itercnt: 475 PASS (kN-by-kN, kkN) BOTTOM
- root=95
-N=20 k=1: 10x10 itercnt: 5 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=10
-N=20 k=2: 20x20 itercnt: 20 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=20
-N=20 k=3: 30x30 itercnt: 45 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=30
-N=20 k=4: 40x40 itercnt: 80 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=40
-N=20 k=5: 50x50 itercnt: 125 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=50
-N=21 k=1: 21x21 itercnt: 21 PASS (kN-by-kN, kkN) BOTTOM
- root=21
-N=21 k=2: 42x42 itercnt: 84 PASS (kN-by-kN, kkN) TOP
- root=42
-N=21 k=3: 63x63 itercnt: 189 PASS (kN-by-kN, kkN) BOTTOM
- root=63
-N=21 k=4: 84x84 itercnt: 336 PASS (kN-by-kN, kkN) TOP
- root=84
-N=21 k=5: 105x105 itercnt: 525 PASS (kN-by-kN, kkN) BOTTOM
- root=105
-N=22 k=1: 22x22 itercnt: 22 PASS (kN-by-kN, kkN) TOP
- root=22
-N=22 k=2: 44x44 itercnt: 88 PASS (kN-by-kN, kkN) TOP
- root=44
-N=22 k=3: 66x66 itercnt: 198 PASS (kN-by-kN, kkN) TOP
- root=66
-N=22 k=4: 88x88 itercnt: 352 PASS (kN-by-kN, kkN) TOP
- root=88
-N=22 k=5: 110x110 itercnt: 550 PASS (kN-by-kN, kkN) TOP
- root=110
-N=23 k=1: 23x23 itercnt: 23 PASS (kN-by-kN, kkN) BOTTOM
- root=23
-N=23 k=2: 46x46 itercnt: 92 PASS (kN-by-kN, kkN) TOP
- root=46
-N=23 k=3: 69x69 itercnt: 207 PASS (kN-by-kN, kkN) BOTTOM
- root=69
-N=23 k=4: 92x92 itercnt: 368 PASS (kN-by-kN, kkN) TOP
- root=92
-N=23 k=5: 115x115 itercnt: 575 PASS (kN-by-kN, kkN) BOTTOM
- root=115
-N=24 k=1: 12x12 itercnt: 6 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=24 k=2: 24x24 itercnt: 24 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=24 k=3: 36x36 itercnt: 54 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=36
-N=24 k=4: 48x48 itercnt: 96 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=48
-N=24 k=5: 60x60 itercnt: 150 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=60
-N=25 k=1: 5x5 itercnt: 1 FAIL (kN-by-kN, kkN) BOTTOM
- root=5
-N=25 k=2: 10x10 itercnt: 4 FAIL (kN-by-kN, kkN) TOP
- root=10
-N=25 k=3: 15x15 itercnt: 9 FAIL (kN-by-kN, kkN) BOTTOM
- root=15
-N=25 k=4: 20x20 itercnt: 16 FAIL (kN-by-kN, kkN) TOP
- root=20
-N=25 k=5: 25x25 itercnt: 25 FAIL (kN-by-kN, kkN) BOTTOM
- root=25
-N=26 k=1: 26x26 itercnt: 26 PASS (kN-by-kN, kkN) TOP
- root=26
-N=26 k=2: 52x52 itercnt: 104 PASS (kN-by-kN, kkN) TOP
- root=52
-N=26 k=3: 78x78 itercnt: 234 PASS (kN-by-kN, kkN) TOP
- root=78
-N=26 k=4: 104x104 itercnt: 416 PASS (kN-by-kN, kkN) TOP
- root=104
-N=26 k=5: 130x130 itercnt: 650 PASS (kN-by-kN, kkN) TOP
- root=130
-N=27 k=1: 9x9 itercnt: 3 FAIL (kN-by-kN, kkN) BOTTOM
- root=9
-N=27 k=2: 18x18 itercnt: 12 FAIL (kN-by-kN, kkN) TOP
- root=18
-N=27 k=3: 27x27 itercnt: 27 FAIL (kN-by-kN, kkN) BOTTOM
- root=27
-N=27 k=4: 36x36 itercnt: 48 FAIL (kN-by-kN, kkN) TOP
- root=36
-N=27 k=5: 45x45 itercnt: 75 FAIL (kN-by-kN, kkN) BOTTOM
- root=45
-N=28 k=1: 14x14 itercnt: 7 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=14
-N=28 k=2: 28x28 itercnt: 28 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=28
-N=28 k=3: 42x42 itercnt: 63 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=42
-N=28 k=4: 56x56 itercnt: 112 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=56
-N=28 k=5: 70x70 itercnt: 175 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=70
-N=29 k=1: 29x29 itercnt: 29 PASS (kN-by-kN, kkN) BOTTOM
- root=29
-N=29 k=2: 58x58 itercnt: 116 PASS (kN-by-kN, kkN) TOP
- root=58
-N=29 k=3: 87x87 itercnt: 261 PASS (kN-by-kN, kkN) BOTTOM
- root=87
-N=29 k=4: 116x116 itercnt: 464 PASS (kN-by-kN, kkN) TOP
- root=116
-N=29 k=5: 145x145 itercnt: 725 PASS (kN-by-kN, kkN) BOTTOM
- root=145
-N=30 k=1: 30x30 itercnt: 30 PASS (kN-by-kN, kkN) TOP
- root=30
-N=30 k=2: 60x60 itercnt: 120 PASS (kN-by-kN, kkN) TOP
- root=60
-N=30 k=3: 90x90 itercnt: 270 PASS (kN-by-kN, kkN) TOP
- root=90
-N=30 k=4: 120x120 itercnt: 480 PASS (kN-by-kN, kkN) TOP
- root=120
-N=30 k=5: 150x150 itercnt: 750 PASS (kN-by-kN, kkN) TOP
- root=150
-N=31 k=1: 31x31 itercnt: 31 PASS (kN-by-kN, kkN) BOTTOM
- root=31
-N=31 k=2: 62x62 itercnt: 124 PASS (kN-by-kN, kkN) TOP
- root=62
-N=31 k=3: 93x93 itercnt: 279 PASS (kN-by-kN, kkN) BOTTOM
- root=93
-N=31 k=4: 124x124 itercnt: 496 PASS (kN-by-kN, kkN) TOP
- root=124
-N=31 k=5: 155x155 itercnt: 775 PASS (kN-by-kN, kkN) BOTTOM
- root=155
-N=32 k=1: 8x8 itercnt: 2 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=8
-N=32 k=2: 16x16 itercnt: 8 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=16
-N=32 k=3: 24x24 itercnt: 18 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=32 k=4: 32x32 itercnt: 32 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=32
-N=32 k=5: 40x40 itercnt: 50 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=40
-N=33 k=1: 33x33 itercnt: 33 PASS (kN-by-kN, kkN) BOTTOM
- root=33
-N=33 k=2: 66x66 itercnt: 132 PASS (kN-by-kN, kkN) TOP
- root=66
-N=33 k=3: 99x99 itercnt: 297 PASS (kN-by-kN, kkN) BOTTOM
- root=99
-N=33 k=4: 132x132 itercnt: 528 PASS (kN-by-kN, kkN) TOP
- root=132
-N=33 k=5: 165x165 itercnt: 825 PASS (kN-by-kN, kkN) BOTTOM
- root=165
-N=34 k=1: 34x34 itercnt: 34 PASS (kN-by-kN, kkN) TOP
- root=34
-N=34 k=2: 68x68 itercnt: 136 PASS (kN-by-kN, kkN) TOP
- root=68
-N=34 k=3: 102x102 itercnt: 306 PASS (kN-by-kN, kkN) TOP
- root=102
-N=34 k=4: 136x136 itercnt: 544 PASS (kN-by-kN, kkN) TOP
- root=136
-N=34 k=5: 170x170 itercnt: 850 PASS (kN-by-kN, kkN) TOP
- root=170
-N=35 k=1: 35x35 itercnt: 35 PASS (kN-by-kN, kkN) BOTTOM
- root=35
-N=35 k=2: 70x70 itercnt: 140 PASS (kN-by-kN, kkN) TOP
- root=70
-N=35 k=3: 105x105 itercnt: 315 PASS (kN-by-kN, kkN) BOTTOM
- root=105
-N=35 k=4: 140x140 itercnt: 560 PASS (kN-by-kN, kkN) TOP
- root=140
-N=35 k=5: 175x175 itercnt: 875 PASS (kN-by-kN, kkN) BOTTOM
- root=175
-N=36 k=1: 6x6 itercnt: 1 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=6
-N=36 k=2: 12x12 itercnt: 4 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=36 k=3: 18x18 itercnt: 9 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=18
-N=36 k=4: 24x24 itercnt: 16 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=36 k=5: 30x30 itercnt: 25 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=30
-N=37 k=1: 37x37 itercnt: 37 PASS (kN-by-kN, kkN) BOTTOM
- root=37
-N=37 k=2: 74x74 itercnt: 148 PASS (kN-by-kN, kkN) TOP
- root=74
-N=37 k=3: 111x111 itercnt: 333 PASS (kN-by-kN, kkN) BOTTOM
- root=111
-N=37 k=4: 148x148 itercnt: 592 PASS (kN-by-kN, kkN) TOP
- root=148
-N=37 k=5: 185x185 itercnt: 925 PASS (kN-by-kN, kkN) BOTTOM
- root=185
-N=38 k=1: 38x38 itercnt: 38 PASS (kN-by-kN, kkN) TOP
- root=38
-N=38 k=2: 76x76 itercnt: 152 PASS (kN-by-kN, kkN) TOP
- root=76
-N=38 k=3: 114x114 itercnt: 342 PASS (kN-by-kN, kkN) TOP
- root=114
-N=38 k=4: 152x152 itercnt: 608 PASS (kN-by-kN, kkN) TOP
- root=152
-N=38 k=5: 190x190 itercnt: 950 PASS (kN-by-kN, kkN) TOP
- root=190
-N=39 k=1: 39x39 itercnt: 39 PASS (kN-by-kN, kkN) BOTTOM
- root=39
-N=39 k=2: 78x78 itercnt: 156 PASS (kN-by-kN, kkN) TOP
- root=78
-N=39 k=3: 117x117 itercnt: 351 PASS (kN-by-kN, kkN) BOTTOM
- root=117
-N=39 k=4: 156x156 itercnt: 624 PASS (kN-by-kN, kkN) TOP
- root=156
-N=39 k=5: 195x195 itercnt: 975 PASS (kN-by-kN, kkN) BOTTOM
- root=195
-N=40 k=1: 20x20 itercnt: 10 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=20
-N=40 k=2: 40x40 itercnt: 40 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=40
-N=40 k=3: 60x60 itercnt: 90 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=60
-N=40 k=4: 80x80 itercnt: 160 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=80
-N=40 k=5: 100x100 itercnt: 250 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=100
-N=41 k=1: 41x41 itercnt: 41 PASS (kN-by-kN, kkN) BOTTOM
- root=41
-N=41 k=2: 82x82 itercnt: 164 PASS (kN-by-kN, kkN) TOP
- root=82
-N=41 k=3: 123x123 itercnt: 369 PASS (kN-by-kN, kkN) BOTTOM
- root=123
-N=41 k=4: 164x164 itercnt: 656 PASS (kN-by-kN, kkN) TOP
- root=164
-N=41 k=5: 205x205 itercnt: 1025 PASS (kN-by-kN, kkN) BOTTOM
- root=205
-N=42 k=1: 42x42 itercnt: 42 PASS (kN-by-kN, kkN) TOP
- root=42
-N=42 k=2: 84x84 itercnt: 168 PASS (kN-by-kN, kkN) TOP
- root=84
-N=42 k=3: 126x126 itercnt: 378 PASS (kN-by-kN, kkN) TOP
- root=126
-N=42 k=4: 168x168 itercnt: 672 PASS (kN-by-kN, kkN) TOP
- root=168
-N=42 k=5: 210x210 itercnt: 1050 PASS (kN-by-kN, kkN) TOP
- root=210
-N=43 k=1: 43x43 itercnt: 43 PASS (kN-by-kN, kkN) BOTTOM
- root=43
-N=43 k=2: 86x86 itercnt: 172 PASS (kN-by-kN, kkN) TOP
- root=86
-N=43 k=3: 129x129 itercnt: 387 PASS (kN-by-kN, kkN) BOTTOM
- root=129
-N=43 k=4: 172x172 itercnt: 688 PASS (kN-by-kN, kkN) TOP
- root=172
-N=43 k=5: 215x215 itercnt: 1075 PASS (kN-by-kN, kkN) BOTTOM
- root=215
-N=44 k=1: 22x22 itercnt: 11 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=22
-N=44 k=2: 44x44 itercnt: 44 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=44
-N=44 k=3: 66x66 itercnt: 99 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=66
-N=44 k=4: 88x88 itercnt: 176 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=88
-N=44 k=5: 110x110 itercnt: 275 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=110
-N=45 k=1: 15x15 itercnt: 5 FAIL (kN-by-kN, kkN) BOTTOM
- root=15
-N=45 k=2: 30x30 itercnt: 20 FAIL (kN-by-kN, kkN) TOP
- root=30
-N=45 k=3: 45x45 itercnt: 45 FAIL (kN-by-kN, kkN) BOTTOM
- root=45
-N=45 k=4: 60x60 itercnt: 80 FAIL (kN-by-kN, kkN) TOP
- root=60
-N=45 k=5: 75x75 itercnt: 125 FAIL (kN-by-kN, kkN) BOTTOM
- root=75
-N=46 k=1: 46x46 itercnt: 46 PASS (kN-by-kN, kkN) TOP
- root=46
-N=46 k=2: 92x92 itercnt: 184 PASS (kN-by-kN, kkN) TOP
- root=92
-N=46 k=3: 138x138 itercnt: 414 PASS (kN-by-kN, kkN) TOP
- root=138
-N=46 k=4: 184x184 itercnt: 736 PASS (kN-by-kN, kkN) TOP
- root=184
-N=46 k=5: 230x230 itercnt: 1150 PASS (kN-by-kN, kkN) TOP
- root=230
-N=47 k=1: 47x47 itercnt: 47 PASS (kN-by-kN, kkN) BOTTOM
- root=47
-N=47 k=2: 94x94 itercnt: 188 PASS (kN-by-kN, kkN) TOP
- root=94
-N=47 k=3: 141x141 itercnt: 423 PASS (kN-by-kN, kkN) BOTTOM
- root=141
-N=47 k=4: 188x188 itercnt: 752 PASS (kN-by-kN, kkN) TOP
- root=188
-N=47 k=5: 235x235 itercnt: 1175 PASS (kN-by-kN, kkN) BOTTOM
- root=235
-N=48 k=1: 12x12 itercnt: 3 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=12
-N=48 k=2: 24x24 itercnt: 12 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=48 k=3: 36x36 itercnt: 27 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=36
-N=48 k=4: 48x48 itercnt: 48 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=48
-N=48 k=5: 60x60 itercnt: 75 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=60
-N=49 k=1: 7x7 itercnt: 1 FAIL (kN-by-kN, kkN) BOTTOM
- root=7
-N=49 k=2: 14x14 itercnt: 4 FAIL (kN-by-kN, kkN) TOP
- root=14
-N=49 k=3: 21x21 itercnt: 9 FAIL (kN-by-kN, kkN) BOTTOM
- root=21
-N=49 k=4: 28x28 itercnt: 16 FAIL (kN-by-kN, kkN) TOP
- root=28
-N=49 k=5: 35x35 itercnt: 25 FAIL (kN-by-kN, kkN) BOTTOM
- root=35
-N=50 k=1: 10x10 itercnt: 2 FAIL (kN-by-kN, kkN) TOP
- root=10
-N=50 k=2: 20x20 itercnt: 8 FAIL (kN-by-kN, kkN) TOP
- root=20
-N=50 k=3: 30x30 itercnt: 18 FAIL (kN-by-kN, kkN) TOP
- root=30
-N=50 k=4: 40x40 itercnt: 32 FAIL (kN-by-kN, kkN) TOP
- root=40
-N=50 k=5: 50x50 itercnt: 50 FAIL (kN-by-kN, kkN) TOP
- root=50
-N=51 k=1: 51x51 itercnt: 51 PASS (kN-by-kN, kkN) BOTTOM
- root=51
-N=51 k=2: 102x102 itercnt: 204 PASS (kN-by-kN, kkN) TOP
- root=102
-N=51 k=3: 153x153 itercnt: 459 PASS (kN-by-kN, kkN) BOTTOM
- root=153
-N=51 k=4: 204x204 itercnt: 816 PASS (kN-by-kN, kkN) TOP
- root=204
-N=51 k=5: 255x255 itercnt: 1275 PASS (kN-by-kN, kkN) BOTTOM
- root=255
-N=52 k=1: 26x26 itercnt: 13 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=26
-N=52 k=2: 52x52 itercnt: 52 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=52
-N=52 k=3: 78x78 itercnt: 117 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=78
-N=52 k=4: 104x104 itercnt: 208 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=104
-N=52 k=5: 130x130 itercnt: 325 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=130
-N=53 k=1: 53x53 itercnt: 53 PASS (kN-by-kN, kkN) BOTTOM
- root=53
-N=53 k=2: 106x106 itercnt: 212 PASS (kN-by-kN, kkN) TOP
- root=106
-N=53 k=3: 159x159 itercnt: 477 PASS (kN-by-kN, kkN) BOTTOM
- root=159
-N=53 k=4: 212x212 itercnt: 848 PASS (kN-by-kN, kkN) TOP
- root=212
-N=53 k=5: 265x265 itercnt: 1325 PASS (kN-by-kN, kkN) BOTTOM
- root=265
-N=54 k=1: 18x18 itercnt: 6 FAIL (kN-by-kN, kkN) TOP
- root=18
-N=54 k=2: 36x36 itercnt: 24 FAIL (kN-by-kN, kkN) TOP
- root=36
-N=54 k=3: 54x54 itercnt: 54 FAIL (kN-by-kN, kkN) TOP
- root=54
-N=54 k=4: 72x72 itercnt: 96 FAIL (kN-by-kN, kkN) TOP
- root=72
-N=54 k=5: 90x90 itercnt: 150 FAIL (kN-by-kN, kkN) TOP
- root=90
-N=55 k=1: 55x55 itercnt: 55 PASS (kN-by-kN, kkN) BOTTOM
- root=55
-N=55 k=2: 110x110 itercnt: 220 PASS (kN-by-kN, kkN) TOP
- root=110
-N=55 k=3: 165x165 itercnt: 495 PASS (kN-by-kN, kkN) BOTTOM
- root=165
-N=55 k=4: 220x220 itercnt: 880 PASS (kN-by-kN, kkN) TOP
- root=220
-N=55 k=5: 275x275 itercnt: 1375 PASS (kN-by-kN, kkN) BOTTOM
- root=275
-N=56 k=1: 28x28 itercnt: 14 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=28
-N=56 k=2: 56x56 itercnt: 56 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=56
-N=56 k=3: 84x84 itercnt: 126 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=84
-N=56 k=4: 112x112 itercnt: 224 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=112
-N=56 k=5: 140x140 itercnt: 350 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=140
-N=57 k=1: 57x57 itercnt: 57 PASS (kN-by-kN, kkN) BOTTOM
- root=57
-N=57 k=2: 114x114 itercnt: 228 PASS (kN-by-kN, kkN) TOP
- root=114
-N=57 k=3: 171x171 itercnt: 513 PASS (kN-by-kN, kkN) BOTTOM
- root=171
-N=57 k=4: 228x228 itercnt: 912 PASS (kN-by-kN, kkN) TOP
- root=228
-N=57 k=5: 285x285 itercnt: 1425 PASS (kN-by-kN, kkN) BOTTOM
- root=285
-N=58 k=1: 58x58 itercnt: 58 PASS (kN-by-kN, kkN) TOP
- root=58
-N=58 k=2: 116x116 itercnt: 232 PASS (kN-by-kN, kkN) TOP
- root=116
-N=58 k=3: 174x174 itercnt: 522 PASS (kN-by-kN, kkN) TOP
- root=174
-N=58 k=4: 232x232 itercnt: 928 PASS (kN-by-kN, kkN) TOP
- root=232
-N=58 k=5: 290x290 itercnt: 1450 PASS (kN-by-kN, kkN) TOP
- root=290
-N=59 k=1: 59x59 itercnt: 59 PASS (kN-by-kN, kkN) BOTTOM
- root=59
-N=59 k=2: 118x118 itercnt: 236 PASS (kN-by-kN, kkN) TOP
- root=118
-N=59 k=3: 177x177 itercnt: 531 PASS (kN-by-kN, kkN) BOTTOM
- root=177
-N=59 k=4: 236x236 itercnt: 944 PASS (kN-by-kN, kkN) TOP
- root=236
-N=59 k=5: 295x295 itercnt: 1475 PASS (kN-by-kN, kkN) BOTTOM
- root=295
-N=60 k=1: 30x30 itercnt: 15 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=30
-N=60 k=2: 60x60 itercnt: 60 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=60
-N=60 k=3: 90x90 itercnt: 135 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=90
-N=60 k=4: 120x120 itercnt: 240 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=120
-N=60 k=5: 150x150 itercnt: 375 PASS (kN/2-by-kN/2, kkN/4) TOP
- root=150
-N=61 k=1: 61x61 itercnt: 61 PASS (kN-by-kN, kkN) BOTTOM
- root=61
-N=61 k=2: 122x122 itercnt: 244 PASS (kN-by-kN, kkN) TOP
- root=122
-N=61 k=3: 183x183 itercnt: 549 PASS (kN-by-kN, kkN) BOTTOM
- root=183
-N=61 k=4: 244x244 itercnt: 976 PASS (kN-by-kN, kkN) TOP
- root=244
-N=61 k=5: 305x305 itercnt: 1525 PASS (kN-by-kN, kkN) BOTTOM
- root=305
-N=62 k=1: 62x62 itercnt: 62 PASS (kN-by-kN, kkN) TOP
- root=62
-N=62 k=2: 124x124 itercnt: 248 PASS (kN-by-kN, kkN) TOP
- root=124
-N=62 k=3: 186x186 itercnt: 558 PASS (kN-by-kN, kkN) TOP
- root=186
-N=62 k=4: 248x248 itercnt: 992 PASS (kN-by-kN, kkN) TOP
- root=248
-N=62 k=5: 310x310 itercnt: 1550 PASS (kN-by-kN, kkN) TOP
- root=310
-N=63 k=1: 21x21 itercnt: 7 FAIL (kN-by-kN, kkN) BOTTOM
- root=21
-N=63 k=2: 42x42 itercnt: 28 FAIL (kN-by-kN, kkN) TOP
- root=42
-N=63 k=3: 63x63 itercnt: 63 FAIL (kN-by-kN, kkN) BOTTOM
- root=63
-N=63 k=4: 84x84 itercnt: 112 FAIL (kN-by-kN, kkN) TOP
- root=84
-N=63 k=5: 105x105 itercnt: 175 FAIL (kN-by-kN, kkN) BOTTOM
- root=105
-N=64 k=1: 8x8 itercnt: 1 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=8
-N=64 k=2: 16x16 itercnt: 4 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=16
-N=64 k=3: 24x24 itercnt: 9 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=24
-N=64 k=4: 32x32 itercnt: 16 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=32
-N=64 k=5: 40x40 itercnt: 25 FAIL (kN/2-by-kN/2, kkN/4) TOP
- root=40
+[2, 1]: (2, 2) ~~ (kN, kkN)
+[2, 2]: (4, 8) ~~ (kN, kkN)
+[2, 3]: (6, 18) ~~ (kN, kkN)
+[2, 4]: (8, 32) ~~ (kN, kkN)
+[2, 5]: (10, 50) ~~ (kN, kkN)
+[3, 1]: (3, 3) ~~ (kN, kkN)
+[3, 2]: (6, 12) ~~ (kN, kkN)
+[3, 3]: (9, 27) ~~ (kN, kkN)
+[3, 4]: (12, 48) ~~ (kN, kkN)
+[3, 5]: (15, 75) ~~ (kN, kkN)
+[4, 1]: (2, 1) ~~ (sqrt(N)k, kk)
+[4, 2]: (4, 4) ~~ (sqrt(N)k, kk)
+[4, 3]: (6, 9) ~~ (sqrt(N)k, kk)
+[4, 4]: (8, 16) ~~ (sqrt(N)k, kk)
+[4, 5]: (10, 25) ~~ (sqrt(N)k, kk)
+[5, 1]: (5, 5) ~~ (kN, kkN)
+[5, 2]: (10, 20) ~~ (kN, kkN)
+[5, 3]: (15, 45) ~~ (kN, kkN)
+[5, 4]: (20, 80) ~~ (kN, kkN)
+[5, 5]: (25, 125) ~~ (kN, kkN)
+[6, 1]: (6, 6) ~~ (kN, kkN)
+[6, 2]: (12, 24) ~~ (kN, kkN)
+[6, 3]: (18, 54) ~~ (kN, kkN)
+[6, 4]: (24, 96) ~~ (kN, kkN)
+[6, 5]: (30, 150) ~~ (kN, kkN)
+[7, 1]: (7, 7) ~~ (kN, kkN)
+[7, 2]: (14, 28) ~~ (kN, kkN)
+[7, 3]: (21, 63) ~~ (kN, kkN)
+[7, 4]: (28, 112) ~~ (kN, kkN)
+[7, 5]: (35, 175) ~~ (kN, kkN)
+[8, 1]: (4, 2) ~~ ((1/2)kN, (1/4)kkN)
+[8, 2]: (8, 8) ~~ ((1/2)kN, (1/4)kkN)
+[8, 3]: (12, 18) ~~ ((1/2)kN, (1/4)kkN)
+[8, 4]: (16, 32) ~~ ((1/2)kN, (1/4)kkN)
+[8, 5]: (20, 50) ~~ ((1/2)kN, (1/4)kkN)
+[9, 1]: (3, 1) ~~ (sqrt(N)k, kk)
+[9, 2]: (6, 4) ~~ (sqrt(N)k, kk)
+[9, 3]: (9, 9) ~~ (sqrt(N)k, kk)
+[9, 4]: (12, 16) ~~ (sqrt(N)k, kk)
+[9, 5]: (15, 25) ~~ (sqrt(N)k, kk)
+[10, 1]: (10, 10) ~~ (kN, kkN)
+[10, 2]: (20, 40) ~~ (kN, kkN)
+[10, 3]: (30, 90) ~~ (kN, kkN)
+[10, 4]: (40, 160) ~~ (kN, kkN)
+[10, 5]: (50, 250) ~~ (kN, kkN)
+[11, 1]: (11, 11) ~~ (kN, kkN)
+[11, 2]: (22, 44) ~~ (kN, kkN)
+[11, 3]: (33, 99) ~~ (kN, kkN)
+[11, 4]: (44, 176) ~~ (kN, kkN)
+[11, 5]: (55, 275) ~~ (kN, kkN)
+[12, 1]: (6, 3) ~~ ((1/2)kN, (1/4)kkN)
+[12, 2]: (12, 12) ~~ ((1/2)kN, (1/4)kkN)
+[12, 3]: (18, 27) ~~ ((1/2)kN, (1/4)kkN)
+[12, 4]: (24, 48) ~~ ((1/2)kN, (1/4)kkN)
+[12, 5]: (30, 75) ~~ ((1/2)kN, (1/4)kkN)
+[13, 1]: (13, 13) ~~ (kN, kkN)
+[13, 2]: (26, 52) ~~ (kN, kkN)
+[13, 3]: (39, 117) ~~ (kN, kkN)
+[13, 4]: (52, 208) ~~ (kN, kkN)
+[13, 5]: (65, 325) ~~ (kN, kkN)
+[14, 1]: (14, 14) ~~ (kN, kkN)
+[14, 2]: (28, 56) ~~ (kN, kkN)
+[14, 3]: (42, 126) ~~ (kN, kkN)
+[14, 4]: (56, 224) ~~ (kN, kkN)
+[14, 5]: (70, 350) ~~ (kN, kkN)
+[15, 1]: (15, 15) ~~ (kN, kkN)
+[15, 2]: (30, 60) ~~ (kN, kkN)
+[15, 3]: (45, 135) ~~ (kN, kkN)
+[15, 4]: (60, 240) ~~ (kN, kkN)
+[15, 5]: (75, 375) ~~ (kN, kkN)
+[16, 1]: (4, 1) ~~ (sqrt(N)k, kk)
+[16, 2]: (8, 4) ~~ (sqrt(N)k, kk)
+[16, 3]: (12, 9) ~~ (sqrt(N)k, kk)
+[16, 4]: (16, 16) ~~ (sqrt(N)k, kk)
+[16, 5]: (20, 25) ~~ (sqrt(N)k, kk)
+[17, 1]: (17, 17) ~~ (kN, kkN)
+[17, 2]: (34, 68) ~~ (kN, kkN)
+[17, 3]: (51, 153) ~~ (kN, kkN)
+[17, 4]: (68, 272) ~~ (kN, kkN)
+[17, 5]: (85, 425) ~~ (kN, kkN)
+[18, 1]: (6, 2) ~~ No Match
+[18, 2]: (12, 8) ~~ No Match
+[18, 3]: (18, 18) ~~ No Match
+[18, 4]: (24, 32) ~~ No Match
+[18, 5]: (30, 50) ~~ No Match
+[19, 1]: (19, 19) ~~ (kN, kkN)
+[19, 2]: (38, 76) ~~ (kN, kkN)
+[19, 3]: (57, 171) ~~ (kN, kkN)
+[19, 4]: (76, 304) ~~ (kN, kkN)
+[19, 5]: (95, 475) ~~ (kN, kkN)
+[20, 1]: (10, 5) ~~ ((1/2)kN, (1/4)kkN)
+[20, 2]: (20, 20) ~~ ((1/2)kN, (1/4)kkN)
+[20, 3]: (30, 45) ~~ ((1/2)kN, (1/4)kkN)
+[20, 4]: (40, 80) ~~ ((1/2)kN, (1/4)kkN)
+[20, 5]: (50, 125) ~~ ((1/2)kN, (1/4)kkN)
+[21, 1]: (21, 21) ~~ (kN, kkN)
+[21, 2]: (42, 84) ~~ (kN, kkN)
+[21, 3]: (63, 189) ~~ (kN, kkN)
+[21, 4]: (84, 336) ~~ (kN, kkN)
+[21, 5]: (105, 525) ~~ (kN, kkN)
+[22, 1]: (22, 22) ~~ (kN, kkN)
+[22, 2]: (44, 88) ~~ (kN, kkN)
+[22, 3]: (66, 198) ~~ (kN, kkN)
+[22, 4]: (88, 352) ~~ (kN, kkN)
+[22, 5]: (110, 550) ~~ (kN, kkN)
+[23, 1]: (23, 23) ~~ (kN, kkN)
+[23, 2]: (46, 92) ~~ (kN, kkN)
+[23, 3]: (69, 207) ~~ (kN, kkN)
+[23, 4]: (92, 368) ~~ (kN, kkN)
+[23, 5]: (115, 575) ~~ (kN, kkN)
+[24, 1]: (12, 6) ~~ ((1/2)kN, (1/4)kkN)
+[24, 2]: (24, 24) ~~ ((1/2)kN, (1/4)kkN)
+[24, 3]: (36, 54) ~~ ((1/2)kN, (1/4)kkN)
+[24, 4]: (48, 96) ~~ ((1/2)kN, (1/4)kkN)
+[24, 5]: (60, 150) ~~ ((1/2)kN, (1/4)kkN)
+[25, 1]: (5, 1) ~~ (sqrt(N)k, kk)
+[25, 2]: (10, 4) ~~ (sqrt(N)k, kk)
+[25, 3]: (15, 9) ~~ (sqrt(N)k, kk)
+[25, 4]: (20, 16) ~~ (sqrt(N)k, kk)
+[25, 5]: (25, 25) ~~ (sqrt(N)k, kk)
+[26, 1]: (26, 26) ~~ (kN, kkN)
+[26, 2]: (52, 104) ~~ (kN, kkN)
+[26, 3]: (78, 234) ~~ (kN, kkN)
+[26, 4]: (104, 416) ~~ (kN, kkN)
+[26, 5]: (130, 650) ~~ (kN, kkN)
+[27, 1]: (9, 3) ~~ No Match
+[27, 2]: (18, 12) ~~ No Match
+[27, 3]: (27, 27) ~~ No Match
+[27, 4]: (36, 48) ~~ No Match
+[27, 5]: (45, 75) ~~ No Match
+[28, 1]: (14, 7) ~~ ((1/2)kN, (1/4)kkN)
+[28, 2]: (28, 28) ~~ ((1/2)kN, (1/4)kkN)
+[28, 3]: (42, 63) ~~ ((1/2)kN, (1/4)kkN)
+[28, 4]: (56, 112) ~~ ((1/2)kN, (1/4)kkN)
+[28, 5]: (70, 175) ~~ ((1/2)kN, (1/4)kkN)
+[29, 1]: (29, 29) ~~ (kN, kkN)
+[29, 2]: (58, 116) ~~ (kN, kkN)
+[29, 3]: (87, 261) ~~ (kN, kkN)
+[29, 4]: (116, 464) ~~ (kN, kkN)
+[29, 5]: (145, 725) ~~ (kN, kkN)
+[30, 1]: (30, 30) ~~ (kN, kkN)
+[30, 2]: (60, 120) ~~ (kN, kkN)
+[30, 3]: (90, 270) ~~ (kN, kkN)
+[30, 4]: (120, 480) ~~ (kN, kkN)
+[30, 5]: (150, 750) ~~ (kN, kkN)
+[31, 1]: (31, 31) ~~ (kN, kkN)
+[31, 2]: (62, 124) ~~ (kN, kkN)
+[31, 3]: (93, 279) ~~ (kN, kkN)
+[31, 4]: (124, 496) ~~ (kN, kkN)
+[31, 5]: (155, 775) ~~ (kN, kkN)
+[32, 1]: (8, 2) ~~ No Match
+[32, 2]: (16, 8) ~~ No Match
+[32, 3]: (24, 18) ~~ No Match
+[32, 4]: (32, 32) ~~ No Match
+[32, 5]: (40, 50) ~~ No Match
+[33, 1]: (33, 33) ~~ (kN, kkN)
+[33, 2]: (66, 132) ~~ (kN, kkN)
+[33, 3]: (99, 297) ~~ (kN, kkN)
+[33, 4]: (132, 528) ~~ (kN, kkN)
+[33, 5]: (165, 825) ~~ (kN, kkN)
+[34, 1]: (34, 34) ~~ (kN, kkN)
+[34, 2]: (68, 136) ~~ (kN, kkN)
+[34, 3]: (102, 306) ~~ (kN, kkN)
+[34, 4]: (136, 544) ~~ (kN, kkN)
+[34, 5]: (170, 850) ~~ (kN, kkN)
+[35, 1]: (35, 35) ~~ (kN, kkN)
+[35, 2]: (70, 140) ~~ (kN, kkN)
+[35, 3]: (105, 315) ~~ (kN, kkN)
+[35, 4]: (140, 560) ~~ (kN, kkN)
+[35, 5]: (175, 875) ~~ (kN, kkN)
+[36, 1]: (6, 1) ~~ (sqrt(N)k, kk)
+[36, 2]: (12, 4) ~~ (sqrt(N)k, kk)
+[36, 3]: (18, 9) ~~ (sqrt(N)k, kk)
+[36, 4]: (24, 16) ~~ (sqrt(N)k, kk)
+[36, 5]: (30, 25) ~~ (sqrt(N)k, kk)
+[37, 1]: (37, 37) ~~ (kN, kkN)
+[37, 2]: (74, 148) ~~ (kN, kkN)
+[37, 3]: (111, 333) ~~ (kN, kkN)
+[37, 4]: (148, 592) ~~ (kN, kkN)
+[37, 5]: (185, 925) ~~ (kN, kkN)
+[38, 1]: (38, 38) ~~ (kN, kkN)
+[38, 2]: (76, 152) ~~ (kN, kkN)
+[38, 3]: (114, 342) ~~ (kN, kkN)
+[38, 4]: (152, 608) ~~ (kN, kkN)
+[38, 5]: (190, 950) ~~ (kN, kkN)
+[39, 1]: (39, 39) ~~ (kN, kkN)
+[39, 2]: (78, 156) ~~ (kN, kkN)
+[39, 3]: (117, 351) ~~ (kN, kkN)
+[39, 4]: (156, 624) ~~ (kN, kkN)
+[39, 5]: (195, 975) ~~ (kN, kkN)
+[40, 1]: (20, 10) ~~ ((1/2)kN, (1/4)kkN)
+[40, 2]: (40, 40) ~~ ((1/2)kN, (1/4)kkN)
+[40, 3]: (60, 90) ~~ ((1/2)kN, (1/4)kkN)
+[40, 4]: (80, 160) ~~ ((1/2)kN, (1/4)kkN)
+[40, 5]: (100, 250) ~~ ((1/2)kN, (1/4)kkN)
+[41, 1]: (41, 41) ~~ (kN, kkN)
+[41, 2]: (82, 164) ~~ (kN, kkN)
+[41, 3]: (123, 369) ~~ (kN, kkN)
+[41, 4]: (164, 656) ~~ (kN, kkN)
+[41, 5]: (205, 1025) ~~ (kN, kkN)
+[42, 1]: (42, 42) ~~ (kN, kkN)
+[42, 2]: (84, 168) ~~ (kN, kkN)
+[42, 3]: (126, 378) ~~ (kN, kkN)
+[42, 4]: (168, 672) ~~ (kN, kkN)
+[42, 5]: (210, 1050) ~~ (kN, kkN)
+[43, 1]: (43, 43) ~~ (kN, kkN)
+[43, 2]: (86, 172) ~~ (kN, kkN)
+[43, 3]: (129, 387) ~~ (kN, kkN)
+[43, 4]: (172, 688) ~~ (kN, kkN)
+[43, 5]: (215, 1075) ~~ (kN, kkN)
+[44, 1]: (22, 11) ~~ ((1/2)kN, (1/4)kkN)
+[44, 2]: (44, 44) ~~ ((1/2)kN, (1/4)kkN)
+[44, 3]: (66, 99) ~~ ((1/2)kN, (1/4)kkN)
+[44, 4]: (88, 176) ~~ ((1/2)kN, (1/4)kkN)
+[44, 5]: (110, 275) ~~ ((1/2)kN, (1/4)kkN)
+[45, 1]: (15, 5) ~~ No Match
+[45, 2]: (30, 20) ~~ No Match
+[45, 3]: (45, 45) ~~ No Match
+[45, 4]: (60, 80) ~~ No Match
+[45, 5]: (75, 125) ~~ No Match
+[46, 1]: (46, 46) ~~ (kN, kkN)
+[46, 2]: (92, 184) ~~ (kN, kkN)
+[46, 3]: (138, 414) ~~ (kN, kkN)
+[46, 4]: (184, 736) ~~ (kN, kkN)
+[46, 5]: (230, 1150) ~~ (kN, kkN)
+[47, 1]: (47, 47) ~~ (kN, kkN)
+[47, 2]: (94, 188) ~~ (kN, kkN)
+[47, 3]: (141, 423) ~~ (kN, kkN)
+[47, 4]: (188, 752) ~~ (kN, kkN)
+[47, 5]: (235, 1175) ~~ (kN, kkN)
+[48, 1]: (12, 3) ~~ No Match
+[48, 2]: (24, 12) ~~ No Match
+[48, 3]: (36, 27) ~~ No Match
+[48, 4]: (48, 48) ~~ No Match
+[48, 5]: (60, 75) ~~ No Match
+[49, 1]: (7, 1) ~~ (sqrt(N)k, kk)
+[49, 2]: (14, 4) ~~ (sqrt(N)k, kk)
+[49, 3]: (21, 9) ~~ (sqrt(N)k, kk)
+[49, 4]: (28, 16) ~~ (sqrt(N)k, kk)
+[49, 5]: (35, 25) ~~ (sqrt(N)k, kk)
+[50, 1]: (10, 2) ~~ No Match
+[50, 2]: (20, 8) ~~ No Match
+[50, 3]: (30, 18) ~~ No Match
+[50, 4]: (40, 32) ~~ No Match
+[50, 5]: (50, 50) ~~ No Match
+[51, 1]: (51, 51) ~~ (kN, kkN)
+[51, 2]: (102, 204) ~~ (kN, kkN)
+[51, 3]: (153, 459) ~~ (kN, kkN)
+[51, 4]: (204, 816) ~~ (kN, kkN)
+[51, 5]: (255, 1275) ~~ (kN, kkN)
+[52, 1]: (26, 13) ~~ ((1/2)kN, (1/4)kkN)
+[52, 2]: (52, 52) ~~ ((1/2)kN, (1/4)kkN)
+[52, 3]: (78, 117) ~~ ((1/2)kN, (1/4)kkN)
+[52, 4]: (104, 208) ~~ ((1/2)kN, (1/4)kkN)
+[52, 5]: (130, 325) ~~ ((1/2)kN, (1/4)kkN)
+[53, 1]: (53, 53) ~~ (kN, kkN)
+[53, 2]: (106, 212) ~~ (kN, kkN)
+[53, 3]: (159, 477) ~~ (kN, kkN)
+[53, 4]: (212, 848) ~~ (kN, kkN)
+[53, 5]: (265, 1325) ~~ (kN, kkN)
+[54, 1]: (18, 6) ~~ No Match
+[54, 2]: (36, 24) ~~ No Match
+[54, 3]: (54, 54) ~~ No Match
+[54, 4]: (72, 96) ~~ No Match
+[54, 5]: (90, 150) ~~ No Match
+[55, 1]: (55, 55) ~~ (kN, kkN)
+[55, 2]: (110, 220) ~~ (kN, kkN)
+[55, 3]: (165, 495) ~~ (kN, kkN)
+[55, 4]: (220, 880) ~~ (kN, kkN)
+[55, 5]: (275, 1375) ~~ (kN, kkN)
+[56, 1]: (28, 14) ~~ ((1/2)kN, (1/4)kkN)
+[56, 2]: (56, 56) ~~ ((1/2)kN, (1/4)kkN)
+[56, 3]: (84, 126) ~~ ((1/2)kN, (1/4)kkN)
+[56, 4]: (112, 224) ~~ ((1/2)kN, (1/4)kkN)
+[56, 5]: (140, 350) ~~ ((1/2)kN, (1/4)kkN)
+[57, 1]: (57, 57) ~~ (kN, kkN)
+[57, 2]: (114, 228) ~~ (kN, kkN)
+[57, 3]: (171, 513) ~~ (kN, kkN)
+[57, 4]: (228, 912) ~~ (kN, kkN)
+[57, 5]: (285, 1425) ~~ (kN, kkN)
+[58, 1]: (58, 58) ~~ (kN, kkN)
+[58, 2]: (116, 232) ~~ (kN, kkN)
+[58, 3]: (174, 522) ~~ (kN, kkN)
+[58, 4]: (232, 928) ~~ (kN, kkN)
+[58, 5]: (290, 1450) ~~ (kN, kkN)
+[59, 1]: (59, 59) ~~ (kN, kkN)
+[59, 2]: (118, 236) ~~ (kN, kkN)
+[59, 3]: (177, 531) ~~ (kN, kkN)
+[59, 4]: (236, 944) ~~ (kN, kkN)
+[59, 5]: (295, 1475) ~~ (kN, kkN)
+[60, 1]: (30, 15) ~~ ((1/2)kN, (1/4)kkN)
+[60, 2]: (60, 60) ~~ ((1/2)kN, (1/4)kkN)
+[60, 3]: (90, 135) ~~ ((1/2)kN, (1/4)kkN)
+[60, 4]: (120, 240) ~~ ((1/2)kN, (1/4)kkN)
+[60, 5]: (150, 375) ~~ ((1/2)kN, (1/4)kkN)
+[61, 1]: (61, 61) ~~ (kN, kkN)
+[61, 2]: (122, 244) ~~ (kN, kkN)
+[61, 3]: (183, 549) ~~ (kN, kkN)
+[61, 4]: (244, 976) ~~ (kN, kkN)
+[61, 5]: (305, 1525) ~~ (kN, kkN)
+[62, 1]: (62, 62) ~~ (kN, kkN)
+[62, 2]: (124, 248) ~~ (kN, kkN)
+[62, 3]: (186, 558) ~~ (kN, kkN)
+[62, 4]: (248, 992) ~~ (kN, kkN)
+[62, 5]: (310, 1550) ~~ (kN, kkN)
+[63, 1]: (21, 7) ~~ No Match
+[63, 2]: (42, 28) ~~ No Match
+[63, 3]: (63, 63) ~~ No Match
+[63, 4]: (84, 112) ~~ No Match
+[63, 5]: (105, 175) ~~ No Match
+[64, 1]: (8, 1) ~~ (sqrt(N)k, kk)
+[64, 2]: (16, 4) ~~ (sqrt(N)k, kk)
+[64, 3]: (24, 9) ~~ (sqrt(N)k, kk)
+[64, 4]: (32, 16) ~~ (sqrt(N)k, kk)
+[64, 5]: (40, 25) ~~ (sqrt(N)k, kk)
+[65, 1]: (65, 65) ~~ (kN, kkN)
+[65, 2]: (130, 260) ~~ (kN, kkN)
+[65, 3]: (195, 585) ~~ (kN, kkN)
+[65, 4]: (260, 1040) ~~ (kN, kkN)
+[65, 5]: (325, 1625) ~~ (kN, kkN)
+[66, 1]: (66, 66) ~~ (kN, kkN)
+[66, 2]: (132, 264) ~~ (kN, kkN)
+[66, 3]: (198, 594) ~~ (kN, kkN)
+[66, 4]: (264, 1056) ~~ (kN, kkN)
+[66, 5]: (330, 1650) ~~ (kN, kkN)
+[67, 1]: (67, 67) ~~ (kN, kkN)
+[67, 2]: (134, 268) ~~ (kN, kkN)
+[67, 3]: (201, 603) ~~ (kN, kkN)
+[67, 4]: (268, 1072) ~~ (kN, kkN)
+[67, 5]: (335, 1675) ~~ (kN, kkN)
+[68, 1]: (34, 17) ~~ ((1/2)kN, (1/4)kkN)
+[68, 2]: (68, 68) ~~ ((1/2)kN, (1/4)kkN)
+[68, 3]: (102, 153) ~~ ((1/2)kN, (1/4)kkN)
+[68, 4]: (136, 272) ~~ ((1/2)kN, (1/4)kkN)
+[68, 5]: (170, 425) ~~ ((1/2)kN, (1/4)kkN)
+[69, 1]: (69, 69) ~~ (kN, kkN)
+[69, 2]: (138, 276) ~~ (kN, kkN)
+[69, 3]: (207, 621) ~~ (kN, kkN)
+[69, 4]: (276, 1104) ~~ (kN, kkN)
+[69, 5]: (345, 1725) ~~ (kN, kkN)
+[70, 1]: (70, 70) ~~ (kN, kkN)
+[70, 2]: (140, 280) ~~ (kN, kkN)
+[70, 3]: (210, 630) ~~ (kN, kkN)
+[70, 4]: (280, 1120) ~~ (kN, kkN)
+[70, 5]: (350, 1750) ~~ (kN, kkN)
+[71, 1]: (71, 71) ~~ (kN, kkN)
+[71, 2]: (142, 284) ~~ (kN, kkN)
+[71, 3]: (213, 639) ~~ (kN, kkN)
+[71, 4]: (284, 1136) ~~ (kN, kkN)
+[71, 5]: (355, 1775) ~~ (kN, kkN)
+[72, 1]: (12, 2) ~~ No Match
+[72, 2]: (24, 8) ~~ No Match
+[72, 3]: (36, 18) ~~ No Match
+[72, 4]: (48, 32) ~~ No Match
+[72, 5]: (60, 50) ~~ No Match
+[73, 1]: (73, 73) ~~ (kN, kkN)
+[73, 2]: (146, 292) ~~ (kN, kkN)
+[73, 3]: (219, 657) ~~ (kN, kkN)
+[73, 4]: (292, 1168) ~~ (kN, kkN)
+[73, 5]: (365, 1825) ~~ (kN, kkN)
+[74, 1]: (74, 74) ~~ (kN, kkN)
+[74, 2]: (148, 296) ~~ (kN, kkN)
+[74, 3]: (222, 666) ~~ (kN, kkN)
+[74, 4]: (296, 1184) ~~ (kN, kkN)
+[74, 5]: (370, 1850) ~~ (kN, kkN)
+[75, 1]: (15, 3) ~~ No Match
+[75, 2]: (30, 12) ~~ No Match
+[75, 3]: (45, 27) ~~ No Match
+[75, 4]: (60, 48) ~~ No Match
+[75, 5]: (75, 75) ~~ No Match
+[76, 1]: (38, 19) ~~ ((1/2)kN, (1/4)kkN)
+[76, 2]: (76, 76) ~~ ((1/2)kN, (1/4)kkN)
+[76, 3]: (114, 171) ~~ ((1/2)kN, (1/4)kkN)
+[76, 4]: (152, 304) ~~ ((1/2)kN, (1/4)kkN)
+[76, 5]: (190, 475) ~~ ((1/2)kN, (1/4)kkN)
+[77, 1]: (77, 77) ~~ (kN, kkN)
+[77, 2]: (154, 308) ~~ (kN, kkN)
+[77, 3]: (231, 693) ~~ (kN, kkN)
+[77, 4]: (308, 1232) ~~ (kN, kkN)
+[77, 5]: (385, 1925) ~~ (kN, kkN)
+[78, 1]: (78, 78) ~~ (kN, kkN)
+[78, 2]: (156, 312) ~~ (kN, kkN)
+[78, 3]: (234, 702) ~~ (kN, kkN)
+[78, 4]: (312, 1248) ~~ (kN, kkN)
+[78, 5]: (390, 1950) ~~ (kN, kkN)
+[79, 1]: (79, 79) ~~ (kN, kkN)
+[79, 2]: (158, 316) ~~ (kN, kkN)
+[79, 3]: (237, 711) ~~ (kN, kkN)
+[79, 4]: (316, 1264) ~~ (kN, kkN)
+[79, 5]: (395, 1975) ~~ (kN, kkN)
+[80, 1]: (20, 5) ~~ No Match
+[80, 2]: (40, 20) ~~ No Match
+[80, 3]: (60, 45) ~~ No Match
+[80, 4]: (80, 80) ~~ No Match
+[80, 5]: (100, 125) ~~ No Match
+[81, 1]: (9, 1) ~~ (sqrt(N)k, kk)
+[81, 2]: (18, 4) ~~ (sqrt(N)k, kk)
+[81, 3]: (27, 9) ~~ (sqrt(N)k, kk)
+[81, 4]: (36, 16) ~~ (sqrt(N)k, kk)
+[81, 5]: (45, 25) ~~ (sqrt(N)k, kk)
+[82, 1]: (82, 82) ~~ (kN, kkN)
+[82, 2]: (164, 328) ~~ (kN, kkN)
+[82, 3]: (246, 738) ~~ (kN, kkN)
+[82, 4]: (328, 1312) ~~ (kN, kkN)
+[82, 5]: (410, 2050) ~~ (kN, kkN)
+[83, 1]: (83, 83) ~~ (kN, kkN)
+[83, 2]: (166, 332) ~~ (kN, kkN)
+[83, 3]: (249, 747) ~~ (kN, kkN)
+[83, 4]: (332, 1328) ~~ (kN, kkN)
+[83, 5]: (415, 2075) ~~ (kN, kkN)
+[84, 1]: (42, 21) ~~ ((1/2)kN, (1/4)kkN)
+[84, 2]: (84, 84) ~~ ((1/2)kN, (1/4)kkN)
+[84, 3]: (126, 189) ~~ ((1/2)kN, (1/4)kkN)
+[84, 4]: (168, 336) ~~ ((1/2)kN, (1/4)kkN)
+[84, 5]: (210, 525) ~~ ((1/2)kN, (1/4)kkN)
+[85, 1]: (85, 85) ~~ (kN, kkN)
+[85, 2]: (170, 340) ~~ (kN, kkN)
+[85, 3]: (255, 765) ~~ (kN, kkN)
+[85, 4]: (340, 1360) ~~ (kN, kkN)
+[85, 5]: (425, 2125) ~~ (kN, kkN)
+[86, 1]: (86, 86) ~~ (kN, kkN)
+[86, 2]: (172, 344) ~~ (kN, kkN)
+[86, 3]: (258, 774) ~~ (kN, kkN)
+[86, 4]: (344, 1376) ~~ (kN, kkN)
+[86, 5]: (430, 2150) ~~ (kN, kkN)
+[87, 1]: (87, 87) ~~ (kN, kkN)
+[87, 2]: (174, 348) ~~ (kN, kkN)
+[87, 3]: (261, 783) ~~ (kN, kkN)
+[87, 4]: (348, 1392) ~~ (kN, kkN)
+[87, 5]: (435, 2175) ~~ (kN, kkN)
+[88, 1]: (44, 22) ~~ ((1/2)kN, (1/4)kkN)
+[88, 2]: (88, 88) ~~ ((1/2)kN, (1/4)kkN)
+[88, 3]: (132, 198) ~~ ((1/2)kN, (1/4)kkN)
+[88, 4]: (176, 352) ~~ ((1/2)kN, (1/4)kkN)
+[88, 5]: (220, 550) ~~ ((1/2)kN, (1/4)kkN)
+[89, 1]: (89, 89) ~~ (kN, kkN)
+[89, 2]: (178, 356) ~~ (kN, kkN)
+[89, 3]: (267, 801) ~~ (kN, kkN)
+[89, 4]: (356, 1424) ~~ (kN, kkN)
+[89, 5]: (445, 2225) ~~ (kN, kkN)
+[90, 1]: (30, 10) ~~ No Match
+[90, 2]: (60, 40) ~~ No Match
+[90, 3]: (90, 90) ~~ No Match
+[90, 4]: (120, 160) ~~ No Match
+[90, 5]: (150, 250) ~~ No Match
+[91, 1]: (91, 91) ~~ (kN, kkN)
+[91, 2]: (182, 364) ~~ (kN, kkN)
+[91, 3]: (273, 819) ~~ (kN, kkN)
+[91, 4]: (364, 1456) ~~ (kN, kkN)
+[91, 5]: (455, 2275) ~~ (kN, kkN)
+[92, 1]: (46, 23) ~~ ((1/2)kN, (1/4)kkN)
+[92, 2]: (92, 92) ~~ ((1/2)kN, (1/4)kkN)
+[92, 3]: (138, 207) ~~ ((1/2)kN, (1/4)kkN)
+[92, 4]: (184, 368) ~~ ((1/2)kN, (1/4)kkN)
+[92, 5]: (230, 575) ~~ ((1/2)kN, (1/4)kkN)
+[93, 1]: (93, 93) ~~ (kN, kkN)
+[93, 2]: (186, 372) ~~ (kN, kkN)
+[93, 3]: (279, 837) ~~ (kN, kkN)
+[93, 4]: (372, 1488) ~~ (kN, kkN)
+[93, 5]: (465, 2325) ~~ (kN, kkN)
+[94, 1]: (94, 94) ~~ (kN, kkN)
+[94, 2]: (188, 376) ~~ (kN, kkN)
+[94, 3]: (282, 846) ~~ (kN, kkN)
+[94, 4]: (376, 1504) ~~ (kN, kkN)
+[94, 5]: (470, 2350) ~~ (kN, kkN)
+[95, 1]: (95, 95) ~~ (kN, kkN)
+[95, 2]: (190, 380) ~~ (kN, kkN)
+[95, 3]: (285, 855) ~~ (kN, kkN)
+[95, 4]: (380, 1520) ~~ (kN, kkN)
+[95, 5]: (475, 2375) ~~ (kN, kkN)
+[96, 1]: (24, 6) ~~ No Match
+[96, 2]: (48, 24) ~~ No Match
+[96, 3]: (72, 54) ~~ No Match
+[96, 4]: (96, 96) ~~ No Match
+[96, 5]: (120, 150) ~~ No Match
+[97, 1]: (97, 97) ~~ (kN, kkN)
+[97, 2]: (194, 388) ~~ (kN, kkN)
+[97, 3]: (291, 873) ~~ (kN, kkN)
+[97, 4]: (388, 1552) ~~ (kN, kkN)
+[97, 5]: (485, 2425) ~~ (kN, kkN)
+[98, 1]: (14, 2) ~~ No Match
+[98, 2]: (28, 8) ~~ No Match
+[98, 3]: (42, 18) ~~ No Match
+[98, 4]: (56, 32) ~~ No Match
+[98, 5]: (70, 50) ~~ No Match
+[99, 1]: (33, 11) ~~ No Match
+[99, 2]: (66, 44) ~~ No Match
+[99, 3]: (99, 99) ~~ No Match
+[99, 4]: (132, 176) ~~ No Match
+[99, 5]: (165, 275) ~~ No Match
+[100, 1]: (10, 1) ~~ (sqrt(N)k, kk)
+[100, 2]: (20, 4) ~~ (sqrt(N)k, kk)
+[100, 3]: (30, 9) ~~ (sqrt(N)k, kk)
+[100, 4]: (40, 16) ~~ (sqrt(N)k, kk)
+[100, 5]: (50, 25) ~~ (sqrt(N)k, kk)
+[101, 1]: (101, 101) ~~ (kN, kkN)
+[101, 2]: (202, 404) ~~ (kN, kkN)
+[101, 3]: (303, 909) ~~ (kN, kkN)
+[101, 4]: (404, 1616) ~~ (kN, kkN)
+[101, 5]: (505, 2525) ~~ (kN, kkN)
+[102, 1]: (102, 102) ~~ (kN, kkN)
+[102, 2]: (204, 408) ~~ (kN, kkN)
+[102, 3]: (306, 918) ~~ (kN, kkN)
+[102, 4]: (408, 1632) ~~ (kN, kkN)
+[102, 5]: (510, 2550) ~~ (kN, kkN)
+[103, 1]: (103, 103) ~~ (kN, kkN)
+[103, 2]: (206, 412) ~~ (kN, kkN)
+[103, 3]: (309, 927) ~~ (kN, kkN)
+[103, 4]: (412, 1648) ~~ (kN, kkN)
+[103, 5]: (515, 2575) ~~ (kN, kkN)
+[104, 1]: (52, 26) ~~ ((1/2)kN, (1/4)kkN)
+[104, 2]: (104, 104) ~~ ((1/2)kN, (1/4)kkN)
+[104, 3]: (156, 234) ~~ ((1/2)kN, (1/4)kkN)
+[104, 4]: (208, 416) ~~ ((1/2)kN, (1/4)kkN)
+[104, 5]: (260, 650) ~~ ((1/2)kN, (1/4)kkN)
+[105, 1]: (105, 105) ~~ (kN, kkN)
+[105, 2]: (210, 420) ~~ (kN, kkN)
+[105, 3]: (315, 945) ~~ (kN, kkN)
+[105, 4]: (420, 1680) ~~ (kN, kkN)
+[105, 5]: (525, 2625) ~~ (kN, kkN)
+[106, 1]: (106, 106) ~~ (kN, kkN)
+[106, 2]: (212, 424) ~~ (kN, kkN)
+[106, 3]: (318, 954) ~~ (kN, kkN)
+[106, 4]: (424, 1696) ~~ (kN, kkN)
+[106, 5]: (530, 2650) ~~ (kN, kkN)
+[107, 1]: (107, 107) ~~ (kN, kkN)
+[107, 2]: (214, 428) ~~ (kN, kkN)
+[107, 3]: (321, 963) ~~ (kN, kkN)
+[107, 4]: (428, 1712) ~~ (kN, kkN)
+[107, 5]: (535, 2675) ~~ (kN, kkN)
+[108, 1]: (18, 3) ~~ No Match
+[108, 2]: (36, 12) ~~ No Match
+[108, 3]: (54, 27) ~~ No Match
+[108, 4]: (72, 48) ~~ No Match
+[108, 5]: (90, 75) ~~ No Match
+[109, 1]: (109, 109) ~~ (kN, kkN)
+[109, 2]: (218, 436) ~~ (kN, kkN)
+[109, 3]: (327, 981) ~~ (kN, kkN)
+[109, 4]: (436, 1744) ~~ (kN, kkN)
+[109, 5]: (545, 2725) ~~ (kN, kkN)
+[110, 1]: (110, 110) ~~ (kN, kkN)
+[110, 2]: (220, 440) ~~ (kN, kkN)
+[110, 3]: (330, 990) ~~ (kN, kkN)
+[110, 4]: (440, 1760) ~~ (kN, kkN)
+[110, 5]: (550, 2750) ~~ (kN, kkN)
+[111, 1]: (111, 111) ~~ (kN, kkN)
+[111, 2]: (222, 444) ~~ (kN, kkN)
+[111, 3]: (333, 999) ~~ (kN, kkN)
+[111, 4]: (444, 1776) ~~ (kN, kkN)
+[111, 5]: (555, 2775) ~~ (kN, kkN)
+[112, 1]: (28, 7) ~~ No Match
+[112, 2]: (56, 28) ~~ No Match
+[112, 3]: (84, 63) ~~ No Match
+[112, 4]: (112, 112) ~~ No Match
+[112, 5]: (140, 175) ~~ No Match
+[113, 1]: (113, 113) ~~ (kN, kkN)
+[113, 2]: (226, 452) ~~ (kN, kkN)
+[113, 3]: (339, 1017) ~~ (kN, kkN)
+[113, 4]: (452, 1808) ~~ (kN, kkN)
+[113, 5]: (565, 2825) ~~ (kN, kkN)
+[114, 1]: (114, 114) ~~ (kN, kkN)
+[114, 2]: (228, 456) ~~ (kN, kkN)
+[114, 3]: (342, 1026) ~~ (kN, kkN)
+[114, 4]: (456, 1824) ~~ (kN, kkN)
+[114, 5]: (570, 2850) ~~ (kN, kkN)
+[115, 1]: (115, 115) ~~ (kN, kkN)
+[115, 2]: (230, 460) ~~ (kN, kkN)
+[115, 3]: (345, 1035) ~~ (kN, kkN)
+[115, 4]: (460, 1840) ~~ (kN, kkN)
+[115, 5]: (575, 2875) ~~ (kN, kkN)
+[116, 1]: (58, 29) ~~ ((1/2)kN, (1/4)kkN)
+[116, 2]: (116, 116) ~~ ((1/2)kN, (1/4)kkN)
+[116, 3]: (174, 261) ~~ ((1/2)kN, (1/4)kkN)
+[116, 4]: (232, 464) ~~ ((1/2)kN, (1/4)kkN)
+[116, 5]: (290, 725) ~~ ((1/2)kN, (1/4)kkN)
+[117, 1]: (39, 13) ~~ No Match
+[117, 2]: (78, 52) ~~ No Match
+[117, 3]: (117, 117) ~~ No Match
+[117, 4]: (156, 208) ~~ No Match
+[117, 5]: (195, 325) ~~ No Match
+[118, 1]: (118, 118) ~~ (kN, kkN)
+[118, 2]: (236, 472) ~~ (kN, kkN)
+[118, 3]: (354, 1062) ~~ (kN, kkN)
+[118, 4]: (472, 1888) ~~ (kN, kkN)
+[118, 5]: (590, 2950) ~~ (kN, kkN)
+[119, 1]: (119, 119) ~~ (kN, kkN)
+[119, 2]: (238, 476) ~~ (kN, kkN)
+[119, 3]: (357, 1071) ~~ (kN, kkN)
+[119, 4]: (476, 1904) ~~ (kN, kkN)
+[119, 5]: (595, 2975) ~~ (kN, kkN)
+[120, 1]: (60, 30) ~~ ((1/2)kN, (1/4)kkN)
+[120, 2]: (120, 120) ~~ ((1/2)kN, (1/4)kkN)
+[120, 3]: (180, 270) ~~ ((1/2)kN, (1/4)kkN)
+[120, 4]: (240, 480) ~~ ((1/2)kN, (1/4)kkN)
+[120, 5]: (300, 750) ~~ ((1/2)kN, (1/4)kkN)
+[121, 1]: (11, 1) ~~ (sqrt(N)k, kk)
+[121, 2]: (22, 4) ~~ (sqrt(N)k, kk)
+[121, 3]: (33, 9) ~~ (sqrt(N)k, kk)
+[121, 4]: (44, 16) ~~ (sqrt(N)k, kk)
+[121, 5]: (55, 25) ~~ (sqrt(N)k, kk)
+[122, 1]: (122, 122) ~~ (kN, kkN)
+[122, 2]: (244, 488) ~~ (kN, kkN)
+[122, 3]: (366, 1098) ~~ (kN, kkN)
+[122, 4]: (488, 1952) ~~ (kN, kkN)
+[122, 5]: (610, 3050) ~~ (kN, kkN)
+[123, 1]: (123, 123) ~~ (kN, kkN)
+[123, 2]: (246, 492) ~~ (kN, kkN)
+[123, 3]: (369, 1107) ~~ (kN, kkN)
+[123, 4]: (492, 1968) ~~ (kN, kkN)
+[123, 5]: (615, 3075) ~~ (kN, kkN)
+[124, 1]: (62, 31) ~~ ((1/2)kN, (1/4)kkN)
+[124, 2]: (124, 124) ~~ ((1/2)kN, (1/4)kkN)
+[124, 3]: (186, 279) ~~ ((1/2)kN, (1/4)kkN)
+[124, 4]: (248, 496) ~~ ((1/2)kN, (1/4)kkN)
+[124, 5]: (310, 775) ~~ ((1/2)kN, (1/4)kkN)
+[125, 1]: (25, 5) ~~ No Match
+[125, 2]: (50, 20) ~~ No Match
+[125, 3]: (75, 45) ~~ No Match
+[125, 4]: (100, 80) ~~ No Match
+[125, 5]: (125, 125) ~~ No Match
+[126, 1]: (42, 14) ~~ No Match
+[126, 2]: (84, 56) ~~ No Match
+[126, 3]: (126, 126) ~~ No Match
+[126, 4]: (168, 224) ~~ No Match
+[126, 5]: (210, 350) ~~ No Match
+[127, 1]: (127, 127) ~~ (kN, kkN)
+[127, 2]: (254, 508) ~~ (kN, kkN)
+[127, 3]: (381, 1143) ~~ (kN, kkN)
+[127, 4]: (508, 2032) ~~ (kN, kkN)
+[127, 5]: (635, 3175) ~~ (kN, kkN)
+[128, 1]: (16, 2) ~~ No Match
+[128, 2]: (32, 8) ~~ No Match
+[128, 3]: (48, 18) ~~ No Match
+[128, 4]: (64, 32) ~~ No Match
+[128, 5]: (80, 50) ~~ No Match
