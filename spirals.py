@@ -6,10 +6,6 @@ import gmpy
 from math import sqrt
 import operator
 
-#
-# Idea for using dictionary from
-#   http://users.softlab.ece.ntua.gr/~ttsiod/primes.html 
-#
 
 colors = [ "\33[01;30m",
   "\33[22;31m",
@@ -25,29 +21,27 @@ colors = [ "\33[01;30m",
   "\33[22;35m",
   "\33[01;35m" ]
 
+gend = {}
+
 def toRGB1(rc, N):
   r = (block[rc[0], rc[1]] + 1) * N
   g = int(((block[rc[0], rc[1]] + 1) * N) / 2)
   b = int(((block[rc[0], rc[1]] + 1) * N/2))
   return (r, g, b)    
 
+#  im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
+#      (r, g, b) = toRGB1(rc, N) 
+#      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
+#  im2.save(fileprefix+"-color.png")
+#  del im2
 
 def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
-#  im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
-
   step = int(255/N) + 1
   for rc in block.keys():
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * step)
-
-#      (r, g, b) = toRGB1(rc, N) 
-#      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
-
-
   im.save(fileprefix+"-grey.png")
   del im
-#  im2.save(fileprefix+"-color.png")
-#  del im2
 
 
 def generateSquare(N, k):
@@ -139,29 +133,17 @@ def generateSquare(N, k):
       if (maxx[0]-minx[0]) != (maxy[1]-miny[1]):
         print "min/max dumb test failed!"
  
-      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
+#      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
         
-
-      # 
-      if N % 4 != 0:
-        if not ((root == squareCount*N) and ((jj+1) == squareCount*squareCount*N)):
-          sq_out += " FAIL (kN-by-kN, kkN)"
-        else:
-          sq_out += " PASS (kN-by-kN, kkN)"
-      else:
-        if not ((root == (squareCount*N)/2) and ((jj+1) == (squareCount*squareCount*N)/4)):
-          sq_out += " FAIL (kN/2-by-kN/2, kkN/4)"
-        else:
-          sq_out += " PASS (kN/2-by-kN/2, kkN/4)"
- 
-      if prev[1] < maxy[1]:
-        sq_out += " TOP"
-      else:
-        sq_out += " BOTTOM" 
+#      if prev[1] < maxy[1]:
+#        sq_out += " TOP"
+#      else:
+#       sq_out += " BOTTOM" 
 
 #      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
       if squareCount == k:
-        print sq_out 
+#        print sq_out 
+        gend[N,k] = (root, jj+1)      
         del block
         return
 
@@ -172,9 +154,26 @@ def main():
   if len(sys.argv) == 2 and sys.argv[1] == '-i':
     genIm = True
 
-  for N in range(2, 65):
-    for k in range(1,6):
+  N_MAX=64
+  k_MAX=5
+  for N in range(2, N_MAX+1):
+    for k in range(1,k_MAX+1):
       generateSquare(N, k)
-    
+
+  for N in range(2, N_MAX+1):
+    for k in range(1,k_MAX+1):
+      type = ""
+      if gend[N,k][0] == k*N and gend[N,k][1] == k*k*N:
+        type = "(kN, kkN)" 
+      elif gend[N,k][0] == k*sqrt(N) and gend[N,k][1] == k*k:
+        type = "(sqrt(N)k, kk)"
+      elif gend[N,k][0] == 0.5*k*N and gend[N,k][1] == 0.25*k*k*N:
+        type = "((1/2)kN, (1/4)kkN)"
+      else:
+        type = "No Match"
+
+      print "[%d, %d]: (%d, %d) ~~ %s" % (N, k, gend[N,k][0], gend[N,k][1], type)
+      
+          
 if __name__ == "__main__":
   main()
