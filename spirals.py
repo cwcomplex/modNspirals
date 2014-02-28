@@ -147,6 +147,17 @@ def generateSquare(N, k):
         del block
         return
 
+def primes(n):
+  primfac = []
+  d = 2
+  while d*d <= n:
+    while (n % d) == 0:
+      primfac.append(d)  # supposing you want multiple factors repeated
+      n /= d
+    d += 1
+  if n > 1:
+    primfac.append(n)
+  return primfac
 
 def main():
   genIm = False 
@@ -154,19 +165,30 @@ def main():
   if len(sys.argv) == 2 and sys.argv[1] == '-i':
     genIm = True
 
-  N_MAX=128
+  N_MIN=301
+  N_MAX=350
+  k_MIN=1
   k_MAX=5
-  for N in range(2, N_MAX+1):
-    for k in range(1,k_MAX+1):
+  for N in range(N_MIN, N_MAX+1):
+    print N
+    sys.stdout.flush()
+    for k in range(k_MIN, k_MAX+1):
       generateSquare(N, k)
 
-  for N in range(2, N_MAX+1):
-    for k in range(1,k_MAX+1):
+  for N in range(N_MIN, N_MAX+1):
+    pf = primes(N)
+    for k in range(k_MIN,k_MAX+1):
       type = ""
+
+      # (kN, kkN) case
       if gend[N,k][0] == k*N and gend[N,k][1] == k*k*N:
         type = "(kN, kkN)" 
+
+      # (\sqrt{N}k, kk) case
       elif gend[N,k][0] == k*sqrt(N) and gend[N,k][1] == k*k:
         type = "(sqrt(N)k, kk)"
+
+      # to be revised case... 
       elif gend[N,k][0] == 0.5*k*N and gend[N,k][1] == 0.25*k*k*N:
         type = "((1/2)kN, (1/4)kkN)"
       else:
@@ -175,7 +197,7 @@ def main():
         else:
           type = "No Match broke bounds"
 
-      print "[%d, %d]: (%d, %d) ~~ %s" % (N, k, gend[N,k][0], gend[N,k][1], type)
+      print "[%d, %d]: (%d, %d) ~ %s ~ %s" % (N, k, gend[N,k][0], gend[N,k][1], type, str(pf))
       
           
 if __name__ == "__main__":
