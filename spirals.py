@@ -136,18 +136,18 @@ def generateSquare(N, k):
         print "min/max dumb test failed!"
  
 #      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
-        
-#      if prev[1] < maxy[1]:
-#        sq_out += " TOP"
-#      else:
-#       sq_out += " BOTTOM" 
+
+      isTop = True
+      if prev[1] < maxy[1]:
+        isTop = True
+      else:
+        isTop = False
 
 #      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
       if squareCount == k:
-#        print sq_out 
         gend[N,k] = (root, jj+1)      
         del block
-        return
+        return isTop
 
 def primes(n):
   primfac = []
@@ -196,12 +196,14 @@ def getMaximalSquares(N):
   return maxsquares
 
 def testSpirals(args):
+  isTop = {} 
   (N_MIN, N_MAX, k_MIN, k_MAX) = args
   for N in range(N_MIN, N_MAX+1):
     print N
     sys.stdout.flush()
     for k in range(k_MIN, k_MAX+1):
-      generateSquare(N, k)
+      T = generateSquare(N, k)
+      isTop[N,k] = T
 
   # Squares are generated and pushed into a dict
   for N in range(N_MIN, N_MAX+1):
@@ -220,9 +222,9 @@ def testSpirals(args):
 
       # (kN/ldenom, kkN/idenom)
       if gend[N,k][0] == (k*N)/ldenom and gend[N,k][1] == (k*k*N)/idenom:
-        print "[%d, %d]: (%d, %d) ~ PASS" % (N, k, gend[N,k][0], gend[N,k][1])
+        print "[%d, %d]: (%d, %d) ~ PASS ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
       else:
-        print "[%d, %d]: (%d, %d) ~ FAIL" % (N, k, gend[N,k][0], gend[N,k][1])
+        print "[%d, %d]: (%d, %d) ~ FAIL ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
       
 def main():
 
