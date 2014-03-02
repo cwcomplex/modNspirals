@@ -5,6 +5,8 @@ from PIL import Image
 import gmpy
 from math import sqrt
 import operator
+from collections import defaultdict
+import time
 
 
 colors = [ "\33[01;30m",
@@ -159,46 +161,88 @@ def primes(n):
     primfac.append(n)
   return primfac
 
-def main():
-  genIm = False 
+def is_square(apositiveint):
+  x = apositiveint // 2
+  seen = set([x])
+  while x * x != apositiveint:
+    x = (x + (apositiveint // x)) // 2
+    if x in seen: return False
+    seen.add(x)
+  return True
 
-  if len(sys.argv) == 2 and sys.argv[1] == '-i':
-    genIm = True
+def getMaximalSquares(N):
+  factors = primes(N)
 
-  N_MIN=301
-  N_MAX=350
-  k_MIN=1
-  k_MAX=5
+  part = defaultdict(list)
+  for f in factors:
+    part[f].append(f)
+  maxsquares = {}
+  maxsquares[1] = 1
+  pk = part.keys() 
+  for k in pk:
+    pcnt = len(part[k])
+    if pcnt == 1:
+      continue
+    maxsq = 1
+    for j in part[k]:
+      maxsq *= j
+    while pcnt > 2:
+      if is_square(maxsq) == False:
+        maxsq /= k
+        pcnt -= 1
+        continue
+      break
+    maxsquares[k] = maxsq
+  return maxsquares
+
+def testSpirals(args):
+  (N_MIN, N_MAX, k_MIN, k_MAX) = args
   for N in range(N_MIN, N_MAX+1):
     print N
     sys.stdout.flush()
     for k in range(k_MIN, k_MAX+1):
       generateSquare(N, k)
 
+  # Squares are generated and pushed into a dict
   for N in range(N_MIN, N_MAX+1):
-    pf = primes(N)
+
+    maxsquares = getMaximalSquares(N)
+
     for k in range(k_MIN,k_MAX+1):
       type = ""
 
-      # (kN, kkN) case
-      if gend[N,k][0] == k*N and gend[N,k][1] == k*k*N:
-        type = "(kN, kkN)" 
+      msk = maxsquares.keys()
+      ldenom = 1
+      idenom = 1
+      for zz in msk:
+        ldenom *= sqrt(maxsquares[zz])
+        idenom *= maxsquares[zz]
 
-      # (\sqrt{N}k, kk) case
-      elif gend[N,k][0] == k*sqrt(N) and gend[N,k][1] == k*k:
-        type = "(sqrt(N)k, kk)"
-
-      # to be revised case... 
-      elif gend[N,k][0] == 0.5*k*N and gend[N,k][1] == 0.25*k*k*N:
-        type = "((1/2)kN, (1/4)kkN)"
+      # (kN/ldenom, kkN/idenom)
+      if gend[N,k][0] == (k*N)/ldenom and gend[N,k][1] == (k*k*N)/idenom:
+        print "[%d, %d]: (%d, %d) ~ PASS" % (N, k, gend[N,k][0], gend[N,k][1])
       else:
-        if gend[N,k][0] < k*N and gend[N,k][1] < k*k*N:
-          type = "No Match bounded"
-        else:
-          type = "No Match broke bounds"
-
-      print "[%d, %d]: (%d, %d) ~ %s ~ %s" % (N, k, gend[N,k][0], gend[N,k][1], type, str(pf))
+        print "[%d, %d]: (%d, %d) ~ FAIL" % (N, k, gend[N,k][0], gend[N,k][1])
       
+def main():
+
+  inputs = [ (2, 50, 1, 5),
+             (51, 100, 1, 5),
+             (101, 150, 1, 5),
+             (151, 200, 1, 5),
+             (201, 250, 1, 5),
+             (251, 300, 1, 5),
+             (301, 350, 1, 5),
+             (351, 400, 1, 5),
+             (401, 450, 1, 5),
+             (451, 500, 1, 5) ]
+
+  for ii in inputs:
+    t0 = time.time()
+    testSpirals(ii)
+    t1 = time.time()
+    print "%s time: %f seconds" % (str(ii), t1-t0)
+
           
 if __name__ == "__main__":
   main()
