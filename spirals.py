@@ -138,7 +138,7 @@ def generateSquare(N, k):
 #      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
 
       isTop = True
-      if prev[1] < maxy[1]:
+      if prev[1] == maxy[1]:
         isTop = True
       else:
         isTop = False
