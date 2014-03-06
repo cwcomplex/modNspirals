@@ -2099,3 +2099,605 @@
 [350, 4]: (280, 224) ~ PASS ~ Top=False
 [350, 5]: (350, 350) ~ PASS ~ Top=False
 (301, 350, 1, 5) time: 34100.125430 seconds
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+[351, 1]: (117, 39) ~ PASS ~ Top=True
+[351, 2]: (234, 156) ~ PASS ~ Top=False
+[351, 3]: (351, 351) ~ PASS ~ Top=True
+[351, 4]: (468, 624) ~ PASS ~ Top=False
+[351, 5]: (585, 975) ~ PASS ~ Top=True
+[352, 1]: (88, 22) ~ PASS ~ Top=False
+[352, 2]: (176, 88) ~ PASS ~ Top=False
+[352, 3]: (264, 198) ~ PASS ~ Top=False
+[352, 4]: (352, 352) ~ PASS ~ Top=False
+[352, 5]: (440, 550) ~ PASS ~ Top=False
+[353, 1]: (353, 353) ~ PASS ~ Top=True
+[353, 2]: (706, 1412) ~ PASS ~ Top=False
+[353, 3]: (1059, 3177) ~ PASS ~ Top=True
+[353, 4]: (1412, 5648) ~ PASS ~ Top=False
+[353, 5]: (1765, 8825) ~ PASS ~ Top=True
+[354, 1]: (354, 354) ~ PASS ~ Top=False
+[354, 2]: (708, 1416) ~ PASS ~ Top=False
+[354, 3]: (1062, 3186) ~ PASS ~ Top=False
+[354, 4]: (1416, 5664) ~ PASS ~ Top=False
+[354, 5]: (1770, 8850) ~ PASS ~ Top=False
+[355, 1]: (355, 355) ~ PASS ~ Top=True
+[355, 2]: (710, 1420) ~ PASS ~ Top=False
+[355, 3]: (1065, 3195) ~ PASS ~ Top=True
+[355, 4]: (1420, 5680) ~ PASS ~ Top=False
+[355, 5]: (1775, 8875) ~ PASS ~ Top=True
+[356, 1]: (178, 89) ~ PASS ~ Top=False
+[356, 2]: (356, 356) ~ PASS ~ Top=False
+[356, 3]: (534, 801) ~ PASS ~ Top=False
+[356, 4]: (712, 1424) ~ PASS ~ Top=False
+[356, 5]: (890, 2225) ~ PASS ~ Top=False
+[357, 1]: (357, 357) ~ PASS ~ Top=True
+[357, 2]: (714, 1428) ~ PASS ~ Top=False
+[357, 3]: (1071, 3213) ~ PASS ~ Top=True
+[357, 4]: (1428, 5712) ~ PASS ~ Top=False
+[357, 5]: (1785, 8925) ~ PASS ~ Top=True
+[358, 1]: (358, 358) ~ PASS ~ Top=False
+[358, 2]: (716, 1432) ~ PASS ~ Top=False
+[358, 3]: (1074, 3222) ~ PASS ~ Top=False
+[358, 4]: (1432, 5728) ~ PASS ~ Top=False
+[358, 5]: (1790, 8950) ~ PASS ~ Top=False
+[359, 1]: (359, 359) ~ PASS ~ Top=True
+[359, 2]: (718, 1436) ~ PASS ~ Top=False
+[359, 3]: (1077, 3231) ~ PASS ~ Top=True
+[359, 4]: (1436, 5744) ~ PASS ~ Top=False
+[359, 5]: (1795, 8975) ~ PASS ~ Top=True
+[360, 1]: (60, 10) ~ PASS ~ Top=False
+[360, 2]: (120, 40) ~ PASS ~ Top=False
+[360, 3]: (180, 90) ~ PASS ~ Top=False
+[360, 4]: (240, 160) ~ PASS ~ Top=False
+[360, 5]: (300, 250) ~ PASS ~ Top=False
+[361, 1]: (19, 1) ~ PASS ~ Top=True
+[361, 2]: (38, 4) ~ PASS ~ Top=False
+[361, 3]: (57, 9) ~ PASS ~ Top=True
+[361, 4]: (76, 16) ~ PASS ~ Top=False
+[361, 5]: (95, 25) ~ PASS ~ Top=True
+[362, 1]: (362, 362) ~ PASS ~ Top=False
+[362, 2]: (724, 1448) ~ PASS ~ Top=False
+[362, 3]: (1086, 3258) ~ PASS ~ Top=False
+[362, 4]: (1448, 5792) ~ PASS ~ Top=False
+[362, 5]: (1810, 9050) ~ PASS ~ Top=False
+[363, 1]: (33, 3) ~ PASS ~ Top=True
+[363, 2]: (66, 12) ~ PASS ~ Top=False
+[363, 3]: (99, 27) ~ PASS ~ Top=True
+[363, 4]: (132, 48) ~ PASS ~ Top=False
+[363, 5]: (165, 75) ~ PASS ~ Top=True
+[364, 1]: (182, 91) ~ PASS ~ Top=False
+[364, 2]: (364, 364) ~ PASS ~ Top=False
+[364, 3]: (546, 819) ~ PASS ~ Top=False
+[364, 4]: (728, 1456) ~ PASS ~ Top=False
+[364, 5]: (910, 2275) ~ PASS ~ Top=False
+[365, 1]: (365, 365) ~ PASS ~ Top=True
+[365, 2]: (730, 1460) ~ PASS ~ Top=False
+[365, 3]: (1095, 3285) ~ PASS ~ Top=True
+[365, 4]: (1460, 5840) ~ PASS ~ Top=False
+[365, 5]: (1825, 9125) ~ PASS ~ Top=True
+[366, 1]: (366, 366) ~ PASS ~ Top=False
+[366, 2]: (732, 1464) ~ PASS ~ Top=False
+[366, 3]: (1098, 3294) ~ PASS ~ Top=False
+[366, 4]: (1464, 5856) ~ PASS ~ Top=False
+[366, 5]: (1830, 9150) ~ PASS ~ Top=False
+[367, 1]: (367, 367) ~ PASS ~ Top=True
+[367, 2]: (734, 1468) ~ PASS ~ Top=False
+[367, 3]: (1101, 3303) ~ PASS ~ Top=True
+[367, 4]: (1468, 5872) ~ PASS ~ Top=False
+[367, 5]: (1835, 9175) ~ PASS ~ Top=True
+[368, 1]: (92, 23) ~ PASS ~ Top=False
+[368, 2]: (184, 92) ~ PASS ~ Top=False
+[368, 3]: (276, 207) ~ PASS ~ Top=False
+[368, 4]: (368, 368) ~ PASS ~ Top=False
+[368, 5]: (460, 575) ~ PASS ~ Top=False
+[369, 1]: (123, 41) ~ PASS ~ Top=True
+[369, 2]: (246, 164) ~ PASS ~ Top=False
+[369, 3]: (369, 369) ~ PASS ~ Top=True
+[369, 4]: (492, 656) ~ PASS ~ Top=False
+[369, 5]: (615, 1025) ~ PASS ~ Top=True
+[370, 1]: (370, 370) ~ PASS ~ Top=False
+[370, 2]: (740, 1480) ~ PASS ~ Top=False
+[370, 3]: (1110, 3330) ~ PASS ~ Top=False
+[370, 4]: (1480, 5920) ~ PASS ~ Top=False
+[370, 5]: (1850, 9250) ~ PASS ~ Top=False
+[371, 1]: (371, 371) ~ PASS ~ Top=True
+[371, 2]: (742, 1484) ~ PASS ~ Top=False
+[371, 3]: (1113, 3339) ~ PASS ~ Top=True
+[371, 4]: (1484, 5936) ~ PASS ~ Top=False
+[371, 5]: (1855, 9275) ~ PASS ~ Top=True
+[372, 1]: (186, 93) ~ PASS ~ Top=False
+[372, 2]: (372, 372) ~ PASS ~ Top=False
+[372, 3]: (558, 837) ~ PASS ~ Top=False
+[372, 4]: (744, 1488) ~ PASS ~ Top=False
+[372, 5]: (930, 2325) ~ PASS ~ Top=False
+[373, 1]: (373, 373) ~ PASS ~ Top=True
+[373, 2]: (746, 1492) ~ PASS ~ Top=False
+[373, 3]: (1119, 3357) ~ PASS ~ Top=True
+[373, 4]: (1492, 5968) ~ PASS ~ Top=False
+[373, 5]: (1865, 9325) ~ PASS ~ Top=True
+[374, 1]: (374, 374) ~ PASS ~ Top=False
+[374, 2]: (748, 1496) ~ PASS ~ Top=False
+[374, 3]: (1122, 3366) ~ PASS ~ Top=False
+[374, 4]: (1496, 5984) ~ PASS ~ Top=False
+[374, 5]: (1870, 9350) ~ PASS ~ Top=False
+[375, 1]: (75, 15) ~ PASS ~ Top=True
+[375, 2]: (150, 60) ~ PASS ~ Top=False
+[375, 3]: (225, 135) ~ PASS ~ Top=True
+[375, 4]: (300, 240) ~ PASS ~ Top=False
+[375, 5]: (375, 375) ~ PASS ~ Top=True
+[376, 1]: (188, 94) ~ PASS ~ Top=False
+[376, 2]: (376, 376) ~ PASS ~ Top=False
+[376, 3]: (564, 846) ~ PASS ~ Top=False
+[376, 4]: (752, 1504) ~ PASS ~ Top=False
+[376, 5]: (940, 2350) ~ PASS ~ Top=False
+[377, 1]: (377, 377) ~ PASS ~ Top=True
+[377, 2]: (754, 1508) ~ PASS ~ Top=False
+[377, 3]: (1131, 3393) ~ PASS ~ Top=True
+[377, 4]: (1508, 6032) ~ PASS ~ Top=False
+[377, 5]: (1885, 9425) ~ PASS ~ Top=True
+[378, 1]: (126, 42) ~ PASS ~ Top=False
+[378, 2]: (252, 168) ~ PASS ~ Top=False
+[378, 3]: (378, 378) ~ PASS ~ Top=False
+[378, 4]: (504, 672) ~ PASS ~ Top=False
+[378, 5]: (630, 1050) ~ PASS ~ Top=False
+[379, 1]: (379, 379) ~ PASS ~ Top=True
+[379, 2]: (758, 1516) ~ PASS ~ Top=False
+[379, 3]: (1137, 3411) ~ PASS ~ Top=True
+[379, 4]: (1516, 6064) ~ PASS ~ Top=False
+[379, 5]: (1895, 9475) ~ PASS ~ Top=True
+[380, 1]: (190, 95) ~ PASS ~ Top=False
+[380, 2]: (380, 380) ~ PASS ~ Top=False
+[380, 3]: (570, 855) ~ PASS ~ Top=False
+[380, 4]: (760, 1520) ~ PASS ~ Top=False
+[380, 5]: (950, 2375) ~ PASS ~ Top=False
+[381, 1]: (381, 381) ~ PASS ~ Top=True
+[381, 2]: (762, 1524) ~ PASS ~ Top=False
+[381, 3]: (1143, 3429) ~ PASS ~ Top=True
+[381, 4]: (1524, 6096) ~ PASS ~ Top=False
+[381, 5]: (1905, 9525) ~ PASS ~ Top=True
+[382, 1]: (382, 382) ~ PASS ~ Top=False
+[382, 2]: (764, 1528) ~ PASS ~ Top=False
+[382, 3]: (1146, 3438) ~ PASS ~ Top=False
+[382, 4]: (1528, 6112) ~ PASS ~ Top=False
+[382, 5]: (1910, 9550) ~ PASS ~ Top=False
+[383, 1]: (383, 383) ~ PASS ~ Top=True
+[383, 2]: (766, 1532) ~ PASS ~ Top=False
+[383, 3]: (1149, 3447) ~ PASS ~ Top=True
+[383, 4]: (1532, 6128) ~ PASS ~ Top=False
+[383, 5]: (1915, 9575) ~ PASS ~ Top=True
+[384, 1]: (48, 6) ~ PASS ~ Top=False
+[384, 2]: (96, 24) ~ PASS ~ Top=False
+[384, 3]: (144, 54) ~ PASS ~ Top=False
+[384, 4]: (192, 96) ~ PASS ~ Top=False
+[384, 5]: (240, 150) ~ PASS ~ Top=False
+[385, 1]: (385, 385) ~ PASS ~ Top=True
+[385, 2]: (770, 1540) ~ PASS ~ Top=False
+[385, 3]: (1155, 3465) ~ PASS ~ Top=True
+[385, 4]: (1540, 6160) ~ PASS ~ Top=False
+[385, 5]: (1925, 9625) ~ PASS ~ Top=True
+[386, 1]: (386, 386) ~ PASS ~ Top=False
+[386, 2]: (772, 1544) ~ PASS ~ Top=False
+[386, 3]: (1158, 3474) ~ PASS ~ Top=False
+[386, 4]: (1544, 6176) ~ PASS ~ Top=False
+[386, 5]: (1930, 9650) ~ PASS ~ Top=False
+[387, 1]: (129, 43) ~ PASS ~ Top=True
+[387, 2]: (258, 172) ~ PASS ~ Top=False
+[387, 3]: (387, 387) ~ PASS ~ Top=True
+[387, 4]: (516, 688) ~ PASS ~ Top=False
+[387, 5]: (645, 1075) ~ PASS ~ Top=True
+[388, 1]: (194, 97) ~ PASS ~ Top=False
+[388, 2]: (388, 388) ~ PASS ~ Top=False
+[388, 3]: (582, 873) ~ PASS ~ Top=False
+[388, 4]: (776, 1552) ~ PASS ~ Top=False
+[388, 5]: (970, 2425) ~ PASS ~ Top=False
+[389, 1]: (389, 389) ~ PASS ~ Top=True
+[389, 2]: (778, 1556) ~ PASS ~ Top=False
+[389, 3]: (1167, 3501) ~ PASS ~ Top=True
+[389, 4]: (1556, 6224) ~ PASS ~ Top=False
+[389, 5]: (1945, 9725) ~ PASS ~ Top=True
+[390, 1]: (390, 390) ~ PASS ~ Top=False
+[390, 2]: (780, 1560) ~ PASS ~ Top=False
+[390, 3]: (1170, 3510) ~ PASS ~ Top=False
+[390, 4]: (1560, 6240) ~ PASS ~ Top=False
+[390, 5]: (1950, 9750) ~ PASS ~ Top=False
+[391, 1]: (391, 391) ~ PASS ~ Top=True
+[391, 2]: (782, 1564) ~ PASS ~ Top=False
+[391, 3]: (1173, 3519) ~ PASS ~ Top=True
+[391, 4]: (1564, 6256) ~ PASS ~ Top=False
+[391, 5]: (1955, 9775) ~ PASS ~ Top=True
+[392, 1]: (28, 2) ~ PASS ~ Top=False
+[392, 2]: (56, 8) ~ PASS ~ Top=False
+[392, 3]: (84, 18) ~ PASS ~ Top=False
+[392, 4]: (112, 32) ~ PASS ~ Top=False
+[392, 5]: (140, 50) ~ PASS ~ Top=False
+[393, 1]: (393, 393) ~ PASS ~ Top=True
+[393, 2]: (786, 1572) ~ PASS ~ Top=False
+[393, 3]: (1179, 3537) ~ PASS ~ Top=True
+[393, 4]: (1572, 6288) ~ PASS ~ Top=False
+[393, 5]: (1965, 9825) ~ PASS ~ Top=True
+[394, 1]: (394, 394) ~ PASS ~ Top=False
+[394, 2]: (788, 1576) ~ PASS ~ Top=False
+[394, 3]: (1182, 3546) ~ PASS ~ Top=False
+[394, 4]: (1576, 6304) ~ PASS ~ Top=False
+[394, 5]: (1970, 9850) ~ PASS ~ Top=False
+[395, 1]: (395, 395) ~ PASS ~ Top=True
+[395, 2]: (790, 1580) ~ PASS ~ Top=False
+[395, 3]: (1185, 3555) ~ PASS ~ Top=True
+[395, 4]: (1580, 6320) ~ PASS ~ Top=False
+[395, 5]: (1975, 9875) ~ PASS ~ Top=True
+[396, 1]: (66, 11) ~ PASS ~ Top=False
+[396, 2]: (132, 44) ~ PASS ~ Top=False
+[396, 3]: (198, 99) ~ PASS ~ Top=False
+[396, 4]: (264, 176) ~ PASS ~ Top=False
+[396, 5]: (330, 275) ~ PASS ~ Top=False
+[397, 1]: (397, 397) ~ PASS ~ Top=True
+[397, 2]: (794, 1588) ~ PASS ~ Top=False
+[397, 3]: (1191, 3573) ~ PASS ~ Top=True
+[397, 4]: (1588, 6352) ~ PASS ~ Top=False
+[397, 5]: (1985, 9925) ~ PASS ~ Top=True
+[398, 1]: (398, 398) ~ PASS ~ Top=False
+[398, 2]: (796, 1592) ~ PASS ~ Top=False
+[398, 3]: (1194, 3582) ~ PASS ~ Top=False
+[398, 4]: (1592, 6368) ~ PASS ~ Top=False
+[398, 5]: (1990, 9950) ~ PASS ~ Top=False
+[399, 1]: (399, 399) ~ PASS ~ Top=True
+[399, 2]: (798, 1596) ~ PASS ~ Top=False
+[399, 3]: (1197, 3591) ~ PASS ~ Top=True
+[399, 4]: (1596, 6384) ~ PASS ~ Top=False
+[399, 5]: (1995, 9975) ~ PASS ~ Top=True
+[400, 1]: (20, 1) ~ PASS ~ Top=False
+[400, 2]: (40, 4) ~ PASS ~ Top=False
+[400, 3]: (60, 9) ~ PASS ~ Top=False
+[400, 4]: (80, 16) ~ PASS ~ Top=False
+[400, 5]: (100, 25) ~ PASS ~ Top=False
+(351, 400, 1, 5) time: 58062.710205 seconds
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+[401, 1]: (401, 401) ~ PASS ~ Top=True
+[401, 2]: (802, 1604) ~ PASS ~ Top=False
+[401, 3]: (1203, 3609) ~ PASS ~ Top=True
+[401, 4]: (1604, 6416) ~ PASS ~ Top=False
+[401, 5]: (2005, 10025) ~ PASS ~ Top=True
+[402, 1]: (402, 402) ~ PASS ~ Top=False
+[402, 2]: (804, 1608) ~ PASS ~ Top=False
+[402, 3]: (1206, 3618) ~ PASS ~ Top=False
+[402, 4]: (1608, 6432) ~ PASS ~ Top=False
+[402, 5]: (2010, 10050) ~ PASS ~ Top=False
+[403, 1]: (403, 403) ~ PASS ~ Top=True
+[403, 2]: (806, 1612) ~ PASS ~ Top=False
+[403, 3]: (1209, 3627) ~ PASS ~ Top=True
+[403, 4]: (1612, 6448) ~ PASS ~ Top=False
+[403, 5]: (2015, 10075) ~ PASS ~ Top=True
+[404, 1]: (202, 101) ~ PASS ~ Top=False
+[404, 2]: (404, 404) ~ PASS ~ Top=False
+[404, 3]: (606, 909) ~ PASS ~ Top=False
+[404, 4]: (808, 1616) ~ PASS ~ Top=False
+[404, 5]: (1010, 2525) ~ PASS ~ Top=False
+[405, 1]: (45, 5) ~ PASS ~ Top=True
+[405, 2]: (90, 20) ~ PASS ~ Top=False
+[405, 3]: (135, 45) ~ PASS ~ Top=True
+[405, 4]: (180, 80) ~ PASS ~ Top=False
+[405, 5]: (225, 125) ~ PASS ~ Top=True
+[406, 1]: (406, 406) ~ PASS ~ Top=False
+[406, 2]: (812, 1624) ~ PASS ~ Top=False
+[406, 3]: (1218, 3654) ~ PASS ~ Top=False
+[406, 4]: (1624, 6496) ~ PASS ~ Top=False
+[406, 5]: (2030, 10150) ~ PASS ~ Top=False
+[407, 1]: (407, 407) ~ PASS ~ Top=True
+[407, 2]: (814, 1628) ~ PASS ~ Top=False
+[407, 3]: (1221, 3663) ~ PASS ~ Top=True
+[407, 4]: (1628, 6512) ~ PASS ~ Top=False
+[407, 5]: (2035, 10175) ~ PASS ~ Top=True
+[408, 1]: (204, 102) ~ PASS ~ Top=False
+[408, 2]: (408, 408) ~ PASS ~ Top=False
+[408, 3]: (612, 918) ~ PASS ~ Top=False
+[408, 4]: (816, 1632) ~ PASS ~ Top=False
+[408, 5]: (1020, 2550) ~ PASS ~ Top=False
+[409, 1]: (409, 409) ~ PASS ~ Top=True
+[409, 2]: (818, 1636) ~ PASS ~ Top=False
+[409, 3]: (1227, 3681) ~ PASS ~ Top=True
+[409, 4]: (1636, 6544) ~ PASS ~ Top=False
+[409, 5]: (2045, 10225) ~ PASS ~ Top=True
+[410, 1]: (410, 410) ~ PASS ~ Top=False
+[410, 2]: (820, 1640) ~ PASS ~ Top=False
+[410, 3]: (1230, 3690) ~ PASS ~ Top=False
+[410, 4]: (1640, 6560) ~ PASS ~ Top=False
+[410, 5]: (2050, 10250) ~ PASS ~ Top=False
+[411, 1]: (411, 411) ~ PASS ~ Top=True
+[411, 2]: (822, 1644) ~ PASS ~ Top=False
+[411, 3]: (1233, 3699) ~ PASS ~ Top=True
+[411, 4]: (1644, 6576) ~ PASS ~ Top=False
+[411, 5]: (2055, 10275) ~ PASS ~ Top=True
+[412, 1]: (206, 103) ~ PASS ~ Top=False
+[412, 2]: (412, 412) ~ PASS ~ Top=False
+[412, 3]: (618, 927) ~ PASS ~ Top=False
+[412, 4]: (824, 1648) ~ PASS ~ Top=False
+[412, 5]: (1030, 2575) ~ PASS ~ Top=False
+[413, 1]: (413, 413) ~ PASS ~ Top=True
+[413, 2]: (826, 1652) ~ PASS ~ Top=False
+[413, 3]: (1239, 3717) ~ PASS ~ Top=True
+[413, 4]: (1652, 6608) ~ PASS ~ Top=False
+[413, 5]: (2065, 10325) ~ PASS ~ Top=True
+[414, 1]: (138, 46) ~ PASS ~ Top=False
+[414, 2]: (276, 184) ~ PASS ~ Top=False
+[414, 3]: (414, 414) ~ PASS ~ Top=False
+[414, 4]: (552, 736) ~ PASS ~ Top=False
+[414, 5]: (690, 1150) ~ PASS ~ Top=False
+[415, 1]: (415, 415) ~ PASS ~ Top=True
+[415, 2]: (830, 1660) ~ PASS ~ Top=False
+[415, 3]: (1245, 3735) ~ PASS ~ Top=True
+[415, 4]: (1660, 6640) ~ PASS ~ Top=False
+[415, 5]: (2075, 10375) ~ PASS ~ Top=True
+[416, 1]: (104, 26) ~ PASS ~ Top=False
+[416, 2]: (208, 104) ~ PASS ~ Top=False
+[416, 3]: (312, 234) ~ PASS ~ Top=False
+[416, 4]: (416, 416) ~ PASS ~ Top=False
+[416, 5]: (520, 650) ~ PASS ~ Top=False
+[417, 1]: (417, 417) ~ PASS ~ Top=True
+[417, 2]: (834, 1668) ~ PASS ~ Top=False
+[417, 3]: (1251, 3753) ~ PASS ~ Top=True
+[417, 4]: (1668, 6672) ~ PASS ~ Top=False
+[417, 5]: (2085, 10425) ~ PASS ~ Top=True
+[418, 1]: (418, 418) ~ PASS ~ Top=False
+[418, 2]: (836, 1672) ~ PASS ~ Top=False
+[418, 3]: (1254, 3762) ~ PASS ~ Top=False
+[418, 4]: (1672, 6688) ~ PASS ~ Top=False
+[418, 5]: (2090, 10450) ~ PASS ~ Top=False
+[419, 1]: (419, 419) ~ PASS ~ Top=True
+[419, 2]: (838, 1676) ~ PASS ~ Top=False
+[419, 3]: (1257, 3771) ~ PASS ~ Top=True
+[419, 4]: (1676, 6704) ~ PASS ~ Top=False
+[419, 5]: (2095, 10475) ~ PASS ~ Top=True
+[420, 1]: (210, 105) ~ PASS ~ Top=False
+[420, 2]: (420, 420) ~ PASS ~ Top=False
+[420, 3]: (630, 945) ~ PASS ~ Top=False
+[420, 4]: (840, 1680) ~ PASS ~ Top=False
+[420, 5]: (1050, 2625) ~ PASS ~ Top=False
+[421, 1]: (421, 421) ~ PASS ~ Top=True
+[421, 2]: (842, 1684) ~ PASS ~ Top=False
+[421, 3]: (1263, 3789) ~ PASS ~ Top=True
+[421, 4]: (1684, 6736) ~ PASS ~ Top=False
+[421, 5]: (2105, 10525) ~ PASS ~ Top=True
+[422, 1]: (422, 422) ~ PASS ~ Top=False
+[422, 2]: (844, 1688) ~ PASS ~ Top=False
+[422, 3]: (1266, 3798) ~ PASS ~ Top=False
+[422, 4]: (1688, 6752) ~ PASS ~ Top=False
+[422, 5]: (2110, 10550) ~ PASS ~ Top=False
+[423, 1]: (141, 47) ~ PASS ~ Top=True
+[423, 2]: (282, 188) ~ PASS ~ Top=False
+[423, 3]: (423, 423) ~ PASS ~ Top=True
+[423, 4]: (564, 752) ~ PASS ~ Top=False
+[423, 5]: (705, 1175) ~ PASS ~ Top=True
+[424, 1]: (212, 106) ~ PASS ~ Top=False
+[424, 2]: (424, 424) ~ PASS ~ Top=False
+[424, 3]: (636, 954) ~ PASS ~ Top=False
+[424, 4]: (848, 1696) ~ PASS ~ Top=False
+[424, 5]: (1060, 2650) ~ PASS ~ Top=False
+[425, 1]: (85, 17) ~ PASS ~ Top=True
+[425, 2]: (170, 68) ~ PASS ~ Top=False
+[425, 3]: (255, 153) ~ PASS ~ Top=True
+[425, 4]: (340, 272) ~ PASS ~ Top=False
+[425, 5]: (425, 425) ~ PASS ~ Top=True
+[426, 1]: (426, 426) ~ PASS ~ Top=False
+[426, 2]: (852, 1704) ~ PASS ~ Top=False
+[426, 3]: (1278, 3834) ~ PASS ~ Top=False
+[426, 4]: (1704, 6816) ~ PASS ~ Top=False
+[426, 5]: (2130, 10650) ~ PASS ~ Top=False
+[427, 1]: (427, 427) ~ PASS ~ Top=True
+[427, 2]: (854, 1708) ~ PASS ~ Top=False
+[427, 3]: (1281, 3843) ~ PASS ~ Top=True
+[427, 4]: (1708, 6832) ~ PASS ~ Top=False
+[427, 5]: (2135, 10675) ~ PASS ~ Top=True
+[428, 1]: (214, 107) ~ PASS ~ Top=False
+[428, 2]: (428, 428) ~ PASS ~ Top=False
+[428, 3]: (642, 963) ~ PASS ~ Top=False
+[428, 4]: (856, 1712) ~ PASS ~ Top=False
+[428, 5]: (1070, 2675) ~ PASS ~ Top=False
+[429, 1]: (429, 429) ~ PASS ~ Top=True
+[429, 2]: (858, 1716) ~ PASS ~ Top=False
+[429, 3]: (1287, 3861) ~ PASS ~ Top=True
+[429, 4]: (1716, 6864) ~ PASS ~ Top=False
+[429, 5]: (2145, 10725) ~ PASS ~ Top=True
+[430, 1]: (430, 430) ~ PASS ~ Top=False
+[430, 2]: (860, 1720) ~ PASS ~ Top=False
+[430, 3]: (1290, 3870) ~ PASS ~ Top=False
+[430, 4]: (1720, 6880) ~ PASS ~ Top=False
+[430, 5]: (2150, 10750) ~ PASS ~ Top=False
+[431, 1]: (431, 431) ~ PASS ~ Top=True
+[431, 2]: (862, 1724) ~ PASS ~ Top=False
+[431, 3]: (1293, 3879) ~ PASS ~ Top=True
+[431, 4]: (1724, 6896) ~ PASS ~ Top=False
+[431, 5]: (2155, 10775) ~ PASS ~ Top=True
+[432, 1]: (36, 3) ~ PASS ~ Top=False
+[432, 2]: (72, 12) ~ PASS ~ Top=False
+[432, 3]: (108, 27) ~ PASS ~ Top=False
+[432, 4]: (144, 48) ~ PASS ~ Top=False
+[432, 5]: (180, 75) ~ PASS ~ Top=False
+[433, 1]: (433, 433) ~ PASS ~ Top=True
+[433, 2]: (866, 1732) ~ PASS ~ Top=False
+[433, 3]: (1299, 3897) ~ PASS ~ Top=True
+[433, 4]: (1732, 6928) ~ PASS ~ Top=False
+[433, 5]: (2165, 10825) ~ PASS ~ Top=True
+[434, 1]: (434, 434) ~ PASS ~ Top=False
+[434, 2]: (868, 1736) ~ PASS ~ Top=False
+[434, 3]: (1302, 3906) ~ PASS ~ Top=False
+[434, 4]: (1736, 6944) ~ PASS ~ Top=False
+[434, 5]: (2170, 10850) ~ PASS ~ Top=False
+[435, 1]: (435, 435) ~ PASS ~ Top=True
+[435, 2]: (870, 1740) ~ PASS ~ Top=False
+[435, 3]: (1305, 3915) ~ PASS ~ Top=True
+[435, 4]: (1740, 6960) ~ PASS ~ Top=False
+[435, 5]: (2175, 10875) ~ PASS ~ Top=True
+[436, 1]: (218, 109) ~ PASS ~ Top=False
+[436, 2]: (436, 436) ~ PASS ~ Top=False
+[436, 3]: (654, 981) ~ PASS ~ Top=False
+[436, 4]: (872, 1744) ~ PASS ~ Top=False
+[436, 5]: (1090, 2725) ~ PASS ~ Top=False
+[437, 1]: (437, 437) ~ PASS ~ Top=True
+[437, 2]: (874, 1748) ~ PASS ~ Top=False
+[437, 3]: (1311, 3933) ~ PASS ~ Top=True
+[437, 4]: (1748, 6992) ~ PASS ~ Top=False
+[437, 5]: (2185, 10925) ~ PASS ~ Top=True
+[438, 1]: (438, 438) ~ PASS ~ Top=False
+[438, 2]: (876, 1752) ~ PASS ~ Top=False
+[438, 3]: (1314, 3942) ~ PASS ~ Top=False
+[438, 4]: (1752, 7008) ~ PASS ~ Top=False
+[438, 5]: (2190, 10950) ~ PASS ~ Top=False
+[439, 1]: (439, 439) ~ PASS ~ Top=True
+[439, 2]: (878, 1756) ~ PASS ~ Top=False
+[439, 3]: (1317, 3951) ~ PASS ~ Top=True
+[439, 4]: (1756, 7024) ~ PASS ~ Top=False
+[439, 5]: (2195, 10975) ~ PASS ~ Top=True
+[440, 1]: (220, 110) ~ PASS ~ Top=False
+[440, 2]: (440, 440) ~ PASS ~ Top=False
+[440, 3]: (660, 990) ~ PASS ~ Top=False
+[440, 4]: (880, 1760) ~ PASS ~ Top=False
+[440, 5]: (1100, 2750) ~ PASS ~ Top=False
+[441, 1]: (21, 1) ~ PASS ~ Top=True
+[441, 2]: (42, 4) ~ PASS ~ Top=False
+[441, 3]: (63, 9) ~ PASS ~ Top=True
+[441, 4]: (84, 16) ~ PASS ~ Top=False
+[441, 5]: (105, 25) ~ PASS ~ Top=True
+[442, 1]: (442, 442) ~ PASS ~ Top=False
+[442, 2]: (884, 1768) ~ PASS ~ Top=False
+[442, 3]: (1326, 3978) ~ PASS ~ Top=False
+[442, 4]: (1768, 7072) ~ PASS ~ Top=False
+[442, 5]: (2210, 11050) ~ PASS ~ Top=False
+[443, 1]: (443, 443) ~ PASS ~ Top=True
+[443, 2]: (886, 1772) ~ PASS ~ Top=False
+[443, 3]: (1329, 3987) ~ PASS ~ Top=True
+[443, 4]: (1772, 7088) ~ PASS ~ Top=False
+[443, 5]: (2215, 11075) ~ PASS ~ Top=True
+[444, 1]: (222, 111) ~ PASS ~ Top=False
+[444, 2]: (444, 444) ~ PASS ~ Top=False
+[444, 3]: (666, 999) ~ PASS ~ Top=False
+[444, 4]: (888, 1776) ~ PASS ~ Top=False
+[444, 5]: (1110, 2775) ~ PASS ~ Top=False
+[445, 1]: (445, 445) ~ PASS ~ Top=True
+[445, 2]: (890, 1780) ~ PASS ~ Top=False
+[445, 3]: (1335, 4005) ~ PASS ~ Top=True
+[445, 4]: (1780, 7120) ~ PASS ~ Top=False
+[445, 5]: (2225, 11125) ~ PASS ~ Top=True
+[446, 1]: (446, 446) ~ PASS ~ Top=False
+[446, 2]: (892, 1784) ~ PASS ~ Top=False
+[446, 3]: (1338, 4014) ~ PASS ~ Top=False
+[446, 4]: (1784, 7136) ~ PASS ~ Top=False
+[446, 5]: (2230, 11150) ~ PASS ~ Top=False
+[447, 1]: (447, 447) ~ PASS ~ Top=True
+[447, 2]: (894, 1788) ~ PASS ~ Top=False
+[447, 3]: (1341, 4023) ~ PASS ~ Top=True
+[447, 4]: (1788, 7152) ~ PASS ~ Top=False
+[447, 5]: (2235, 11175) ~ PASS ~ Top=True
+[448, 1]: (56, 7) ~ PASS ~ Top=False
+[448, 2]: (112, 28) ~ PASS ~ Top=False
+[448, 3]: (168, 63) ~ PASS ~ Top=False
+[448, 4]: (224, 112) ~ PASS ~ Top=False
+[448, 5]: (280, 175) ~ PASS ~ Top=False
+[449, 1]: (449, 449) ~ PASS ~ Top=True
+[449, 2]: (898, 1796) ~ PASS ~ Top=False
+[449, 3]: (1347, 4041) ~ PASS ~ Top=True
+[449, 4]: (1796, 7184) ~ PASS ~ Top=False
+[449, 5]: (2245, 11225) ~ PASS ~ Top=True
+[450, 1]: (30, 2) ~ PASS ~ Top=False
+[450, 2]: (60, 8) ~ PASS ~ Top=False
+[450, 3]: (90, 18) ~ PASS ~ Top=False
+[450, 4]: (120, 32) ~ PASS ~ Top=False
+[450, 5]: (150, 50) ~ PASS ~ Top=False
+(401, 450, 1, 5) time: 95196.496095 seconds
