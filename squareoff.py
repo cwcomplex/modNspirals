@@ -5,6 +5,7 @@ from PIL import Image
 import gmpy
 from math import sqrt
 import operator
+from operator import mul
 
 from collections import defaultdict
 
@@ -37,56 +38,69 @@ def is_square(apositiveint):
     seen.add(x)
   return True
 
+def getMaximalSquares(N):
+  factors = primes(N)
+
+  part = defaultdict(list)
+  for f in factors:
+    part[f].append(f)
+  maxsquares = {}
+  maxsquares[1] = 1
+  pk = part.keys() 
+  for k in pk:
+    pcnt = len(part[k])
+    if pcnt == 1:
+      continue
+    maxsq = 1
+    for j in part[k]:
+      maxsq *= j
+    while pcnt > 2:
+      if is_square(maxsq) == False:
+        maxsq /= k
+        pcnt -= 1
+        continue
+      break
+    maxsquares[k] = maxsq
+  return maxsquares
+
 def main():
-  genIm = False 
-
-  if len(sys.argv) == 2 and sys.argv[1] == '-i':
-    genIm = True
-
   N_MIN=2
-  N_MAX=500
+  N_MAX=100000
   k_MIN=1
   k_MAX=5
 
+  rootfracs = []
+  sqfracs = []
   for N in range(N_MIN, N_MAX+1):
-    print "----------"
-    factors = primes(N)
+    maxx = getMaximalSquares(N)
+    msk = maxx.keys()
+    idenom = 1
+    for zz in msk:
+      idenom *= maxx[zz]
+    print "%d %d" % (N, idenom)
+    continue
+    if idenom > 1:
+      if is_square(idenom) == True:
+        print "idenom is square = %d" % ( idenom)
+      else:
+        print "idenom is not square = %d" % ( idenom)
+    else:
+      print "idenom is 1"
 
-    part = defaultdict(list)
-    for f in factors:
-      part[f].append(f)
+#    rootfracs.append(ldenom)
+#    sqfracs.append(idenom)      
+#    print "N=%d, 1/%d, 1/%d -- %s" %(N, ldenom, idenom, str(factors))
+#  print str(rootfracs)
+#  print str(sqfracs)
+#    print "N=%d, k=%d: root=%d sq=%d" % (N, k, ldenom, idenom)
 
-    maxsquares = {}
-    maxsquares[1] = 1
-   
-    pk = part.keys() 
-    for k in pk:
-      pcnt = len(part[k])
-      if pcnt == 1:
-        continue
-     
-      maxsq = 1
-      for j in part[k]:
-        maxsq *= j
-
-      while pcnt > 2:
-        if is_square(maxsq) == False:
-          maxsq /= k
-          pcnt -= 1
-          continue
-        break
-
-  #    print "%d, len=%d, maxsq=%d"%(k, len(part[k]), maxsq)
-      maxsquares[k] = maxsq
-
-    for k in range(k_MIN, k_MAX+1):
-      msk = maxsquares.keys()
-      ldenom = 1
-      idenom = 1
-      for zz in msk:
-        ldenom *= sqrt(maxsquares[zz])
-        idenom *= maxsquares[zz]
-      print "N=%d, k=%d: len=%d iterates=%d" % (N, k, (k*N)/ldenom, (k*k*N)/idenom)
+#    for k in range(k_MIN, k_MAX+1):
+#      ldenom = 1
+#      idenom = 1
+#      for zz in msk:
+#        ldenom *= sqrt(maxsquares[zz])
+#        idenom *= maxsquares[zz]
+#      print "N=%d, k=%d: len=%d iterates=%d" % (N, k, (k*N)/ldenom, (k*k*N)/idenom)
 
        
 
