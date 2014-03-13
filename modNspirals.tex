@@ -111,11 +111,13 @@ Most interesting to the author is that the connection between a physical process
 
 \subsection{Ending Corner of $Ond^k_N$}
 
-Another pattern in the generation of \textit{complete spirals} that was noticed is related to which corner the last lattice point comes to rest. It seems to end on either the top right or bottom left corner and this depends on values of $N$ and $k$. One can see this in figure \ref{fig:mod34}.
+Another pattern in the generation of \textit{complete spirals} that was noticed is related to which corner the last lattice point comes to rest. It seems to end on either the top right or bottom left corner and this depends on values of $N$ and $k$. One can see this in figure \ref{fig:mod34}. 
 
 \begin{conj}[Ending Corner]
 If $l_{max} \in L$ is the last lattice point in the complete spiral $Ond^k_N$, then $l_{max}$ is either the top-right corner or bottom-left corner. If $N$ even, then $l_{max}$ will always be the bottom-left corner. If $N$ odd and $k$ odd, then $l_{max}$ will be the top-right corner of $Ond^k_N$. If $N$ odd and $k$ even, then $l_{max}$ will be the bottom-left corner.
 \end{conj}
+
+It is worth noting that $l_{max} = l_{\xi(N, k)\vert S_N \vert - 1}$, due to starting with $l_0$.
 
 \subsection{Cases Verified}
 I have verified the conjectures on length, iteration count, and end corners for $N=2\ldots450$ and $k=1\ldots5$. This code may be found at \cite{PySquare}. At this location, if you view the file \textit{run.log} you will see log output of the code running.
