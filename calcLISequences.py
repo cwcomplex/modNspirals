@@ -4,6 +4,7 @@ import sys
 from math import sqrt
 import operator
 from operator import mul
+import matplotlib.pyplot as plt
 
 from collections import defaultdict
 
@@ -65,24 +66,39 @@ def main():
   N_MIN=2
   N_MAX=100
   k_MIN=1
-  k_MAX=11
+  k_MAX=99
 
   print "LENGTHS"
-  for N in range(N_MIN, N_MAX+1):
+
+  LINES = []
+  SLOPES = []
+  NSET = range(N_MIN, N_MAX+1)
+  for N in NSET:
     maxx = getMaximalSquares(N)
     msk = maxx.keys()
     ldenom = 1
     for zz in msk:
       ldenom *= sqrt(maxx[zz])
 
+    YLINE = [] 
     print "--- N=%d ---" % (N)
     for k in range(k_MIN, k_MAX+1):
       lcs = (k*N)/ldenom
       print "k=%d l=%d" % (k, lcs)
+      YLINE.append(lcs)
 
+    SLOPES.append(abs(YLINE[1] - YLINE[0]))
+    LINES.append(YLINE)
+  print SLOPES
+  for J in LINES:
+    plt.plot(J)
+  plt.show()
 
+  LINES = []
   for k in range(k_MIN, k_MAX+1):
     print "--- k=%d ---" % (k) 
+
+    YLINES = []
     for N in range(N_MIN, N_MAX+1):
       maxx = getMaximalSquares(N)
       ldenom = 1
@@ -91,8 +107,16 @@ def main():
 
       lcs = (k*N)/ldenom 
       print "N=%d l=%d" %(N, lcs)
+      YLINES.append(lcs)
+    LINES.append(YLINES)
+
+  for J in LINES:
+    plt.plot(J)
+  plt.show()
 
   print "ITERATES"
+  LINES = []
+  SLOPES = []
   for N in range(N_MIN, N_MAX+1):
     maxx = getMaximalSquares(N)
     msk = maxx.keys()
@@ -100,14 +124,25 @@ def main():
     for zz in msk:
       idenom *= maxx[zz]
 
+    YLINES = []
     print "--- N=%d ---" % (N)
     for k in range(k_MIN, k_MAX+1):
       ics = (k*k*N)/idenom
       print "k=%d i=%d" % (k, ics)
 
+      YLINES.append(ics)
+    SLOPES.append(YLINES[1]-YLINES[0])
+    LINES.append(YLINES)
 
+  for J in LINES:
+    plt.plot(J)
+  plt.show()
+
+  LINES = []
   for k in range(k_MIN, k_MAX+1):
     print "--- k=%d ---" % (k) 
+
+    YLINES = []
     for N in range(N_MIN, N_MAX+1):
       maxx = getMaximalSquares(N)
       idenom = 1
@@ -115,7 +150,12 @@ def main():
         idenom *= maxx[zz]
       ics = (k*k*N)/idenom 
       print "N=%d i=%d" %(N, ics)
-          
+      YLINES.append(ics)
+    LINES.append(YLINES)
+ 
+  for J in LINES:
+    plt.plot(J)
+  plt.show()          
           
 if __name__ == "__main__":
   main()
