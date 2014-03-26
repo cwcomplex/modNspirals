@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{float}
 \usepackage{hyperref}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -20,14 +22,46 @@
 In reading the brief note from the author \cite{ARRmodN}, the reader will have learned about the construction of (mod N) spirals defined on a square lattice. In this note, we focus on the sequences generated from the length and iteration formulas for complete spiral $Ond^k_N$.
 
 \section{Sequences from Length Formula}
-Let us first recall the formula for the length of the sides of the complete spiral $Ond^k_N$ to be $\lambda = \frac{kN}{\sqrt{s}}$ where $s$ is the \textit{greatest square divisor} of $N$. Let $s = g(N)$ where $g : \mathbb{N} \mapsto \{ x \in \mathbb{N} : \sqrt{x} \in \mathbb{N} \}$ to represent the function that returns the greatest square divisor of $N$.
+Let us first recall the formula for the length of the sides of the complete spiral $Ond^k_N$ to be $\lambda = \frac{kN}{\sqrt{s}}$ where $s$ is the \textit{greatest square divisor} of $N$. Let $s = g(N)$ where $g : \mathbb{N} \mapsto \{ x \in \mathbb{N} : \forall y \in \mathbb{N}\ s.t.\ y^2 = x \}$ to represent the function that returns the greatest square divisor of $N$.
 
-We can look at $\lambda$ and see two ways in which to start generating sequences. The first is to fix $N$, and thus $g(N)$, and iterate through values $k=1, 2, 3, \ldots$. The second method is to fix $k$ and iterate through values $N=2, 3, 4, \ldots$, thus producing a set of values $\{ g(2), g(3), g(4), \ldots \}$.
+We can look at $\lambda$ and see two ways in which to start generating sequences. The first is to fix $N$, and thus $g(N)$, and iterate through values $k=1, 2, 3, \ldots$. In fixing $N$, the formula results in $\lambda = kC$ where $C = \frac{N}{\sqrt(g(N))}$ is constant. Thus, $\lambda$ is a line, and the set of $\lambda$'s for all $N$ is a set of lines. Some of the lines will be relatively parallel. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{len_N.png}
+\caption{Lengths for $Ond^k_N$ with fixed $N$}
+\label{fig:len_N}
+\end{figure}
+
+The second method is to fix $k$ and iterate through values $N=2, 3, 4, \ldots$, thus producing a set of values $\{ g(2), g(3), g(4), \ldots \}$. In fixing $k$, the formula is still $\lambda = \frac{kN}{\sqrt{g(N)}}$. The method $\frac{N}{\sqrt{g(N)}}$ piece of this equation results in the non-linearity of $lambda$ for this case. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{len_k.png}
+\caption{Lengths for $Ond^k_N$ with fixed $k$}
+\label{fig:len_k}
+\end{figure}
 
 %\subsection{}
 
 \section{Sequences from Iteration Forumla}
-Let us recall the formula for the iteration count of the complete spiral $Ond^k_N$ to be $\xi = \frac{k^2N}{g(N)}$, where again $g$ is the greatest square divisor map. In a similar manner to the above, we can generate sequences in two ways: by fixing $N$ and iterating through $k \ge 1$ or by fixing $k$ and iterating through values of $N \ge 2$.
+Let us recall the formula for the iteration count of the complete spiral $Ond^k_N$ to be $\xi = \frac{k^2N}{g(N)}$, where again $g$ is the greatest square divisor map. In a similar manner to the above, we can generate sequences in two ways: by fixing $N$ and iterating through $k \ge 1$ or by fixing $k$ and iterating through values of $N \ge 2$. If we look at the former and fix $N$ then we are also fixing $g(N)$ and leads to $\xi = Ck^2$
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{iter_N.png}
+\caption{Iteration counts for $Ond^k_N$ with fixed $N$}
+\label{fig:iter_N}
+\end{figure}
+
+The second method is to fix $k$, which results in $\xi = \frac{CN}{g(N)}$ where $C = k^2$. Similar to above, the portion of $\xi$ that is making this non-linear is $\frac{N}{g(N)}$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{iter_k.png}
+\caption{Iteration counds for $Ond^k_N$ with fixed $k$}
+\label{fig:iter_k}
+\end{figure}
 
 \begin{thebibliography}{1}
 \bibitem{ARRmodN} A. Reiter, ``On (mod N) Spirals'', \url{http://www.cw-complex.com/modNspirals/modNspirals.pdf}
