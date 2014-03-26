@@ -1,0 +1,35 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Sequences from (mod N) Spiral Lengths and Iterates}
+\author{Andrew R. Reiter\\arr@watson.org}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+In reading the brief note from the author \cite{ARRmodN}, the reader will have learned about the construction of (mod N) spirals defined on a square lattice. In this note, we focus on the sequences generated from the length and iteration formulas for complete spiral $Ond^k_N$.
+
+\section{Sequences from Length Formula}
+Let us first recall the formula for the length of the sides of the complete spiral $Ond^k_N$ to be $\lambda = \frac{kN}{\sqrt{s}}$ where $s$ is the \textit{greatest square divisor} of $N$. Let $s = g(N)$ where $g : \mathbb{N} \mapsto \{ x \in \mathbb{N} : \sqrt{x} \in \mathbb{N} \}$ to represent the function that returns the greatest square divisor of $N$.
+
+We can look at $\lambda$ and see two ways in which to start generating sequences. The first is to fix $N$, and thus $g(N)$, and iterate through values $k=1, 2, 3, \ldots$. The second method is to fix $k$ and iterate through values $N=2, 3, 4, \ldots$, thus producing a set of values $\{ g(2), g(3), g(4), \ldots \}$.
+
+%\subsection{}
+
+\section{Sequences from Iteration Forumla}
+Let us recall the formula for the iteration count of the complete spiral $Ond^k_N$ to be $\xi = \frac{k^2N}{g(N)}$, where again $g$ is the greatest square divisor map. In a similar manner to the above, we can generate sequences in two ways: by fixing $N$ and iterating through $k \ge 1$ or by fixing $k$ and iterating through values of $N \ge 2$.
+
+\begin{thebibliography}{1}
+\bibitem{ARRmodN} A. Reiter, ``On (mod N) Spirals'', \url{http://www.cw-complex.com/modNspirals/modNspirals.pdf}
+\end{thebibliography}
+\end{document}  
