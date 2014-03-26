@@ -92,6 +92,8 @@ def main():
   print SLOPES
   for J in LINES:
     plt.plot(J)
+  plt.ylabel('length')
+  plt.title('Lengths for fixed $N$, free $k$ of $Ond^k_N$')
   plt.show()
 
   LINES = []
@@ -112,6 +114,8 @@ def main():
 
   for J in LINES:
     plt.plot(J)
+  plt.ylabel('length')
+  plt.title('Lengths for fixed $k$, free $N$ of $Ond^k_N$')
   plt.show()
 
   print "ITERATES"
@@ -136,6 +140,8 @@ def main():
 
   for J in LINES:
     plt.plot(J)
+  plt.ylabel('iterate')
+  plt.title('Iterates for fixed $N$, free $k$ of $Ond^k_N$')
   plt.show()
 
   LINES = []
@@ -155,7 +161,9 @@ def main():
  
   for J in LINES:
     plt.plot(J)
-  plt.show()          
+  plt.ylabel('iterate')
+  plt.title('Iterates for fixed $k$, free $N$ of $Ond^k_N$')
+  plt.show()
           
 if __name__ == "__main__":
   main()
