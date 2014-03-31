@@ -33,7 +33,7 @@ young@math.umass.edu}
 This note is intended to introduce the process of constructing (mod n) spirals and the idea of a \textit{complete spiral}.  It also introduces a few theorems, with proof, related to patterns seen in the construction of \textit{complete spirals}; regarding the lengths of sides, iteration counts, and ending corners of these objects. Further, from the theorem on iteration counts one sees that these complete spirals provide a (manual) process for discovering the \textit{greatest square divisor} of integers $n \ge 2$. Lastly, grayscale visualizations of a number \textit{complete spirals} were generated to further the investigatory process and are shared herein. While not inspired by Ulam's Spiral \cite{Ulam}, the construction of  a (mod n) spiral is similar in nature. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written. Further, the investigation provided some bit of fun which has made it worthwhile.
 
 \section{Spiral Construction}
-Here describes the construction of a (mod n) spiral and much of the notation defined and assumptions made here are used with same notion after this section.
+In this section, we describe the construction of a (mod n) spiral; much of the notation defined and assumptions made here are assused throughout.
 
 Let $n \in \mathbb{Z}$ and $n \ge 2$ and so $\mathbb{Z}/n\mathbb{Z} = \{ 0, 1, ..., n-1 \}$. Let $L$ be a square lattice. 
 
@@ -130,13 +130,11 @@ A most interesting aspect to this process of complete spiral construction is the
 Another pattern in the generation of \textit{complete spirals} that was noticed is related to which corner the last lattice point comes to rest. It seems to end on either the top right or bottom left corner and this depends on values of $n$ and $k$. One can see this in figure \ref{fig:mod34}. 
 
 \begin{thm}[Ending Corner]
-If $l_{max} \in L$ is the last lattice point in the complete spiral $Ond^k_n$, then $l_{max}$ is either the top-right corner or bottom-left corner. If $N$ even, then $l_{max}$ will always be the bottom-left corner. If $n$ odd and $k$ odd, then $l_{max}$ will be the top-right corner of $Ond^k_n$. If $N$ odd and $k$ even, then $l_{max}$ will be the bottom-left corner.
+If $l_{max} \in L$ is the last lattice point in the complete spiral $Ond^k_n$, then $l_{max}$ is either the top-right corner or bottom-left corner. If $n$ even, then $l_{max}$ will always be the bottom-left corner. If $n$ odd and $k$ odd, then $l_{max}$ will be the top-right corner of $Ond^k_n$. If $n$ odd and $k$ even, then $l_{max}$ will be the bottom-left corner.
 \end{thm}
 
-It is worth noting that $l_{max} = l_{\xi(n, k)\vert \mathbb{Z}/n\mathbb{Z} \vert - 1}$, due to starting with $l_0$.
-
 \begin{proof}
-Writing the spiral for $\mathbb{N}$, make a 1-to-1 mapping from $\mathbb{Z}/n\mathbb{Z}$ map to a subset of it. Endings end on perfect squares. Perfect squares are on diagonals of upper right and lower left. Evens are on the lower left. Perfect square of evens is even, and Perfect square of  odds are odd. So, in iterating onward, one set, we have all evens, so maps to lower left. other case, we swap between odd/even and thus map upper right/lower left alternating.
+In writing the never-completing spiral for $\mathbb{N}$, one notices odd perfect squares on the upper right diagonal and even perfect squares on the lower left diagonal. Note that the root of these perfect squares is the length, $\lambda$, of a given $Ond$. If $\lambda$ is odd, then the ending corner is top right and if $\lambda$ is even, then the ending corner is bottom left. Realize the even/odd-ness of $\lambda$ depends on $kn$ even/odd-ness. If $kn$ is even, then either $k$ or $n$ is even. If $kn$ is odd, then $k$ and $n$ are odd. Thus with $n$ even, $Ond_n$ always ends in the bottom left and with $n$ odd, there is the alternating between corners depending on $k$.
 \end{proof}
 
 \subsection{Cases Verified}
