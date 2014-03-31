@@ -21,10 +21,9 @@
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
 \title{On (mod n) Spirals}
-\author{Andrew Reiter\\
-arr@watson.org}
-\author{Robin Young\\
-young@math.umass.edu}
+\author{Andrew Reiter}
+\author{Robin Young}
+\email{arr@watson.org, young@math.umass.edu}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
@@ -33,7 +32,7 @@ young@math.umass.edu}
 This note is intended to introduce the process of constructing (mod n) spirals and the idea of a \textit{complete spiral}.  It also introduces a few theorems, with proof, related to patterns seen in the construction of \textit{complete spirals}; regarding the lengths of sides, iteration counts, and ending corners of these objects. Further, from the theorem on iteration counts one sees that these complete spirals provide a (manual) process for discovering the \textit{greatest square divisor} of integers $n \ge 2$. Lastly, grayscale visualizations of a number \textit{complete spirals} were generated to further the investigatory process and are shared herein. While not inspired by Ulam's Spiral \cite{Ulam}, the construction of  a (mod n) spiral is similar in nature. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written. Further, the investigation provided some bit of fun which has made it worthwhile.
 
 \section{Spiral Construction}
-In this section, we describe the construction of a (mod n) spiral; much of the notation defined and assumptions made here are assused throughout.
+In this section, we describe the construction of a (mod n) spiral; much of the notation defined and assumptions made here are assumed throughout.
 
 Let $n \in \mathbb{Z}$ and $n \ge 2$ and so $\mathbb{Z}/n\mathbb{Z} = \{ 0, 1, ..., n-1 \}$. Let $L$ be a square lattice. 
 
@@ -106,7 +105,7 @@ Let $\lambda$ be the length of the sides of $Ond^k_n$. If $s$ is the greatest sq
 \end{thm}
 
 \begin{proof}
-Fix an integer $n \ge 2$.  Let $\lambda$ be the length of the side of a complete spiral. In order to achieve some $Ond_n$ for side length $\lambda$, then it must be that $n \vert \lambda^2$. Realize that we can write $n = q^2_1 q_2$ where $q_2$ is square-free. In the case of $n$ being square free, $q^2_1 = 1$ and $q_2 = n$. Then we must have $\lambda = k q_1 q_2$ and that each $k = 1, 2, 3...$ satisfies this. Thus, $Ond^k_n$ has side $\lambda = k q_1 q_2$. Since, $n = q^2_1 q_2$, then we have $\lambda = \frac{kn}{q_1}$ and we see $\sqrt{s} = q_1$ since $q^2_1$ is the greatest square divisor of $n$.
+Fix an integer $n \ge 2$.  Let $\lambda$ be the length of the side of a complete spiral. In order to achieve some $Ond_n$ for side length $\lambda$, then it must be that $n \vert \lambda^2$. Realize that we can write $n = q^2_1 q_2$ where $q_2$ is square-free. In the case of $n$ being square free, $q^2_1 = 1$ and $q_2 = n$. Then we must have $\lambda = k q_1 q_2$ and that each $k = 1, 2, 3...$ satisfies this. Thus, $Ond^k_n$ has side $\lambda = k q_1 q_2$. Since, $n = q^2_1 q_2$, then  $\lambda = \frac{kn}{q_1}$. Thus $\sqrt{s} = q_1$, and since $q^2_1$ is the greatest square divisor of $n$, it is proven.
 \end{proof}
 
 \begin{thm}[Iteration Count of $Ond^k_n$]
