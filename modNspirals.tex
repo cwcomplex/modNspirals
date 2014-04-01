@@ -23,7 +23,7 @@
 \title{On (mod n) Spirals}
 \author{Andrew Reiter}
 \author{Robin Young}
-\email{arr@watson.org, young@math.umass.edu}
+\email{areiter@veracode.com, young@math.umass.edu}
 %\date{}                                           % Activate to display a given date or no date
 
 \begin{document}
@@ -36,8 +36,6 @@ In this section, we describe the construction of a (mod n) spiral; much of the n
 
 Let $n \in \mathbb{Z}$ and $n \ge 2$ and so $\mathbb{Z}/n\mathbb{Z} = \{ 0, 1, ..., n-1 \}$. Let $L$ be a square lattice. 
 
-Choose a point $l_0 \in L$ and it will be the starting point of the spiral; choose $l_0 = (0, 0)$, the origin. Let $l^*_0$ be the value assigned to the point $l_0$. We want to assign the first element of $\mathbb{Z}/n\mathbb{Z}$ to the first point in the spiral, thus, we assign $l^*_0 = 0$. Now, we wish to choose a second point in the spiral, $l_1$, by moving in the positive $x$ direction by one unit and assign it the second value of $\mathbb{Z}/n\mathbb{Z}$. So we have $l_1 = (1, 0)$ and $l^*_1 = 1$.  We will continue to choose points $l_i$ and assigning values from $\mathbb{Z}/n\mathbb{Z}$ in an increasing order.
-
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.3]{mod3basic.png}
@@ -45,13 +43,11 @@ Choose a point $l_0 \in L$ and it will be the starting point of the spiral; choo
 \label{fig:mod3spiral}
 \end{figure}
 
+Choose a point $l_0 \in L$ and it will be the starting point of the spiral; choose $l_0 = (0, 0)$, the origin. Let $l^*_0$ be the value assigned to the point $l_0$. We want to assign the first element of $\mathbb{Z}/n\mathbb{Z}$ to the first point in the spiral, thus, we assign $l^*_0 = 0$. Now, we wish to choose a second point in the spiral, $l_1$, by moving in the positive $x$ direction by one unit and assign it the second value of $\mathbb{Z}/n\mathbb{Z}$. So we have $l_1 = (1, 0)$ and $l^*_1 = 1$.  We will continue to choose points $l_i$ and assigning values from $\mathbb{Z}/n\mathbb{Z}$ in an increasing order.
+
+
+
 To continue this process, let us try to visualize us being on the lattice work itself. Orient your mind so that previous move to $l_1$ was you ``moving forward''. With current position $l_1$, check the lattice point to your right: if it is assigned a value already, move ``forward'' to the next lattice point. However, if the lattice point to the right was \emph{not} occupied, then you ``turn right'' and ``move forward'' to occupy it. You are now at $l_2$ and have $l^*_2 = 2$ and, based on above, $l_2 = (1, -1)$. . You repeat this pattern of ``looking right'' to determine if you should ``turn right'' or keep ``moving forward'' and then assigning values from $\mathbb{Z}/n\mathbb{Z}$. Continuing on with the lattice points we find $\{ l_i \}^{6}_{i=3} = \{  (0, -1), (-1, -1), (-1, 0), (-1, 1) \}$
-
-At some point, the process will reach a lattice point $l_i$ in which $l^*_{i-1} = n-1$. This is means an \textit{iteration of (mod n)} has occurred and we assign $l^*_i = 0$. This restarts going through values of $\mathbb{Z}/n\mathbb{Z}$. The (mod n) spiral is the set of tuples $\{ (l_0, l^*_0), (l_1, l^*_1), ... \}$ 
-
-
-
-
 
 \begin{figure}[h]
 \centering
@@ -60,9 +56,9 @@ At some point, the process will reach a lattice point $l_i$ in which $l^*_{i-1} 
 \label{fig:mod10}
 \end{figure}
 
+At some point, the process will reach a lattice point $l_i$ in which $l^*_{i-1} = n-1$. This is means an \textit{iteration of (mod n)} has occurred and we assign $l^*_i = 0$. This restarts going through values of $\mathbb{Z}/n\mathbb{Z}$. The (mod n) spiral is the set of tuples $\{ (l_0, l^*_0), (l_1, l^*_1), ... \}$ 
+
 The purpose of inventing notation for the lattice points is to help give a scalar mapping into the lattice based on the spiral. Currently it is not used, but could be used in research investigating patterns on the diagonals of generated spirals. In looking at the construction of a spiral based on $\mathbb{Z}/10\mathbb{Z}$ in figure \ref{fig:mod10}, with the starting point $l_0$ with value $l^*_0 = 0$ marked by a box, one can begin to see the diagonal patterns one might wish to investigate.
-
-
 
 
 \section{complete spiral}
@@ -136,31 +132,39 @@ If $l_{max} \in L$ is the last lattice point in the complete spiral $Ond^k_n$, t
 In writing the never-completing spiral for $\mathbb{N}$, one notices odd perfect squares on the upper right diagonal and even perfect squares on the lower left diagonal. Note that the root of these perfect squares is the length, $\lambda$, of a given $Ond$. If $\lambda$ is odd, then the ending corner is top right and if $\lambda$ is even, then the ending corner is bottom left. Realize the even/odd-ness of $\lambda$ depends on $kn$ even/odd-ness. If $kn$ is even, then either $k$ or $n$ is even. If $kn$ is odd, then $k$ and $n$ are odd. Thus with $n$ even, $Ond_n$ always ends in the bottom left and with $n$ odd, there is the alternating between corners depending on $k$.
 \end{proof}
 
+\begin{figure}
+\centering
+\includegraphics[scale=1]{spN16k30b.png}
+\caption{grayscale visualization of $Ond^{30}_{16}$}
+\label{fig:viz1630}
+\end{figure}
 
 \subsection{Grayscale Visualization}
 
 In the process of investigating sizes and iteration counts of $Ond^k_n$, I implemented a method to map the generated spirals to grayscale images. This works best for positive integers, $n$, less than 256. I define the map as $f : \{ 0, 1, \ldots, n-1 \} \mapsto \{ 0, floor(\frac{255}{n}), 2floor(\frac{255}{n}), \ldots, (n-1)floor(\frac{255}{n}) \}$. The mapping $f$ takes $\mathbb{Z}/n\mathbb{Z}$ to a set of brightness values. These brightness values are easily used to create grayscale images.
 
+
+
 An example of this is $Ond^{29}_{28}$ seen in figure \ref{fig:viz2928} and $Ond^{30}_{16}$ seen in figure \ref{fig:viz1630}.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{N28k29a.png}
+\includegraphics[scale=0.7]{N28k29b.png}
 \caption{grayscale visualization of $Ond^{29}_{28}$}
 \label{fig:viz2928}
 \end{figure}
 
+In the visualization of $Ond^{39}_{31}$ in figure \ref{fig:viz3139} one can see a more seemingly complex pattern emerging. Further, if one zooms in and out on the image, various different patterns emerge that seem to play tricks on the eye. The image may also be view at \cite{GraySquare} and is the file \textit{N=31\_k=39-grey.png} which makes it easier for testing the zoom in/out. Further, at this location, one may find the generated images for $Ond^k_n$ for $n=2, 3, \ldots, 31$ and $k=1,2, \ldots, 50$.
+
 \begin{figure}
 \centering
-\includegraphics[scale=1]{spN16k30.png}
-\caption{grayscale visualization of $Ond^{30}_{16}$}
-\label{fig:viz1630}
+\includegraphics[scale=.4]{N31k39.png}
+\caption{grayscale visualization of $Ond^{39}_{31}$}
+\label{fig:viz3139}
 \end{figure}
 
-The authors have generated images for $n=2, 3, \ldots, 30$ for each $k=1, 2, \ldots, 50$. They may be viewed at \cite{GraySquare}.
-
 \section{Conclusion}
-This note has introduced (mod n) spiral construction and the idea of \textit{complete spirals} with respect to (mod n) spirals. This note also gives 3 theorems with proof about some features of these spirals. Also introduced is a grayscale visualization of these spirals. 
+This note has introduced (mod n) spiral construction and the idea of \textit{complete spirals}. This note also gives 3 theorems with proof about some features of these spirals. Also introduced is a grayscale visualization of these spirals. 
 
 \subsection{Future Work}
 The diagonal patterns in the larger $k$ $Ond^k_n$ spirals would make for interesting to see how to categorize and determine their generators. In a private conversation \cite{Kusner} suggested also looking at the angular velocity of spiral growth, which might be fun.
