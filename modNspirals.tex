@@ -1,4 +1,18 @@
-\documentclass[11pt]{amsart}
+
+%%%%  RY edits:
+%%
+%%  I edited the main section(s): haven't looked over the introduction
+%%  yet.  Essentially dealt with issues 1), 2) and 3) in
+%%  RY_comments.txt.  I saw that you had already included my
+%%  suggestions in 4) in the "future work" section.  --  It may be
+%%  worth writing down the answer for a three-D lattice now!
+%%  Regarding the length and diagrams:  it is pretty much exactly 4
+%%  pages as is:  I'll play with tikz for a bit and send it on if I
+%%  make progress ...  
+
+
+
+\documentclass[11pt,reqno]{amsart}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
@@ -8,14 +22,16 @@
 \usepackage{epstopdf}
 \usepackage{hyperref}
 \usepackage{graphicx}
-\usepackage{subfigure}
+\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{enumerate}
 
 
 \theoremstyle{mydef}
 \newtheorem{definition}{Definition}
 \newtheorem{conj}{Conjecture}[section]
 \newtheorem{thm}{Theorem}[section]
-
+\def\ZZ{\mathbb{Z}}
 
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
@@ -26,165 +42,518 @@
 \email{areiter@veracode.com, young@math.umass.edu}
 %\date{}                                           % Activate to display a given date or no date
 
+%%%%%%  RY: this line gets removed!
+%\def\includegraphics[#1]{\fbox}
+
 \begin{document}
 \maketitle
 \section{Introduction}
-This note is intended to introduce the process of constructing (mod n) spirals and the idea of a \textit{complete spiral}.  It also introduces a few theorems, with proof, related to patterns seen in the construction of \textit{complete spirals}; regarding the lengths of sides, iteration counts, and ending corners of these objects. Further, from the theorem on iteration counts one sees that these complete spirals provide a (manual) process for discovering the \textit{greatest square divisor} of integers $n \ge 2$. Lastly, grayscale visualizations of a number \textit{complete spirals} were generated to further the investigatory process and are shared herein. While not inspired by Ulam's Spiral \cite{Ulam}, the construction of  a (mod n) spiral is similar in nature. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written. Further, the investigation provided some bit of fun which has made it worthwhile.
+
+This note is intended to introduce the process of constructing (mod n) spirals and the idea of a \textit{complete spiral}.  It also introduces a few theorems, with proof, related to patterns seen in the construction of \textit{complete spirals}; regarding the lengths of sides, iteration counts, and ending corners of these objects. Further, from the theorem on iteration counts one sees that these complete spirals provide a (manual) process for discovering the \textit{greatest square divisor} of integers $n \ge 2$. Lastly, grayscale visualizations of a number \textit{complete spirals} were generated to further the investigatory process and are shared herein. While not inspired by Ulam's Spiral \cite{Ulam}, the construction of  a (mod n) spiral is similar in nature. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written. Further, the investigation provided some bit 
+ of fun which has made it worthwhile.
 
 \section{Spiral Construction}
-In this section, we describe the construction of a (mod n) spiral; much of the notation defined and assumptions made here are assumed throughout.
 
-Let $n \in \mathbb{Z}$ and $n \ge 2$ and so $\mathbb{Z}/n\mathbb{Z} = \{ 0, 1, ..., n-1 \}$. Let $L$ be a square lattice. 
+We describe the construction of a (mod $n$) spiral and introduce the
+notation we will use to analyze these.  For a fixed integer $n \ge 2$,
+we will be working with the additive group
+$\ZZ_n=\mathbb{Z}/n\mathbb{Z} = \{ 0, 1, ..., n-1 \}$.  Let $L$
+be a square lattice, which we can take to be $\ZZ^2$.  Denoting
+the origin by $l_1 = (0,0)$, we build the spiral by enumerating the
+lattice sites and assigning numbers from $\mathbb{Z}_n$ in turn.  We
+spiral in a clockwise direction starting in the direction of the
+$x$-axis, so that $l_2 = (1,0)$, $l_3 = (1,-1)$, and the next four
+lattice points are $\{(0, -1),(-1, -1),(-1, 0),(-1, 1)\}$,
+respectively.  In general, once $l_j$ has been assigned, and having
+chosen a `direction' by moving from $l_{j-1}$, the next site $l_{j+1}$
+is the site to the right if this is not yet accounted for, or the site
+ahead otherwise.
+
+Having enumerated the lattice as above, we now assign values from
+$\ZZ_n$ as follows: to the origin we assign $l_1^* = 0$, and we then
+count in $\ZZ_n$: $l_2^* = 1$, $\l_3^* = 2$, etc., and cycling back to
+$0$ after $n$ steps, so that $l_{n+1}^* = 0$.  Continuing in this way,
+we `count' all lattice sites (mod $n$).  In general, this yields
+\[
+  l_j^* = j-1 \!\!\!\pmod n \quad\text{at site}\quad l_j.
+\]
+
 
 \begin{figure}[h]
-\centering
-\includegraphics[scale=0.3]{mod3basic.png}
+\[  \begin{array}{c}
+\boxed{0}
+\end{array} 
+\rightarrow
+%
+\begin{array}{cc}
+\boxed{0} & 1 \\
+\  & \ 
+\end{array}
+\rightarrow
+\begin{array}{cc}
+\boxed{0} & 1 \\
+\  & 2
+\end{array}
+\rightarrow
+\begin{array}{cc}
+\boxed{0} & 1 \\
+0 & 2
+\end{array}
+\rightarrow
+\begin{array}{ccc}
+\  & \boxed{0} & 1 \\
+1 & 0 & 2
+\end{array}
+\rightarrow
+\begin{array}{ccc}
+2 & \boxed{0} & 1 \\
+1 & 0 & 2
+\end{array}
+\rightarrow
+\begin{array}{ccccc}
+\  & 0 & \cdot  & \cdot & \cdot \\
+\  & 2 & \boxed{0} & 1 & \cdot \\
+\  & 1 & 0 & 2 & \cdot \\
+\cdot & \cdot & \cdot & \cdot & \cdot
+\end{array}
+\]
 \caption{Building a (mod 3) spiral}
 \label{fig:mod3spiral}
 \end{figure}
 
-Choose a point $l_0 \in L$ and it will be the starting point of the spiral; choose $l_0 = (0, 0)$, the origin. Let $l^*_0$ be the value assigned to the point $l_0$. We want to assign the first element of $\mathbb{Z}/n\mathbb{Z}$ to the first point in the spiral, thus, we assign $l^*_0 = 0$. Now, we wish to choose a second point in the spiral, $l_1$, by moving in the positive $x$ direction by one unit and assign it the second value of $\mathbb{Z}/n\mathbb{Z}$. So we have $l_1 = (1, 0)$ and $l^*_1 = 1$.  We will continue to choose points $l_i$ and assigning values from $\mathbb{Z}/n\mathbb{Z}$ in an increasing order.
+%Choose a point $l_0 \in L$ and it will be the starting point of the spiral; choose $l_0 = (0, 0)$, the origin. Let $l^*_0$ be the value assigned to the point $l_0$. We want to assign the first element of $\mathbb{Z}/n\mathbb{Z}$ to the first point in the spiral, thus, we assign $l^*_0 = 0$. Now, we wish to choose a second point in the spiral, $l_1$, by moving in the positive $x$ direction by one unit and assign it the second value of $\mathbb{Z}/n\mathbb{Z}$. So we have $l_1 = (1, 0)$ and $l^*_1 = 1$.  We will continue to choose points $l_i$ and assigning values from $\mathbb{Z}/n\mathbb{Z}$ in an increasing order.
 
 
 
-To continue this process, let us try to visualize us being on the lattice work itself. Orient your mind so that previous move to $l_1$ was you ``moving forward''. With current position $l_1$, check the lattice point to your right: if it is assigned a value already, move ``forward'' to the next lattice point. However, if the lattice point to the right was \emph{not} occupied, then you ``turn right'' and ``move forward'' to occupy it. You are now at $l_2$ and have $l^*_2 = 2$ and, based on above, $l_2 = (1, -1)$. . You repeat this pattern of ``looking right'' to determine if you should ``turn right'' or keep ``moving forward'' and then assigning values from $\mathbb{Z}/n\mathbb{Z}$. Continuing on with the lattice points we find $\{ l_i \}^{6}_{i=3} = \{  (0, -1), (-1, -1), (-1, 0), (-1, 1) \}$
+%To continue this process, let us try to visualize us being on the lattice work itself. Orient your mind so that previous move to $l_1$ was you ``moving forward''. With current position $l_1$, check the lattice point to your right: if it is assigned a value already, move ``forward'' to the next lattice point. However, if the lattice point to the right was \emph{not} occupied, then you ``turn right'' and ``move forward'' to occupy it. You are now at $l_2$ and have $l^*_2 = 2$ and, based on above, $l_2 = (1, -1)$. . You repeat this pattern of ``looking right'' to determine if you should ``turn right'' or keep ``moving forward'' and then assigning values from $\mathbb{Z}/n\mathbb{Z}$. Continuing on with the lattice points we find $\{ l_i \}^{6}_{i=3} = \{  (0, -1), (-1, -1), (-1, 0), (-1, 1) \}$
+
+
+%At some point, the process will reach a lattice point $l_i$ in which $l^*_{i-1} = n-1$. This is means an \textit{iteration of (mod n)} has occurred and we assign $l^*_i = 0$. This restarts going through values of $\mathbb{Z}/n\mathbb{Z}$. The (mod n) spiral is the set of tuples $\{ (l_0, l^*_0), (l_1, l^*_1), ... \}$ 
+
+%The purpose of inventing notation for the lattice points is to help give a scalar mapping into the lattice based on the spiral. Currently it is not used, but could be used in research investigating patterns on the diagonals of generated spirals. In looking at the construction of a spiral based on $\mathbb{Z}/10\mathbb{Z}$ in figure \ref{fig:mod10}, with the starting point $l_0$ with value $l^*_0 = 0$ marked by a box, one can begin to see the diagonal patterns one might wish to investigate.
+
+
+%\section{complete spiral}
+The first author's initial interest in generating spirals of
+increasing size for various $\ZZ_n$ was to investigate some of the
+% diagonal patterns as referred to above and 
+patterns seen in figure \ref{fig:mod10}.  In an attempt to describe
+the patterns, he introduced the following definition:
+%In thinking about how to do this in strict manner, the following
+%definitions were created after some thought:
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.3]{mod10.png}
+\begin{tikzpicture}
+
+%% make nodes xiyj
+\foreach \nx in {-6,...,6}
+{
+  \foreach \ny in {-6,...,6} 
+  {
+      \node (x\nx y\ny) at (\nx,\ny) {};
+  }
+}
+
+\node at (0,0) {0};
+\node at (1,0) {1};
+\node at (1,-1) {2};
+\node at (0,-1) {3};
+\node at (-1,-1) {4};
+\node at (-1,0) {5};
+\node at (-1,1) {6};
+\node at (0,1) {7};
+\node at (1,1) {8};
+\node at (2,1) {9};
+\node at (2,0) {0};
+\node at (2,-1) {1};
+\node at (2,-2) {2};
+\node at (1,-2) {3};
+\node at (0,-2) {4};
+\node at (-1,-2) {5};
+\node at (-2,-2) {6};
+\node at (-2,-1) {7};
+\node at (-2,0) {8};
+\node at (-2,1) {9};
+\node at (-2,2) {0};
+\node at (-1,2) {1};
+\node at (0,2) {2};
+\node at (1,2) {3};
+\node at (2, 2) {4};
+\node at (3, 2) {5};
+\node at (3, 1) {6};
+\node at (3, 0) {7};
+\node at (3, -1) {8};
+\node at (3, -2) {9};
+\node at (3, -3) {0};
+\node at (2, -3) {1};
+\node at (1, -3) {2};
+\node at (0, -3) {3};
+\node at (-1, -3) {4};
+\node at (-2, -3) {5};
+\node at (-3, -3) {6};
+\node at (-3, -2) {7};
+\node at (-3, -1) {8};
+\node at (-3, 0) {9};
+\node at (-3, 1) {0};
+\node at (-3, 2) {1};
+\node at (-3, 3) {2};
+\node at (-2, 3) {3};
+\node at (-1, 3) {4};
+\node at (0, 3) {5};
+\node at (1, 3) {6};
+\node at (2, 3) {7};
+\node at (3, 3) {8};
+\node at (4, 3) {9};
+\node at (4, 2) {0};
+\node at (4, 1) {1};
+\node at (4, 0) {2};
+\node at (4, -1) {3};
+\node at (4, -2) {4};
+\node at (4, -3) {5};
+\node at (4, -4) {6};
+\node at (3, -4) {7};
+\node at (2, -4){8};
+\node at (1, -4) {9};
+\node at (0, -4) {0};
+\node at (-1, -4) {1};
+\node at (-2, -4) {2};
+\node at (-3, -4) {3};
+\node at (-4, -4) {4};
+\node at (-4, -3) {5};
+\node at (-4, -2) {6};
+\node at (-4, -1) {7};
+\node at (-4, 0) {8};
+\node at (-4, 1) {9};
+\node at (-4, 2) {0};
+\node at (-4, 3) {1};
+\node at (-4, 4) {2};
+\node at (-3, 4) {3};
+\node at (-2, 4) {4};
+\node at (-1, 4) {5};
+\node at (0, 4) {6};
+\node at (1, 4) {7};
+\node at (2, 4) {8};
+\node at (3, 4) {9};
+\node at (4, 4) {0};
+\node at (5, 4) {1};
+\node at (5, 3) {2};
+\node at (5, 2) {3};
+\node at (5, 1) {4};
+\node at (5, 0) {5};
+\node at (5, -1) {6};
+\node at (5, -2) {7};
+\node at (5, -3) {8};
+\node at (5, -4) {9};
+\node at (5, -5) {0};
+\node at (4, -5) {1};
+\node at (3, -5) {2};
+\node at (2, -5) {3};
+\node at (1, -5) {4};
+\node at (0, -5) {5};
+\node at (-1, -5) {6};
+\node at (-2, -5) {7};
+\node at (-3, -5) {8};
+\node at (-4, -5) {9};
+\node at (-5, -5) {0};
+\node at (-5, -4) {1};
+\node at (-5, -3) {2};
+\node at (-5, -2) {3};
+\node at (-5, -1) {4};
+\node at (-5, 0) {5};
+\node at (-5, 1) {6};
+\node at (-5, 2) {7};
+\node at (-5, 3) {8};
+\node at (-5, 4) {9};
+\node at (-5, 5) {0};
+\node at (-4, 5) {1};
+\node at (-3, 5) {2};
+\node at (-2, 5) {3};
+\node at (-1, 5) {4};
+\node at (0, 5) {5};
+\node at (1, 5) {6};
+\node at (2, 5) {7};
+\node at (3, 5) {8};
+\node at (4, 5) {9};
+\node at (5, 5) {0};
+\node at (6, 5) {1};
+\node at (6, 4) {2};
+\node at (6, 3) {3};
+\node at (6, 2) {4};
+\node at (6, 1) {5};
+\node at (6, 0) {6};
+\node at (6, -1) {7};
+\node at (6, -2) {8};
+\node at (6, -3) {9};
+\node at (6, -4) {0};
+\node at (6, -5) {1};
+\node at (6, -6) {2};
+\node at (5, -6) {3};
+\node at (4, -6) {4};
+\node at (3, -6) {5};
+\node at (2, -6) {6};
+\node at (1, -6) {7};
+\node at (0, -6) {8};
+\node at (-1, -6) {9};
+\node at (-2, -6) {0};
+\node at (-3, -6) {1};
+\node at (-4, -6) {2};
+\node at (-5, -6) {3};
+\node at (-6, -6) {4};
+\node at (-6, -5) {5};
+\node at (-6, -4) {6};
+\node at (-6, -3) {7};
+\node at (-6, -2) {8};
+\node at (-6, -1) {9};
+\node at (-6, 0) {0};
+\node at (-6, 1) {1};
+\node at (-6, 2) {2};
+\node at (-6, 3) {3};
+\node at (-6, 4) {4};
+\node at (-6, 5) {5};
+\node at (-6, 6) {6};
+\node at (-5, 6) {7};
+\node at (-4, 6) {8};
+\node at (-3, 6) {9};
+\node at (-2, 6) {0};
+\node at (-1, 6) {1};
+\node at (0, 6) {2};
+\node at (1, 6) {3};
+\node at (2, 6) {4};
+\node at (3, 6) {5};
+\node at (4, 6) {6};
+\node at (5, 6) {7};
+\node at (6, 6) {8};
+
+
+
+\draw[yellow] (-.5,-.5) -- (0.5,-.5) -- (0.5,.5);
+\draw[green] (-.5,-1.5) -- (-.5,.5) -- (1.5,.5);
+\draw[blue] (-1.5,-1.5) -- (1.5,-1.5) -- (1.5,1.5);
+\draw[magenta] (-1.5,-2.5) -- (-1.5,1.5) -- (2.5,1.5);
+\draw[red] (-2.5,-2.5) -- (2.5,-2.5) -- (2.5,1.5);
+
+
+\end{tikzpicture} 
 \caption{a (mod 10) spiral with starting 0 enblocked}
 \label{fig:mod10}
 \end{figure}
 
-At some point, the process will reach a lattice point $l_i$ in which $l^*_{i-1} = n-1$. This is means an \textit{iteration of (mod n)} has occurred and we assign $l^*_i = 0$. This restarts going through values of $\mathbb{Z}/n\mathbb{Z}$. The (mod n) spiral is the set of tuples $\{ (l_0, l^*_0), (l_1, l^*_1), ... \}$ 
 
-The purpose of inventing notation for the lattice points is to help give a scalar mapping into the lattice based on the spiral. Currently it is not used, but could be used in research investigating patterns on the diagonals of generated spirals. In looking at the construction of a spiral based on $\mathbb{Z}/10\mathbb{Z}$ in figure \ref{fig:mod10}, with the starting point $l_0$ with value $l^*_0 = 0$ marked by a box, one can begin to see the diagonal patterns one might wish to investigate.
-
-
-\section{complete spiral}
-The initial interest in generating spirals of increasing size for various $\mathbb{Z}/n\mathbb{Z}$ was se more of the diagonal patterns as referred to above and seen in figure \ref{fig:mod10}. In thinking about how to do this in strict manner, the following definitions were created after some thought:
-
-\begin{definition}[complete spiral]
-A complete spiral is achieved when in the spiral construction you reach a point where $l^*_i = n-1$, $l_i$ is on a corner, and the lengths of the outermost sides are equal.
+\begin{definition}%[complete spiral]
+  A \emph{complete spiral} occurs when in the spiral construction, the
+  partially completed spiral forms a square, and the last (mod $n$)
+  value assigned is $l^*_i = n-1$, so all of $\ZZ_n$ has been used an
+  integer number of times.
 \end{definition}
 
-\begin{definition}[$k^{th}$ complete spiral of $\mathbb{Z}/n\mathbb{Z}$]
-The first complete spiral reached in the spiraling process is k=1, or $1^{st}$ complete spiral,  $Ond^1_n$. Spiraling further and reaching other complete spirals, we increment $k$ and have $Ond^k_n$.
-\end{definition}
-
-The word \textit{Ond} is ``spiral'' in Swahili.
-
-\begin{definition}[Iterations of  $\mathbb{Z}/n\mathbb{Z}$ in $Ond^k_n$]
-The number of times $\mathbb{Z}/n\mathbb{Z}$ is used in order to reach the $k^{th}$ square is the iteration count.
-\end{definition}
+We use the following notation: denote the first complete spiral
+achieved by $Ond^1_n$; subsequent complete spirals are denoted
+$Ond^k_n$, $k = 2,3,\dots$.  The number of times $\ZZ_n$ is used in
+order to complete the $k^{th}$ square is the iteration count.  The
+word ``ond'' is ``spiral'' in Swahili.
 
 \begin{figure}[h]
 \centering
-\subfigure{\includegraphics[height=4cm]{mod3k12.png}}
-\subfigure{\includegraphics[height=4cm]{mod4.png}}
-\caption{$Ond^1_3$ and $Ond^2_3$ on the left, $Ond^1_4$ and $Ond^2_4$ on the right}
+\subfloat[][]
+{$\begin{array}{ccc}
+0 & 1 & \dot{2} \\
+2 & \boxed{0} & 1 \\
+1 & 0 & 2
+\end{array}$\label{ond13}}
+\qquad
+\subfloat[][]
+{$\begin{array}{cccccc}
+2 & 0 & 1 & 2 & 0 & 1 \\
+1 & 0 & 1 & 2 & 0 & 2 \\
+0 & 2 & \boxed{0} & 1 & 1 & 0 \\
+2 & 1 & 0 & 2 & 2 & 1 \\
+1 & 0 & 2 & 1 & 0 & 2 \\
+\dot{2} & 1 & 0 & 2 & 1 & 0
+\end{array}$\label{ond23}}
+\qquad
+\subfloat[][]
+{$\begin{array}{cc}
+\boxed{0} & 1 \\
+\dot{3} & 2
+\end{array}$\label{ond14}}
+\qquad
+\subfloat[][]
+{$\begin{array}{cccc}
+2 & 3 & 0 & 1\\
+1 & \boxed{0} & 1 & 2\\
+0 & 3 & 2 & 3\\
+\dot{3} & 2 & 1 & 0
+\end{array}$\label{ond24}}
+\caption{ \protect\subref{ond13} $Ond^1_3$,  \protect\subref{ond23} $Ond^2_3$, \protect\subref{ond14} $Ond^1_4$,  \protect\subref{ond24} $Ond^2_4$}
 \label{fig:mod34}
 \end{figure}
 
-We see in figure \ref{fig:mod34} the cases of (mod 3) for $k=1,2$.  In the case of $Ond^1_3$, it is a 3-by-3 square and took 3 iterations of $\mathbb{Z}/3\mathbb{Z}$. For $Ond^2_3$, it results in 6-by-6 and 12 iterations. With $Ond^1_4$, we see 2 and 1, and $Ond^2_4$, we see 4 and 4.
+Figure \ref{fig:mod34} shows $Ond_n^k$ for $k=1,2$ and $n=1,2$.  We
+see that $Ond^1_3$ is a $3\times3$ square and has iteration count 3,
+and $Ond^2_3$ is a $6\times6$ square with 12 iterations.  Similarly,
+$Ond^1_4$ is $2\times2$ with a single iteration, and $Ond^2_4$ is
+$4\times4$ with 4 iterations. The first element, 0, of each spiral in the
+figures is in a box and last element of the spiral marked with a dot.
 
-The author pursued generating spirals with pencil and paper in a methodical manner to  create sets of complete spirals for various values of $n$ and $k$. While tedious and not exactly related to the initial goal of looking at diagonal patterns, it helped to realize there seemed to be patterns found in the construction of the spirals. Specifically in the sizes of the complete spirals, iteration counts, and where the last lattice point rested; this led the author to investigate what the patterns were.
+The author generated several spirals with pencil and paper in a
+methodical manner to create sets of complete spirals for various
+values of $n$ and $k$.  While tedious and not exactly related to the
+initial goal of looking at diagonal patterns, it helped to realize
+there seemed to be patterns found in the construction of the spirals.
+Specifically in the sizes of the complete spirals, iteration counts,
+and where the last lattice point rested; this led the author to
+investigate what the patterns were.
 
 \subsection{On the side lengths and iterate counts of $Ond^k_n$}
-In order to investigate these patterns, the author determined that more data was needed and, due to the tedium of pencil and paper, a program should be written to generate complete spirals \cite{PySquare}. This allowed the author to generate a larger number of complete spirals and collect data on lengths, iterations, and ending points. 
 
-In looking at the initial data, for small choices of $n, k$, a few patterns in tuples of (lengths, iterations) were found, including $(kn, k^2 n)$, $(\frac{kn}{2}, \frac{k^2 n}{4})$, and $(\sqrt{n}k, k^2)$. Not proving suitable, the prime factorization of $n$ for each complete spiral $Ond^k_n$ with the lengths and iteration data was generated for analysis. From this data, the author determined there was a relation involved with finding the greatest square divisor of $n$, which led to the following theorems.
+In order to investigate these patterns, the author determined that
+more data was needed and, due to the tedium of pencil and paper, a
+program should be written to generate complete spirals
+\cite{PySquare}.  This allowed the author to generate a larger number
+of complete spirals and collect data on lengths, iterations, and
+ending points.
 
-\begin{thm}[Length of Sides of $Ond^k_n$]
-Let $\lambda$ be the length of the sides of $Ond^k_n$. If $s$ is the greatest square divisor of $n$, then $\lambda = \frac{kn}{\sqrt{s}}$.
+In looking at the initial data, for small choices of $n, k$, a few
+patterns in tuples of (lengths, iterations) were found, including
+$(kn, k^2 n)$, $(\frac{kn}{2}, \frac{k^2 n}{4})$, and $(\sqrt{n}k,
+k^2)$.  To establish the pattern, the prime factorization of $n$ for
+each complete spiral $Ond^k_n$ with the lengths and iteration data was
+generated for analysis.  From this data, the author determined there
+was a relation involved with finding the greatest square divisor of
+$n$, which led to the following observations.
+
+\begin{thm}%[Length of Sides of $Ond^k_n$]
 \label{lenthm}
+Let $s$ denote the greatest square divisor of $n$.
+The complete spiral $Ond^k_n$ has the following structure:
+\begin{enumerate}[(i)]
+\item If $\lambda$ is the length of the sides of $Ond^k_n$, then
+\begin{equation}
+  \lambda = \frac{kn}{\sqrt{s}}.
+\label{lambda}
+\end{equation}
+\item If $\xi$ is the iteration count of $Ond^k_n$, then
+\begin{equation}
+  \xi = \frac{k^2n}{s}.  
+\label{xi}
+\end{equation}
+\item If $l_{max} \in L$ is the last lattice point in the complete
+  spiral $Ond^k_n$, then $l_{max}$ is either the top-right corner or
+  bottom-left corner of the square.  If both $n$ and $k$ are odd, then
+  $l_{max}$ will be the top-right corner of $Ond^k_n$.  In all other
+  cases, $l_{max}$ will be the bottom-left corner.
+\end{enumerate}
 \end{thm}
 
-\begin{proof}
-Fix an integer $n \ge 2$.  Let $\lambda$ be the length of the side of a complete spiral. In order to achieve some $Ond_n$ for side length $\lambda$, then it must be that $n \vert \lambda^2$. Realize that we can write $n = q^2_1 q_2$ where $q_2$ is square-free. In the case of $n$ being square free, $q^2_1 = 1$ and $q_2 = n$. Then we must have $\lambda = k q_1 q_2$ and that each $k = 1, 2, 3...$ satisfies this. Thus, $Ond^k_n$ has side $\lambda = k q_1 q_2$. Since, $n = q^2_1 q_2$, then  $\lambda = \frac{kn}{q_1}$. Thus $\sqrt{s} = q_1$, and since $q^2_1$ is the greatest square divisor of $n$, it is proven.
-\end{proof}
+One will note that in the case where $n$ is square-free, then $s=1$
+and \eqref{lambda} and \eqref{xi} reduce to $\lambda = k n$ and $\xi =
+k^2 n$, respectively. These can be considered an upper bound for all
+cases.  One might also consider these to be the least robust in the
+case of length and iteration counts.
 
-\begin{thm}[Iteration Count of $Ond^k_n$]
-Let $\xi$ be the iteration count  of $Ond^k_n$. If $s$ is the greatest square divisor of $n$,  then, $\xi = \frac{k^2n}{s}$.
-\end{thm}
+A most interesting aspect to this process of complete spiral
+construction is the connection to the greatest square divisor of some
+integer $n$.  To see this more clearly, choose some $n$ and construct,
+by hand, the spiral $Ond^1_n$.  At this point, you know $\lambda$ and
+$\xi$, so pick one, substitute $k = 1$ and solve for $s$.  So from a
+constructivist approach we find the greatest square divisor.
 
-
-\begin{proof}
-This follows from the proof of theorem \ref{lenthm}. Realize that $\xi n = \lambda^2 = \frac{k^2}{s}$ and so $s = q^2_1$. Thus $s$ is the greatest square divisor of $n$.
-\end{proof}
-
-
-
-One will note that in the case where $n$ is square-free, the above reduce to $\lambda = k n$ and $\xi = k^2 n$. These can also be considered an upper bound for all cases. One might consider these to be the least robust in the case of length and iteration counts.
-
-\subsubsection{Construction to Find G.S.D.}
-A most interesting aspect to this process of complete spiral construction is the connection to greatest square divisor of some integer $n$. To see this more clearly, choose some $n$ and construct, by hand, the $Ond^1_n$. At this point, you know $\lambda$ and $\xi$, so pick one, substitute $k = 1$ and solve for $s$. So from a constructivist approach we find the greatest square divisor.
-
-\subsection{Ending Corner of $Ond^k_n$}
-
-Another pattern in the generation of \textit{complete spirals} that was noticed is related to which corner the last lattice point comes to rest. It seems to end on either the top right or bottom left corner and this depends on values of $n$ and $k$. One can see this in figure \ref{fig:mod34}. 
-
-\begin{thm}[Ending Corner]
-If $l_{max} \in L$ is the last lattice point in the complete spiral $Ond^k_n$, then $l_{max}$ is either the top-right corner or bottom-left corner. If $n$ even, then $l_{max}$ will always be the bottom-left corner. If $n$ odd and $k$ odd, then $l_{max}$ will be the top-right corner of $Ond^k_n$. If $n$ odd and $k$ even, then $l_{max}$ will be the bottom-left corner.
-\end{thm}
-
-\begin{proof}
-In writing the never-completing spiral for $\mathbb{N}$, one notices odd perfect squares on the upper right diagonal and even perfect squares on the lower left diagonal. Note that the root of these perfect squares is the length, $\lambda$, of a given $Ond$. If $\lambda$ is odd, then the ending corner is top right and if $\lambda$ is even, then the ending corner is bottom left. Realize the even/odd-ness of $\lambda$ depends on $kn$ even/odd-ness. If $kn$ is even, then either $k$ or $n$ is even. If $kn$ is odd, then $k$ and $n$ are odd. Thus with $n$ even, $Ond_n$ always ends in the bottom left and with $n$ odd, there is the alternating between corners depending on $k$.
-\end{proof}
-
-\begin{figure}
-\centering
-\includegraphics[scale=1]{spN16k30b.png}
-\caption{grayscale visualization of $Ond^{30}_{16}$}
-\label{fig:viz1630}
-\end{figure}
-
-\subsection{Grayscale Visualization}
-
-In the process of investigating sizes and iteration counts of $Ond^k_n$, I implemented a method to map the generated spirals to grayscale images. This works best for positive integers, $n$, less than 256. I define the map as $f : \{ 0, 1, \ldots, n-1 \} \mapsto \{ 0, floor(\frac{255}{n}), 2floor(\frac{255}{n}), \ldots, (n-1)floor(\frac{255}{n}) \}$. The mapping $f$ takes $\mathbb{Z}/n\mathbb{Z}$ to a set of brightness values. These brightness values are easily used to create grayscale images.
-
-
-
-An example of this is $Ond^{29}_{28}$ seen in figure \ref{fig:viz2928} and $Ond^{30}_{16}$ seen in figure \ref{fig:viz1630}.
+%\subsection{Grayscale Visualization}
 
 \begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{N28k29b.png}
-\caption{grayscale visualization of $Ond^{29}_{28}$}
-\label{fig:viz2928}
-\end{figure}
-
-In the visualization of $Ond^{39}_{31}$ in figure \ref{fig:viz3139} one can see a more seemingly complex pattern emerging. Further, if one zooms in and out on the image, various different patterns emerge that seem to play tricks on the eye. The image may also be view at \cite{GraySquare} and is the file \textit{N=31\_k=39-grey.png} which makes it easier for testing the zoom in/out. Further, at this location, one may find the generated images for $Ond^k_n$ for $n=2, 3, \ldots, 31$ and $k=1,2, \ldots, 50$.
-
-\begin{figure}
 \centering
 \includegraphics[scale=.4]{N31k39.png}
 \caption{grayscale visualization of $Ond^{39}_{31}$}
 \label{fig:viz3139}
 \end{figure}
 
-\section{Conclusion}
-This note has introduced (mod n) spiral construction and the idea of \textit{complete spirals}. This note also gives 3 theorems with proof about some features of these spirals. Also introduced is a grayscale visualization of these spirals. 
+In the process of investigating sizes and iteration counts of
+$Ond^k_n$, the first author implemented a method to map the generated
+spirals to grayscale images. This works best for positive integers,
+$n$, less than 256.  The map $f : \ZZ_n \to \ZZ_{256}$ is defined by a
+scaled floor function,
+\[
+   f(j) = \alpha j, \quad \text{where} \quad
+   \alpha = \left\lfloor \frac{255}n \right\rfloor
+\]
+The function $f$ thus maps $\ZZ_n$ to a set of brightness values which
+are used to generate grayscale images.
 
-\subsection{Future Work}
-The diagonal patterns in the larger $k$ $Ond^k_n$ spirals would make for interesting to see how to categorize and determine their generators. In a private conversation \cite{Kusner} suggested also looking at the angular velocity of spiral growth, which might be fun.
 
-It would be of interest to think about looking at how spiraling might work for cubes or higher dimensional squares, since the lattice is the basis for the spiral. Further, it might be interesting to see how one might spiral with other objects that will tile the plane, i.e. triangles and hexagons.
 
-Lastly, characterizing the visualizations and interpreting their relations to the process would be a neat endeavor. 
+An example of this is $Ond^{39}_{31}$ seen in figure \ref{fig:viz3139}. One can
+see a complex pattern emerging.  Further, if one zooms
+in and out on the image, various different patterns emerge that seem
+to play tricks on the eye.  The image may also be view at
+\cite{GraySquare} and is the file \textit{N=31\_k=39-grey.png} which
+makes it easier for testing the zoom in/out.  Further, at this
+location, one may find the generated images for $Ond^k_n$ for $n=2, 3,
+\ldots, 31$ and $k=1,2, \ldots, 50$.
 
-\subsection{Acknowledgments}
-Recognizing Veracode Inc for providing time to think about this and Jared Carlson of Veracode for some initial discussion. The author would also like to thank Christoph Pacher for feedback and thinking about other tilings of the plane and Geoff Bailey of University of Sydney for comments on what were conjectures.
+\
+
+\begin{proof}[Proof of the Theorem]
+  Recall that $n\ge 2$ is fixed.  Let $\lambda$ be the length of the
+  side of a complete spiral, and let $\xi$ be the corresponding
+  iteration count.  Since the spiral is square, we must have $\xi n =
+  \lambda^2$, and so $n \vert \lambda^2$.  Now any prime which divides
+  $n$ must also divide $\lambda^2$, and must thus divide $\lambda$.
+
+  Since $s$ is the greatest square divisor of $n$, we can uniquely
+  write $n = q^2_1 q_2$ where $q_2$ is square-free, with $s = q_1^2$.
+  It follows that $q_1^2|\lambda^2$, so $q_1|\lambda$ and $q_2 |
+  (\lambda/q_1)^2$.  Since $q_2$ is square-free, $q_2|(\lambda/q_1)$
+  and we have $\lambda = k q_1 q_2$ for some integer $k$.  Clearly
+  $n|\lambda^2$ for any such $\lambda$, and we conclude that $\lambda
+  = k q_1 q_2$ is the side of the $k$-th complete spiral $Ond^k_n$.
+
+  Equation \eqref{lambda} now follows since $\sqrt{s} = q_1$, and
+  \eqref{xi} follows since $\xi = \lambda^2/n$.  Finally, $(iii)$
+  follows since $l_{max} = \lambda^2$ is even unless $k$, $q_1$ and
+  $q_2$ are all odd, and by construction $l_{max}$ represents the
+  top-right corner of the square if it is odd, and the bottom-left
+  corner if it is even.
+\end{proof}
+
+
+\section{Generalizations}
+
+It would be of interest to think about looking at how spiraling might
+work for cubes or higher dimensional squares, since the lattice is the
+basis for the spiral. Further, it might be interesting to see how one
+might spiral with other objects that will tile the plane,
+i.e. triangles and hexagons.
+
+Lastly, characterizing the visualizations and interpreting their
+relations to the process would be a neat endeavor.
+
+The diagonal patterns in the larger $k$ $Ond^k_n$ spirals would make
+for interesting to see how to categorize and determine their
+generators. In a private conversation \cite{Kusner} suggested also
+looking at the angular velocity of spiral growth, which might be fun.
+
+\vspace{12pt}\noindent\textbf{Acknowledgments:}\quad
+The first author recognizes Veracode Inc for providing time to think
+about these questions and Jared Carlson of Veracode for some initial
+discussion.  He would also like to thank Christoph Pacher for feedback
+and thinking about other tilings of the plane and Geoff Bailey of the
+University of Sydney for comments on what were conjectures.
 
 \begin{thebibliography}{1}
-\bibitem{Ulam} Wolfram Mathworld, ``Prime Spirals'', \url{http://mathworld.wolfram.com/PrimeSpiral.html}
-\bibitem{PySquare} A. Reiter, \url{https://github.com/cwcomplex/modNspirals}
-\bibitem{GraySquare} A. Reiter, \url{https://github.com/cwcomplex/modNspirals/tree/master/somegrey}
-\bibitem{sqmaxes} A. Reiter, \url{https://github.com/cwcomplex/modNspirals/blob/master/squareoff.py}
-\bibitem{Kusner} R. Kusner, A. Reiter, \textit{private email correspondence}
+
+\bibitem{Ulam} Wolfram Mathworld, ``Prime Spirals'',
+  \url{http://mathworld.wolfram.com/PrimeSpiral.html}
+\bibitem{PySquare} A. Reiter,
+  \url{https://github.com/cwcomplex/modNspirals}
+\bibitem{GraySquare} A. Reiter,
+  \url{https://github.com/cwcomplex/modNspirals/tree/master/somegrey}
+\bibitem{sqmaxes} A. Reiter,
+  \url{https://github.com/cwcomplex/modNspirals/blob/master/squareoff.py}
+\bibitem{Kusner} R. Kusner, A. Reiter, \textit{private email
+    correspondence}
 
 \end{thebibliography}
-
 
 
 \end{document}  
