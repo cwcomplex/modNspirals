@@ -1,8 +1,6 @@
 #!/usr/bin/python
 
 import sys
-from PIL import Image
-import gmpy
 from math import sqrt
 import operator
 from operator import mul
@@ -67,7 +65,7 @@ def main():
   N_MIN=2
   N_MAX=100000
   k_MIN=1
-  k_MAX=5
+  k_MAX=10
 
   rootfracs = []
   sqfracs = []
@@ -75,10 +73,12 @@ def main():
     maxx = getMaximalSquares(N)
     msk = maxx.keys()
     idenom = 1
+    ldenom = 1
     for zz in msk:
       idenom *= maxx[zz]
-    print "%d %d" % (N, idenom)
-    continue
+      ldenom *= sqrt(maxx[zz])
+  #  print "%d %d" % (N, idenom)
+  #  continue
     if idenom > 1:
       if is_square(idenom) == True:
         print "idenom is square = %d" % ( idenom)
@@ -87,20 +87,16 @@ def main():
     else:
       print "idenom is 1"
 
-#    rootfracs.append(ldenom)
-#    sqfracs.append(idenom)      
-#    print "N=%d, 1/%d, 1/%d -- %s" %(N, ldenom, idenom, str(factors))
+    rootfracs.append(ldenom)
+    sqfracs.append(idenom)      
+    print "N=%d, 1/%d, 1/%d" %(N, ldenom, idenom)
 #  print str(rootfracs)
 #  print str(sqfracs)
 #    print "N=%d, k=%d: root=%d sq=%d" % (N, k, ldenom, idenom)
 
-#    for k in range(k_MIN, k_MAX+1):
-#      ldenom = 1
-#      idenom = 1
-#      for zz in msk:
-#        ldenom *= sqrt(maxsquares[zz])
-#        idenom *= maxsquares[zz]
-#      print "N=%d, k=%d: len=%d iterates=%d" % (N, k, (k*N)/ldenom, (k*k*N)/idenom)
+    for k in range(k_MIN, k_MAX+1):
+  #    print "N=%d, k=%d: len=%d iterates=%d" % (N, k, (k*N)/ldenom, (k*k*N)/idenom)
+      print "N=%d, k=%d: N/ld = %d , N/id = %d" % (N, k, N/ldenom, N/idenom)
 
        
 
