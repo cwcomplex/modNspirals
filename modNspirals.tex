@@ -12,6 +12,18 @@
 \usepackage{tikz}
 \usepackage{enumerate}
 
+%
+%%
+%%% ARR Comments
+%%
+%
+% . I pushed most figures of size to an appendix; I'm not sure
+%    how correct that is.
+% . Filled out Z10 case based on your tikz work, but instead of enclosing
+%    certain sections, I linked the numbers to show the spiral. Not sure how
+%    useful the graphic is.
+% . Added the generalization bit plus proof.
+
 
 \theoremstyle{mydef}
 \newtheorem{definition}{Definition}
@@ -22,11 +34,10 @@
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{On (mod n) Spirals}
+\title{On (mod $n$) Spirals}
 \author{Andrew Reiter}
 \author{Robin Young}
 \email{areiter@veracode.com, young@math.umass.edu}
-%\date{}                                           % Activate to display a given date or no date
 
 %%%%%%  RY: this line gets removed!
 %\def\includegraphics[#1]{\fbox}
@@ -35,7 +46,10 @@
 \maketitle
 \section{Introduction}
 
-This note is intended to introduce the process of constructing (mod n) spirals and the idea of a complete spiral.  It also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to elucidate further understanding of them. A theorem generalizing aspects of the spirals to cubic and hyper cubic dimensions d, with proof, is also provided to help gain insight into higher dimensions. Lastly, we include some investigation of non-square shapes and their spiral patterns. While not inspired by Ulam's Spiral \cite{Ulam}, the construction of  a (mod n) spiral is similar in nature. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written. 
+This note is intended to introduce the process of constructing (mod $n$) spirals and the idea of a complete spiral.  The construction of a (mod $n$) spiral is similar in nature to Ulam's Spiral \cite{Ulam}. The note also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to  further illuminate understanding and interest in these objects. Generalizations to higher dimensions and spirals of other shapes are given. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written and offered to share as it is a candidate for use in classroom learning.
+
+
+
 \section{Spiral Construction}
 
 We describe the construction of a (mod $n$) spiral and introduce the
@@ -258,7 +272,7 @@ for any $d$.
 In terms of planar spirals described above, we are interested
 in finding squares, thus the areal requirement $n \vert \lambda^2$. For the case
 of cubic spirals, we have the volume requirement $n \vert \lambda^3$ and $n 
-\vert \lambda^4$ for the $4d$ hypercube. Thus we think about the $Ond$ for any 
+\vert \lambda^4$ for the $4d$ hypercube. Thus we think about the $Ond_n$ for any 
 dimension $d$ as having this same geometric requirement.
 
 \begin{thm}
@@ -266,36 +280,32 @@ dimension $d$ as having this same geometric requirement.
 Let $n\vert \lambda^d$ for $d=2, 3, \ldots$. Let $n = qm^d$ where $m \in \mathbb{N}$ and $q$ is $d$-power 
 free. Let $q$ be defined in terms of it's prime factors, $p_j$, as
 \[
-	q = \prod p_j^{e_j}\quad \text{with}\ \text{each}\quad e_j < d.
+	q = \prod\limits_{j=1}^{r} p_j^{e_j}\quad \text{with}\ \text{each}\quad e_j < d.
 \]
 then
 \[
 	\lambda = k m \prod p_j \quad k = 1, 2, 3, \ldots
 \]
 \end{thm}
+
 \begin{proof}
-We have that
+Since we have that $n \vert \lambda^d$, then it follows that
 \begin{align*}
- & n \vert \lambda^d \\
-\implies  & qm^d \vert \lambda^d\\
+  & qm^d \vert \lambda^d\\
 \implies & m^d \vert \lambda^d\\
 \implies & m \vert \lambda 
 \end{align*}
 which means that writing $\frac{\lambda}{m}$ makes sense. Thus we have 
-that $q \vert (\frac{\lambda}{m})^d$. Recall the definition of $q$ and we see
-\begin{align*}
-& p_j^{e_j} \vert q \vert (\frac{\lambda}{m})^d\\
-\implies & p_j \vert q \vert (\frac{\lambda}{m})^d\\
-\implies & p_j \vert (\frac{\lambda}{m})^d\\
-\implies & p_j \vert \frac{\lambda}{m}\\
-\implies & p_1 \ldots p_r \vert \frac{\lambda}{m}
-\end{align*}
-since $p_j$ are distinct. Thus, we can write $\lambda = k m \prod p_j$ for some $k$.
+that $q \vert (\frac{\lambda}{m})^d$. Recall the definition of $q$ and it's clear
+that $p_j \vert q$. Then because $q \vert (\frac{\lambda}{m})^d$, it follows that
+$p_j \vert (\frac{\lambda}{m})^d$.  Since $p_j$ is clearly $d$-power free, $p_j \vert \frac{\lambda}{m}$.
+Since the $p_j$'s are distinct, it follows that $p_1 \dots p_r \vert \frac{\lambda}{m}$ 
+and thus $\lambda = k m \prod p_j$ for some $k = 1, 2, \ldots$.
 \end{proof}
 
 \section{Other Planar Shapes}
 
-We can expand from investigating the square spirals to other planar shapes
+We can expand away from investigating the square spirals to other planar shapes
 defined on a square lattice. While the spiraling process may vary, the area
 requirement of achieving $Ond$ remains the same.
 
@@ -306,12 +316,13 @@ to determine the area requirement. It is well known that the triangle numbers ar
 \[
 	Area(\triangle d) =  T_d =  \frac{d(d+1)}{2}
 \]
+Thus we look at the requirement $n \vert \frac{d(d+1)}{2}$.  ??? maybe if even $n$ there are issues ... 
+Generate a bunch and go then re-write this.
 
-Thus we look at the requirement $n \vert \frac{d(d+1)}{2}$, which tells us that either $n \vert d$ or $n \vert (d+1)$.
-In the case of $n \vert d$, then not only $n \vert T_d$ but also $n \vert T_{d-1}$ since $T_{d-1} = \frac{(d-1)d}{2}$.
-Further, if it is that $n \vert (d+1)$, then also $n \vert T_{d+1}$ since $T_{d+1} = \frac{(d+1)(d +2)}{2}$. One can see that 
-once $Ond$ is achieved for some $n$ by filling some $T_d$, then it is necessarily the case that $T_{d-1}$ or $T_{d+1}$
-are also $Ond$ for $n$ due to the inclusion of successive $d$ factors.
+If $n \vert T_d$, then necessarily $n \vert T_{d-1}$ or $n \vert T_{d+1}$. The reasoning for this is in the definition of $T_d$
+which says that $T_{d-1}$ and $T_d$ have consecutive factors $d$ and $T_d$ and $T_{d+1}$ have
+consecutive factors $d+1$. Thus, when $Ond_n$ is achieved by some $T_d$ triangle, then either
+$T_{d-1}$ or $T_{d+1}$ will also yield an $Ond_n$.
 
 \begin{figure}[h]
 \[  \begin{array}{cc}
@@ -341,15 +352,24 @@ are also $Ond$ for $n$ due to the inclusion of successive $d$ factors.
 \bullet & \bullet & \bullet & \bullet & \bullet
 \end{array}
 \]
-\caption{Triangles on Lattice starting with $d = 2$}
+\caption{Triangles on Lattice $d = 2, 3, 4, 5$}
 \label{fig:trianglegrowth}
 \end{figure}
 
-If we take the first $ \{T_d\}_{d=2,\ldots,10}$, we have the set \{ 3, 6, 10, 15, 21, 28, 36
-45, 55 \}. We see that $Ond_2$ can be achieved by $T_3$ since $d +1 = 4$ and
-$T_4$ since $d = 4$. Similarly we see that $T_7$ and $T_8$ are also $Ond_2$ because
-of $d + 1 = 8$ and $d = 8$, respectively. One can clearly see the pairing nature that is described
-above in action here. If we look at $Ond_4$, we find the triangles $T_7$ and $T_8$ work and
+We generate the numbers for $d = 2, \ldots, 10$, then $\{T_d\}$ =
+$\{ 3, 6, 10, 15, 21, 28, 36, 45, 55 \}$ and we can look to see which $Ond_n$
+could be achieved in these forms. $Ond_2$ can be achieved in the cases where
+$2 \vert T_d$, this means that the cases $\{ T_3, T_4, T_7, T_8 \}$ are all $Ond_2$ achievable.
+If we look at $Ond_3$, we are looking for cases in which $3 \vert T_d$ which are 
+$\{ T_2, T_3, T_5, T_6, T_8, T_9 \}$.  For $Ond_4$, $\{ T_7, T_8 \}$ are the only achievable 
+cases. Furth
+
+
+In looking at   In looking at this set, one can see that  $Ond_2$ can be 
+achieved in a few handful of ways.  First, $T_3$ since $d +1 = 4$ and $T_4$ since $d = 4$. 
+Similarly we see that $T_7$ and $T_8$ are also $Ond_2$ because of $d + 1 = 8$ and $d = 8$, respectively; again 
+for $T_9$ and $T_{10}$ we can this. In looking at $Ond_3$ we see $T_2$, $T_3$, 
+Now, if we look at $Ond_4$, we find the triangles $T_7$ and $T_8$ work and
 in looking at $Ond_5$ we see $T_4$, $T_5$ and $T_9$, $T_{10}$ work; further demonstrating
 the pairing nature.
 
@@ -373,9 +393,12 @@ For $d = 2, \ldots, 10$, we
 have the $H_j$ values 6, 15, 28, 45, 66, 91, 120, 153, 190. If we take $\mathbb{Z}_2$ we have the first 3 $Ond$
 to be the case $H_2, H_4, H_6$.
 
-Lastly, characterizing the visualizations and interpreting their
-relations to the process would be a neat endeavor.
-
+\section{Summary}
+This note presented the process of constructing (mod n) spirals in a square lattice and proof regarding some 
+notions of patterns found in this construction. Further, we have presented a generalization of the notion of
+achieving a spiral $Ond$ to hypercubes of dimension $d$ by conforming to a volume geometric requirement.
+Lastly, we began to explore other $d = 2$ shapes in the $\mathbb{Z}^2$ lattice, pushing the notion of the 
+geometric requirement to other forms. 
 
 \vspace{12pt}\noindent\textbf{Acknowledgments:}\quad
 The first author recognizes Veracode Inc and Jared Carlson of Veracode.
