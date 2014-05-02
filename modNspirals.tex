@@ -316,13 +316,10 @@ to determine the area requirement. It is well known that the triangle numbers ar
 \[
 	Area(\triangle d) =  T_d =  \frac{d(d+1)}{2}
 \]
-Thus we look at the requirement $n \vert \frac{d(d+1)}{2}$.  ??? maybe if even $n$ there are issues ... 
-Generate a bunch and go then re-write this.
-
-If $n \vert T_d$, then necessarily $n \vert T_{d-1}$ or $n \vert T_{d+1}$. The reasoning for this is in the definition of $T_d$
-which says that $T_{d-1}$ and $T_d$ have consecutive factors $d$ and $T_d$ and $T_{d+1}$ have
-consecutive factors $d+1$. Thus, when $Ond_n$ is achieved by some $T_d$ triangle, then either
-$T_{d-1}$ or $T_{d+1}$ will also yield an $Ond_n$.
+and grow as shown in Figure \ref{fig:trianglegrowth}. Thus we look at the requirement 
+$n \vert \frac{d(d+1)}{2}$. Due to the factors $d$ and $d+1$, it is reasonable to suspect
+that if $n \vert T_d$ then either $n \vert T_{d-1}$ or $n \vert T_{d+1}$. However, it is not
+always the case that $n$ will divide consecutive triangles.
 
 \begin{figure}[h]
 \[  \begin{array}{cc}
@@ -356,23 +353,22 @@ $T_{d-1}$ or $T_{d+1}$ will also yield an $Ond_n$.
 \label{fig:trianglegrowth}
 \end{figure}
 
-We generate the numbers for $d = 2, \ldots, 10$, then $\{T_d\}$ =
-$\{ 3, 6, 10, 15, 21, 28, 36, 45, 55 \}$ and we can look to see which $Ond_n$
-could be achieved in these forms. $Ond_2$ can be achieved in the cases where
-$2 \vert T_d$, this means that the cases $\{ T_3, T_4, T_7, T_8 \}$ are all $Ond_2$ achievable.
-If we look at $Ond_3$, we are looking for cases in which $3 \vert T_d$ which are 
-$\{ T_2, T_3, T_5, T_6, T_8, T_9 \}$.  For $Ond_4$, $\{ T_7, T_8 \}$ are the only achievable 
-cases. Furth
+To more clearly see this, we generate the values 
+\[
+	\{ T_d \}_{d=2}^{21} = \{ 3, 6, 10, 15, 21, 28,   36, 45, 55, 66, 78,   91, 105, 120, 136, 153, 171,190,210,231 \}
+\]
+and look at $n \vert T_d$. It is clear that only the even valued $T_d$ are $Ond_2$ achievable. They appear to 
+obey the consecutive triangle idea and this scenario is similar for the cases $n = 3, 4, 5, 7, 8, 9, 11, 12, 13, 16$.
 
+However, $Ond_6$ is achieved by $T_3, T_8, T_{11}, T_{12}, T_{15}, T_{20}, T_{23}, T_{24}, \ldots$. There are 
+cases of consecutive triangles used to achieve $Ond_3$, but also other cases in which there are lone triangles.
+It seems to be that given a consecutive pair that achieve $Ond_3$, $T_j$ and $T_{j+1}$, then so will the triangles 
+ $T_{j+4}, T_{j+9}, T_{j+12}, T_{j+13}, \ldots$.
 
-In looking at   In looking at this set, one can see that  $Ond_2$ can be 
-achieved in a few handful of ways.  First, $T_3$ since $d +1 = 4$ and $T_4$ since $d = 4$. 
-Similarly we see that $T_7$ and $T_8$ are also $Ond_2$ because of $d + 1 = 8$ and $d = 8$, respectively; again 
-for $T_9$ and $T_{10}$ we can this. In looking at $Ond_3$ we see $T_2$, $T_3$, 
-Now, if we look at $Ond_4$, we find the triangles $T_7$ and $T_8$ work and
-in looking at $Ond_5$ we see $T_4$, $T_5$ and $T_9$, $T_{10}$ work; further demonstrating
-the pairing nature.
-
+The case of $Ond_{10}$ is another case in which there are lone triangles among the various consecutive triangles
+that achieve this spiral. It seems in this case, given a consecutive pair that achieves the spiral, $T_{j}, T_{j+1}$, then
+so will the following triangles $T_{j+5}, T_{j+16}, T_{j+20}, T_{j+21}, \ldots$. The authors  calculated that the cases
+$n = 14, 15$ also contain lone triangles among consecutive, however, have not characterized the pattern in general.
 
 
 \subsection{Hexagonal Numbers}
@@ -384,14 +380,28 @@ defined as
 \[
 	H_d = d(2d - 1)
 \]
-Thus we are interested in the requirement $n \vert H_d$ which implies either $n \vert d$ or
-$n \vert (2d - 1)$.  If we look at the case for $Ond_2$, it is clear that the $2 \vert H_d$ requirement
-forces that $2 \vert d$ since $2d -1$ is odd for all $d$; thus we can assume that $Ond_2$ is
-achieved for every even $d$, or every other $H_d$.
+Thus we are interested in the requirement $n \vert H_d$. It is necessarily the case that $2d - 1$ is 
+odd valued for all $d$ of concern. Thus, if $d$ is even, then $H_d$ is even, and if $d$ is odd, then
+$H_d$ is odd. It is also the case that if $n \vert d$, then $Ond_n$ can be achieved by $H_d$. Thus,
+if $n \vert d$, then $H_{kd} = kd(2d - 1)$ for $k = 1, 2, \ldots$ are all $Ond_n$ achievable. Note that 
+this is a subset of possible hexagons that achieve $Ond_n$. Clearly, it is also the case that if $n \vert
+2d - 1$, then $H_d$ achieves $Ond_n$. 
 
-For $d = 2, \ldots, 10$, we
-have the $H_j$ values 6, 15, 28, 45, 66, 91, 120, 153, 190. If we take $\mathbb{Z}_2$ we have the first 3 $Ond$
-to be the case $H_2, H_4, H_6$.
+From numerical calculations, one sees some patterns in the $d$ values for $Ond_n$ achievable
+hexagons. For example, in looking at $Ond_{11}$, the hexagons $H_{6}, H_{11}, H_{17}, H_{22}, H_{28}, \ldots$.
+The pattern is $d = 6 \rightarrow +5 \rightarrow +6 \rightarrow +5 \rightarrow +6 \rightarrow \ldots$.
+Similar alternating patterns are found for other $Ond_n$ including $Ond_{10}$ which has 
+$d = 8 \rightarrow +2 \rightarrow + 8 \rightarrow + 2 \rightarrow + 8 \rightarrow \ldots$ for the hexagons
+$H_{8}, H_{10}, H_{18}, H_{20}, H_{28}, \ldots$. It is interesting to note that the sum of consecutive differences
+is the value of $n$ in both the $n = 10, 11$ cases.
+
+However, not all cases have this feature as in $n = 15, 16$. In $n = 15$, the pattern is over more
+than two values  as in $H_{18}, H_{20}, H_{23}, H_{30}, H_{33}$ which follows the pattern
+$d = 18 \rightarrow +2 \rightarrow +3 \rightarrow +7 \rightarrow +3$. The pattern repeats and the sum
+over the $d$ differences is 15. In the case of $n = 16$, difference between $d$ values is constant 16.
+
+There are similar shape numbers that are defined on the planar lattice that can be explored. These include the 
+hex numbers \cite{HexNum}, heptagonal numbers \cite{Hepta}, and other polygonal numbers \cite{Polyg}.
 
 \section{Summary}
 This note presented the process of constructing (mod n) spirals in a square lattice and proof regarding some 
@@ -416,6 +426,12 @@ The first author recognizes Veracode Inc and Jared Carlson of Veracode.
   \url{http://mathworld.wolfram.com/TriangularNumber.html}
 \bibitem{HexagonalNumbers} Wolfram Mathworld, ``Hexagonal Numbers'',
   \url{http://mathworld.wolfram.com/HexagonalNumber.html}
+\bibitem{HexNum} Wolfram Mathworld, ``Hex Numbers'',
+  \url{http://mathworld.wolfram.com/HexNumber.html}
+\bibitem{Hepta} Wolfram Mathworld, ``Heptagonal Numbers'',
+  \url{http://mathworld.wolfram.com/HeptagonalNumber.html}
+\bibitem{Polyg} Wolfram Mathworld, ``Polygonal Numbers'',
+  \url{http://mathworld.wolfram.com/PolygonalNumber.html}
 \end{thebibliography}
 
 
