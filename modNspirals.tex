@@ -263,7 +263,7 @@ location, one may find the generated images for $Ond^k_n$ for $n=2, 3,
 
 \section{Generalizations}
 
-We can further investigate the idea of $Ond$ by looking at how spiraling might
+The second author proposed investigating the idea how of $Ond$ might
 work for cubes or higher dimensional squares, since the lattice is the
 basis for the spiral. In imagining dimension $d = 3$ and $d=4$, finding
 the route in the lattice to properly spiral can be quite difficult, let alone an algorithm 
@@ -358,7 +358,7 @@ To more clearly see this, we generate the values
 	\{ T_d \}_{d=2}^{21} = \{ 3, 6, 10, 15, 21, 28,   36, 45, 55, 66, 78,   91, 105, 120, 136, 153, 171,190,210,231 \}
 \]
 and look at $n \vert T_d$. It is clear that only the even valued $T_d$ are $Ond_2$ achievable. They appear to 
-obey the consecutive triangle idea and this scenario is similar for the cases $n = 3, 4, 5, 7, 8, 9, 11, 12, 13, 16$.
+obey the consecutive triangle idea and this scenario is similar for the cases of $Ond_n$ for $n = 3, 4, 5, 7, 8, 9, 11, 12, 13, 16$.
 
 However, $Ond_6$ is achieved by $T_3, T_8, T_{11}, T_{12}, T_{15}, T_{20}, T_{23}, T_{24}, \ldots$. There are 
 cases of consecutive triangles used to achieve $Ond_3$, but also other cases in which there are lone triangles.
@@ -383,22 +383,22 @@ defined as
 Thus we are interested in the requirement $n \vert H_d$. It is necessarily the case that $2d - 1$ is 
 odd valued for all $d$ of concern. Thus, if $d$ is even, then $H_d$ is even, and if $d$ is odd, then
 $H_d$ is odd. It is also the case that if $n \vert d$, then $Ond_n$ can be achieved by $H_d$. Thus,
-if $n \vert d$, then $H_{kd} = kd(2d - 1)$ for $k = 1, 2, \ldots$ are all $Ond_n$ achievable. Note that 
+if $n \vert d$, then $H_{kd} = kd(2kd - 1)$ for $k = 1, 2, \ldots$ are all $Ond_n$ achievable. Note that 
 this is a subset of possible hexagons that achieve $Ond_n$. Clearly, it is also the case that if $n \vert
 2d - 1$, then $H_d$ achieves $Ond_n$. 
 
 From numerical calculations, one sees some patterns in the $d$ values for $Ond_n$ achievable
 hexagons. For example, in looking at $Ond_{11}$, the hexagons $H_{6}, H_{11}, H_{17}, H_{22}, H_{28}, \ldots$.
-The pattern is $d = 6 \rightarrow +5 \rightarrow +6 \rightarrow +5 \rightarrow +6 \rightarrow \ldots$.
+The pattern is $d = 6 \xrightarrow{+5} 11 \xrightarrow{+6} 17 \xrightarrow{+5} 22 \xrightarrow{+6} \ldots$.
 Similar alternating patterns are found for other $Ond_n$ including $Ond_{10}$ which has 
-$d = 8 \rightarrow +2 \rightarrow + 8 \rightarrow + 2 \rightarrow + 8 \rightarrow \ldots$ for the hexagons
+$d = 8 \xrightarrow{+2} 10 \xrightarrow{+8} 18 \xrightarrow{+2} 20 \xrightarrow{+8}  28 \xrightarrow{+2} \ldots$ for the hexagons
 $H_{8}, H_{10}, H_{18}, H_{20}, H_{28}, \ldots$. It is interesting to note that the sum of consecutive differences
 is the value of $n$ in both the $n = 10, 11$ cases.
 
-However, not all cases have this feature as in $n = 15, 16$. In $n = 15$, the pattern is over more
-than two values  as in $H_{18}, H_{20}, H_{23}, H_{30}, H_{33}$ which follows the pattern
-$d = 18 \rightarrow +2 \rightarrow +3 \rightarrow +7 \rightarrow +3$. The pattern repeats and the sum
-over the $d$ differences is 15. In the case of $n = 16$, difference between $d$ values is constant 16.
+However, not all cases have this feature as in $n = 15, 16$. For $n = 15$, the pattern is over more
+than two values  as in $H_{18}, H_{20}, H_{23}, H_{30}, H_{33}$ which follows 
+$d = 18 \xrightarrow{+2} 20 \xrightarrow{+3} 23 \xrightarrow{+7} 30 \xrightarrow{+3} 33 \xrightarrow{+2} \ldots$. The pattern repeats and the sum
+over the $d$ differences is 15, which is the value of $n$. In the case of $n = 16$, difference between $d$ values is constant 16.
 
 There are similar shape numbers that are defined on the planar lattice that can be explored. These include the 
 hex numbers \cite{HexNum}, heptagonal numbers \cite{Hepta}, and other polygonal numbers \cite{Polyg}.
@@ -641,6 +641,165 @@ The first author recognizes Veracode Inc and Jared Carlson of Veracode.
 \draw[black] (-.25, -2) -- (-.75, -2);
 \draw[black] (-1.25, -2) -- (-1.75,-2);
 \draw[black] (-2, -1.75) -- (-2, -1.25);
+\draw[black] (-2, -.75) -- (-2, -.25);
+\draw[black] (-2, .25) -- (-2, .75);
+\draw[black] (-2, 1.25) -- (-2, 1.75);
+\draw[black] (-1.75, 2) -- (-1.25, 2);
+\draw[black] (-.75, 2) -- (-.25, 2);
+\draw[black] (.25, 2) -- (.75, 2);
+\draw[black] (1.25, 2) -- (1.75, 2);
+\draw[black] (2.25, 2) -- (2.75, 2);
+\draw[black] (3, 1.75) -- (3, 1.25);
+\draw[black] (3, .75) -- (3, .25);
+\draw[black] (3, -.25) -- (3, -.75);
+\draw[black] (3, -1.25) -- (3, -1.75);
+\draw[black] (3, -2.25) -- (3, -2.75);
+\draw[black] (2.75, -3) -- (2.25, -3);
+\draw[black] (1.75, -3) -- (1.25, -3);
+\draw[black] (.75, -3) -- (.25, -3);
+\draw[black] (-.25, -3) -- (-.75, -3);
+\draw[black] (-1.25, -3) -- (-1.75, -3);
+\draw[black] (-2.25, -3) -- (-2.75, -3);
+\draw[black] (-3, -2.75) -- (-3, -2.25);
+\draw[black] (-3, -1.75) -- (-3, -1.25);
+\draw[black] (-3, -.75) -- (-3, -.25);
+\draw[black] (-3, .25) -- (-3, .75);
+\draw[black] (-3, 1.25) -- (-3, 1.75);
+\draw[black] (-3, 2.25) -- (-3, 2.75);
+\draw[black] (-2.75, 3) -- (-2.25, 3);
+\draw[black] (-1.75, 3) -- (-1.25, 3);
+\draw[black] (-.75, 3) -- (-.25, 3);
+\draw[black] (.25, 3) -- (.75, 3);
+\draw[black] (1.25, 3) -- (1.75, 3);
+\draw[black] (2.25, 3) -- (2.75, 3);
+\draw[black] (3.25, 3) -- (3.75, 3);
+\draw[black] (4, 2.75) -- (4, 2.25);
+\draw[black] (4, 1.75) -- (4, 1.25);
+\draw[black] (4, .75) -- (4, .25);
+\draw[black] (4, -.25) -- (4, -.75);
+\draw[black] (4, -1.25) -- (4, -1.75);
+\draw[black] (4, -2.25) -- (4, -2.75);
+\draw[black] (4, -3.25) -- (4, -3.75);
+\draw[black] (3.75, -4) -- (3.25, -4);
+\draw[black] (2.75, -4) -- (2.25, -4);
+\draw[black] (1.75, -4) -- (1.25, -4);
+\draw[black] (.75, -4) -- (.25, -4);
+\draw[black] (-.25, -4) -- (-.75, -4);
+\draw[black] (-1.25, -4) -- (-1.75, -4);
+\draw[black] (-2.25, -4) -- (-2.75, -4);
+\draw[black] (-3.25, -4) -- (-3.75, -4);
+\draw[black] (-4, -3.75) -- (-4, -3.25);
+\draw[black] (-4, -2.75) -- (-4, -2.25);
+\draw[black] (-4, -1.75) -- (-4, -1.25);
+\draw[black] (-4, -.75) -- (-4, -.25);
+\draw[black] (-4, .25) -- (-4, .75);
+\draw[black] (-4, 1.25) -- (-4, 1.75);
+\draw[black] (-4, 2.25) -- (-4, 2.75);
+\draw[black] (-4, 3.25) -- (-4, 3.75);
+\draw[black] (-3.75, 4) -- (-3.25, 4);
+\draw[black] (-2.75, 4) -- (-2.25, 4);
+\draw[black] (-1.75, 4) -- (-1.25, 4);
+\draw[black] (-.75, 4) -- (-.25, 4);
+\draw[black] (.25, 4) -- (.75, 4);
+\draw[black] (1.25, 4) -- (1.75, 4);
+\draw[black] (2.25, 4) -- (2.75, 4);
+\draw[black] (3.25, 4) -- (3.75, 4);
+\draw[black] (4.25, 4) -- (4.75, 4);
+
+\draw[black] (5, 3.75) -- (5, 3.25);
+\draw[black] (5, 2.75) -- (5, 2.25);
+\draw[black] (5, 1.75) -- (5, 1.25);
+\draw[black] (5, .75) -- (5, .25);
+\draw[black] (5, -.25) -- (5, -.75);
+\draw[black] (5, -1.25) -- (5, -1.75);
+\draw[black] (5, -2.25) -- (5, -2.75);
+\draw[black] (5, -3.25) -- (5, -3.75);
+\draw[black] (5, -4.25) -- (5, -4.75);
+
+\draw[black] (4.75, -5) -- (4.25, -5);
+\draw[black] (3.75, -5) -- (3.25, -5);
+\draw[black] (2.75, -5) -- (2.25, -5);
+\draw[black] (1.75, -5) -- (1.25, -5);
+\draw[black] (.75, -5) -- (.25, -5);
+\draw[black] (-.25, -5) -- (-.75, -5);
+\draw[black] (-1.25, -5) -- (-1.75, -5);
+\draw[black] (-2.25, -5) -- (-2.75, -5);
+\draw[black] (-3.25, -5) -- (-3.75, -5);
+\draw[black] (-4.25, -5) -- (-4.75, -5);
+
+\draw[black] (-5, -4.75) -- (-5, -4.25);
+\draw[black] (-5, -3.75) -- (-5, -3.25);
+\draw[black] (-5, -2.75) -- (-5, -2.25);
+\draw[black] (-5, -1.75) -- (-5, -1.25);
+\draw[black] (-5, -.75) -- (-5, -.25);
+\draw[black] (-5, .25) -- (-5, .75);
+\draw[black] (-5, 1.25) -- (-5, 1.75);
+\draw[black] (-5, 2.25) -- (-5, 2.75);
+\draw[black] (-5, 3.25) -- (-5, 3.75);
+\draw[black] (-5, 4.25) -- (-5, 4.75);
+
+\draw[black] (-4.75, 5) -- (-4.25, 5);
+\draw[black] (-3.75, 5) -- (-3.25, 5);
+\draw[black] (-2.75, 5) -- (-2.25, 5);
+\draw[black] (-1.75, 5) -- (-1.25, 5);
+\draw[black] (-.75, 5) -- (-.25, 5);
+\draw[black] (.25, 5) -- (.75, 5);
+\draw[black] (1.25, 5) -- (1.75, 5);
+\draw[black] (2.25, 5) -- (2.75, 5);
+\draw[black] (3.25, 5) -- (3.75, 5);
+\draw[black] (4.25, 5) -- (4.75, 5);
+\draw[black] (5.25, 5) -- (5.75, 5);
+
+\draw[black] (6, 4.75) -- (6, 4.25);
+\draw[black] (6, 3.75) -- (6, 3.25);
+\draw[black] (6, 2.75) -- (6, 2.25);
+\draw[black] (6, 1.75) -- (6, 1.25);
+\draw[black] (6, .75) -- (6, .25);
+\draw[black] (6, -.25) -- (6, -.75);
+\draw[black] (6, -1.25) -- (6, -1.75);
+\draw[black] (6, -2.25) -- (6, -2.75);
+\draw[black] (6, -3.25) -- (6, -3.75);
+\draw[black] (6, -4.25) -- (6, -4.75);
+\draw[black] (6, -5.25) -- (6, -5.75);
+
+\draw[black] (5.75, -6) -- (5.25, -6);
+\draw[black] (4.75, -6) -- (4.25, -6);
+\draw[black] (3.75, -6) -- (3.25, -6);
+\draw[black] (2.75, -6) -- (2.25, -6);
+\draw[black] (1.75, -6) -- (1.25, -6);
+\draw[black] (.75, -6) -- (.25, -6);
+\draw[black] (-.25, -6) -- (-.75, -6);
+\draw[black] (-1.25, -6) -- (-1.75, -6);
+\draw[black] (-2.25, -6) -- (-2.75, -6);
+\draw[black] (-3.25, -6) -- (-3.75, -6);
+\draw[black] (-4.25, -6) -- (-4.75, -6);
+\draw[black] (-5.25, -6) -- (-5.75, -6);
+
+\draw[black] (-6, -5.75) -- (-6, -5.25);
+\draw[black] (-6, -4.75) -- (-6, -4.25);
+\draw[black] (-6, -3.75) -- (-6, -3.25);
+\draw[black] (-6, -2.75) -- (-6, -2.25);
+\draw[black] (-6, -1.75) -- (-6, -1.25);
+\draw[black] (-6, -.75) -- (-6, -.25);
+\draw[black] (-6, .25) -- (-6, .75);
+\draw[black] (-6, 1.25) -- (-6, 1.75);
+\draw[black] (-6, 2.25) -- (-6, 2.75);
+\draw[black] (-6, 3.25) -- (-6, 3.75);
+\draw[black] (-6, 4.25) -- (-6, 4.75);
+\draw[black] (-6, 5.25) -- (-6, 5.75);
+
+\draw[black] (-5.75, 6) -- (-5.25, 6);
+\draw[black] (-4.75, 6) -- (-4.25, 6);
+\draw[black] (-3.75, 6) -- (-3.25, 6);
+\draw[black] (-2.75, 6) -- (-2.25, 6);
+\draw[black] (-1.75, 6) -- (-1.25, 6);
+\draw[black] (-.75, 6) -- (-.25, 6);
+\draw[black] (.25, 6) -- (.75, 6);
+\draw[black] (1.25, 6) -- (1.75, 6);
+\draw[black] (2.25, 6) -- (2.75, 6);
+\draw[black] (3.25, 6) -- (3.75, 6);
+\draw[black] (4.25, 6) -- (4.75, 6);
+\draw[black] (5.25, 6) -- (5.75, 6);
 
 \end{tikzpicture} 
 \caption{A (mod 10) spiral with some indication of path}
