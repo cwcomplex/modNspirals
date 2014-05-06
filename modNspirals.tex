@@ -46,7 +46,7 @@
 \maketitle
 \section{Introduction}
 
-This note is intended to introduce the process of constructing (mod $n$) spirals and the idea of a complete spiral.  The construction of a (mod $n$) spiral is similar in nature to Ulam's Spiral \cite{Ulam}. The note also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to  further illuminate understanding and interest in these objects. Generalizations to higher dimensions and spirals of other shapes are given. The author's are unaware of other work or literature on this topic, so have no references other the couple related to code; in part this is why the note has been written and offered to share as it is a candidate for use in classroom learning.
+This note is intended to introduce the process of constructing (mod $n$) spirals and the idea of a complete spiral.  The construction of a (mod $n$) spiral is similar in nature to Ulam's Spiral \cite{Ulam}. The note also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to  further illuminate understanding and interest in these objects. Generalizations to higher dimensions and spirals of other shapes are given. The author's are unaware of other work or literature on this topic, so have no references other than the couple related to code; in part this is why the note has been written and offered to share as it is a candidate for use in classroom learning.
 
 
 
@@ -60,7 +60,7 @@ be a square lattice, which we can take to be $\ZZ^2$.  Denoting
 the origin by $l_1 = (0,0)$, we build the spiral by enumerating the
 lattice sites and assigning numbers from $\mathbb{Z}_n$ in turn.  We
 spiral in a clockwise direction starting in the direction of the
-$x$-axis, so that $l_2 = (1,0)$, $l_3 = (1,-1)$, and the next four
+positive $x$-axis, so that $l_2 = (1,0)$, $l_3 = (1,-1)$, and the next four
 lattice points are $\{(0, -1),(-1, -1),(-1, 0),(-1, 1)\}$,
 respectively.  In general, once $l_j$ has been assigned, and having
 chosen a `direction' by moving from $l_{j-1}$, the next site $l_{j+1}$
@@ -233,9 +233,9 @@ to play tricks on the eye.  The image may also be view at
 \cite{GraySquare} and is the file \textit{N=31\_k=39-grey.png} which
 makes it easier for testing the zoom in/out.  Further, at this
 location, one may find the generated images for $Ond^k_n$ for $n=2, 3,
-\ldots, 31$ and $k=1,2, \ldots, 50$.
+\ldots, 31$ and $k=1,2, \ldots, 50$. Another visualization example is provided by Figure
+\ref{fig:viz1039} and is the spiral $Ond^{39}_{10}$.
 
-\
 
 \begin{proof}[Proof of the Theorem]
   Recall that $n\ge 2$ is fixed.  Let $\lambda$ be the length of the
@@ -246,10 +246,10 @@ location, one may find the generated images for $Ond^k_n$ for $n=2, 3,
 
   Since $s$ is the greatest square divisor of $n$, we can uniquely
   write $n = q^2_1 q_2$ where $q_2$ is square-free, with $s = q_1^2$.
-  It follows that $q_1^2|\lambda^2$, so $q_1|\lambda$ and $q_2 |
-  (\frac{\lambda}{q_1})^2$.  Since $q_2$ is square-free, $q_2|(\frac{\lambda}{q_1})$
+  It follows that $q_1^2\vert\lambda^2$, so $q_1|\lambda$ and $q_2 \vert
+  (\frac{\lambda}{q_1})^2$.  Since $q_2$ is square-free, $q_2\vert (\frac{\lambda}{q_1})$
   and we have $\lambda = k q_1 q_2$ for some integer $k$.  Clearly
-  $n|\lambda^2$ for any such $\lambda$, and we conclude that $\lambda
+  $n\vert\lambda^2$ for any such $\lambda$, and we conclude that $\lambda
   = k q_1 q_2$ is the side of the $k$-th complete spiral $Ond^k_n$.
 
   Equation \eqref{lambda} now follows since $\sqrt{s} = q_1$, and
@@ -295,7 +295,7 @@ Since we have that $n \vert \lambda^d$, then it follows that
 \implies & m^d \vert \lambda^d\\
 \implies & m \vert \lambda 
 \end{align*}
-which means that writing $\frac{\lambda}{m}$ makes sense. Thus we have 
+which implies that writing $\frac{\lambda}{m}$ makes sense. Thus we have 
 that $q \vert (\frac{\lambda}{m})^d$. Recall the definition of $q$ and it's clear
 that $p_j \vert q$. Then because $q \vert (\frac{\lambda}{m})^d$, it follows that
 $p_j \vert (\frac{\lambda}{m})^d$.  Since $p_j$ is clearly $d$-power free, $p_j \vert \frac{\lambda}{m}$.
@@ -357,25 +357,26 @@ To more clearly see this, we generate the values
 \[
 	\{ T_d \}_{d=2}^{21} = \{ 3, 6, 10, 15, 21, 28,   36, 45, 55, 66, 78,   91, 105, 120, 136, 153, 171,190,210,231 \}
 \]
-and look at $n \vert T_d$. It is clear that only the even valued $T_d$ are $Ond_2$ achievable. They appear to 
-obey the consecutive triangle idea and this scenario is similar for the cases of $Ond_n$ for $n = 3, 4, 5, 7, 8, 9, 11, 12, 13, 16$.
+and observe when $n \vert T_d$, for some fixed $n \ge 2$. Here we briefly look at It is clear that only the even valued $T_d$ are $Ond_2$
+achievable, which means that $T_3, T_4, T_7, T_8, T_{11}, T_{12}, T_{15}, T_{16},  T_{19}, T_{20}$ are such 
+examples. From this limited sample, one sees they do appear to obey the consecutive triangle idea. From a  similar
+analysis, one will see that this consecutive triangle notion holds for $n = 3, 4, 5, 7, 8, 9, 11, 12, 13, 16$.
 
-However, $Ond_6$ is achieved by $T_3, T_8, T_{11}, T_{12}, T_{15}, T_{20}, T_{23}, T_{24}, \ldots$. There are 
-cases of consecutive triangles used to achieve $Ond_3$, but also other cases in which there are lone triangles.
-It seems to be that given a consecutive pair that achieve $Ond_3$, $T_j$ and $T_{j+1}$, then so will the triangles 
- $T_{j+4}, T_{j+9}, T_{j+12}, T_{j+13}, \ldots$.
+However, the spiral $Ond_6$ is achieved by $T_3, T_8, T_{11}, T_{12}, T_{15}, T_{20}, T_{23}, T_{24}, \ldots$. In this
+case,  one does see the  consecutive triangles, such as in $d = 11, 12$. However, one also sees also other cases in
+which there are lone triangles. It seems to be that given a consecutive pair that achieve $Ond_6$, $T_j$ and $T_{j+1}$, 
+then so will the triangles $T_{j+4}, T_{j+9}, T_{j+12}, T_{j+13}, \ldots$.
 
 The case of $Ond_{10}$ is another case in which there are lone triangles among the various consecutive triangles
 that achieve this spiral. It seems in this case, given a consecutive pair that achieves the spiral, $T_{j}, T_{j+1}$, then
 so will the following triangles $T_{j+5}, T_{j+16}, T_{j+20}, T_{j+21}, \ldots$. The authors  calculated that the cases
 $n = 14, 15$ also contain lone triangles among consecutive, however, have not characterized the pattern in general.
 
-
 \subsection{Hexagonal Numbers}
 
 In a similar manner to the triangle case, we can make use of hexagonals on a lattice and 
-their hexagonal numbers  \cite{HexagonalNumbers}. Similar to the triangle numbers, we
-can consider these notions of area for achieving in $Ond$. The hexagonal numbers are
+the hexagonal numbers  \cite{HexagonalNumbers}. Similar to the triangle numbers, we
+can consider these numbers as notions of area for achieving in $Ond$. The hexagonal numbers are
 defined as 
 \[
 	H_d = d(2d - 1)
