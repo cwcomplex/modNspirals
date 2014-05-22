@@ -1,58 +1,41 @@
 #!/usr/bin/python
 
+#
+# Not the most pretty code. :-/ nor efficient... but so it goes.
+#
+# (c) 2014 Andrew Reiter <arr@watson.org>
+#
+
 import sys
 from PIL import Image
-import gmpy
 from math import sqrt
 import operator
 from collections import defaultdict
 import time
 
 
-colors = [ "\33[01;30m",
-  "\33[22;31m",
-  "\33[01;21m",
-  "\33[22;32m",
-  "\33[01;32m",
-  "\33[22;34m",
-  "\33[01;34m",
-  "\33[22;33m",
-  "\33[01;33m",
-  "\33[22;36m",
-  "\33[22;36m",
-  "\33[22;35m",
-  "\33[01;35m" ]
-
-gend = {}
-
-def toRGB1(rc, N):
-  r = (block[rc[0], rc[1]] + 1) * N
-  g = int(((block[rc[0], rc[1]] + 1) * N) / 2)
-  b = int(((block[rc[0], rc[1]] + 1) * N/2))
-  return (r, g, b)    
-
-#  im2 = Image.new("RGB", (maxSquareSize, maxSquareSize))
-#      (r, g, b) = toRGB1(rc, N) 
-#      im2.putpixel((rc[0], rc[1]-1), (r, g, b)) 
-#  im2.save(fileprefix+"-color.png")
-#  del im2
+#gend = {}
 
 def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
   step = int(255/N) + 1
   for rc in block.keys():
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * step)
-  im.save(fileprefix+"-grey.png")
+  im.save(fileprefix+".png")
   del im
 
 
 def generateSquare(N, k):
-
-  # Generate the (mod N) set
   modNSet = range(0, N)
-  # Must prove this by combining patterns from multiple N patterns
-  maxSquareSize = k*N
-  maxIterationCount = k*k*N
+  maxsquares = getMaximalSquares(N)
+  msk = maxsquares.keys()
+  denom = 1
+  for zz in msk:
+    denom *= sqrt(maxsquares[zz])
+
+  maxSquareSize = int((k*N)/denom)
+  maxIterationCount = int((k*k*N)/(denom*denom))
+  print maxIterationCount
   currentPosition = [ int(maxSquareSize / 2), int(maxSquareSize / 2) ]
   dx = 1
   dy = 0
@@ -125,7 +108,7 @@ def generateSquare(N, k):
     
     # Are we a square at this point?
     coords = block.keys()
-    if gmpy.is_square(len(coords)):
+    if is_square(len(coords)):
       root = int(sqrt(len(coords)))
       squareCount += 1
       minx = min(coords, key=operator.itemgetter(0))
@@ -135,17 +118,15 @@ def generateSquare(N, k):
       if (maxx[0]-minx[0]) != (maxy[1]-miny[1]):
         print "min/max dumb test failed!"
  
-#      sq_out = "N=%d k=%d: %dx%d itercnt: %d" % (N, squareCount, root, root, jj+1)
-
       isTop = True
       if prev[1] == maxy[1]:
         isTop = True
       else:
         isTop = False
 
-#      generateImages(block, maxSquareSize, N, "N=%d_k=%d" % (N, squareCount))
       if squareCount == k:
-        gend[N,k] = (root, jj+1)      
+        generateImages(block, maxSquareSize, N, "Ond-N%d-k%d" % (N, squareCount))
+#        gend[N,k] = (root, jj+1)      
         del block
         return isTop
 
@@ -205,14 +186,12 @@ def testSpirals(args):
       T = generateSquare(N, k)
       isTop[N,k] = T
 
-  # Squares are generated and pushed into a dict
   for N in range(N_MIN, N_MAX+1):
 
+# bit of a hck
     maxsquares = getMaximalSquares(N)
-
     for k in range(k_MIN,k_MAX+1):
       type = ""
-
       msk = maxsquares.keys()
       ldenom = 1
       idenom = 1
@@ -220,11 +199,11 @@ def testSpirals(args):
         ldenom *= sqrt(maxsquares[zz])
         idenom *= maxsquares[zz]
 
-      # (kN/ldenom, kkN/idenom)
-      if gend[N,k][0] == (k*N)/ldenom and gend[N,k][1] == (k*k*N)/idenom:
-        print "[%d, %d]: (%d, %d) ~ PASS ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
-      else:
-        print "[%d, %d]: (%d, %d) ~ FAIL ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
+#      # (kN/ldenom, kkN/idenom)
+#      if gend[N,k][0] == (k*N)/ldenom and gend[N,k][1] == (k*k*N)/idenom:
+#        print "[%d, %d]: (%d, %d) ~ PASS ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
+#      else:
+#        print "[%d, %d]: (%d, %d) ~ FAIL ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
       
 def main():
 
@@ -239,6 +218,7 @@ def main():
              (401, 450, 1, 5),
              (451, 500, 1, 5) ]
 
+  inputs = [ (10, 11, 29, 32) ]
   for ii in inputs:
     t0 = time.time()
     testSpirals(ii)

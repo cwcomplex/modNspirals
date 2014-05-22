@@ -5,18 +5,21 @@ from PIL import Image
 #import gmpy
 from math import sqrt
 import operator
+from operator import itemgetter
 from collections import defaultdict
 import time
 
 def generateImages(block, maxSquareSize, N, fileprefix):
+  
+  ks = block.keys()
+#  xm = max(ks, key=itemgetter(0))[0]
+#  ym = min(ks, key=itemgetter(1))[0]
+#  print block
   im = Image.new("L", (maxSquareSize, maxSquareSize))
   step = int(255/N) + 1
-  ks = block.keys()
-  print ks
   for rc in block.keys():
-      print rc
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]) * step)
-  im.save(fileprefix+"-grey.png")
+  im.save(fileprefix+".png")
   del im
 
 
@@ -24,7 +27,7 @@ def generateTriangle(N, k):
   modNset = range(0, N);
 # Need to think this through
   maxBlock = k*k*N
-  maxIteration = k*k*k*N
+  maxIteration = k*k*k*N*N
 
   currentPosition = [ 0, maxBlock ]
   block = {}
@@ -74,9 +77,12 @@ def generateTriangle(N, k):
           currentPosition[1] += dy
 
 def main():
-  blok = generateTriangle(5, 6) 
-  generateImages(blok, 5*6*6, 5, 'yo')
-  print blok
+
+  for N in range(2, 15):
+    for k in range(2, 15):
+      print "%d-%d" % (N,k)
+      blok = generateTriangle(N, k) 
+      generateImages(blok, N*k*k, N, 'tri-%d-%d'%(N,k))
 
 
 if __name__ == '__main__':
