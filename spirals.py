@@ -21,6 +21,7 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   step = int(255/N) + 1
   for rc in block.keys():
       im.putpixel((rc[0], rc[1]-1), (block[rc[0], rc[1]]+1) * step)
+#      im.putpixel((rc[0], rc[1]-1), 255) # validator.. make all white thepixels you step on
   im.save(fileprefix+".png")
   del im
 
@@ -218,7 +219,7 @@ def main():
              (401, 450, 1, 5),
              (451, 500, 1, 5) ]
 
-  inputs = [ (10, 11, 29, 32) ]
+  inputs = [ (2, 5, 1, 4) ]
   for ii in inputs:
     t0 = time.time()
     testSpirals(ii)
