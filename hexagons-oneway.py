@@ -15,8 +15,8 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize+1, maxSquareSize+1))
   step = int(255/N) + 1
   for rc in block.keys():
-      im.putpixel((rc[0], rc[1]), 255) # validator
-#      im.putpixel((rc[0], rc[1]), (block[rc[0], rc[1]]) * step)
+#      im.putpixel((rc[0], rc[1]), 255) # validator
+      im.putpixel((rc[0], rc[1]), (block[rc[0], rc[1]]) * step)
   im.save(fileprefix+".png")
   del im
 
@@ -74,9 +74,9 @@ def generateHexagon(N, k, maxBlock, maxIteration):
 
 def main():
 
-  for N in range(32, 34):
-    for k in range(1, 10):
-      maxBlock = N*k
+  for N in range(2, 20):
+    for k in range(1, 30):
+      maxBlock = N*N*N*k
       maxIteration = maxBlock*N*N
       (block, iters) = generateHexagon(N, k, maxBlock, maxIteration) 
       if block == None:
@@ -91,8 +91,7 @@ def main():
       for ks in keyset:
         translated_block[ks[0], ks[1]-miny] = block[ks[0], ks[1]]
       print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iters)
-      generateImages(translated_block, maxy-miny, N, 'hex-one-N%d-k%d'%(N,k))    
-#      generateImages(block, maxBlock, N, 'hex-%d-%d'%(N,k))
+      generateImages(translated_block, maxy-miny, N, 'Hex-one-N%d-k%d'%(N,k))    
 
 
 if __name__ == '__main__':
