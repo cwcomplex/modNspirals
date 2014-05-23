@@ -32,16 +32,9 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   del im
 
 
-def generateTriangle(N, k):
+def generateTriangle(N, k, maxBlock, maxIteration):
   modNset = range(0, N);
 
-#
-# Need to think maxBlock, maxIteration through more
-# just making this large since I dont know the generation formula
-# then will cut the size down on image generation
-#
-  maxBlock = k*k*k*N*N
-  maxIteration = k*k*k*N*N*N
 
   currentPosition = [ 0, maxBlock ]
   block = {}
@@ -72,7 +65,7 @@ def generateTriangle(N, k):
           if mn == (N-1):
             tricount += 1
             if tricount == k:
-              return block
+              return (block, jj+1)
 
           xmax += 1 
           currentPosition[0] = xmax 
@@ -80,14 +73,22 @@ def generateTriangle(N, k):
         else:
           currentPosition[0] += dx
           currentPosition[1] += dy
-  return None
+  return (None, 0)
 
 def main():
 
   for N in range(2, 5):
     for k in range(1, 20):
 
-      block = generateTriangle(N, k) 
+#
+# Need to think maxBlock, maxIteration through more
+# just making this large since I dont know the generation formula
+# then will cut the size down on image generation
+#
+      maxBlock = k*k*k*N*N
+      maxIteration = k*k*k*N*N*N
+
+      (block, iters) = generateTriangle(N, k, maxBlock, maxIteration) 
       if block == None:
         print "Failed to generate Tri(N=%d, k=%d)" % (N,k)
         continue
@@ -103,6 +104,7 @@ def main():
       translated_block = {}
       for ks in keyset:
         translated_block[ks[0], ks[1]-miny] = block[ks[0], ks[1]]
+      print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iters)
       generateImages(translated_block, maxy-miny+1, N, 'Tri-one-N%d-k%d'%(N,k))
 
 
