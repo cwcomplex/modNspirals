@@ -20,23 +20,16 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   del im
 
 
-def generateTriangle(N, k):
+def generateTriangle(N, k, maxBlock, maxIteration):
   modNset = range(0, N);
 
-#
-# Need to think maxBlock, maxIteration through more
-# just making this large since I dont know the generation formula
-# then will cut the size down on image generation
-#
-  maxBlock = k*k*k*N*N
-  maxIteration = k*k*k*N*N*N
 
   currentPosition = [ 0, maxBlock ]
   block = {}
   prev = None
   dx = 0
   dy = 0
-
+ 
   tricount = 0
   for jj in range(0, maxIteration+5):
     for mn in modNset:
@@ -59,7 +52,7 @@ def generateTriangle(N, k):
           if mn == (N-1):
             tricount += 1
             if tricount == k:
-              return block
+              return (block, jj+1)
           currentPosition[1] += -1
           dx = dy = 1
         else:
@@ -71,6 +64,7 @@ def generateTriangle(N, k):
           if mn == (N-1):
             tricount += 1
             if tricount == k:
+              return (block, jj+1)
               return block
           #currentPosition[1] += -1
           currentPosition[0] += 1
@@ -78,14 +72,21 @@ def generateTriangle(N, k):
         else:
           currentPosition[0] += dx
           currentPosition[1] += dy
-  return None
+  return (None, 0)
 
 def main():
 
   for N in range(2, 30):
     for k in range(1, 50):
+#
+# Need to think maxBlock, maxIteration through more
+# just making this large since I dont know the generation formula
+# then will cut the size down on image generation
+#
+      maxBlock = k*k*k*N*N
+      maxIteration = k*k*k*N*N*N
 
-      block = generateTriangle(N, k) 
+      (block, iterates) = generateTriangle(N, k, maxBlock, maxIteration) 
       if block == None:
         print "Failed to generate Tri(N=%d, k=%d)" % (N,k)
         continue
@@ -101,6 +102,7 @@ def main():
       translated_block = {}
       for ks in keyset:
         translated_block[ks[0], ks[1]-miny] = block[ks[0], ks[1]]
+      print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iterates)
       generateImages(translated_block, maxy-miny+1, N, 'Tri-two-N%d-k%d'%(N,k))
 
 
