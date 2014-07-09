@@ -95,8 +95,8 @@ def generateTriangle(N, k, maxBlock, maxIteration):
 
 def main():
 
-  for N in range(2,10):
-    for k in range(1, 4):
+  for N in range(5,15):
+    for k in range(4, 10):
 
 # Need to think maxBlock, maxIteration through more
 # just making this large since I dont know the generation formula
@@ -111,21 +111,22 @@ def main():
         continue
 
 
-      generateImages(block, maxBlock, N, 'tri-sp-N%d-k%d'%(N,k))
+#      generateImages(block, maxBlock, N, 'tri-sp-N%d-k%d'%(N,k))
 
 # We allocated more room than needed, so let's chop it down for image creation
 # by just mapping translation to smaller block.
 
-#      keyset = block.keys()
-#      maxxy = map(max, zip(*keyset))
-#      maxy = maxxy[1]
-#      minxy = map(min, zip(*keyset))
-#      miny = minxy[1]
-#      translated_block = {}
-#      for ks in keyset:
-#        translated_block[ks[0], ks[1]-miny] = block[ks[0], ks[1]]
-#      print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iterates)
-#     generateImages(translated_block, maxy-miny+1, N, 'Tri-two-N%d-k%d'%(N,k))
+      keyset = block.keys()
+      maxxy = map(max, zip(*keyset))
+      maxy = maxxy[1]
+      minxy = map(min, zip(*keyset))
+      minx = minxy[0]
+      miny = minxy[1]
+      translated_block = {}
+      for ks in keyset:
+        translated_block[ks[0]-minx, ks[1]-miny] = block[ks[0], ks[1]]
+      print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iterates)
+      generateImages(translated_block, maxy-miny+1, N, 'tri-sp-N%d-k%d'%(N,k))
 
 
 if __name__ == '__main__':
