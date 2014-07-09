@@ -38,6 +38,7 @@ def generateTriangle(N, k, maxBlock, maxIteration):
   dy = 0
 
 
+  overallcount = 0
   tricount = 0
   dz = [ (-1, 1, 0), # downleft
        (0, -1, 0),   # down
@@ -71,13 +72,12 @@ def generateTriangle(N, k, maxBlock, maxIteration):
           ZnIters += 1
           midx = 0
 #        print "midx=%d" % (midx)
+      overallcount += 1
       movcount += 1
       if block[currentPosition[0], currentPosition[1]] == N-1:
-        print "FINISHED %d-th spiral" % (tricount) 
         tricount += 1
         if tricount == k:
-          print "Done with k"
-          return (block, ZnIters) 
+          return (block, ZnIters, overallcount) 
         midx = 0
       currentPosition[0] += d[0]
       currentPosition[1] += d[1]
@@ -89,14 +89,14 @@ def generateTriangle(N, k, maxBlock, maxIteration):
 
     if maxIteration < ZnIters:
       print "FAILED TO GENERATE A SPIRAL FOR N=%d, k=%d" % (N,k)
-      return (None, ZnIters)
+      return (None, ZnIters, overallcount)
 
-  return (block, ZnIters)
+  return (block, ZnIters, overallcount)
 
 def main():
 
-  for N in range(5,15):
-    for k in range(4, 10):
+  for N in range(2,40):
+    for k in range(1, 30):
 
 # Need to think maxBlock, maxIteration through more
 # just making this large since I dont know the generation formula
@@ -105,11 +105,12 @@ def main():
       maxBlock = 5*k*N
       maxIteration = k*N*N*N*k
 
-      (block, iterates) = generateTriangle(N, k, maxBlock, maxIteration) 
+      (block, iterates, tris) = generateTriangle(N, k, maxBlock, maxIteration) 
       if block == None:
         print "Failed to generate Tri(N=%d, k=%d)" % (N,k)
         continue
-
+ 
+      print "N=%d k=%d tris: %d iterations: %d" % (N, k, tris, iterates)
 
 #      generateImages(block, maxBlock, N, 'tri-sp-N%d-k%d'%(N,k))
 

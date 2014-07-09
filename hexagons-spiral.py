@@ -21,7 +21,7 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   step = int(255/N) + 1
   for rc in block.keys():
 #      im.putpixel((rc[0], rc[1]), 255)   # validator to make sure we miss no pixels
-      print "%d %d" % (rc[0], rc[1])
+#      print "%d %d" % (rc[0], rc[1])
       im.putpixel((rc[0], rc[1]), (block[rc[0], rc[1]]) * step)
   im.save(fileprefix+".png")
   del im
@@ -38,7 +38,7 @@ def generateHexagon(N, k, maxBlock, maxIteration):
   dx = 0
   dy = 0
 
-
+  overallcount = 0
   hexcount = 0
   dz = [ (0, 1, -1), # move down -1 times
        (-1, 1, 0),   # left-down
@@ -75,15 +75,14 @@ def generateHexagon(N, k, maxBlock, maxIteration):
           midx = 0
 #        print "midx=%d" % (midx)
 
+    overallcount += 1
     if maxIteration < ZnIters:
       print "FAILED TO GENERATE A SPIRAL FOR N=%d, k=%d" % (N,k)
-      return (None, ZnIters)
+      return (None, ZnIters, overallcount)
     movcount += 1
     if block[currentPosition[0], currentPosition[1]] == N-1:
-      print "FINISHED %d-th spiral" % (hexcount) 
       hexcount += 1
       if hexcount == k:
-        print "Done with k"
         break
       midx = 0
     currentPosition[0] += 1 
@@ -95,14 +94,14 @@ def generateHexagon(N, k, maxBlock, maxIteration):
       midx = 0
 #    print "midx=%d" % (midx)
 
-  return (block, ZnIters)
+  return (block, ZnIters, overallcount)
 
 def main():
 
-  for N in [7, 13, 19, 31, 37, 43, 49]: # [61, 67, 73, 79, 91, 97]
+  for N in [7, 13, 19, 31, 37, 43, 49, 61, 67, 73, 79, 91, 97]:
 
 
-    for k in range(1, 15):
+    for k in range(1, 40):
 
 # Need to think maxBlock, maxIteration through more
 # just making this large since I dont know the generation formula
@@ -111,11 +110,12 @@ def main():
       maxBlock = 5*k*N
       maxIteration = k*N*N*k
 
-      (block, iterates) = generateHexagon(N, k, maxBlock, maxIteration) 
+      (block, iterates, hexes) = generateHexagon(N, k, maxBlock, maxIteration) 
       if block == None:
         print "Failed to generate Hex(N=%d, k=%d) skipping this N entirely" % (N,k)
         break
 
+      print "N=%d k=%d hexes: %d iterations: %d" % (N, k, hexes, iterates)
 #      generateImages(block, maxBlock, N, 'hex-sp-N%d-k%d'%(N,k))
 
 # We allocated more room than needed, so let's chop it down for image creation
@@ -131,7 +131,7 @@ def main():
       translated_block = {}
       for ks in keyset:
         translated_block[ks[0]-minx, ks[1]-miny] = block[ks[0], ks[1]]
-      print "%d %d xmin=%d xmax=%d ymin=%d ymax=%d iters=%d" % (N, k, minx, maxx, miny, maxy, iterates)
+#      print "%d %d xmin=%d xmax=%d ymin=%d ymax=%d iters=%d" % (N, k, minx, maxx, miny, maxy, iterates)
       generateImages(translated_block, maxy-miny+1, N, 'hex-sp-N%d-k%d'%(N,k))
 
 
