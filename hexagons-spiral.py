@@ -20,8 +20,9 @@ def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
   step = int(255/N) + 1
   for rc in block.keys():
-      im.putpixel((rc[0], rc[1]), 255)   # validator to make sure we miss no pixels
-#      im.putpixel((rc[0], rc[1]), (block[rc[0], rc[1]]) * step)
+#      im.putpixel((rc[0], rc[1]), 255)   # validator to make sure we miss no pixels
+      print "%d %d" % (rc[0], rc[1])
+      im.putpixel((rc[0], rc[1]), (block[rc[0], rc[1]]) * step)
   im.save(fileprefix+".png")
   del im
 
@@ -72,7 +73,7 @@ def generateHexagon(N, k, maxBlock, maxIteration):
         if midx == N:
           ZnIters += 1
           midx = 0
-        print "midx=%d" % (midx)
+#        print "midx=%d" % (midx)
 
     if maxIteration < ZnIters:
       print "FAILED TO GENERATE A SPIRAL FOR N=%d, k=%d" % (N,k)
@@ -92,43 +93,46 @@ def generateHexagon(N, k, maxBlock, maxIteration):
     if midx == N:
       ZnIters += 1
       midx = 0
-    print "midx=%d" % (midx)
+#    print "midx=%d" % (midx)
 
   return (block, ZnIters)
 
 def main():
 
-  for N in range(4, 10):
-    for k in range(1, 2):
+  for N in [7, 13, 19, 31, 37, 43, 49]: # [61, 67, 73, 79, 91, 97]
+
+
+    for k in range(1, 15):
 
 # Need to think maxBlock, maxIteration through more
 # just making this large since I dont know the generation formula
 # then will cut the size down on image generation
 #
-      maxBlock = k*N*N
-      maxIteration = k*k*k*N*N*N
+      maxBlock = 5*k*N
+      maxIteration = k*N*N*k
 
       (block, iterates) = generateHexagon(N, k, maxBlock, maxIteration) 
       if block == None:
-        print "Failed to generate Tri(N=%d, k=%d)" % (N,k)
-        continue
+        print "Failed to generate Hex(N=%d, k=%d) skipping this N entirely" % (N,k)
+        break
 
-
-      generateImages(block, maxBlock, N, 'hex-sp-N%d-k%d'%(N,k))
+#      generateImages(block, maxBlock, N, 'hex-sp-N%d-k%d'%(N,k))
 
 # We allocated more room than needed, so let's chop it down for image creation
 # by just mapping translation to smaller block.
 
-#      keyset = block.keys()
-#      maxxy = map(max, zip(*keyset))
-#      maxy = maxxy[1]
-#      minxy = map(min, zip(*keyset))
-#      miny = minxy[1]
-#      translated_block = {}
-#      for ks in keyset:
-#        translated_block[ks[0], ks[1]-miny] = block[ks[0], ks[1]]
-#      print "%d %d maxx=%d iters=%d" % (N, k, maxxy[0], iterates)
-#     generateImages(translated_block, maxy-miny+1, N, 'Tri-two-N%d-k%d'%(N,k))
+      keyset = block.keys()
+      maxxy = map(max, zip(*keyset))
+      maxx = maxxy[0]
+      maxy = maxxy[1]
+      minxy = map(min, zip(*keyset))
+      minx = minxy[0]
+      miny = minxy[1]
+      translated_block = {}
+      for ks in keyset:
+        translated_block[ks[0]-minx, ks[1]-miny] = block[ks[0], ks[1]]
+      print "%d %d xmin=%d xmax=%d ymin=%d ymax=%d iters=%d" % (N, k, minx, maxx, miny, maxy, iterates)
+      generateImages(translated_block, maxy-miny+1, N, 'hex-sp-N%d-k%d'%(N,k))
 
 
 if __name__ == '__main__':
