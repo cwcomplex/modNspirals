@@ -74,7 +74,7 @@ def generateHexagon(N, k, maxBlock, maxIteration):
 
 def main():
 
-  for N in range(2, 20):
+  for N in range(20, 30):
     for k in range(1, 30):
       maxBlock = N*N*N*k
       maxIteration = maxBlock*N*N

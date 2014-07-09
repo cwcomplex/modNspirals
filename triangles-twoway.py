@@ -76,9 +76,9 @@ def generateTriangle(N, k, maxBlock, maxIteration):
 
 def main():
 
-  for N in range(2, 30):
-    for k in range(1, 50):
-#
+  for N in range(2, 20):
+    for k in range(1, 30):
+
 # Need to think maxBlock, maxIteration through more
 # just making this large since I dont know the generation formula
 # then will cut the size down on image generation

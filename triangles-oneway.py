@@ -77,8 +77,8 @@ def generateTriangle(N, k, maxBlock, maxIteration):
 
 def main():
 
-  for N in range(2, 5):
-    for k in range(1, 20):
+  for N in range(2, 20):
+    for k in range(1, 30):
 
 #
 # Need to think maxBlock, maxIteration through more

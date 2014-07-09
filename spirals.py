@@ -219,7 +219,7 @@ def main():
              (401, 450, 1, 5),
              (451, 500, 1, 5) ]
 
-  inputs = [ (2, 5, 1, 4) ]
+  inputs = [ (36, 40, 1, 40) ]
   for ii in inputs:
     t0 = time.time()
     testSpirals(ii)

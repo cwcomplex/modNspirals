@@ -38,6 +38,8 @@ def is_square(apositiveint):
 
 def getMaximalSquares(N):
   factors = primes(N)
+  print N
+  print factors
 
   part = defaultdict(list)
   for f in factors:
