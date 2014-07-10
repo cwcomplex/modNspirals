@@ -372,9 +372,23 @@ that achieve this spiral. It seems in this case, given a consecutive pair that a
 so will the following triangles $T_{j+5}, T_{j+16}, T_{j+20}, T_{j+21}, \ldots$. The authors  calculated that the cases
 $n = 14, 15$ also contain lone triangles among consecutive, however, have not characterized the pattern in general.
 
+There are a few ways to visualize these triangles. The way we are interested in is in spirals, which can be seen \cite{trivisspiral}. 
+On the other hand one could start in a corner and  lap back-and-forth in either 1 or 2 directions; these visualizations may 
+be found \cite{trivis1} and \cite{trivis2}.
+
+\subsection{Centered Hexagonal Numbers}
+
+Similar to the triangles above, we can make use of the centered hexagonal numbers as described by
+\cite{oeisCHex}.  These numbers can be described by
+\[
+	CH_d = 3d(d+1)+1 = 3d^2 + 3d + 1
+\]
+
+Visualization of these may be found at \cite{chexvis}
+
 \subsection{Hexagonal Numbers}
 
-In a similar manner to the triangle case, we can make use of hexagonals on a lattice and 
+In a similar manner to the hexagons case, we can make use of hexagonals on a lattice and 
 the hexagonal numbers  \cite{HexagonalNumbers}. Similar to the triangle numbers, we
 can consider these numbers as notions of area for achieving in $Ond$. The hexagonal numbers are
 defined as 
@@ -401,6 +415,10 @@ than two values  as in $H_{18}, H_{20}, H_{23}, H_{30}, H_{33}$ which follows
 $d = 18 \xrightarrow{+2} 20 \xrightarrow{+3} 23 \xrightarrow{+7} 30 \xrightarrow{+3} 33 \xrightarrow{+2} \ldots$. The pattern repeats and the sum
 over the $d$ differences is 15, which is the value of $n$, obviously ignoring the last +2. In the case of $n = 16$, difference between $d$ values is constant 16.
 
+The one concern is that the hexagonal numbers do not nicely fill in the lattice. That is, there are gaps in construction when
+visualizing these numbers as spirals. One can see examples of these visualizations at \cite{hexvis}.
+
+
 There are similar shape numbers that are defined on the planar lattice that can be explored. These include the 
 hex numbers \cite{HexNum}, heptagonal numbers \cite{Hepta}, and other polygonal numbers \cite{Polyg}.
 
@@ -409,10 +427,11 @@ This note presented the process of constructing (mod n) spirals in a square latt
 notions of patterns found in this construction. Further, we have presented a generalization of the notion of
 achieving a spiral $Ond$ to hypercubes of dimension $d$ by conforming to a volume geometric requirement.
 Lastly, we began to explore other $d = 2$ shapes in the $\mathbb{Z}^2$ lattice, pushing the notion of the 
-geometric requirement to other forms. 
+geometric requirement to other forms. All code may be found at \cite{PySquare}.
 
 \vspace{12pt}\noindent\textbf{Acknowledgments:}\quad
-The first author recognizes Veracode Inc and Jared Carlson of Veracode.
+The first author recognizes Veracode Inc for providing support and Jared Carlson of Veracode Research for 
+fruitful discussion.
 
 \begin{thebibliography}{1}
 \bibitem{Ulam} Wolfram Mathworld, ``Prime Spirals'',
@@ -423,10 +442,17 @@ The first author recognizes Veracode Inc and Jared Carlson of Veracode.
   \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/square}
 \bibitem{TriangleNumbers} Wolfram Mathworld, ``Triangle Numbers'',
   \url{http://mathworld.wolfram.com/TriangularNumber.html}
+\bibitem{trivis1} A. Reiter, Triangles Visual One-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-oneway}
+\bibitem{trivis2} A. Reiter, Triangles Visual Two-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-twoway}
+\bibitem{trivisspiral} A. Reiter Triangles Visual Spiral, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-spiral}
+\bibitem{oeisCHex} On-line Encyclopedia of Integer Sequences, ``Centered Hexagonal Numbers'',
+ \url{https://oeis.org/A003215}
+\bibitem{chexvis} A. Reiter, Centered Hexagonal Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-spiral}
 \bibitem{HexagonalNumbers} Wolfram Mathworld, ``Hexagonal Numbers'',
   \url{http://mathworld.wolfram.com/HexagonalNumber.html}
 \bibitem{HexNum} Wolfram Mathworld, ``Hex Numbers'',
   \url{http://mathworld.wolfram.com/HexNumber.html}
+\bibitem{hexvis} A. Reiter, Hexagonal Number Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-oneway}
 \bibitem{Hepta} Wolfram Mathworld, ``Heptagonal Numbers'',
   \url{http://mathworld.wolfram.com/HeptagonalNumber.html}
 \bibitem{Polyg} Wolfram Mathworld, ``Polygonal Numbers'',
