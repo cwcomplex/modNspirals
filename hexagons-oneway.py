@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+#
+# this is for the hexagonal numbers
+# (c) 2014 andrew reiter
+#
 import sys
 from PIL import Image
 #import gmpy
