@@ -2,7 +2,7 @@
 
 
 #
-# hexagons-spiral.py
+# triangles-spiral.py
 #
 # (c) 2014 Andrew R. Reiter <arr@watson.org>
 #
