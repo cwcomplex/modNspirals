@@ -1,0 +1,2204 @@
+N=2 k=1 tris: 2 iterations: 3
+2 1 maxx=6 iters=3
+N=2 k=2 tris: 3 iterations: 5
+2 2 maxx=12 iters=5
+N=2 k=3 tris: 6 iterations: 14
+2 3 maxx=19 iters=14
+N=2 k=4 tris: 7 iterations: 18
+2 4 maxx=25 iters=18
+N=2 k=5 tris: 10 iterations: 33
+2 5 maxx=32 iters=33
+N=2 k=6 tris: 11 iterations: 39
+2 6 maxx=37 iters=39
+N=2 k=7 tris: 14 iterations: 60
+2 7 maxx=44 iters=60
+N=2 k=8 tris: 15 iterations: 68
+2 8 maxx=50 iters=68
+N=2 k=9 tris: 18 iterations: 95
+2 9 maxx=57 iters=95
+N=2 k=10 tris: 19 iterations: 105
+2 10 maxx=63 iters=105
+N=2 k=11 tris: 22 iterations: 138
+2 11 maxx=70 iters=138
+N=2 k=12 tris: 23 iterations: 150
+2 12 maxx=75 iters=150
+N=2 k=13 tris: 26 iterations: 189
+2 13 maxx=82 iters=189
+N=2 k=14 tris: 27 iterations: 203
+2 14 maxx=88 iters=203
+N=2 k=15 tris: 30 iterations: 248
+2 15 maxx=95 iters=248
+N=2 k=16 tris: 31 iterations: 264
+2 16 maxx=101 iters=264
+N=2 k=17 tris: 34 iterations: 315
+2 17 maxx=108 iters=315
+N=2 k=18 tris: 35 iterations: 333
+2 18 maxx=113 iters=333
+N=2 k=19 tris: 38 iterations: 390
+2 19 maxx=120 iters=390
+N=2 k=20 tris: 39 iterations: 410
+2 20 maxx=126 iters=410
+N=2 k=21 tris: 42 iterations: 473
+2 21 maxx=133 iters=473
+N=2 k=22 tris: 43 iterations: 495
+2 22 maxx=139 iters=495
+N=2 k=23 tris: 46 iterations: 564
+2 23 maxx=146 iters=564
+N=2 k=24 tris: 47 iterations: 588
+2 24 maxx=151 iters=588
+N=2 k=25 tris: 50 iterations: 663
+2 25 maxx=158 iters=663
+N=2 k=26 tris: 51 iterations: 689
+2 26 maxx=164 iters=689
+N=2 k=27 tris: 54 iterations: 770
+2 27 maxx=171 iters=770
+N=2 k=28 tris: 55 iterations: 798
+2 28 maxx=177 iters=798
+N=2 k=29 tris: 58 iterations: 885
+2 29 maxx=184 iters=885
+N=3 k=1 tris: 1 iterations: 1
+3 1 maxx=8 iters=1
+N=3 k=2 tris: 2 iterations: 2
+3 2 maxx=16 iters=2
+N=3 k=3 tris: 4 iterations: 5
+3 3 maxx=25 iters=5
+N=3 k=4 tris: 5 iterations: 7
+3 4 maxx=33 iters=7
+N=3 k=5 tris: 7 iterations: 12
+3 5 maxx=42 iters=12
+N=3 k=6 tris: 8 iterations: 15
+3 6 maxx=50 iters=15
+N=3 k=7 tris: 10 iterations: 22
+3 7 maxx=59 iters=22
+N=3 k=8 tris: 11 iterations: 26
+3 8 maxx=67 iters=26
+N=3 k=9 tris: 13 iterations: 35
+3 9 maxx=76 iters=35
+N=3 k=10 tris: 14 iterations: 40
+3 10 maxx=84 iters=40
+N=3 k=11 tris: 16 iterations: 51
+3 11 maxx=93 iters=51
+N=3 k=12 tris: 17 iterations: 57
+3 12 maxx=101 iters=57
+N=3 k=13 tris: 19 iterations: 70
+3 13 maxx=110 iters=70
+N=3 k=14 tris: 20 iterations: 77
+3 14 maxx=118 iters=77
+N=3 k=15 tris: 22 iterations: 92
+3 15 maxx=127 iters=92
+N=3 k=16 tris: 23 iterations: 100
+3 16 maxx=135 iters=100
+N=3 k=17 tris: 25 iterations: 117
+3 17 maxx=144 iters=117
+N=3 k=18 tris: 26 iterations: 126
+3 18 maxx=152 iters=126
+N=3 k=19 tris: 28 iterations: 145
+3 19 maxx=161 iters=145
+N=3 k=20 tris: 29 iterations: 155
+3 20 maxx=169 iters=155
+N=3 k=21 tris: 31 iterations: 176
+3 21 maxx=178 iters=176
+N=3 k=22 tris: 32 iterations: 187
+3 22 maxx=186 iters=187
+N=3 k=23 tris: 34 iterations: 210
+3 23 maxx=195 iters=210
+N=3 k=24 tris: 35 iterations: 222
+3 24 maxx=203 iters=222
+N=3 k=25 tris: 37 iterations: 247
+3 25 maxx=212 iters=247
+N=3 k=26 tris: 38 iterations: 260
+3 26 maxx=220 iters=260
+N=3 k=27 tris: 40 iterations: 287
+3 27 maxx=229 iters=287
+N=3 k=28 tris: 41 iterations: 301
+3 28 maxx=237 iters=301
+N=3 k=29 tris: 43 iterations: 330
+3 29 maxx=246 iters=330
+N=4 k=1 tris: 6 iterations: 7
+4 1 maxx=14 iters=7
+N=4 k=2 tris: 7 iterations: 9
+4 2 maxx=25 iters=9
+N=4 k=3 tris: 14 iterations: 30
+4 3 maxx=39 iters=30
+N=4 k=4 tris: 15 iterations: 34
+4 4 maxx=50 iters=34
+N=4 k=5 tris: 22 iterations: 69
+4 5 maxx=65 iters=69
+N=4 k=6 tris: 23 iterations: 75
+4 6 maxx=75 iters=75
+N=4 k=7 tris: 30 iterations: 124
+4 7 maxx=90 iters=124
+N=4 k=8 tris: 31 iterations: 132
+4 8 maxx=101 iters=132
+N=4 k=9 tris: 38 iterations: 195
+4 9 maxx=115 iters=195
+N=4 k=10 tris: 39 iterations: 205
+4 10 maxx=126 iters=205
+N=4 k=11 tris: 46 iterations: 282
+4 11 maxx=141 iters=282
+N=4 k=12 tris: 47 iterations: 294
+4 12 maxx=151 iters=294
+N=4 k=13 tris: 54 iterations: 385
+4 13 maxx=166 iters=385
+N=4 k=14 tris: 55 iterations: 399
+4 14 maxx=177 iters=399
+N=4 k=15 tris: 62 iterations: 504
+4 15 maxx=191 iters=504
+N=4 k=16 tris: 63 iterations: 520
+4 16 maxx=202 iters=520
+N=4 k=17 tris: 70 iterations: 639
+4 17 maxx=217 iters=639
+N=4 k=18 tris: 71 iterations: 657
+4 18 maxx=227 iters=657
+N=4 k=19 tris: 78 iterations: 790
+4 19 maxx=242 iters=790
+N=4 k=20 tris: 79 iterations: 810
+4 20 maxx=253 iters=810
+N=4 k=21 tris: 86 iterations: 957
+4 21 maxx=267 iters=957
+N=4 k=22 tris: 87 iterations: 979
+4 22 maxx=278 iters=979
+N=4 k=23 tris: 94 iterations: 1140
+4 23 maxx=293 iters=1140
+N=4 k=24 tris: 95 iterations: 1164
+4 24 maxx=303 iters=1164
+N=4 k=25 tris: 102 iterations: 1339
+4 25 maxx=318 iters=1339
+N=4 k=26 tris: 103 iterations: 1365
+4 26 maxx=329 iters=1365
+N=4 k=27 tris: 110 iterations: 1554
+4 27 maxx=343 iters=1554
+N=4 k=28 tris: 111 iterations: 1582
+4 28 maxx=354 iters=1582
+N=4 k=29 tris: 118 iterations: 1785
+4 29 maxx=369 iters=1785
+N=5 k=1 tris: 3 iterations: 2
+5 1 maxx=14 iters=2
+N=5 k=2 tris: 4 iterations: 3
+5 2 maxx=28 iters=3
+N=5 k=3 tris: 8 iterations: 9
+5 3 maxx=42 iters=9
+N=5 k=4 tris: 9 iterations: 11
+5 4 maxx=56 iters=11
+N=5 k=5 tris: 13 iterations: 21
+5 5 maxx=71 iters=21
+N=5 k=6 tris: 14 iterations: 24
+5 6 maxx=84 iters=24
+N=5 k=7 tris: 18 iterations: 38
+5 7 maxx=99 iters=38
+N=5 k=8 tris: 19 iterations: 42
+5 8 maxx=113 iters=42
+N=5 k=9 tris: 23 iterations: 60
+5 9 maxx=127 iters=60
+N=5 k=10 tris: 24 iterations: 65
+5 10 maxx=141 iters=65
+N=5 k=11 tris: 28 iterations: 87
+5 11 maxx=156 iters=87
+N=5 k=12 tris: 29 iterations: 93
+5 12 maxx=169 iters=93
+N=5 k=13 tris: 33 iterations: 119
+5 13 maxx=184 iters=119
+N=5 k=14 tris: 34 iterations: 126
+5 14 maxx=198 iters=126
+N=5 k=15 tris: 38 iterations: 156
+5 15 maxx=212 iters=156
+N=5 k=16 tris: 39 iterations: 164
+5 16 maxx=226 iters=164
+N=5 k=17 tris: 43 iterations: 198
+5 17 maxx=241 iters=198
+N=5 k=18 tris: 44 iterations: 207
+5 18 maxx=254 iters=207
+N=5 k=19 tris: 48 iterations: 245
+5 19 maxx=269 iters=245
+N=5 k=20 tris: 49 iterations: 255
+5 20 maxx=283 iters=255
+N=5 k=21 tris: 53 iterations: 297
+5 21 maxx=297 iters=297
+N=5 k=22 tris: 54 iterations: 308
+5 22 maxx=311 iters=308
+N=5 k=23 tris: 58 iterations: 354
+5 23 maxx=326 iters=354
+N=5 k=24 tris: 59 iterations: 366
+5 24 maxx=339 iters=366
+N=5 k=25 tris: 63 iterations: 416
+5 25 maxx=354 iters=416
+N=5 k=26 tris: 64 iterations: 429
+5 26 maxx=368 iters=429
+N=5 k=27 tris: 68 iterations: 483
+5 27 maxx=382 iters=483
+N=5 k=28 tris: 69 iterations: 497
+5 28 maxx=396 iters=497
+N=5 k=29 tris: 73 iterations: 555
+5 29 maxx=411 iters=555
+N=6 k=1 tris: 2 iterations: 1
+6 1 maxx=16 iters=1
+N=6 k=2 tris: 7 iterations: 6
+6 2 maxx=35 iters=6
+N=6 k=3 tris: 10 iterations: 11
+6 3 maxx=52 iters=11
+N=6 k=4 tris: 11 iterations: 13
+6 4 maxx=67 iters=13
+N=6 k=5 tris: 14 iterations: 20
+6 5 maxx=84 iters=20
+N=6 k=6 tris: 19 iterations: 35
+6 6 maxx=103 iters=35
+N=6 k=7 tris: 22 iterations: 46
+6 7 maxx=120 iters=46
+N=6 k=8 tris: 23 iterations: 50
+6 8 maxx=135 iters=50
+N=6 k=9 tris: 26 iterations: 63
+6 9 maxx=152 iters=63
+N=6 k=10 tris: 31 iterations: 88
+6 10 maxx=171 iters=88
+N=6 k=11 tris: 34 iterations: 105
+6 11 maxx=188 iters=105
+N=6 k=12 tris: 35 iterations: 111
+6 12 maxx=203 iters=111
+N=6 k=13 tris: 38 iterations: 130
+6 13 maxx=220 iters=130
+N=6 k=14 tris: 43 iterations: 165
+6 14 maxx=239 iters=165
+N=6 k=15 tris: 46 iterations: 188
+6 15 maxx=256 iters=188
+N=6 k=16 tris: 47 iterations: 196
+6 16 maxx=271 iters=196
+N=6 k=17 tris: 50 iterations: 221
+6 17 maxx=288 iters=221
+N=6 k=18 tris: 55 iterations: 266
+6 18 maxx=307 iters=266
+N=6 k=19 tris: 58 iterations: 295
+6 19 maxx=324 iters=295
+N=6 k=20 tris: 59 iterations: 305
+6 20 maxx=339 iters=305
+N=6 k=21 tris: 62 iterations: 336
+6 21 maxx=356 iters=336
+N=6 k=22 tris: 67 iterations: 391
+6 22 maxx=375 iters=391
+N=6 k=23 tris: 70 iterations: 426
+6 23 maxx=392 iters=426
+N=6 k=24 tris: 71 iterations: 438
+6 24 maxx=407 iters=438
+N=6 k=25 tris: 74 iterations: 475
+6 25 maxx=424 iters=475
+N=6 k=26 tris: 79 iterations: 540
+6 26 maxx=443 iters=540
+N=6 k=27 tris: 82 iterations: 581
+6 27 maxx=460 iters=581
+N=6 k=28 tris: 83 iterations: 595
+6 28 maxx=475 iters=595
+N=6 k=29 tris: 86 iterations: 638
+6 29 maxx=492 iters=638
+N=7 k=1 tris: 5 iterations: 3
+7 1 maxx=20 iters=3
+N=7 k=2 tris: 6 iterations: 4
+7 2 maxx=39 iters=4
+N=7 k=3 tris: 12 iterations: 13
+7 3 maxx=60 iters=13
+N=7 k=4 tris: 13 iterations: 15
+7 4 maxx=79 iters=15
+N=7 k=5 tris: 19 iterations: 30
+7 5 maxx=100 iters=30
+N=7 k=6 tris: 20 iterations: 33
+7 6 maxx=118 iters=33
+N=7 k=7 tris: 26 iterations: 54
+7 7 maxx=139 iters=54
+N=7 k=8 tris: 27 iterations: 58
+7 8 maxx=158 iters=58
+N=7 k=9 tris: 33 iterations: 85
+7 9 maxx=179 iters=85
+N=7 k=10 tris: 34 iterations: 90
+7 10 maxx=198 iters=90
+N=7 k=11 tris: 40 iterations: 123
+7 11 maxx=219 iters=123
+N=7 k=12 tris: 41 iterations: 129
+7 12 maxx=237 iters=129
+N=7 k=13 tris: 47 iterations: 168
+7 13 maxx=258 iters=168
+N=7 k=14 tris: 48 iterations: 175
+7 14 maxx=277 iters=175
+N=7 k=15 tris: 54 iterations: 220
+7 15 maxx=298 iters=220
+N=7 k=16 tris: 55 iterations: 228
+7 16 maxx=317 iters=228
+N=7 k=17 tris: 61 iterations: 279
+7 17 maxx=338 iters=279
+N=7 k=18 tris: 62 iterations: 288
+7 18 maxx=356 iters=288
+N=7 k=19 tris: 68 iterations: 345
+7 19 maxx=377 iters=345
+N=7 k=20 tris: 69 iterations: 355
+7 20 maxx=396 iters=355
+N=7 k=21 tris: 75 iterations: 418
+7 21 maxx=417 iters=418
+N=7 k=22 tris: 76 iterations: 429
+7 22 maxx=436 iters=429
+N=7 k=23 tris: 82 iterations: 498
+7 23 maxx=457 iters=498
+N=7 k=24 tris: 83 iterations: 510
+7 24 maxx=475 iters=510
+N=7 k=25 tris: 89 iterations: 585
+7 25 maxx=496 iters=585
+N=7 k=26 tris: 90 iterations: 598
+7 26 maxx=515 iters=598
+N=7 k=27 tris: 96 iterations: 679
+7 27 maxx=536 iters=679
+N=7 k=28 tris: 97 iterations: 693
+7 28 maxx=555 iters=693
+N=7 k=29 tris: 103 iterations: 780
+7 29 maxx=576 iters=780
+N=8 k=1 tris: 14 iterations: 15
+8 1 maxx=29 iters=15
+N=8 k=2 tris: 15 iterations: 17
+8 2 maxx=50 iters=17
+N=8 k=3 tris: 30 iterations: 62
+8 3 maxx=80 iters=62
+N=8 k=4 tris: 31 iterations: 66
+8 4 maxx=101 iters=66
+N=8 k=5 tris: 46 iterations: 141
+8 5 maxx=131 iters=141
+N=8 k=6 tris: 47 iterations: 147
+8 6 maxx=151 iters=147
+N=8 k=7 tris: 62 iterations: 252
+8 7 maxx=181 iters=252
+N=8 k=8 tris: 63 iterations: 260
+8 8 maxx=202 iters=260
+N=8 k=9 tris: 78 iterations: 395
+8 9 maxx=232 iters=395
+N=8 k=10 tris: 79 iterations: 405
+8 10 maxx=253 iters=405
+N=8 k=11 tris: 94 iterations: 570
+8 11 maxx=283 iters=570
+N=8 k=12 tris: 95 iterations: 582
+8 12 maxx=303 iters=582
+N=8 k=13 tris: 110 iterations: 777
+8 13 maxx=333 iters=777
+N=8 k=14 tris: 111 iterations: 791
+8 14 maxx=354 iters=791
+N=8 k=15 tris: 126 iterations: 1016
+8 15 maxx=384 iters=1016
+N=8 k=16 tris: 127 iterations: 1032
+8 16 maxx=405 iters=1032
+N=8 k=17 tris: 142 iterations: 1287
+8 17 maxx=435 iters=1287
+N=8 k=18 tris: 143 iterations: 1305
+8 18 maxx=455 iters=1305
+N=8 k=19 tris: 158 iterations: 1590
+8 19 maxx=485 iters=1590
+N=8 k=20 tris: 159 iterations: 1610
+8 20 maxx=506 iters=1610
+N=8 k=21 tris: 174 iterations: 1925
+8 21 maxx=536 iters=1925
+N=8 k=22 tris: 175 iterations: 1947
+8 22 maxx=557 iters=1947
+N=8 k=23 tris: 190 iterations: 2292
+8 23 maxx=587 iters=2292
+N=8 k=24 tris: 191 iterations: 2316
+8 24 maxx=607 iters=2316
+N=8 k=25 tris: 206 iterations: 2691
+8 25 maxx=637 iters=2691
+N=8 k=26 tris: 207 iterations: 2717
+8 26 maxx=658 iters=2717
+N=8 k=27 tris: 222 iterations: 3122
+8 27 maxx=688 iters=3122
+N=8 k=28 tris: 223 iterations: 3150
+8 28 maxx=709 iters=3150
+N=8 k=29 tris: 238 iterations: 3585
+8 29 maxx=739 iters=3585
+N=9 k=1 tris: 7 iterations: 4
+9 1 maxx=27 iters=4
+N=9 k=2 tris: 8 iterations: 5
+9 2 maxx=50 iters=5
+N=9 k=3 tris: 16 iterations: 17
+9 3 maxx=78 iters=17
+N=9 k=4 tris: 17 iterations: 19
+9 4 maxx=101 iters=19
+N=9 k=5 tris: 25 iterations: 39
+9 5 maxx=129 iters=39
+N=9 k=6 tris: 26 iterations: 42
+9 6 maxx=152 iters=42
+N=9 k=7 tris: 34 iterations: 70
+9 7 maxx=180 iters=70
+N=9 k=8 tris: 35 iterations: 74
+9 8 maxx=203 iters=74
+N=9 k=9 tris: 43 iterations: 110
+9 9 maxx=231 iters=110
+N=9 k=10 tris: 44 iterations: 115
+9 10 maxx=254 iters=115
+N=9 k=11 tris: 52 iterations: 159
+9 11 maxx=282 iters=159
+N=9 k=12 tris: 53 iterations: 165
+9 12 maxx=305 iters=165
+N=9 k=13 tris: 61 iterations: 217
+9 13 maxx=333 iters=217
+N=9 k=14 tris: 62 iterations: 224
+9 14 maxx=356 iters=224
+N=9 k=15 tris: 70 iterations: 284
+9 15 maxx=384 iters=284
+N=9 k=16 tris: 71 iterations: 292
+9 16 maxx=407 iters=292
+N=9 k=17 tris: 79 iterations: 360
+9 17 maxx=435 iters=360
+N=9 k=18 tris: 80 iterations: 369
+9 18 maxx=458 iters=369
+N=9 k=19 tris: 88 iterations: 445
+9 19 maxx=486 iters=445
+N=9 k=20 tris: 89 iterations: 455
+9 20 maxx=509 iters=455
+N=9 k=21 tris: 97 iterations: 539
+9 21 maxx=537 iters=539
+N=9 k=22 tris: 98 iterations: 550
+9 22 maxx=560 iters=550
+N=9 k=23 tris: 106 iterations: 642
+9 23 maxx=588 iters=642
+N=9 k=24 tris: 107 iterations: 654
+9 24 maxx=611 iters=654
+N=9 k=25 tris: 115 iterations: 754
+9 25 maxx=639 iters=754
+N=9 k=26 tris: 116 iterations: 767
+9 26 maxx=662 iters=767
+N=9 k=27 tris: 124 iterations: 875
+9 27 maxx=690 iters=875
+N=9 k=28 tris: 125 iterations: 889
+9 28 maxx=713 iters=889
+N=9 k=29 tris: 133 iterations: 1005
+9 29 maxx=741 iters=1005
+N=10 k=1 tris: 3 iterations: 1
+10 1 maxx=27 iters=1
+N=10 k=2 tris: 14 iterations: 12
+10 2 maxx=59 iters=12
+N=10 k=3 tris: 18 iterations: 19
+10 3 maxx=87 iters=19
+N=10 k=4 tris: 19 iterations: 21
+10 4 maxx=113 iters=21
+N=10 k=5 tris: 23 iterations: 30
+10 5 maxx=140 iters=30
+N=10 k=6 tris: 34 iterations: 63
+10 6 maxx=173 iters=63
+N=10 k=7 tris: 38 iterations: 78
+10 7 maxx=200 iters=78
+N=10 k=8 tris: 39 iterations: 82
+10 8 maxx=226 iters=82
+N=10 k=9 tris: 43 iterations: 99
+10 9 maxx=254 iters=99
+N=10 k=10 tris: 54 iterations: 154
+10 10 maxx=286 iters=154
+N=10 k=11 tris: 58 iterations: 177
+10 11 maxx=314 iters=177
+N=10 k=12 tris: 59 iterations: 183
+10 12 maxx=339 iters=183
+N=10 k=13 tris: 63 iterations: 208
+10 13 maxx=367 iters=208
+N=10 k=14 tris: 74 iterations: 285
+10 14 maxx=399 iters=285
+N=10 k=15 tris: 78 iterations: 316
+10 15 maxx=427 iters=316
+N=10 k=16 tris: 79 iterations: 324
+10 16 maxx=453 iters=324
+N=10 k=17 tris: 83 iterations: 357
+10 17 maxx=480 iters=357
+N=10 k=18 tris: 94 iterations: 456
+10 18 maxx=513 iters=456
+N=10 k=19 tris: 98 iterations: 495
+10 19 maxx=540 iters=495
+N=10 k=20 tris: 99 iterations: 505
+10 20 maxx=566 iters=505
+N=10 k=21 tris: 103 iterations: 546
+10 21 maxx=594 iters=546
+N=10 k=22 tris: 114 iterations: 667
+10 22 maxx=626 iters=667
+N=10 k=23 tris: 118 iterations: 714
+10 23 maxx=654 iters=714
+N=10 k=24 tris: 119 iterations: 726
+10 24 maxx=679 iters=726
+N=10 k=25 tris: 123 iterations: 775
+10 25 maxx=707 iters=775
+N=10 k=26 tris: 134 iterations: 918
+10 26 maxx=739 iters=918
+N=10 k=27 tris: 138 iterations: 973
+10 27 maxx=767 iters=973
+N=10 k=28 tris: 139 iterations: 987
+10 28 maxx=793 iters=987
+N=10 k=29 tris: 143 iterations: 1044
+10 29 maxx=820 iters=1044
+N=11 k=1 tris: 9 iterations: 5
+11 1 maxx=33 iters=5
+N=11 k=2 tris: 10 iterations: 6
+11 2 maxx=62 iters=6
+N=11 k=3 tris: 20 iterations: 21
+11 3 maxx=95 iters=21
+N=11 k=4 tris: 21 iterations: 23
+11 4 maxx=124 iters=23
+N=11 k=5 tris: 31 iterations: 48
+11 5 maxx=158 iters=48
+N=11 k=6 tris: 32 iterations: 51
+11 6 maxx=186 iters=51
+N=11 k=7 tris: 42 iterations: 86
+11 7 maxx=220 iters=86
+N=11 k=8 tris: 43 iterations: 90
+11 8 maxx=249 iters=90
+N=11 k=9 tris: 53 iterations: 135
+11 9 maxx=282 iters=135
+N=11 k=10 tris: 54 iterations: 140
+11 10 maxx=311 iters=140
+N=11 k=11 tris: 64 iterations: 195
+11 11 maxx=345 iters=195
+N=11 k=12 tris: 65 iterations: 201
+11 12 maxx=373 iters=201
+N=11 k=13 tris: 75 iterations: 266
+11 13 maxx=407 iters=266
+N=11 k=14 tris: 76 iterations: 273
+11 14 maxx=436 iters=273
+N=11 k=15 tris: 86 iterations: 348
+11 15 maxx=469 iters=348
+N=11 k=16 tris: 87 iterations: 356
+11 16 maxx=498 iters=356
+N=11 k=17 tris: 97 iterations: 441
+11 17 maxx=532 iters=441
+N=11 k=18 tris: 98 iterations: 450
+11 18 maxx=560 iters=450
+N=11 k=19 tris: 108 iterations: 545
+11 19 maxx=594 iters=545
+N=11 k=20 tris: 109 iterations: 555
+11 20 maxx=623 iters=555
+N=11 k=21 tris: 119 iterations: 660
+11 21 maxx=656 iters=660
+N=11 k=22 tris: 120 iterations: 671
+11 22 maxx=685 iters=671
+N=11 k=23 tris: 130 iterations: 786
+11 23 maxx=719 iters=786
+N=11 k=24 tris: 131 iterations: 798
+11 24 maxx=747 iters=798
+N=11 k=25 tris: 141 iterations: 923
+11 25 maxx=781 iters=923
+N=11 k=26 tris: 142 iterations: 936
+11 26 maxx=810 iters=936
+N=11 k=27 tris: 152 iterations: 1071
+11 27 maxx=843 iters=1071
+N=11 k=28 tris: 153 iterations: 1085
+11 28 maxx=872 iters=1085
+N=11 k=29 tris: 163 iterations: 1230
+11 29 maxx=906 iters=1230
+N=12 k=1 tris: 7 iterations: 3
+12 1 maxx=35 iters=3
+N=12 k=2 tris: 14 iterations: 10
+12 2 maxx=69 iters=10
+N=12 k=3 tris: 22 iterations: 23
+12 3 maxx=105 iters=23
+N=12 k=4 tris: 23 iterations: 25
+12 4 maxx=135 iters=25
+N=12 k=5 tris: 31 iterations: 44
+12 5 maxx=171 iters=44
+N=12 k=6 tris: 38 iterations: 65
+12 6 maxx=205 iters=65
+N=12 k=7 tris: 46 iterations: 94
+12 7 maxx=241 iters=94
+N=12 k=8 tris: 47 iterations: 98
+12 8 maxx=271 iters=98
+N=12 k=9 tris: 55 iterations: 133
+12 9 maxx=307 iters=133
+N=12 k=10 tris: 62 iterations: 168
+12 10 maxx=341 iters=168
+N=12 k=11 tris: 70 iterations: 213
+12 11 maxx=377 iters=213
+N=12 k=12 tris: 71 iterations: 219
+12 12 maxx=407 iters=219
+N=12 k=13 tris: 79 iterations: 270
+12 13 maxx=443 iters=270
+N=12 k=14 tris: 86 iterations: 319
+12 14 maxx=477 iters=319
+N=12 k=15 tris: 94 iterations: 380
+12 15 maxx=513 iters=380
+N=12 k=16 tris: 95 iterations: 388
+12 16 maxx=543 iters=388
+N=12 k=17 tris: 103 iterations: 455
+12 17 maxx=579 iters=455
+N=12 k=18 tris: 110 iterations: 518
+12 18 maxx=613 iters=518
+N=12 k=19 tris: 118 iterations: 595
+12 19 maxx=649 iters=595
+N=12 k=20 tris: 119 iterations: 605
+12 20 maxx=679 iters=605
+N=12 k=21 tris: 127 iterations: 688
+12 21 maxx=715 iters=688
+N=12 k=22 tris: 134 iterations: 765
+12 22 maxx=749 iters=765
+N=12 k=23 tris: 142 iterations: 858
+12 23 maxx=785 iters=858
+N=12 k=24 tris: 143 iterations: 870
+12 24 maxx=815 iters=870
+N=12 k=25 tris: 151 iterations: 969
+12 25 maxx=851 iters=969
+N=12 k=26 tris: 158 iterations: 1060
+12 26 maxx=885 iters=1060
+N=12 k=27 tris: 166 iterations: 1169
+12 27 maxx=921 iters=1169
+N=12 k=28 tris: 167 iterations: 1183
+12 28 maxx=951 iters=1183
+N=12 k=29 tris: 175 iterations: 1298
+12 29 maxx=987 iters=1298
+N=13 k=1 tris: 11 iterations: 6
+13 1 maxx=39 iters=6
+N=13 k=2 tris: 12 iterations: 7
+13 2 maxx=73 iters=7
+N=13 k=3 tris: 24 iterations: 25
+13 3 maxx=113 iters=25
+N=13 k=4 tris: 25 iterations: 27
+13 4 maxx=147 iters=27
+N=13 k=5 tris: 37 iterations: 57
+13 5 maxx=187 iters=57
+N=13 k=6 tris: 38 iterations: 60
+13 6 maxx=220 iters=60
+N=13 k=7 tris: 50 iterations: 102
+13 7 maxx=260 iters=102
+N=13 k=8 tris: 51 iterations: 106
+13 8 maxx=294 iters=106
+N=13 k=9 tris: 63 iterations: 160
+13 9 maxx=334 iters=160
+N=13 k=10 tris: 64 iterations: 165
+13 10 maxx=368 iters=165
+N=13 k=11 tris: 76 iterations: 231
+13 11 maxx=408 iters=231
+N=13 k=12 tris: 77 iterations: 237
+13 12 maxx=441 iters=237
+N=13 k=13 tris: 89 iterations: 315
+13 13 maxx=481 iters=315
+N=13 k=14 tris: 90 iterations: 322
+13 14 maxx=515 iters=322
+N=13 k=15 tris: 102 iterations: 412
+13 15 maxx=555 iters=412
+N=13 k=16 tris: 103 iterations: 420
+13 16 maxx=589 iters=420
+N=13 k=17 tris: 115 iterations: 522
+13 17 maxx=629 iters=522
+N=13 k=18 tris: 116 iterations: 531
+13 18 maxx=662 iters=531
+N=13 k=19 tris: 128 iterations: 645
+13 19 maxx=702 iters=645
+N=13 k=20 tris: 129 iterations: 655
+13 20 maxx=736 iters=655
+N=13 k=21 tris: 141 iterations: 781
+13 21 maxx=776 iters=781
+N=13 k=22 tris: 142 iterations: 792
+13 22 maxx=810 iters=792
+N=13 k=23 tris: 154 iterations: 930
+13 23 maxx=850 iters=930
+N=13 k=24 tris: 155 iterations: 942
+13 24 maxx=883 iters=942
+N=13 k=25 tris: 167 iterations: 1092
+13 25 maxx=923 iters=1092
+N=13 k=26 tris: 168 iterations: 1105
+13 26 maxx=957 iters=1105
+N=13 k=27 tris: 180 iterations: 1267
+13 27 maxx=997 iters=1267
+N=13 k=28 tris: 181 iterations: 1281
+13 28 maxx=1031 iters=1281
+N=13 k=29 tris: 193 iterations: 1455
+13 29 maxx=1071 iters=1455
+N=14 k=1 tris: 6 iterations: 2
+14 1 maxx=39 iters=2
+N=14 k=2 tris: 19 iterations: 15
+14 2 maxx=83 iters=15
+N=14 k=3 tris: 26 iterations: 27
+14 3 maxx=122 iters=27
+N=14 k=4 tris: 27 iterations: 29
+14 4 maxx=158 iters=29
+N=14 k=5 tris: 34 iterations: 45
+14 5 maxx=198 iters=45
+N=14 k=6 tris: 47 iterations: 84
+14 6 maxx=241 iters=84
+N=14 k=7 tris: 54 iterations: 110
+14 7 maxx=281 iters=110
+N=14 k=8 tris: 55 iterations: 114
+14 8 maxx=317 iters=114
+N=14 k=9 tris: 62 iterations: 144
+14 9 maxx=356 iters=144
+N=14 k=10 tris: 75 iterations: 209
+14 10 maxx=400 iters=209
+N=14 k=11 tris: 82 iterations: 249
+14 11 maxx=440 iters=249
+N=14 k=12 tris: 83 iterations: 255
+14 12 maxx=475 iters=255
+N=14 k=13 tris: 90 iterations: 299
+14 13 maxx=515 iters=299
+N=14 k=14 tris: 103 iterations: 390
+14 14 maxx=559 iters=390
+N=14 k=15 tris: 110 iterations: 444
+14 15 maxx=598 iters=444
+N=14 k=16 tris: 111 iterations: 452
+14 16 maxx=634 iters=452
+N=14 k=17 tris: 118 iterations: 510
+14 17 maxx=674 iters=510
+N=14 k=18 tris: 131 iterations: 627
+14 18 maxx=717 iters=627
+N=14 k=19 tris: 138 iterations: 695
+14 19 maxx=757 iters=695
+N=14 k=20 tris: 139 iterations: 705
+14 20 maxx=793 iters=705
+N=14 k=21 tris: 146 iterations: 777
+14 21 maxx=832 iters=777
+N=14 k=22 tris: 159 iterations: 920
+14 22 maxx=876 iters=920
+N=14 k=23 tris: 166 iterations: 1002
+14 23 maxx=916 iters=1002
+N=14 k=24 tris: 167 iterations: 1014
+14 24 maxx=951 iters=1014
+N=14 k=25 tris: 174 iterations: 1100
+14 25 maxx=991 iters=1100
+N=14 k=26 tris: 187 iterations: 1269
+14 26 maxx=1035 iters=1269
+N=14 k=27 tris: 194 iterations: 1365
+14 27 maxx=1074 iters=1365
+N=14 k=28 tris: 195 iterations: 1379
+14 28 maxx=1110 iters=1379
+N=14 k=29 tris: 202 iterations: 1479
+14 29 maxx=1150 iters=1479
+N=15 k=1 tris: 4 iterations: 1
+15 1 maxx=40 iters=1
+N=15 k=2 tris: 8 iterations: 3
+15 2 maxx=80 iters=3
+N=15 k=3 tris: 13 iterations: 7
+15 3 maxx=121 iters=7
+N=15 k=4 tris: 14 iterations: 8
+15 4 maxx=159 iters=8
+N=15 k=5 tris: 19 iterations: 14
+15 5 maxx=200 iters=14
+N=15 k=6 tris: 23 iterations: 20
+15 6 maxx=240 iters=20
+N=15 k=7 tris: 28 iterations: 29
+15 7 maxx=281 iters=29
+N=15 k=8 tris: 29 iterations: 31
+15 8 maxx=319 iters=31
+N=15 k=9 tris: 34 iterations: 42
+15 9 maxx=360 iters=42
+N=15 k=10 tris: 38 iterations: 52
+15 10 maxx=400 iters=52
+N=15 k=11 tris: 43 iterations: 66
+15 11 maxx=441 iters=66
+N=15 k=12 tris: 44 iterations: 69
+15 12 maxx=479 iters=69
+N=15 k=13 tris: 49 iterations: 85
+15 13 maxx=520 iters=85
+N=15 k=14 tris: 53 iterations: 99
+15 14 maxx=560 iters=99
+N=15 k=15 tris: 58 iterations: 118
+15 15 maxx=601 iters=118
+N=15 k=16 tris: 59 iterations: 122
+15 16 maxx=639 iters=122
+N=15 k=17 tris: 64 iterations: 143
+15 17 maxx=680 iters=143
+N=15 k=18 tris: 68 iterations: 161
+15 18 maxx=720 iters=161
+N=15 k=19 tris: 73 iterations: 185
+15 19 maxx=761 iters=185
+N=15 k=20 tris: 74 iterations: 190
+15 20 maxx=799 iters=190
+N=15 k=21 tris: 79 iterations: 216
+15 21 maxx=840 iters=216
+N=15 k=22 tris: 83 iterations: 238
+15 22 maxx=880 iters=238
+N=15 k=23 tris: 88 iterations: 267
+15 23 maxx=921 iters=267
+N=15 k=24 tris: 89 iterations: 273
+15 24 maxx=959 iters=273
+N=15 k=25 tris: 94 iterations: 304
+15 25 maxx=1000 iters=304
+N=15 k=26 tris: 98 iterations: 330
+15 26 maxx=1040 iters=330
+N=15 k=27 tris: 103 iterations: 364
+15 27 maxx=1081 iters=364
+N=15 k=28 tris: 104 iterations: 371
+15 28 maxx=1119 iters=371
+N=15 k=29 tris: 109 iterations: 407
+15 29 maxx=1160 iters=407
+N=16 k=1 tris: 30 iterations: 31
+16 1 maxx=60 iters=31
+N=16 k=2 tris: 31 iterations: 33
+16 2 maxx=101 iters=33
+N=16 k=3 tris: 62 iterations: 126
+16 3 maxx=161 iters=126
+N=16 k=4 tris: 63 iterations: 130
+16 4 maxx=202 iters=130
+N=16 k=5 tris: 94 iterations: 285
+16 5 maxx=263 iters=285
+N=16 k=6 tris: 95 iterations: 291
+16 6 maxx=303 iters=291
+N=16 k=7 tris: 126 iterations: 508
+16 7 maxx=364 iters=508
+N=16 k=8 tris: 127 iterations: 516
+16 8 maxx=405 iters=516
+N=16 k=9 tris: 158 iterations: 795
+16 9 maxx=465 iters=795
+N=16 k=10 tris: 159 iterations: 805
+16 10 maxx=506 iters=805
+N=16 k=11 tris: 190 iterations: 1146
+16 11 maxx=567 iters=1146
+N=16 k=12 tris: 191 iterations: 1158
+16 12 maxx=607 iters=1158
+N=16 k=13 tris: 222 iterations: 1561
+16 13 maxx=668 iters=1561
+N=16 k=14 tris: 223 iterations: 1575
+16 14 maxx=709 iters=1575
+N=16 k=15 tris: 254 iterations: 2040
+16 15 maxx=769 iters=2040
+N=16 k=16 tris: 255 iterations: 2056
+16 16 maxx=810 iters=2056
+N=16 k=17 tris: 286 iterations: 2583
+16 17 maxx=871 iters=2583
+N=16 k=18 tris: 287 iterations: 2601
+16 18 maxx=911 iters=2601
+N=16 k=19 tris: 318 iterations: 3190
+16 19 maxx=972 iters=3190
+N=16 k=20 tris: 319 iterations: 3210
+16 20 maxx=1013 iters=3210
+N=16 k=21 tris: 350 iterations: 3861
+16 21 maxx=1073 iters=3861
+N=16 k=22 tris: 351 iterations: 3883
+16 22 maxx=1114 iters=3883
+N=16 k=23 tris: 382 iterations: 4596
+16 23 maxx=1175 iters=4596
+N=16 k=24 tris: 383 iterations: 4620
+16 24 maxx=1215 iters=4620
+N=16 k=25 tris: 414 iterations: 5395
+16 25 maxx=1276 iters=5395
+N=16 k=26 tris: 415 iterations: 5421
+16 26 maxx=1317 iters=5421
+N=16 k=27 tris: 446 iterations: 6258
+16 27 maxx=1377 iters=6258
+N=16 k=28 tris: 447 iterations: 6286
+16 28 maxx=1418 iters=6286
+N=16 k=29 tris: 478 iterations: 7185
+16 29 maxx=1479 iters=7185
+N=17 k=1 tris: 15 iterations: 8
+17 1 maxx=52 iters=8
+N=17 k=2 tris: 16 iterations: 9
+17 2 maxx=96 iters=9
+N=17 k=3 tris: 32 iterations: 33
+17 3 maxx=148 iters=33
+N=17 k=4 tris: 33 iterations: 35
+17 4 maxx=192 iters=35
+N=17 k=5 tris: 49 iterations: 75
+17 5 maxx=245 iters=75
+N=17 k=6 tris: 50 iterations: 78
+17 6 maxx=288 iters=78
+N=17 k=7 tris: 66 iterations: 134
+17 7 maxx=341 iters=134
+N=17 k=8 tris: 67 iterations: 138
+17 8 maxx=385 iters=138
+N=17 k=9 tris: 83 iterations: 210
+17 9 maxx=437 iters=210
+N=17 k=10 tris: 84 iterations: 215
+17 10 maxx=481 iters=215
+N=17 k=11 tris: 100 iterations: 303
+17 11 maxx=534 iters=303
+N=17 k=12 tris: 101 iterations: 309
+17 12 maxx=577 iters=309
+N=17 k=13 tris: 117 iterations: 413
+17 13 maxx=630 iters=413
+N=17 k=14 tris: 118 iterations: 420
+17 14 maxx=674 iters=420
+N=17 k=15 tris: 134 iterations: 540
+17 15 maxx=726 iters=540
+N=17 k=16 tris: 135 iterations: 548
+17 16 maxx=770 iters=548
+N=17 k=17 tris: 151 iterations: 684
+17 17 maxx=823 iters=684
+N=17 k=18 tris: 152 iterations: 693
+17 18 maxx=866 iters=693
+N=17 k=19 tris: 168 iterations: 845
+17 19 maxx=919 iters=845
+N=17 k=20 tris: 169 iterations: 855
+17 20 maxx=963 iters=855
+N=17 k=21 tris: 185 iterations: 1023
+17 21 maxx=1015 iters=1023
+N=17 k=22 tris: 186 iterations: 1034
+17 22 maxx=1059 iters=1034
+N=17 k=23 tris: 202 iterations: 1218
+17 23 maxx=1112 iters=1218
+N=17 k=24 tris: 203 iterations: 1230
+17 24 maxx=1155 iters=1230
+N=17 k=25 tris: 219 iterations: 1430
+17 25 maxx=1208 iters=1430
+N=17 k=26 tris: 220 iterations: 1443
+17 26 maxx=1252 iters=1443
+N=17 k=27 tris: 236 iterations: 1659
+17 27 maxx=1304 iters=1659
+N=17 k=28 tris: 237 iterations: 1673
+17 28 maxx=1348 iters=1673
+N=17 k=29 tris: 253 iterations: 1905
+17 29 maxx=1401 iters=1905
+N=18 k=1 tris: 7 iterations: 2
+18 1 maxx=50 iters=2
+N=18 k=2 tris: 26 iterations: 21
+18 2 maxx=107 iters=21
+N=18 k=3 tris: 34 iterations: 35
+18 3 maxx=158 iters=35
+N=18 k=4 tris: 35 iterations: 37
+18 4 maxx=203 iters=37
+N=18 k=5 tris: 43 iterations: 55
+18 5 maxx=254 iters=55
+N=18 k=6 tris: 62 iterations: 112
+18 6 maxx=311 iters=112
+N=18 k=7 tris: 70 iterations: 142
+18 7 maxx=362 iters=142
+N=18 k=8 tris: 71 iterations: 146
+18 8 maxx=407 iters=146
+N=18 k=9 tris: 79 iterations: 180
+18 9 maxx=458 iters=180
+N=18 k=10 tris: 98 iterations: 275
+18 10 maxx=515 iters=275
+N=18 k=11 tris: 106 iterations: 321
+18 11 maxx=566 iters=321
+N=18 k=12 tris: 107 iterations: 327
+18 12 maxx=611 iters=327
+N=18 k=13 tris: 115 iterations: 377
+18 13 maxx=662 iters=377
+N=18 k=14 tris: 134 iterations: 510
+18 14 maxx=719 iters=510
+N=18 k=15 tris: 142 iterations: 572
+18 15 maxx=770 iters=572
+N=18 k=16 tris: 143 iterations: 580
+18 16 maxx=815 iters=580
+N=18 k=17 tris: 151 iterations: 646
+18 17 maxx=866 iters=646
+N=18 k=18 tris: 170 iterations: 817
+18 18 maxx=923 iters=817
+N=18 k=19 tris: 178 iterations: 895
+18 19 maxx=974 iters=895
+N=18 k=20 tris: 179 iterations: 905
+18 20 maxx=1019 iters=905
+N=18 k=21 tris: 187 iterations: 987
+18 21 maxx=1070 iters=987
+N=18 k=22 tris: 206 iterations: 1196
+18 22 maxx=1127 iters=1196
+N=18 k=23 tris: 214 iterations: 1290
+18 23 maxx=1178 iters=1290
+N=18 k=24 tris: 215 iterations: 1302
+18 24 maxx=1223 iters=1302
+N=18 k=25 tris: 223 iterations: 1400
+18 25 maxx=1274 iters=1400
+N=18 k=26 tris: 242 iterations: 1647
+18 26 maxx=1331 iters=1647
+N=18 k=27 tris: 250 iterations: 1757
+18 27 maxx=1382 iters=1757
+N=18 k=28 tris: 251 iterations: 1771
+18 28 maxx=1427 iters=1771
+N=18 k=29 tris: 259 iterations: 1885
+18 29 maxx=1478 iters=1885
+N=19 k=1 tris: 17 iterations: 9
+19 1 maxx=58 iters=9
+N=19 k=2 tris: 18 iterations: 10
+19 2 maxx=107 iters=10
+N=19 k=3 tris: 36 iterations: 37
+19 3 maxx=166 iters=37
+N=19 k=4 tris: 37 iterations: 39
+19 4 maxx=215 iters=39
+N=19 k=5 tris: 55 iterations: 84
+19 5 maxx=274 iters=84
+N=19 k=6 tris: 56 iterations: 87
+19 6 maxx=322 iters=87
+N=19 k=7 tris: 74 iterations: 150
+19 7 maxx=381 iters=150
+N=19 k=8 tris: 75 iterations: 154
+19 8 maxx=430 iters=154
+N=19 k=9 tris: 93 iterations: 235
+19 9 maxx=489 iters=235
+N=19 k=10 tris: 94 iterations: 240
+19 10 maxx=538 iters=240
+N=19 k=11 tris: 112 iterations: 339
+19 11 maxx=597 iters=339
+N=19 k=12 tris: 113 iterations: 345
+19 12 maxx=645 iters=345
+N=19 k=13 tris: 131 iterations: 462
+19 13 maxx=704 iters=462
+N=19 k=14 tris: 132 iterations: 469
+19 14 maxx=753 iters=469
+N=19 k=15 tris: 150 iterations: 604
+19 15 maxx=812 iters=604
+N=19 k=16 tris: 151 iterations: 612
+19 16 maxx=861 iters=612
+N=19 k=17 tris: 169 iterations: 765
+19 17 maxx=920 iters=765
+N=19 k=18 tris: 170 iterations: 774
+19 18 maxx=968 iters=774
+N=19 k=19 tris: 188 iterations: 945
+19 19 maxx=1027 iters=945
+N=19 k=20 tris: 189 iterations: 955
+19 20 maxx=1076 iters=955
+N=19 k=21 tris: 207 iterations: 1144
+19 21 maxx=1135 iters=1144
+N=19 k=22 tris: 208 iterations: 1155
+19 22 maxx=1184 iters=1155
+N=19 k=23 tris: 226 iterations: 1362
+19 23 maxx=1243 iters=1362
+N=19 k=24 tris: 227 iterations: 1374
+19 24 maxx=1291 iters=1374
+N=19 k=25 tris: 245 iterations: 1599
+19 25 maxx=1350 iters=1599
+N=19 k=26 tris: 246 iterations: 1612
+19 26 maxx=1399 iters=1612
+N=19 k=27 tris: 264 iterations: 1855
+19 27 maxx=1458 iters=1855
+N=19 k=28 tris: 265 iterations: 1869
+19 28 maxx=1507 iters=1869
+N=19 k=29 tris: 283 iterations: 2130
+19 29 maxx=1566 iters=2130
+N=20 k=1 tris: 14 iterations: 6
+20 1 maxx=59 iters=6
+N=20 k=2 tris: 23 iterations: 15
+20 2 maxx=115 iters=15
+N=20 k=3 tris: 38 iterations: 39
+20 3 maxx=175 iters=39
+N=20 k=4 tris: 39 iterations: 41
+20 4 maxx=226 iters=41
+N=20 k=5 tris: 54 iterations: 77
+20 5 maxx=286 iters=77
+N=20 k=6 tris: 63 iterations: 104
+20 6 maxx=342 iters=104
+N=20 k=7 tris: 78 iterations: 158
+20 7 maxx=402 iters=158
+N=20 k=8 tris: 79 iterations: 162
+20 8 maxx=453 iters=162
+N=20 k=9 tris: 94 iterations: 228
+20 9 maxx=513 iters=228
+N=20 k=10 tris: 103 iterations: 273
+20 10 maxx=569 iters=273
+N=20 k=11 tris: 118 iterations: 357
+20 11 maxx=629 iters=357
+N=20 k=12 tris: 119 iterations: 363
+20 12 maxx=679 iters=363
+N=20 k=13 tris: 134 iterations: 459
+20 13 maxx=739 iters=459
+N=20 k=14 tris: 143 iterations: 522
+20 14 maxx=795 iters=522
+N=20 k=15 tris: 158 iterations: 636
+20 15 maxx=855 iters=636
+N=20 k=16 tris: 159 iterations: 644
+20 16 maxx=906 iters=644
+N=20 k=17 tris: 174 iterations: 770
+20 17 maxx=966 iters=770
+N=20 k=18 tris: 183 iterations: 851
+20 18 maxx=1022 iters=851
+N=20 k=19 tris: 198 iterations: 995
+20 19 maxx=1082 iters=995
+N=20 k=20 tris: 199 iterations: 1005
+20 20 maxx=1133 iters=1005
+N=20 k=21 tris: 214 iterations: 1161
+20 21 maxx=1193 iters=1161
+N=20 k=22 tris: 223 iterations: 1260
+20 22 maxx=1249 iters=1260
+N=20 k=23 tris: 238 iterations: 1434
+20 23 maxx=1309 iters=1434
+N=20 k=24 tris: 239 iterations: 1446
+20 24 maxx=1359 iters=1446
+N=20 k=25 tris: 254 iterations: 1632
+20 25 maxx=1419 iters=1632
+N=20 k=26 tris: 263 iterations: 1749
+20 26 maxx=1475 iters=1749
+N=20 k=27 tris: 278 iterations: 1953
+20 27 maxx=1535 iters=1953
+N=20 k=28 tris: 279 iterations: 1967
+20 28 maxx=1586 iters=1967
+N=20 k=29 tris: 294 iterations: 2183
+20 29 maxx=1646 iters=2183
+N=21 k=1 tris: 5 iterations: 1
+21 1 maxx=55 iters=1
+N=21 k=2 tris: 13 iterations: 5
+21 2 maxx=114 iters=5
+N=21 k=3 tris: 19 iterations: 10
+21 3 maxx=170 iters=10
+N=21 k=4 tris: 20 iterations: 11
+21 4 maxx=223 iters=11
+N=21 k=5 tris: 26 iterations: 18
+21 5 maxx=279 iters=18
+N=21 k=6 tris: 34 iterations: 30
+21 6 maxx=338 iters=30
+N=21 k=7 tris: 40 iterations: 41
+21 7 maxx=394 iters=41
+N=21 k=8 tris: 41 iterations: 43
+21 8 maxx=447 iters=43
+N=21 k=9 tris: 47 iterations: 56
+21 9 maxx=503 iters=56
+N=21 k=10 tris: 55 iterations: 76
+21 10 maxx=562 iters=76
+N=21 k=11 tris: 61 iterations: 93
+21 11 maxx=618 iters=93
+N=21 k=12 tris: 62 iterations: 96
+21 12 maxx=671 iters=96
+N=21 k=13 tris: 68 iterations: 115
+21 13 maxx=727 iters=115
+N=21 k=14 tris: 76 iterations: 143
+21 14 maxx=786 iters=143
+N=21 k=15 tris: 82 iterations: 166
+21 15 maxx=842 iters=166
+N=21 k=16 tris: 83 iterations: 170
+21 16 maxx=895 iters=170
+N=21 k=17 tris: 89 iterations: 195
+21 17 maxx=951 iters=195
+N=21 k=18 tris: 97 iterations: 231
+21 18 maxx=1010 iters=231
+N=21 k=19 tris: 103 iterations: 260
+21 19 maxx=1066 iters=260
+N=21 k=20 tris: 104 iterations: 265
+21 20 maxx=1119 iters=265
+N=21 k=21 tris: 110 iterations: 296
+21 21 maxx=1175 iters=296
+N=21 k=22 tris: 118 iterations: 340
+21 22 maxx=1234 iters=340
+N=21 k=23 tris: 124 iterations: 375
+21 23 maxx=1290 iters=375
+N=21 k=24 tris: 125 iterations: 381
+21 24 maxx=1343 iters=381
+N=21 k=25 tris: 131 iterations: 418
+21 25 maxx=1399 iters=418
+N=21 k=26 tris: 139 iterations: 470
+21 26 maxx=1458 iters=470
+N=21 k=27 tris: 145 iterations: 511
+21 27 maxx=1514 iters=511
+N=21 k=28 tris: 146 iterations: 518
+21 28 maxx=1567 iters=518
+N=21 k=29 tris: 152 iterations: 561
+21 29 maxx=1623 iters=561
+N=22 k=1 tris: 10 iterations: 3
+22 1 maxx=62 iters=3
+N=22 k=2 tris: 31 iterations: 24
+22 2 maxx=131 iters=24
+N=22 k=3 tris: 42 iterations: 43
+22 3 maxx=193 iters=43
+N=22 k=4 tris: 43 iterations: 45
+22 4 maxx=249 iters=45
+N=22 k=5 tris: 54 iterations: 70
+22 5 maxx=311 iters=70
+N=22 k=6 tris: 75 iterations: 133
+22 6 maxx=380 iters=133
+N=22 k=7 tris: 86 iterations: 174
+22 7 maxx=442 iters=174
+N=22 k=8 tris: 87 iterations: 178
+22 8 maxx=498 iters=178
+N=22 k=9 tris: 98 iterations: 225
+22 9 maxx=560 iters=225
+N=22 k=10 tris: 119 iterations: 330
+22 10 maxx=629 iters=330
+N=22 k=11 tris: 130 iterations: 393
+22 11 maxx=692 iters=393
+N=22 k=12 tris: 131 iterations: 399
+22 12 maxx=747 iters=399
+N=22 k=13 tris: 142 iterations: 468
+22 13 maxx=810 iters=468
+N=22 k=14 tris: 163 iterations: 615
+22 14 maxx=879 iters=615
+N=22 k=15 tris: 174 iterations: 700
+22 15 maxx=941 iters=700
+N=22 k=16 tris: 175 iterations: 708
+22 16 maxx=997 iters=708
+N=22 k=17 tris: 186 iterations: 799
+22 17 maxx=1059 iters=799
+N=22 k=18 tris: 207 iterations: 988
+22 18 maxx=1128 iters=988
+N=22 k=19 tris: 218 iterations: 1095
+22 19 maxx=1190 iters=1095
+N=22 k=20 tris: 219 iterations: 1105
+22 20 maxx=1246 iters=1105
+N=22 k=21 tris: 230 iterations: 1218
+22 21 maxx=1308 iters=1218
+N=22 k=22 tris: 251 iterations: 1449
+22 22 maxx=1377 iters=1449
+N=22 k=23 tris: 262 iterations: 1578
+22 23 maxx=1440 iters=1578
+N=22 k=24 tris: 263 iterations: 1590
+22 24 maxx=1495 iters=1590
+N=22 k=25 tris: 274 iterations: 1725
+22 25 maxx=1558 iters=1725
+N=22 k=26 tris: 295 iterations: 1998
+22 26 maxx=1627 iters=1998
+N=22 k=27 tris: 306 iterations: 2149
+22 27 maxx=1689 iters=2149
+N=22 k=28 tris: 307 iterations: 2163
+22 28 maxx=1745 iters=2163
+N=22 k=29 tris: 318 iterations: 2320
+22 29 maxx=1807 iters=2320
+N=23 k=1 tris: 21 iterations: 11
+23 1 maxx=71 iters=11
+N=23 k=2 tris: 22 iterations: 12
+23 2 maxx=130 iters=12
+N=23 k=3 tris: 44 iterations: 45
+23 3 maxx=201 iters=45
+N=23 k=4 tris: 45 iterations: 47
+23 4 maxx=260 iters=47
+N=23 k=5 tris: 67 iterations: 102
+23 5 maxx=332 iters=102
+N=23 k=6 tris: 68 iterations: 105
+23 6 maxx=390 iters=105
+N=23 k=7 tris: 90 iterations: 182
+23 7 maxx=462 iters=182
+N=23 k=8 tris: 91 iterations: 186
+23 8 maxx=521 iters=186
+N=23 k=9 tris: 113 iterations: 285
+23 9 maxx=592 iters=285
+N=23 k=10 tris: 114 iterations: 290
+23 10 maxx=651 iters=290
+N=23 k=11 tris: 136 iterations: 411
+23 11 maxx=723 iters=411
+N=23 k=12 tris: 137 iterations: 417
+23 12 maxx=781 iters=417
+N=23 k=13 tris: 159 iterations: 560
+23 13 maxx=853 iters=560
+N=23 k=14 tris: 160 iterations: 567
+23 14 maxx=912 iters=567
+N=23 k=15 tris: 182 iterations: 732
+23 15 maxx=983 iters=732
+N=23 k=16 tris: 183 iterations: 740
+23 16 maxx=1042 iters=740
+N=23 k=17 tris: 205 iterations: 927
+23 17 maxx=1114 iters=927
+N=23 k=18 tris: 206 iterations: 936
+23 18 maxx=1172 iters=936
+N=23 k=19 tris: 228 iterations: 1145
+23 19 maxx=1244 iters=1145
+N=23 k=20 tris: 229 iterations: 1155
+23 20 maxx=1303 iters=1155
+N=23 k=21 tris: 251 iterations: 1386
+23 21 maxx=1374 iters=1386
+N=23 k=22 tris: 252 iterations: 1397
+23 22 maxx=1433 iters=1397
+N=23 k=23 tris: 274 iterations: 1650
+23 23 maxx=1505 iters=1650
+N=23 k=24 tris: 275 iterations: 1662
+23 24 maxx=1563 iters=1662
+N=23 k=25 tris: 297 iterations: 1937
+23 25 maxx=1635 iters=1937
+N=23 k=26 tris: 298 iterations: 1950
+23 26 maxx=1694 iters=1950
+N=23 k=27 tris: 320 iterations: 2247
+23 27 maxx=1765 iters=2247
+N=23 k=28 tris: 321 iterations: 2261
+23 28 maxx=1824 iters=2261
+N=23 k=29 tris: 343 iterations: 2580
+23 29 maxx=1896 iters=2580
+N=24 k=1 tris: 14 iterations: 5
+24 1 maxx=69 iters=5
+N=24 k=2 tris: 31 iterations: 22
+24 2 maxx=141 iters=22
+N=24 k=3 tris: 46 iterations: 47
+24 3 maxx=211 iters=47
+N=24 k=4 tris: 47 iterations: 49
+24 4 maxx=271 iters=49
+N=24 k=5 tris: 62 iterations: 84
+24 5 maxx=341 iters=84
+N=24 k=6 tris: 79 iterations: 135
+24 6 maxx=413 iters=135
+N=24 k=7 tris: 94 iterations: 190
+24 7 maxx=483 iters=190
+N=24 k=8 tris: 95 iterations: 194
+24 8 maxx=543 iters=194
+N=24 k=9 tris: 110 iterations: 259
+24 9 maxx=613 iters=259
+N=24 k=10 tris: 127 iterations: 344
+24 10 maxx=685 iters=344
+N=24 k=11 tris: 142 iterations: 429
+24 11 maxx=755 iters=429
+N=24 k=12 tris: 143 iterations: 435
+24 12 maxx=815 iters=435
+N=24 k=13 tris: 158 iterations: 530
+24 13 maxx=885 iters=530
+N=24 k=14 tris: 175 iterations: 649
+24 14 maxx=957 iters=649
+N=24 k=15 tris: 190 iterations: 764
+24 15 maxx=1027 iters=764
+N=24 k=16 tris: 191 iterations: 772
+24 16 maxx=1087 iters=772
+N=24 k=17 tris: 206 iterations: 897
+24 17 maxx=1157 iters=897
+N=24 k=18 tris: 223 iterations: 1050
+24 18 maxx=1229 iters=1050
+N=24 k=19 tris: 238 iterations: 1195
+24 19 maxx=1299 iters=1195
+N=24 k=20 tris: 239 iterations: 1205
+24 20 maxx=1359 iters=1205
+N=24 k=21 tris: 254 iterations: 1360
+24 21 maxx=1429 iters=1360
+N=24 k=22 tris: 271 iterations: 1547
+24 22 maxx=1501 iters=1547
+N=24 k=23 tris: 286 iterations: 1722
+24 23 maxx=1571 iters=1722
+N=24 k=24 tris: 287 iterations: 1734
+24 24 maxx=1631 iters=1734
+N=24 k=25 tris: 302 iterations: 1919
+24 25 maxx=1701 iters=1919
+N=24 k=26 tris: 319 iterations: 2140
+24 26 maxx=1773 iters=2140
+N=24 k=27 tris: 334 iterations: 2345
+24 27 maxx=1843 iters=2345
+N=24 k=28 tris: 335 iterations: 2359
+24 28 maxx=1903 iters=2359
+N=24 k=29 tris: 350 iterations: 2574
+24 29 maxx=1973 iters=2574
+N=25 k=1 tris: 23 iterations: 12
+25 1 maxx=77 iters=12
+N=25 k=2 tris: 24 iterations: 13
+25 2 maxx=141 iters=13
+N=25 k=3 tris: 48 iterations: 49
+25 3 maxx=219 iters=49
+N=25 k=4 tris: 49 iterations: 51
+25 4 maxx=283 iters=51
+N=25 k=5 tris: 73 iterations: 111
+25 5 maxx=361 iters=111
+N=25 k=6 tris: 74 iterations: 114
+25 6 maxx=424 iters=114
+N=25 k=7 tris: 98 iterations: 198
+25 7 maxx=502 iters=198
+N=25 k=8 tris: 99 iterations: 202
+25 8 maxx=566 iters=202
+N=25 k=9 tris: 123 iterations: 310
+25 9 maxx=644 iters=310
+N=25 k=10 tris: 124 iterations: 315
+25 10 maxx=708 iters=315
+N=25 k=11 tris: 148 iterations: 447
+25 11 maxx=786 iters=447
+N=25 k=12 tris: 149 iterations: 453
+25 12 maxx=849 iters=453
+N=25 k=13 tris: 173 iterations: 609
+25 13 maxx=927 iters=609
+N=25 k=14 tris: 174 iterations: 616
+25 14 maxx=991 iters=616
+N=25 k=15 tris: 198 iterations: 796
+25 15 maxx=1069 iters=796
+N=25 k=16 tris: 199 iterations: 804
+25 16 maxx=1133 iters=804
+N=25 k=17 tris: 223 iterations: 1008
+25 17 maxx=1211 iters=1008
+N=25 k=18 tris: 224 iterations: 1017
+25 18 maxx=1274 iters=1017
+N=25 k=19 tris: 248 iterations: 1245
+25 19 maxx=1352 iters=1245
+N=25 k=20 tris: 249 iterations: 1255
+25 20 maxx=1416 iters=1255
+N=25 k=21 tris: 273 iterations: 1507
+25 21 maxx=1494 iters=1507
+N=25 k=22 tris: 274 iterations: 1518
+25 22 maxx=1558 iters=1518
+N=25 k=23 tris: 298 iterations: 1794
+25 23 maxx=1636 iters=1794
+N=25 k=24 tris: 299 iterations: 1806
+25 24 maxx=1699 iters=1806
+N=25 k=25 tris: 323 iterations: 2106
+25 25 maxx=1777 iters=2106
+N=25 k=26 tris: 324 iterations: 2119
+25 26 maxx=1841 iters=2119
+N=25 k=27 tris: 348 iterations: 2443
+25 27 maxx=1919 iters=2443
+N=25 k=28 tris: 349 iterations: 2457
+25 28 maxx=1983 iters=2457
+N=25 k=29 tris: 373 iterations: 2805
+25 29 maxx=2061 iters=2805
+N=26 k=1 tris: 11 iterations: 3
+26 1 maxx=72 iters=3
+N=26 k=2 tris: 38 iterations: 30
+26 2 maxx=155 iters=30
+N=26 k=3 tris: 50 iterations: 51
+26 3 maxx=228 iters=51
+N=26 k=4 tris: 51 iterations: 53
+26 4 maxx=294 iters=53
+N=26 k=5 tris: 63 iterations: 80
+26 5 maxx=367 iters=80
+N=26 k=6 tris: 90 iterations: 161
+26 6 maxx=450 iters=161
+N=26 k=7 tris: 102 iterations: 206
+26 7 maxx=523 iters=206
+N=26 k=8 tris: 103 iterations: 210
+26 8 maxx=589 iters=210
+N=26 k=9 tris: 115 iterations: 261
+26 9 maxx=662 iters=261
+N=26 k=10 tris: 142 iterations: 396
+26 10 maxx=745 iters=396
+N=26 k=11 tris: 154 iterations: 465
+26 11 maxx=818 iters=465
+N=26 k=12 tris: 155 iterations: 471
+26 12 maxx=883 iters=471
+N=26 k=13 tris: 167 iterations: 546
+26 13 maxx=956 iters=546
+N=26 k=14 tris: 194 iterations: 735
+26 14 maxx=1039 iters=735
+N=26 k=15 tris: 206 iterations: 828
+26 15 maxx=1112 iters=828
+N=26 k=16 tris: 207 iterations: 836
+26 16 maxx=1178 iters=836
+N=26 k=17 tris: 219 iterations: 935
+26 17 maxx=1251 iters=935
+N=26 k=18 tris: 246 iterations: 1178
+26 18 maxx=1334 iters=1178
+N=26 k=19 tris: 258 iterations: 1295
+26 19 maxx=1407 iters=1295
+N=26 k=20 tris: 259 iterations: 1305
+26 20 maxx=1473 iters=1305
+N=26 k=21 tris: 271 iterations: 1428
+26 21 maxx=1546 iters=1428
+N=26 k=22 tris: 298 iterations: 1725
+26 22 maxx=1629 iters=1725
+N=26 k=23 tris: 310 iterations: 1866
+26 23 maxx=1702 iters=1866
+N=26 k=24 tris: 311 iterations: 1878
+26 24 maxx=1767 iters=1878
+N=26 k=25 tris: 323 iterations: 2025
+26 25 maxx=1840 iters=2025
+N=26 k=26 tris: 350 iterations: 2376
+26 26 maxx=1923 iters=2376
+N=26 k=27 tris: 362 iterations: 2541
+26 27 maxx=1996 iters=2541
+N=26 k=28 tris: 363 iterations: 2555
+26 28 maxx=2062 iters=2555
+N=26 k=29 tris: 375 iterations: 2726
+26 29 maxx=2135 iters=2726
+N=27 k=1 tris: 25 iterations: 13
+27 1 maxx=84 iters=13
+N=27 k=2 tris: 26 iterations: 14
+27 2 maxx=152 iters=14
+N=27 k=3 tris: 52 iterations: 53
+27 3 maxx=237 iters=53
+N=27 k=4 tris: 53 iterations: 55
+27 4 maxx=305 iters=55
+N=27 k=5 tris: 79 iterations: 120
+27 5 maxx=390 iters=120
+N=27 k=6 tris: 80 iterations: 123
+27 6 maxx=458 iters=123
+N=27 k=7 tris: 106 iterations: 214
+27 7 maxx=543 iters=214
+N=27 k=8 tris: 107 iterations: 218
+27 8 maxx=611 iters=218
+N=27 k=9 tris: 133 iterations: 335
+27 9 maxx=696 iters=335
+N=27 k=10 tris: 134 iterations: 340
+27 10 maxx=764 iters=340
+N=27 k=11 tris: 160 iterations: 483
+27 11 maxx=849 iters=483
+N=27 k=12 tris: 161 iterations: 489
+27 12 maxx=917 iters=489
+N=27 k=13 tris: 187 iterations: 658
+27 13 maxx=1002 iters=658
+N=27 k=14 tris: 188 iterations: 665
+27 14 maxx=1070 iters=665
+N=27 k=15 tris: 214 iterations: 860
+27 15 maxx=1155 iters=860
+N=27 k=16 tris: 215 iterations: 868
+27 16 maxx=1223 iters=868
+N=27 k=17 tris: 241 iterations: 1089
+27 17 maxx=1308 iters=1089
+N=27 k=18 tris: 242 iterations: 1098
+27 18 maxx=1376 iters=1098
+N=27 k=19 tris: 268 iterations: 1345
+27 19 maxx=1461 iters=1345
+N=27 k=20 tris: 269 iterations: 1355
+27 20 maxx=1529 iters=1355
+N=27 k=21 tris: 295 iterations: 1628
+27 21 maxx=1614 iters=1628
+N=27 k=22 tris: 296 iterations: 1639
+27 22 maxx=1682 iters=1639
+N=27 k=23 tris: 322 iterations: 1938
+27 23 maxx=1767 iters=1938
+N=27 k=24 tris: 323 iterations: 1950
+27 24 maxx=1835 iters=1950
+N=27 k=25 tris: 349 iterations: 2275
+27 25 maxx=1920 iters=2275
+N=27 k=26 tris: 350 iterations: 2288
+27 26 maxx=1988 iters=2288
+N=27 k=27 tris: 376 iterations: 2639
+27 27 maxx=2073 iters=2639
+N=27 k=28 tris: 377 iterations: 2653
+27 28 maxx=2141 iters=2653
+N=27 k=29 tris: 403 iterations: 3030
+27 29 maxx=2226 iters=3030
+N=28 k=1 tris: 6 iterations: 1
+28 1 maxx=74 iters=1
+N=28 k=2 tris: 47 iterations: 42
+28 2 maxx=171 iters=42
+N=28 k=3 tris: 54 iterations: 55
+28 3 maxx=246 iters=55
+N=28 k=4 tris: 55 iterations: 57
+28 4 maxx=317 iters=57
+N=28 k=5 tris: 62 iterations: 72
+28 5 maxx=391 iters=72
+N=28 k=6 tris: 103 iterations: 195
+28 6 maxx=489 iters=195
+N=28 k=7 tris: 110 iterations: 222
+28 7 maxx=563 iters=222
+N=28 k=8 tris: 111 iterations: 226
+28 8 maxx=634 iters=226
+N=28 k=9 tris: 118 iterations: 255
+28 9 maxx=709 iters=255
+N=28 k=10 tris: 159 iterations: 460
+28 10 maxx=806 iters=460
+N=28 k=11 tris: 166 iterations: 501
+28 11 maxx=881 iters=501
+N=28 k=12 tris: 167 iterations: 507
+28 12 maxx=951 iters=507
+N=28 k=13 tris: 174 iterations: 550
+28 13 maxx=1026 iters=550
+N=28 k=14 tris: 215 iterations: 837
+28 14 maxx=1123 iters=837
+N=28 k=15 tris: 222 iterations: 892
+28 15 maxx=1198 iters=892
+N=28 k=16 tris: 223 iterations: 900
+28 16 maxx=1269 iters=900
+N=28 k=17 tris: 230 iterations: 957
+28 17 maxx=1343 iters=957
+N=28 k=18 tris: 271 iterations: 1326
+28 18 maxx=1441 iters=1326
+N=28 k=19 tris: 278 iterations: 1395
+28 19 maxx=1515 iters=1395
+N=28 k=20 tris: 279 iterations: 1405
+28 20 maxx=1586 iters=1405
+N=28 k=21 tris: 286 iterations: 1476
+28 21 maxx=1661 iters=1476
+N=28 k=22 tris: 327 iterations: 1927
+28 22 maxx=1758 iters=1927
+N=28 k=23 tris: 334 iterations: 2010
+28 23 maxx=1833 iters=2010
+N=28 k=24 tris: 335 iterations: 2022
+28 24 maxx=1903 iters=2022
+N=28 k=25 tris: 342 iterations: 2107
+28 25 maxx=1978 iters=2107
+N=28 k=26 tris: 383 iterations: 2640
+28 26 maxx=2075 iters=2640
+N=28 k=27 tris: 390 iterations: 2737
+28 27 maxx=2150 iters=2737
+N=28 k=28 tris: 391 iterations: 2751
+28 28 maxx=2221 iters=2751
+N=28 k=29 tris: 398 iterations: 2850
+28 29 maxx=2295 iters=2850
+N=29 k=1 tris: 27 iterations: 14
+29 1 maxx=90 iters=14
+N=29 k=2 tris: 28 iterations: 15
+29 2 maxx=164 iters=15
+N=29 k=3 tris: 56 iterations: 57
+29 3 maxx=254 iters=57
+N=29 k=4 tris: 57 iterations: 59
+29 4 maxx=328 iters=59
+N=29 k=5 tris: 85 iterations: 129
+29 5 maxx=419 iters=129
+N=29 k=6 tris: 86 iterations: 132
+29 6 maxx=492 iters=132
+N=29 k=7 tris: 114 iterations: 230
+29 7 maxx=583 iters=230
+N=29 k=8 tris: 115 iterations: 234
+29 8 maxx=657 iters=234
+N=29 k=9 tris: 143 iterations: 360
+29 9 maxx=747 iters=360
+N=29 k=10 tris: 144 iterations: 365
+29 10 maxx=821 iters=365
+N=29 k=11 tris: 172 iterations: 519
+29 11 maxx=912 iters=519
+N=29 k=12 tris: 173 iterations: 525
+29 12 maxx=985 iters=525
+N=29 k=13 tris: 201 iterations: 707
+29 13 maxx=1076 iters=707
+N=29 k=14 tris: 202 iterations: 714
+29 14 maxx=1150 iters=714
+N=29 k=15 tris: 230 iterations: 924
+29 15 maxx=1240 iters=924
+N=29 k=16 tris: 231 iterations: 932
+29 16 maxx=1314 iters=932
+N=29 k=17 tris: 259 iterations: 1170
+29 17 maxx=1405 iters=1170
+N=29 k=18 tris: 260 iterations: 1179
+29 18 maxx=1478 iters=1179
+N=29 k=19 tris: 288 iterations: 1445
+29 19 maxx=1569 iters=1445
+N=29 k=20 tris: 289 iterations: 1455
+29 20 maxx=1643 iters=1455
+N=29 k=21 tris: 317 iterations: 1749
+29 21 maxx=1733 iters=1749
+N=29 k=22 tris: 318 iterations: 1760
+29 22 maxx=1807 iters=1760
+N=29 k=23 tris: 346 iterations: 2082
+29 23 maxx=1898 iters=2082
+N=29 k=24 tris: 347 iterations: 2094
+29 24 maxx=1971 iters=2094
+N=29 k=25 tris: 375 iterations: 2444
+29 25 maxx=2062 iters=2444
+N=29 k=26 tris: 376 iterations: 2457
+29 26 maxx=2136 iters=2457
+N=29 k=27 tris: 404 iterations: 2835
+29 27 maxx=2226 iters=2835
+N=29 k=28 tris: 405 iterations: 2849
+29 28 maxx=2300 iters=2849
+N=29 k=29 tris: 433 iterations: 3255
+29 29 maxx=2391 iters=3255
+N=30 k=1 tris: 14 iterations: 4
+30 1 maxx=84 iters=4
+N=30 k=2 tris: 19 iterations: 7
+30 2 maxx=163 iters=7
+N=30 k=3 tris: 23 iterations: 10
+30 3 maxx=240 iters=10
+N=30 k=4 tris: 34 iterations: 21
+30 4 maxx=323 iters=21
+N=30 k=5 tris: 38 iterations: 26
+30 5 maxx=400 iters=26
+N=30 k=6 tris: 43 iterations: 33
+30 6 maxx=479 iters=33
+N=30 k=7 tris: 58 iterations: 59
+30 7 maxx=564 iters=59
+N=30 k=8 tris: 59 iterations: 61
+30 8 maxx=639 iters=61
+N=30 k=9 tris: 74 iterations: 95
+30 9 maxx=724 iters=95
+N=30 k=10 tris: 79 iterations: 108
+30 10 maxx=803 iters=108
+N=30 k=11 tris: 83 iterations: 119
+30 11 maxx=880 iters=119
+N=30 k=12 tris: 94 iterations: 152
+30 12 maxx=963 iters=152
+N=30 k=13 tris: 98 iterations: 165
+30 13 maxx=1040 iters=165
+N=30 k=14 tris: 103 iterations: 182
+30 14 maxx=1119 iters=182
+N=30 k=15 tris: 118 iterations: 238
+30 15 maxx=1204 iters=238
+N=30 k=16 tris: 119 iterations: 242
+30 16 maxx=1279 iters=242
+N=30 k=17 tris: 134 iterations: 306
+30 17 maxx=1364 iters=306
+N=30 k=18 tris: 139 iterations: 329
+30 18 maxx=1443 iters=329
+N=30 k=19 tris: 143 iterations: 348
+30 19 maxx=1520 iters=348
+N=30 k=20 tris: 154 iterations: 403
+30 20 maxx=1603 iters=403
+N=30 k=21 tris: 158 iterations: 424
+30 21 maxx=1680 iters=424
+N=30 k=22 tris: 163 iterations: 451
+30 22 maxx=1759 iters=451
+N=30 k=23 tris: 178 iterations: 537
+30 23 maxx=1844 iters=537
+N=30 k=24 tris: 179 iterations: 543
+30 24 maxx=1919 iters=543
+N=30 k=25 tris: 194 iterations: 637
+30 25 maxx=2004 iters=637
+N=30 k=26 tris: 199 iterations: 670
+30 26 maxx=2083 iters=670
+N=30 k=27 tris: 203 iterations: 697
+30 27 maxx=2160 iters=697
+N=30 k=28 tris: 214 iterations: 774
+30 28 maxx=2243 iters=774
+N=30 k=29 tris: 218 iterations: 803
+30 29 maxx=2320 iters=803
+N=31 k=1 tris: 29 iterations: 15
+31 1 maxx=96 iters=15
+N=31 k=2 tris: 30 iterations: 16
+31 2 maxx=175 iters=16
+N=31 k=3 tris: 60 iterations: 61
+31 3 maxx=272 iters=61
+N=31 k=4 tris: 61 iterations: 63
+31 4 maxx=351 iters=63
+N=31 k=5 tris: 91 iterations: 138
+31 5 maxx=448 iters=138
+N=31 k=6 tris: 92 iterations: 141
+31 6 maxx=526 iters=141
+N=31 k=7 tris: 122 iterations: 246
+31 7 maxx=623 iters=246
+N=31 k=8 tris: 123 iterations: 250
+31 8 maxx=702 iters=250
+N=31 k=9 tris: 153 iterations: 385
+31 9 maxx=799 iters=385
+N=31 k=10 tris: 154 iterations: 390
+31 10 maxx=878 iters=390
+N=31 k=11 tris: 184 iterations: 555
+31 11 maxx=975 iters=555
+N=31 k=12 tris: 185 iterations: 561
+31 12 maxx=1053 iters=561
+N=31 k=13 tris: 215 iterations: 756
+31 13 maxx=1150 iters=756
+N=31 k=14 tris: 216 iterations: 763
+31 14 maxx=1229 iters=763
+N=31 k=15 tris: 246 iterations: 988
+31 15 maxx=1326 iters=988
+N=31 k=16 tris: 247 iterations: 996
+31 16 maxx=1405 iters=996
+N=31 k=17 tris: 277 iterations: 1251
+31 17 maxx=1502 iters=1251
+N=31 k=18 tris: 278 iterations: 1260
+31 18 maxx=1580 iters=1260
+N=31 k=19 tris: 308 iterations: 1545
+31 19 maxx=1677 iters=1545
+N=31 k=20 tris: 309 iterations: 1555
+31 20 maxx=1756 iters=1555
+N=31 k=21 tris: 339 iterations: 1870
+31 21 maxx=1853 iters=1870
+N=31 k=22 tris: 340 iterations: 1881
+31 22 maxx=1932 iters=1881
+N=31 k=23 tris: 370 iterations: 2226
+31 23 maxx=2029 iters=2226
+N=31 k=24 tris: 371 iterations: 2238
+31 24 maxx=2107 iters=2238
+N=31 k=25 tris: 401 iterations: 2613
+31 25 maxx=2204 iters=2613
+N=31 k=26 tris: 402 iterations: 2626
+31 26 maxx=2283 iters=2626
+N=31 k=27 tris: 432 iterations: 3031
+31 27 maxx=2380 iters=3031
+N=31 k=28 tris: 433 iterations: 3045
+31 28 maxx=2459 iters=3045
+N=31 k=29 tris: 463 iterations: 3480
+31 29 maxx=2556 iters=3480
+N=32 k=1 tris: 62 iterations: 63
+32 1 maxx=121 iters=63
+N=32 k=2 tris: 63 iterations: 65
+32 2 maxx=202 iters=65
+N=32 k=3 tris: 126 iterations: 254
+32 3 maxx=324 iters=254
+N=32 k=4 tris: 127 iterations: 258
+32 4 maxx=405 iters=258
+N=32 k=5 tris: 190 iterations: 573
+32 5 maxx=527 iters=573
+N=32 k=6 tris: 191 iterations: 579
+32 6 maxx=607 iters=579
+N=32 k=7 tris: 254 iterations: 1020
+32 7 maxx=729 iters=1020
+N=32 k=8 tris: 255 iterations: 1028
+32 8 maxx=810 iters=1028
+N=32 k=9 tris: 318 iterations: 1595
+32 9 maxx=932 iters=1595
+N=32 k=10 tris: 319 iterations: 1605
+32 10 maxx=1013 iters=1605
+N=32 k=11 tris: 382 iterations: 2298
+32 11 maxx=1135 iters=2298
+N=32 k=12 tris: 383 iterations: 2310
+32 12 maxx=1215 iters=2310
+N=32 k=13 tris: 446 iterations: 3129
+32 13 maxx=1337 iters=3129
+N=32 k=14 tris: 447 iterations: 3143
+32 14 maxx=1418 iters=3143
+N=32 k=15 tris: 510 iterations: 4088
+32 15 maxx=1540 iters=4088
+N=32 k=16 tris: 511 iterations: 4104
+32 16 maxx=1621 iters=4104
+N=32 k=17 tris: 574 iterations: 5175
+32 17 maxx=1743 iters=5175
+N=32 k=18 tris: 575 iterations: 5193
+32 18 maxx=1823 iters=5193
+N=32 k=19 tris: 638 iterations: 6390
+32 19 maxx=1945 iters=6390
+N=32 k=20 tris: 639 iterations: 6410
+32 20 maxx=2026 iters=6410
+N=32 k=21 tris: 702 iterations: 7733
+32 21 maxx=2148 iters=7733
+N=32 k=22 tris: 703 iterations: 7755
+32 22 maxx=2229 iters=7755
+N=32 k=23 tris: 766 iterations: 9204
+32 23 maxx=2351 iters=9204
+N=32 k=24 tris: 767 iterations: 9228
+32 24 maxx=2431 iters=9228
+N=32 k=25 tris: 830 iterations: 10803
+32 25 maxx=2553 iters=10803
+N=32 k=26 tris: 831 iterations: 10829
+32 26 maxx=2634 iters=10829
+N=32 k=27 tris: 894 iterations: 12530
+32 27 maxx=2756 iters=12530
+N=32 k=28 tris: 895 iterations: 12558
+32 28 maxx=2837 iters=12558
+N=32 k=29 tris: 958 iterations: 14385
+32 29 maxx=2959 iters=14385
+N=33 k=1 tris: 10 iterations: 2
+33 1 maxx=89 iters=2
+N=33 k=2 tris: 20 iterations: 7
+33 2 maxx=178 iters=7
+N=33 k=3 tris: 31 iterations: 16
+33 3 maxx=268 iters=16
+N=33 k=4 tris: 32 iterations: 17
+33 4 maxx=351 iters=17
+N=33 k=5 tris: 43 iterations: 30
+33 5 maxx=441 iters=30
+N=33 k=6 tris: 53 iterations: 45
+33 6 maxx=530 iters=45
+N=33 k=7 tris: 64 iterations: 65
+33 7 maxx=620 iters=65
+N=33 k=8 tris: 65 iterations: 67
+33 8 maxx=703 iters=67
+N=33 k=9 tris: 76 iterations: 91
+33 9 maxx=793 iters=91
+N=33 k=10 tris: 86 iterations: 116
+33 10 maxx=882 iters=116
+N=33 k=11 tris: 97 iterations: 147
+33 11 maxx=972 iters=147
+N=33 k=12 tris: 98 iterations: 150
+33 12 maxx=1055 iters=150
+N=33 k=13 tris: 109 iterations: 185
+33 13 maxx=1145 iters=185
+N=33 k=14 tris: 119 iterations: 220
+33 14 maxx=1234 iters=220
+N=33 k=15 tris: 130 iterations: 262
+33 15 maxx=1324 iters=262
+N=33 k=16 tris: 131 iterations: 266
+33 16 maxx=1407 iters=266
+N=33 k=17 tris: 142 iterations: 312
+33 17 maxx=1497 iters=312
+N=33 k=18 tris: 152 iterations: 357
+33 18 maxx=1586 iters=357
+N=33 k=19 tris: 163 iterations: 410
+33 19 maxx=1676 iters=410
+N=33 k=20 tris: 164 iterations: 415
+33 20 maxx=1759 iters=415
+N=33 k=21 tris: 175 iterations: 472
+33 21 maxx=1849 iters=472
+N=33 k=22 tris: 185 iterations: 527
+33 22 maxx=1938 iters=527
+N=33 k=23 tris: 196 iterations: 591
+33 23 maxx=2028 iters=591
+N=33 k=24 tris: 197 iterations: 597
+33 24 maxx=2111 iters=597
+N=33 k=25 tris: 208 iterations: 665
+33 25 maxx=2201 iters=665
+N=33 k=26 tris: 218 iterations: 730
+33 26 maxx=2290 iters=730
+N=33 k=27 tris: 229 iterations: 805
+33 27 maxx=2380 iters=805
+N=33 k=28 tris: 230 iterations: 812
+33 28 maxx=2463 iters=812
+N=33 k=29 tris: 241 iterations: 891
+33 29 maxx=2553 iters=891
+N=34 k=1 tris: 15 iterations: 4
+34 1 maxx=95 iters=4
+N=34 k=2 tris: 50 iterations: 39
+34 2 maxx=203 iters=39
+N=34 k=3 tris: 66 iterations: 67
+34 3 maxx=299 iters=67
+N=34 k=4 tris: 67 iterations: 69
+34 4 maxx=385 iters=69
+N=34 k=5 tris: 83 iterations: 105
+34 5 maxx=480 iters=105
+N=34 k=6 tris: 118 iterations: 210
+34 6 maxx=589 iters=210
+N=34 k=7 tris: 134 iterations: 270
+34 7 maxx=684 iters=270
+N=34 k=8 tris: 135 iterations: 274
+34 8 maxx=770 iters=274
+N=34 k=9 tris: 151 iterations: 342
+34 9 maxx=866 iters=342
+N=34 k=10 tris: 186 iterations: 517
+34 10 maxx=974 iters=517
+N=34 k=11 tris: 202 iterations: 609
+34 11 maxx=1070 iters=609
+N=34 k=12 tris: 203 iterations: 615
+34 12 maxx=1155 iters=615
+N=34 k=13 tris: 219 iterations: 715
+34 13 maxx=1251 iters=715
+N=34 k=14 tris: 254 iterations: 960
+34 14 maxx=1359 iters=960
+N=34 k=15 tris: 270 iterations: 1084
+34 15 maxx=1455 iters=1084
+N=34 k=16 tris: 271 iterations: 1092
+34 16 maxx=1541 iters=1092
+N=34 k=17 tris: 287 iterations: 1224
+34 17 maxx=1636 iters=1224
+N=34 k=18 tris: 322 iterations: 1539
+34 18 maxx=1745 iters=1539
+N=34 k=19 tris: 338 iterations: 1695
+34 19 maxx=1840 iters=1695
+N=34 k=20 tris: 339 iterations: 1705
+34 20 maxx=1926 iters=1705
+N=34 k=21 tris: 355 iterations: 1869
+34 21 maxx=2022 iters=1869
+N=34 k=22 tris: 390 iterations: 2254
+34 22 maxx=2130 iters=2254
+N=34 k=23 tris: 406 iterations: 2442
+34 23 maxx=2226 iters=2442
+N=34 k=24 tris: 407 iterations: 2454
+34 24 maxx=2311 iters=2454
+N=34 k=25 tris: 423 iterations: 2650
+34 25 maxx=2407 iters=2650
+N=34 k=26 tris: 458 iterations: 3105
+34 26 maxx=2515 iters=3105
+N=34 k=27 tris: 474 iterations: 3325
+34 27 maxx=2611 iters=3325
+N=34 k=28 tris: 475 iterations: 3339
+34 28 maxx=2697 iters=3339
+N=34 k=29 tris: 491 iterations: 3567
+34 29 maxx=2792 iters=3567
+N=35 k=1 tris: 13 iterations: 3
+35 1 maxx=96 iters=3
+N=35 k=2 tris: 19 iterations: 6
+35 2 maxx=188 iters=6
+N=35 k=3 tris: 33 iterations: 17
+35 3 maxx=284 iters=17
+N=35 k=4 tris: 34 iterations: 18
+35 4 maxx=373 iters=18
+N=35 k=5 tris: 48 iterations: 35
+35 5 maxx=469 iters=35
+N=35 k=6 tris: 54 iterations: 44
+35 6 maxx=561 iters=44
+N=35 k=7 tris: 68 iterations: 69
+35 7 maxx=657 iters=69
+N=35 k=8 tris: 69 iterations: 71
+35 8 maxx=746 iters=71
+N=35 k=9 tris: 83 iterations: 102
+35 9 maxx=842 iters=102
+N=35 k=10 tris: 89 iterations: 117
+35 10 maxx=934 iters=117
+N=35 k=11 tris: 103 iterations: 156
+35 11 maxx=1031 iters=156
+N=35 k=12 tris: 104 iterations: 159
+35 12 maxx=1119 iters=159
+N=35 k=13 tris: 118 iterations: 204
+35 13 maxx=1216 iters=204
+N=35 k=14 tris: 124 iterations: 225
+35 14 maxx=1308 iters=225
+N=35 k=15 tris: 138 iterations: 278
+35 15 maxx=1404 iters=278
+N=35 k=16 tris: 139 iterations: 282
+35 16 maxx=1493 iters=282
+N=35 k=17 tris: 153 iterations: 341
+35 17 maxx=1589 iters=341
+N=35 k=18 tris: 159 iterations: 368
+35 18 maxx=1681 iters=368
+N=35 k=19 tris: 173 iterations: 435
+35 19 maxx=1777 iters=435
+N=35 k=20 tris: 174 iterations: 440
+35 20 maxx=1866 iters=440
+N=35 k=21 tris: 188 iterations: 513
+35 21 maxx=1962 iters=513
+N=35 k=22 tris: 194 iterations: 546
+35 22 maxx=2054 iters=546
+N=35 k=23 tris: 208 iterations: 627
+35 23 maxx=2151 iters=627
+N=35 k=24 tris: 209 iterations: 633
+35 24 maxx=2239 iters=633
+N=35 k=25 tris: 223 iterations: 720
+35 25 maxx=2336 iters=720
+N=35 k=26 tris: 229 iterations: 759
+35 26 maxx=2428 iters=759
+N=35 k=27 tris: 243 iterations: 854
+35 27 maxx=2524 iters=854
+N=35 k=28 tris: 244 iterations: 861
+35 28 maxx=2613 iters=861
+N=35 k=29 tris: 258 iterations: 962
+35 29 maxx=2709 iters=962
+N=36 k=1 tris: 7 iterations: 1
+36 1 maxx=95 iters=1
+N=36 k=2 tris: 62 iterations: 56
+36 2 maxx=221 iters=56
+N=36 k=3 tris: 70 iterations: 71
+36 3 maxx=317 iters=71
+N=36 k=4 tris: 71 iterations: 73
+36 4 maxx=407 iters=73
+N=36 k=5 tris: 79 iterations: 90
+36 5 maxx=503 iters=90
+N=36 k=6 tris: 134 iterations: 255
+36 6 maxx=629 iters=255
+N=36 k=7 tris: 142 iterations: 286
+36 7 maxx=725 iters=286
+N=36 k=8 tris: 143 iterations: 290
+36 8 maxx=815 iters=290
+N=36 k=9 tris: 151 iterations: 323
+36 9 maxx=911 iters=323
+N=36 k=10 tris: 206 iterations: 598
+36 10 maxx=1037 iters=598
+N=36 k=11 tris: 214 iterations: 645
+36 11 maxx=1133 iters=645
+N=36 k=12 tris: 215 iterations: 651
+36 12 maxx=1223 iters=651
+N=36 k=13 tris: 223 iterations: 700
+36 13 maxx=1319 iters=700
+N=36 k=14 tris: 278 iterations: 1085
+36 14 maxx=1445 iters=1085
+N=36 k=15 tris: 286 iterations: 1148
+36 15 maxx=1541 iters=1148
+N=36 k=16 tris: 287 iterations: 1156
+36 16 maxx=1631 iters=1156
+N=36 k=17 tris: 295 iterations: 1221
+36 17 maxx=1727 iters=1221
+N=36 k=18 tris: 350 iterations: 1716
+36 18 maxx=1853 iters=1716
+N=36 k=19 tris: 358 iterations: 1795
+36 19 maxx=1949 iters=1795
+N=36 k=20 tris: 359 iterations: 1805
+36 20 maxx=2039 iters=1805
+N=36 k=21 tris: 367 iterations: 1886
+36 21 maxx=2135 iters=1886
+N=36 k=22 tris: 422 iterations: 2491
+36 22 maxx=2261 iters=2491
+N=36 k=23 tris: 430 iterations: 2586
+36 23 maxx=2357 iters=2586
+N=36 k=24 tris: 431 iterations: 2598
+36 24 maxx=2447 iters=2598
+N=36 k=25 tris: 439 iterations: 2695
+36 25 maxx=2543 iters=2695
+N=36 k=26 tris: 494 iterations: 3410
+36 26 maxx=2669 iters=3410
+N=36 k=27 tris: 502 iterations: 3521
+36 27 maxx=2765 iters=3521
+N=36 k=28 tris: 503 iterations: 3535
+36 28 maxx=2855 iters=3535
+N=36 k=29 tris: 511 iterations: 3648
+36 29 maxx=2951 iters=3648
+N=37 k=1 tris: 35 iterations: 18
+37 1 maxx=115 iters=18
+N=37 k=2 tris: 36 iterations: 19
+37 2 maxx=209 iters=19
+N=37 k=3 tris: 72 iterations: 73
+37 3 maxx=325 iters=73
+N=37 k=4 tris: 73 iterations: 75
+37 4 maxx=419 iters=75
+N=37 k=5 tris: 109 iterations: 165
+37 5 maxx=535 iters=165
+N=37 k=6 tris: 110 iterations: 168
+37 6 maxx=628 iters=168
+N=37 k=7 tris: 146 iterations: 294
+37 7 maxx=744 iters=294
+N=37 k=8 tris: 147 iterations: 298
+37 8 maxx=838 iters=298
+N=37 k=9 tris: 183 iterations: 460
+37 9 maxx=954 iters=460
+N=37 k=10 tris: 184 iterations: 465
+37 10 maxx=1048 iters=465
+N=37 k=11 tris: 220 iterations: 663
+37 11 maxx=1164 iters=663
+N=37 k=12 tris: 221 iterations: 669
+37 12 maxx=1257 iters=669
+N=37 k=13 tris: 257 iterations: 903
+37 13 maxx=1373 iters=903
+N=37 k=14 tris: 258 iterations: 910
+37 14 maxx=1467 iters=910
+N=37 k=15 tris: 294 iterations: 1180
+37 15 maxx=1583 iters=1180
+N=37 k=16 tris: 295 iterations: 1188
+37 16 maxx=1677 iters=1188
+N=37 k=17 tris: 331 iterations: 1494
+37 17 maxx=1793 iters=1494
+N=37 k=18 tris: 332 iterations: 1503
+37 18 maxx=1886 iters=1503
+N=37 k=19 tris: 368 iterations: 1845
+37 19 maxx=2002 iters=1845
+N=37 k=20 tris: 369 iterations: 1855
+37 20 maxx=2096 iters=1855
+N=37 k=21 tris: 405 iterations: 2233
+37 21 maxx=2212 iters=2233
+N=37 k=22 tris: 406 iterations: 2244
+37 22 maxx=2306 iters=2244
+N=37 k=23 tris: 442 iterations: 2658
+37 23 maxx=2422 iters=2658
+N=37 k=24 tris: 443 iterations: 2670
+37 24 maxx=2515 iters=2670
+N=37 k=25 tris: 479 iterations: 3120
+37 25 maxx=2631 iters=3120
+N=37 k=26 tris: 480 iterations: 3133
+37 26 maxx=2725 iters=3133
+N=37 k=27 tris: 516 iterations: 3619
+37 27 maxx=2841 iters=3619
+N=37 k=28 tris: 517 iterations: 3633
+37 28 maxx=2935 iters=3633
+N=37 k=29 tris: 553 iterations: 4155
+37 29 maxx=3051 iters=4155
+N=38 k=1 tris: 18 iterations: 5
+38 1 maxx=107 iters=5
+N=38 k=2 tris: 55 iterations: 42
+38 2 maxx=227 iters=42
+N=38 k=3 tris: 74 iterations: 75
+38 3 maxx=334 iters=75
+N=38 k=4 tris: 75 iterations: 77
+38 4 maxx=430 iters=77
+N=38 k=5 tris: 94 iterations: 120
+38 5 maxx=538 iters=120
+N=38 k=6 tris: 131 iterations: 231
+38 6 maxx=657 iters=231
+N=38 k=7 tris: 150 iterations: 302
+38 7 maxx=765 iters=302
+N=38 k=8 tris: 151 iterations: 306
+38 8 maxx=861 iters=306
+N=38 k=9 tris: 170 iterations: 387
+38 9 maxx=968 iters=387
+N=38 k=10 tris: 207 iterations: 572
+38 10 maxx=1088 iters=572
+N=38 k=11 tris: 226 iterations: 681
+38 11 maxx=1196 iters=681
+N=38 k=12 tris: 227 iterations: 687
+38 12 maxx=1291 iters=687
+N=38 k=13 tris: 246 iterations: 806
+38 13 maxx=1399 iters=806
+N=38 k=14 tris: 283 iterations: 1065
+38 14 maxx=1519 iters=1065
+N=38 k=15 tris: 302 iterations: 1212
+38 15 maxx=1626 iters=1212
+N=38 k=16 tris: 303 iterations: 1220
+38 16 maxx=1722 iters=1220
+N=38 k=17 tris: 322 iterations: 1377
+38 17 maxx=1830 iters=1377
+N=38 k=18 tris: 359 iterations: 1710
+38 18 maxx=1949 iters=1710
+N=38 k=19 tris: 378 iterations: 1895
+38 19 maxx=2057 iters=1895
+N=38 k=20 tris: 379 iterations: 1905
+38 20 maxx=2153 iters=1905
+N=38 k=21 tris: 398 iterations: 2100
+38 21 maxx=2260 iters=2100
+N=38 k=22 tris: 435 iterations: 2507
+38 22 maxx=2380 iters=2507
+N=38 k=23 tris: 454 iterations: 2730
+38 23 maxx=2488 iters=2730
+N=38 k=24 tris: 455 iterations: 2742
+38 24 maxx=2583 iters=2742
+N=38 k=25 tris: 474 iterations: 2975
+38 25 maxx=2691 iters=2975
+N=38 k=26 tris: 511 iterations: 3456
+38 26 maxx=2811 iters=3456
+N=38 k=27 tris: 530 iterations: 3717
+38 27 maxx=2918 iters=3717
+N=38 k=28 tris: 531 iterations: 3731
+38 28 maxx=3014 iters=3731
+N=38 k=29 tris: 550 iterations: 4002
+38 29 maxx=3122 iters=4002
+N=39 k=1 tris: 11 iterations: 2
+39 1 maxx=104 iters=2
+N=39 k=2 tris: 25 iterations: 9
+39 2 maxx=212 iters=9
+N=39 k=3 tris: 37 iterations: 19
+39 3 maxx=317 iters=19
+N=39 k=4 tris: 38 iterations: 20
+39 4 maxx=415 iters=20
+N=39 k=5 tris: 50 iterations: 34
+39 5 maxx=520 iters=34
+N=39 k=6 tris: 64 iterations: 55
+39 6 maxx=628 iters=55
+N=39 k=7 tris: 76 iterations: 77
+39 7 maxx=733 iters=77
+N=39 k=8 tris: 77 iterations: 79
+39 8 maxx=831 iters=79
+N=39 k=9 tris: 89 iterations: 105
+39 9 maxx=936 iters=105
+N=39 k=10 tris: 103 iterations: 140
+39 10 maxx=1044 iters=140
+N=39 k=11 tris: 115 iterations: 174
+39 11 maxx=1149 iters=174
+N=39 k=12 tris: 116 iterations: 177
+39 12 maxx=1247 iters=177
+N=39 k=13 tris: 128 iterations: 215
+39 13 maxx=1352 iters=215
+N=39 k=14 tris: 142 iterations: 264
+39 14 maxx=1460 iters=264
+N=39 k=15 tris: 154 iterations: 310
+39 15 maxx=1565 iters=310
+N=39 k=16 tris: 155 iterations: 314
+39 16 maxx=1663 iters=314
+N=39 k=17 tris: 167 iterations: 364
+39 17 maxx=1768 iters=364
+N=39 k=18 tris: 181 iterations: 427
+39 18 maxx=1876 iters=427
+N=39 k=19 tris: 193 iterations: 485
+39 19 maxx=1981 iters=485
+N=39 k=20 tris: 194 iterations: 490
+39 20 maxx=2079 iters=490
+N=39 k=21 tris: 206 iterations: 552
+39 21 maxx=2184 iters=552
+N=39 k=22 tris: 220 iterations: 629
+39 22 maxx=2292 iters=629
+N=39 k=23 tris: 232 iterations: 699
+39 23 maxx=2397 iters=699
+N=39 k=24 tris: 233 iterations: 705
+39 24 maxx=2495 iters=705
+N=39 k=25 tris: 245 iterations: 779
+39 25 maxx=2600 iters=779
+N=39 k=26 tris: 259 iterations: 870
+39 26 maxx=2708 iters=870
+N=39 k=27 tris: 271 iterations: 952
+39 27 maxx=2813 iters=952
+N=39 k=28 tris: 272 iterations: 959
+39 28 maxx=2911 iters=959
+N=39 k=29 tris: 284 iterations: 1045
+39 29 maxx=3016 iters=1045
