@@ -123,7 +123,7 @@ we `count' all lattice sites (mod $n$).  In general, this yields
 
 The first author's initial interest in generating spirals of
 increasing size for various $\ZZ_n$ was to investigate some of the
-patterns seen in figure \ref{fig:mod10}.  In an attempt to describe
+patterns seen when using $\ZZ_{10}$ as the set of values.  In an attempt to describe
 the patterns, he introduced the following definition:
 
 
@@ -141,13 +141,14 @@ $Ond^k_n$, $k = 2,3,\dots$.  The number of times $\ZZ_n$ is used in
 order to complete the $k^{th}$ square is the iteration count.  The
 word ``ond'' is ``spiral'' in Swahili.
 
-
-Figure \ref{fig:mod34} shows $Ond_n^k$ for $k=1,2$ and $n=1,2$.  We
-see that $Ond^1_3$ is a $3\times3$ square and has iteration count 3,
-and $Ond^2_3$ is a $6\times6$ square with 12 iterations.  Similarly,
-$Ond^1_4$ is $2\times2$ with a single iteration, and $Ond^2_4$ is
-$4\times4$ with 4 iterations. The first element, 0, of each spiral in the
-figures is in a box and last element of the spiral marked with a dot.
+REVIEW FIGURE REMOVAL AND PARAGRAPH REMOVAL
+%%% THIS RESULTED FROM FIGURE REMOVAL
+%Figure \ref{fig:mod34} shows $Ond_n^k$ for $k=1,2$ and $n=1,2$.  We
+%see that $Ond^1_3$ is a $3\times3$ square and has iteration count 3,
+%and $Ond^2_3$ is a $6\times6$ square with 12 iterations.  Similarly,
+%$Ond^1_4$ is $2\times2$ with a single iteration, and $Ond^2_4$ is
+%$4\times4$ with 4 iterations. The first element, 0, of each spiral in the
+%figures is in a box and last element of the spiral marked with a dot.
 
 The author generated several spirals with pencil and paper in a
 methodical manner to create sets of complete spirals for various
@@ -226,16 +227,14 @@ The function $f$ thus maps $\ZZ_n$ to a set of brightness values which
 are used to generate grayscale images.
 
 
-An example of this is $Ond^{39}_{31}$ seen in figure \ref{fig:viz3139}. One can
+An interesting visual example is when one generates  $Ond^{39}_{31}$. One can
 see a complex pattern emerging.  Further, if one zooms
 in and out on the image, various different patterns emerge that seem
 to play tricks on the eye.  The image may also be view at
 \cite{GraySquare} and is the file \textit{N=31\_k=39-grey.png} which
 makes it easier for testing the zoom in/out.  Further, at this
 location, one may find the generated images for $Ond^k_n$ for $n=2, 3,
-\ldots, 31$ and $k=1,2, \ldots, 50$. Another visualization example is provided by Figure
-\ref{fig:viz1039} and is the spiral $Ond^{39}_{10}$.
-
+\ldots, 31$ and $k=1,2, \ldots, 50$.
 
 \begin{proof}[Proof of the Theorem]
   Recall that $n\ge 2$ is fixed.  Let $\lambda$ be the length of the
@@ -376,21 +375,13 @@ There are a few ways to visualize these triangles. The way we are interested in 
 On the other hand one could start in a corner and  lap back-and-forth in either 1 or 2 directions; these visualizations may 
 be found \cite{trivis1} and \cite{trivis2}.
 
-\subsection{Centered Hexagonal Numbers}
 
-Similar to the triangles above, we can make use of the centered hexagonal numbers as described by
-\cite{oeisCHex}.  These numbers can be described by
-\[
-	CH_d = 3d(d+1)+1 = 3d^2 + 3d + 1
-\]
-
-Visualization of these may be found at \cite{chexvis}
 
 \subsection{Hexagonal Numbers}
 
 In a similar manner to the hexagons case, we can make use of hexagonals on a lattice and 
-the hexagonal numbers  \cite{HexagonalNumbers}. Similar to the triangle numbers, we
-can consider these numbers as notions of area for achieving in $Ond$. The hexagonal numbers are
+the hexagonal numbers  \cite{HexagonalNumbers}. In a similar manner to the triangles, we can look at the
+generated hexagonal numbers to determine when we can achieve \emph{Ond} with a given hexagon. The hexagonal numbers are
 defined as 
 \[
 	H_d = d(2d - 1)
@@ -418,10 +409,31 @@ over the $d$ differences is 15, which is the value of $n$, obviously ignoring th
 The one concern is that the hexagonal numbers do not nicely fill in the lattice. That is, there are gaps in construction when
 visualizing these numbers as spirals. One can see examples of these visualizations at \cite{hexvis}.
 
-
 There are similar shape numbers that are defined on the planar lattice that can be explored. These include the 
 hex numbers \cite{HexNum}, heptagonal numbers \cite{Hepta}, and other polygonal numbers \cite{Polyg}.
 
+\subsection{Centered Hexagonal Numbers}
+
+Similar to the triangles above, we can make use of the centered hexagonal numbers as described by
+\cite{oeisCHex}.  These numbers can be described by
+\[
+	CH_d = 3d(d+1)+1 = 3d^2 + 3d + 1
+\]
+
+The first numbers are
+\[
+  	CH_i = \{ 7, 19, 37, 61, 91, \ldots \}
+\]
+
+One notices right away that these values are not divisible by many values and, thus, only few values of $n$ will generate
+\emph{Ond}.
+
+A nice property of these hexagons are that they fill the lattice in completely within the borders of the centered hexagon.
+This makes it nice for visualization and follow along with the triangle numbers and square \emph{Ond}, unlike those in 
+the previous section. While there are some different patterns to be seen in these images, they are quite similar in nature
+to the original square lattice images.
+
+Visualization of these may be found at \cite{chexvis}.
 \section{Summary}
 This note presented the process of constructing (mod n) spirals in a square lattice and proof regarding some 
 notions of patterns found in this construction. Further, we have presented a generalization of the notion of
@@ -460,428 +472,6 @@ fruitful discussion.
 \end{thebibliography}
 
 
-
-\clearpage
-\section{Appendix A}
-
-\begin{figure}[h]
-\centering
-\begin{tikzpicture}
-
-%% make nodes xiyj
-\foreach \nx in {-6,...,6}
-{
-  \foreach \ny in {-6,...,6} 
-  {
-      \node (x\nx y\ny) at (\nx,\ny) {};
-  }
-}
-
-\node at (0,0) {0};
-\node at (1,0) {1};
-\node at (1,-1) {2};
-\node at (0,-1) {3};
-\node at (-1,-1) {4};
-\node at (-1,0) {5};
-\node at (-1,1) {6};
-\node at (0,1) {7};
-\node at (1,1) {8};
-\node at (2,1) {9};
-\node at (2,0) {0};
-\node at (2,-1) {1};
-\node at (2,-2) {2};
-\node at (1,-2) {3};
-\node at (0,-2) {4};
-\node at (-1,-2) {5};
-\node at (-2,-2) {6};
-\node at (-2,-1) {7};
-\node at (-2,0) {8};
-\node at (-2,1) {9};
-\node at (-2,2) {0};
-\node at (-1,2) {1};
-\node at (0,2) {2};
-\node at (1,2) {3};
-\node at (2, 2) {4};
-\node at (3, 2) {5};
-\node at (3, 1) {6};
-\node at (3, 0) {7};
-\node at (3, -1) {8};
-\node at (3, -2) {9};
-\node at (3, -3) {0};
-\node at (2, -3) {1};
-\node at (1, -3) {2};
-\node at (0, -3) {3};
-\node at (-1, -3) {4};
-\node at (-2, -3) {5};
-\node at (-3, -3) {6};
-\node at (-3, -2) {7};
-\node at (-3, -1) {8};
-\node at (-3, 0) {9};
-\node at (-3, 1) {0};
-\node at (-3, 2) {1};
-\node at (-3, 3) {2};
-\node at (-2, 3) {3};
-\node at (-1, 3) {4};
-\node at (0, 3) {5};
-\node at (1, 3) {6};
-\node at (2, 3) {7};
-\node at (3, 3) {8};
-\node at (4, 3) {9};
-\node at (4, 2) {0};
-\node at (4, 1) {1};
-\node at (4, 0) {2};
-\node at (4, -1) {3};
-\node at (4, -2) {4};
-\node at (4, -3) {5};
-\node at (4, -4) {6};
-\node at (3, -4) {7};
-\node at (2, -4){8};
-\node at (1, -4) {9};
-\node at (0, -4) {0};
-\node at (-1, -4) {1};
-\node at (-2, -4) {2};
-\node at (-3, -4) {3};
-\node at (-4, -4) {4};
-\node at (-4, -3) {5};
-\node at (-4, -2) {6};
-\node at (-4, -1) {7};
-\node at (-4, 0) {8};
-\node at (-4, 1) {9};
-\node at (-4, 2) {0};
-\node at (-4, 3) {1};
-\node at (-4, 4) {2};
-\node at (-3, 4) {3};
-\node at (-2, 4) {4};
-\node at (-1, 4) {5};
-\node at (0, 4) {6};
-\node at (1, 4) {7};
-\node at (2, 4) {8};
-\node at (3, 4) {9};
-\node at (4, 4) {0};
-\node at (5, 4) {1};
-\node at (5, 3) {2};
-\node at (5, 2) {3};
-\node at (5, 1) {4};
-\node at (5, 0) {5};
-\node at (5, -1) {6};
-\node at (5, -2) {7};
-\node at (5, -3) {8};
-\node at (5, -4) {9};
-\node at (5, -5) {0};
-\node at (4, -5) {1};
-\node at (3, -5) {2};
-\node at (2, -5) {3};
-\node at (1, -5) {4};
-\node at (0, -5) {5};
-\node at (-1, -5) {6};
-\node at (-2, -5) {7};
-\node at (-3, -5) {8};
-\node at (-4, -5) {9};
-\node at (-5, -5) {0};
-\node at (-5, -4) {1};
-\node at (-5, -3) {2};
-\node at (-5, -2) {3};
-\node at (-5, -1) {4};
-\node at (-5, 0) {5};
-\node at (-5, 1) {6};
-\node at (-5, 2) {7};
-\node at (-5, 3) {8};
-\node at (-5, 4) {9};
-\node at (-5, 5) {0};
-\node at (-4, 5) {1};
-\node at (-3, 5) {2};
-\node at (-2, 5) {3};
-\node at (-1, 5) {4};
-\node at (0, 5) {5};
-\node at (1, 5) {6};
-\node at (2, 5) {7};
-\node at (3, 5) {8};
-\node at (4, 5) {9};
-\node at (5, 5) {0};
-\node at (6, 5) {1};
-\node at (6, 4) {2};
-\node at (6, 3) {3};
-\node at (6, 2) {4};
-\node at (6, 1) {5};
-\node at (6, 0) {6};
-\node at (6, -1) {7};
-\node at (6, -2) {8};
-\node at (6, -3) {9};
-\node at (6, -4) {0};
-\node at (6, -5) {1};
-\node at (6, -6) {2};
-\node at (5, -6) {3};
-\node at (4, -6) {4};
-\node at (3, -6) {5};
-\node at (2, -6) {6};
-\node at (1, -6) {7};
-\node at (0, -6) {8};
-\node at (-1, -6) {9};
-\node at (-2, -6) {0};
-\node at (-3, -6) {1};
-\node at (-4, -6) {2};
-\node at (-5, -6) {3};
-\node at (-6, -6) {4};
-\node at (-6, -5) {5};
-\node at (-6, -4) {6};
-\node at (-6, -3) {7};
-\node at (-6, -2) {8};
-\node at (-6, -1) {9};
-\node at (-6, 0) {0};
-\node at (-6, 1) {1};
-\node at (-6, 2) {2};
-\node at (-6, 3) {3};
-\node at (-6, 4) {4};
-\node at (-6, 5) {5};
-\node at (-6, 6) {6};
-\node at (-5, 6) {7};
-\node at (-4, 6) {8};
-\node at (-3, 6) {9};
-\node at (-2, 6) {0};
-\node at (-1, 6) {1};
-\node at (0, 6) {2};
-\node at (1, 6) {3};
-\node at (2, 6) {4};
-\node at (3, 6) {5};
-\node at (4, 6) {6};
-\node at (5, 6) {7};
-\node at (6, 6) {8};
-
-
-
-\draw[black] (.25,0) -- (0.75,0);
-\draw[black] (1,-.25) -- (1, -.75);
-\draw[black] (.75,-1) -- (.25, -1);
-\draw[black] (-.25, -1) -- (-.75, -1);
-\draw[black] (-1, -.75) -- (-1, -.25);
-\draw[black] (-1, .25) -- (-1, .75);
-\draw[black] (-.75, 1) -- (-.25, 1);
-\draw[black] (.25, 1) -- (.75, 1);
-\draw[black] (1.25, 1) -- (1.75, 1);
-\draw[black] (2, .75) -- (2, .25);
-\draw[black] (2, -.25) -- (2, -.75);
-\draw[black] (2, -1.25) -- (2, -1.75);
-\draw[black] (1.75, -2) -- (1.25, -2);
-\draw[black] (.75, -2) -- (.25, -2);
-\draw[black] (-.25, -2) -- (-.75, -2);
-\draw[black] (-1.25, -2) -- (-1.75,-2);
-\draw[black] (-2, -1.75) -- (-2, -1.25);
-\draw[black] (-2, -.75) -- (-2, -.25);
-\draw[black] (-2, .25) -- (-2, .75);
-\draw[black] (-2, 1.25) -- (-2, 1.75);
-\draw[black] (-1.75, 2) -- (-1.25, 2);
-\draw[black] (-.75, 2) -- (-.25, 2);
-\draw[black] (.25, 2) -- (.75, 2);
-\draw[black] (1.25, 2) -- (1.75, 2);
-\draw[black] (2.25, 2) -- (2.75, 2);
-\draw[black] (3, 1.75) -- (3, 1.25);
-\draw[black] (3, .75) -- (3, .25);
-\draw[black] (3, -.25) -- (3, -.75);
-\draw[black] (3, -1.25) -- (3, -1.75);
-\draw[black] (3, -2.25) -- (3, -2.75);
-\draw[black] (2.75, -3) -- (2.25, -3);
-\draw[black] (1.75, -3) -- (1.25, -3);
-\draw[black] (.75, -3) -- (.25, -3);
-\draw[black] (-.25, -3) -- (-.75, -3);
-\draw[black] (-1.25, -3) -- (-1.75, -3);
-\draw[black] (-2.25, -3) -- (-2.75, -3);
-\draw[black] (-3, -2.75) -- (-3, -2.25);
-\draw[black] (-3, -1.75) -- (-3, -1.25);
-\draw[black] (-3, -.75) -- (-3, -.25);
-\draw[black] (-3, .25) -- (-3, .75);
-\draw[black] (-3, 1.25) -- (-3, 1.75);
-\draw[black] (-3, 2.25) -- (-3, 2.75);
-\draw[black] (-2.75, 3) -- (-2.25, 3);
-\draw[black] (-1.75, 3) -- (-1.25, 3);
-\draw[black] (-.75, 3) -- (-.25, 3);
-\draw[black] (.25, 3) -- (.75, 3);
-\draw[black] (1.25, 3) -- (1.75, 3);
-\draw[black] (2.25, 3) -- (2.75, 3);
-\draw[black] (3.25, 3) -- (3.75, 3);
-\draw[black] (4, 2.75) -- (4, 2.25);
-\draw[black] (4, 1.75) -- (4, 1.25);
-\draw[black] (4, .75) -- (4, .25);
-\draw[black] (4, -.25) -- (4, -.75);
-\draw[black] (4, -1.25) -- (4, -1.75);
-\draw[black] (4, -2.25) -- (4, -2.75);
-\draw[black] (4, -3.25) -- (4, -3.75);
-\draw[black] (3.75, -4) -- (3.25, -4);
-\draw[black] (2.75, -4) -- (2.25, -4);
-\draw[black] (1.75, -4) -- (1.25, -4);
-\draw[black] (.75, -4) -- (.25, -4);
-\draw[black] (-.25, -4) -- (-.75, -4);
-\draw[black] (-1.25, -4) -- (-1.75, -4);
-\draw[black] (-2.25, -4) -- (-2.75, -4);
-\draw[black] (-3.25, -4) -- (-3.75, -4);
-\draw[black] (-4, -3.75) -- (-4, -3.25);
-\draw[black] (-4, -2.75) -- (-4, -2.25);
-\draw[black] (-4, -1.75) -- (-4, -1.25);
-\draw[black] (-4, -.75) -- (-4, -.25);
-\draw[black] (-4, .25) -- (-4, .75);
-\draw[black] (-4, 1.25) -- (-4, 1.75);
-\draw[black] (-4, 2.25) -- (-4, 2.75);
-\draw[black] (-4, 3.25) -- (-4, 3.75);
-\draw[black] (-3.75, 4) -- (-3.25, 4);
-\draw[black] (-2.75, 4) -- (-2.25, 4);
-\draw[black] (-1.75, 4) -- (-1.25, 4);
-\draw[black] (-.75, 4) -- (-.25, 4);
-\draw[black] (.25, 4) -- (.75, 4);
-\draw[black] (1.25, 4) -- (1.75, 4);
-\draw[black] (2.25, 4) -- (2.75, 4);
-\draw[black] (3.25, 4) -- (3.75, 4);
-\draw[black] (4.25, 4) -- (4.75, 4);
-
-\draw[black] (5, 3.75) -- (5, 3.25);
-\draw[black] (5, 2.75) -- (5, 2.25);
-\draw[black] (5, 1.75) -- (5, 1.25);
-\draw[black] (5, .75) -- (5, .25);
-\draw[black] (5, -.25) -- (5, -.75);
-\draw[black] (5, -1.25) -- (5, -1.75);
-\draw[black] (5, -2.25) -- (5, -2.75);
-\draw[black] (5, -3.25) -- (5, -3.75);
-\draw[black] (5, -4.25) -- (5, -4.75);
-
-\draw[black] (4.75, -5) -- (4.25, -5);
-\draw[black] (3.75, -5) -- (3.25, -5);
-\draw[black] (2.75, -5) -- (2.25, -5);
-\draw[black] (1.75, -5) -- (1.25, -5);
-\draw[black] (.75, -5) -- (.25, -5);
-\draw[black] (-.25, -5) -- (-.75, -5);
-\draw[black] (-1.25, -5) -- (-1.75, -5);
-\draw[black] (-2.25, -5) -- (-2.75, -5);
-\draw[black] (-3.25, -5) -- (-3.75, -5);
-\draw[black] (-4.25, -5) -- (-4.75, -5);
-
-\draw[black] (-5, -4.75) -- (-5, -4.25);
-\draw[black] (-5, -3.75) -- (-5, -3.25);
-\draw[black] (-5, -2.75) -- (-5, -2.25);
-\draw[black] (-5, -1.75) -- (-5, -1.25);
-\draw[black] (-5, -.75) -- (-5, -.25);
-\draw[black] (-5, .25) -- (-5, .75);
-\draw[black] (-5, 1.25) -- (-5, 1.75);
-\draw[black] (-5, 2.25) -- (-5, 2.75);
-\draw[black] (-5, 3.25) -- (-5, 3.75);
-\draw[black] (-5, 4.25) -- (-5, 4.75);
-
-\draw[black] (-4.75, 5) -- (-4.25, 5);
-\draw[black] (-3.75, 5) -- (-3.25, 5);
-\draw[black] (-2.75, 5) -- (-2.25, 5);
-\draw[black] (-1.75, 5) -- (-1.25, 5);
-\draw[black] (-.75, 5) -- (-.25, 5);
-\draw[black] (.25, 5) -- (.75, 5);
-\draw[black] (1.25, 5) -- (1.75, 5);
-\draw[black] (2.25, 5) -- (2.75, 5);
-\draw[black] (3.25, 5) -- (3.75, 5);
-\draw[black] (4.25, 5) -- (4.75, 5);
-\draw[black] (5.25, 5) -- (5.75, 5);
-
-\draw[black] (6, 4.75) -- (6, 4.25);
-\draw[black] (6, 3.75) -- (6, 3.25);
-\draw[black] (6, 2.75) -- (6, 2.25);
-\draw[black] (6, 1.75) -- (6, 1.25);
-\draw[black] (6, .75) -- (6, .25);
-\draw[black] (6, -.25) -- (6, -.75);
-\draw[black] (6, -1.25) -- (6, -1.75);
-\draw[black] (6, -2.25) -- (6, -2.75);
-\draw[black] (6, -3.25) -- (6, -3.75);
-\draw[black] (6, -4.25) -- (6, -4.75);
-\draw[black] (6, -5.25) -- (6, -5.75);
-
-\draw[black] (5.75, -6) -- (5.25, -6);
-\draw[black] (4.75, -6) -- (4.25, -6);
-\draw[black] (3.75, -6) -- (3.25, -6);
-\draw[black] (2.75, -6) -- (2.25, -6);
-\draw[black] (1.75, -6) -- (1.25, -6);
-\draw[black] (.75, -6) -- (.25, -6);
-\draw[black] (-.25, -6) -- (-.75, -6);
-\draw[black] (-1.25, -6) -- (-1.75, -6);
-\draw[black] (-2.25, -6) -- (-2.75, -6);
-\draw[black] (-3.25, -6) -- (-3.75, -6);
-\draw[black] (-4.25, -6) -- (-4.75, -6);
-\draw[black] (-5.25, -6) -- (-5.75, -6);
-
-\draw[black] (-6, -5.75) -- (-6, -5.25);
-\draw[black] (-6, -4.75) -- (-6, -4.25);
-\draw[black] (-6, -3.75) -- (-6, -3.25);
-\draw[black] (-6, -2.75) -- (-6, -2.25);
-\draw[black] (-6, -1.75) -- (-6, -1.25);
-\draw[black] (-6, -.75) -- (-6, -.25);
-\draw[black] (-6, .25) -- (-6, .75);
-\draw[black] (-6, 1.25) -- (-6, 1.75);
-\draw[black] (-6, 2.25) -- (-6, 2.75);
-\draw[black] (-6, 3.25) -- (-6, 3.75);
-\draw[black] (-6, 4.25) -- (-6, 4.75);
-\draw[black] (-6, 5.25) -- (-6, 5.75);
-
-\draw[black] (-5.75, 6) -- (-5.25, 6);
-\draw[black] (-4.75, 6) -- (-4.25, 6);
-\draw[black] (-3.75, 6) -- (-3.25, 6);
-\draw[black] (-2.75, 6) -- (-2.25, 6);
-\draw[black] (-1.75, 6) -- (-1.25, 6);
-\draw[black] (-.75, 6) -- (-.25, 6);
-\draw[black] (.25, 6) -- (.75, 6);
-\draw[black] (1.25, 6) -- (1.75, 6);
-\draw[black] (2.25, 6) -- (2.75, 6);
-\draw[black] (3.25, 6) -- (3.75, 6);
-\draw[black] (4.25, 6) -- (4.75, 6);
-\draw[black] (5.25, 6) -- (5.75, 6);
-
-\end{tikzpicture} 
-\caption{A (mod 10) spiral with some indication of path}
-\label{fig:mod10}
-\end{figure}
-
-
-\begin{figure}[h]
-\centering
-\subfloat[][]
-{$\begin{array}{ccc}
-0 & 1 & \dot{2} \\
-2 & \boxed{0} & 1 \\
-1 & 0 & 2
-\end{array}$\label{ond13}}
-\qquad
-\subfloat[][]
-{$\begin{array}{cccccc}
-2 & 0 & 1 & 2 & 0 & 1 \\
-1 & 0 & 1 & 2 & 0 & 2 \\
-0 & 2 & \boxed{0} & 1 & 1 & 0 \\
-2 & 1 & 0 & 2 & 2 & 1 \\
-1 & 0 & 2 & 1 & 0 & 2 \\
-\dot{2} & 1 & 0 & 2 & 1 & 0
-\end{array}$\label{ond23}}
-\qquad
-\subfloat[][]
-{$\begin{array}{cc}
-\boxed{0} & 1 \\
-\dot{3} & 2
-\end{array}$\label{ond14}}
-\qquad
-\subfloat[][]
-{$\begin{array}{cccc}
-2 & 3 & 0 & 1\\
-1 & \boxed{0} & 1 & 2\\
-0 & 3 & 2 & 3\\
-\dot{3} & 2 & 1 & 0
-\end{array}$\label{ond24}}
-\caption{ \protect\subref{ond13} $Ond^1_3$,  \protect\subref{ond23} $Ond^2_3$, \protect\subref{ond14} $Ond^1_4$,  \protect\subref{ond24} $Ond^2_4$}
-\label{fig:mod34}
-\end{figure}
-
-
-\begin{figure}
-\centering
-\includegraphics[scale=.3]{N31k39b.png}
-\caption{Visualization of $Ond^{39}_{31}$}
-\label{fig:viz3139}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=.9]{N10k39a.png}
-\caption{Visualization of $Ond^{39}_{10}$}
-\label{fig:viz1039}
-\end{figure}
 
 
 \end{document}  
