@@ -1,5 +1,8 @@
 \documentclass{beamer}
 \usepackage{xcolor}
+%\usepackage{tikz}
+\usepackage{multimedia}
+
 
 % \usepackage{beamerthemesplit} // Activate for custom appearance
 
@@ -20,16 +23,36 @@ Robin Young (UMASS-Amherst)}
 %\section[Outline]{}
 %\frame{\tableofcontents}
 
+\section{Introduction}
+\frame{
+\frametitle{Goal of Talk}
+A means to teach students how to think mathematically.
+\begin{itemize}
+\item Show how one can impose definitions to patterns you see.
+\item Observations$\rightarrow$Conjecture$\rightarrow$Proof
+\item Learn to generalize: dim 2$\rightarrow$dim $d$
+\end{itemize}
+\begin{center}
+\end{center}
+Aimed at early high school students, but can be useful to all ages/levels.
+}
+
 
 \frame
 {
-  \frametitle{Polar Vortex!}
+  \frametitle{Motivation for Play}
 
   \begin{itemize}
-  \item Cold Winter\\
+  \item Polar Vortex!\\
+  \begin{center}
   \includegraphics[scale=.15]{images/PolarVortex1.png}
-  \item Led to being sick and in bed for ~2 weeks... 
-  \item What to do? MATH!... or at least play with numbers
+  \end{center}
+  \item In bed with flu for a week or so
+  \item What to do?\\
+  \begin{center}
+  MATH!... or at least play with numbers
+  \end{center}
+  \item Hackathon!
   \end{itemize}  
 }
 
@@ -127,7 +150,7 @@ Formally,
   \begin{itemize}
        \color{black}
 
-  \item Want bigger spirals, but...tedious when writing out.
+  \item Want bigger spirals: tedious by hand
   \item Write a program!
     \end{itemize} 
 }
@@ -137,7 +160,7 @@ Formally,
     \begin{column}{.5\textwidth}
     \begin{block}{}
 % Your image included here
-\includegraphics[scale=.13]{images/bigmod10.png}
+\includegraphics[scale=.15]{images/bigmod10.png}
     \end{block}
     \end{column}
   \end{columns}
@@ -146,25 +169,40 @@ Formally,
 
 \frame
 {
-\frametitle{Desire for Definition}
-
+\frametitle{Programs Call for Definitions}
 \begin{itemize} 
-\item A \emph{complete spiral} occurs when form a square and last value assigned is $l^*_i = n-1$
+\item \emph{Complete Spiral}
 \begin{itemize}
-\item Denote the first complete spiral achieved by $Ond^1_n$; 
-\item subsequent complete spirals are denoted $Ond^k_n$, $k = 2,3,\dots$.  
-\item  The word ``ond'' is ``spiral'' in Swahili.
+\item Forms a square and
+\item Last value assigned is $l^*_i = n-1$
 \end{itemize}
-\item The number of times $\mathbb{Z}_n$ is used in order to complete the $k^{th}$ square is the \emph{iteration count}. 
+
+\item ``Ond'' is spiral in Swahili
+\begin{itemize}
+\item First complete spiral achieved is  $Ond^1_n$
+\item Subsequent are $Ond^k_n$, $k = 2,3,\dots$.  
 \end{itemize}
+\item \emph{Iteration Count} is number of times $\mathbb{Z}_n$ used in the $k^{th}$ square
+\end{itemize}
+}
+
+%% INSERT TIKZ
+\frame
+{
+\begin{center}
+\includegraphics[scale=.5]{images/tikz.png}
+
+Still unwieldy
+
+\end{center}
 }
 
 \section{Visuals}
 \frame
 {
   \frametitle{Visualize the patterns}
-  Realize generated $Ond_n^k$ as grayscale graphical images
-  
+  Realize generated $Ond_n^k$ as grayscale graphical images\\
+  \vspace{10 mm}
   The map $f : \mathbb{Z}_n \to \mathbb{Z}_{256}$ is defined by a scaled floor function,
 \[
    f(j) = \alpha j, \quad \text{where} \quad
@@ -189,7 +227,9 @@ Formally,
 
 \frame
 {
-\includegraphics[scale=.25]{images/Ond-N31-k39.png}
+\begin{center}
+\includegraphics[scale=.21]{images/Ond-N31-k39.png}
+\end{center}
 }
 
 
@@ -198,19 +238,40 @@ Formally,
   \frametitle{Automation to Conjecture}
   
   \begin{itemize}
-  \item Is there some general pattern to square sizes?
-  \item Side lengths for $Ond_8^{39} > Ond_9^{39}$
-  
-  156 and 117, respectively  
-  \item Can I use $(n, k, ?)$ to determine this?
-  \item Using data generated from forming 
+  \item Initial image creation guessed at size of generated spiral
+  \item Is there some formula for \emph{Ond side length} and \emph{iterations}?
+  \item Can I use $(n, k, \ldots)$ to determine this?
   \end{itemize}
+
 }
 
 \frame
 {
+ \frametitle{Generate Data and Observe}
+  Output \emph{iteration} and \emph{side length} data when generating \emph{Ond} images
+\begin{center}
+\includegraphics[scale=.5]{images/sometab.png}
+
+\end{center}
+}
+
+\frame
+{
+ \frametitle{Generate Data and Observe}
+  Output \emph{iteration} and \emph{side length} data when generating \emph{Ond} images
+  
+\begin{center}
+\includegraphics[scale=.5]{images/sometab-box.png}
+
+  Side lengths:  $Ond_3^{4} > Ond_4^{4} < Ond_5^{4}  \implies$ non-linearity
+\end{center}
+}
+
+
+\frame
+{
   \frametitle{}
-  \begin{thm}%[Length of Sides of $Ond^k_n$]
+  \begin{conj}%[Length of Sides of $Ond^k_n$]
 \label{lenthm}
 \footnotesize
 Let $s$ denote the greatest square divisor of $n$.
@@ -226,14 +287,8 @@ The complete spiral $Ond^k_n$ has the following structure:
   \xi = \frac{k^2n}{s}.  
 \label{xi}
 \end{equation}
-\item If $l_{max} \in L$ is the last lattice point in the complete
-  spiral $Ond^k_n$, then $l_{max}$ is either the top-right corner or
-  bottom-left corner of the square.  If both $n$ and $k$ are odd, then
-  $l_{max}$ will be the top-right corner of $Ond^k_n$.  In all other
-  cases, $l_{max}$ will be the bottom-left corner.
 \end{enumerate}
-\end{thm}
-See paper for proof.
+\end{conj}
 }
 
 \frame
@@ -243,49 +298,141 @@ See paper for proof.
   Write down $Ond_n^1$, determine side length, solve $\lambda = \frac{n}{\sqrt{s}}$ for $s$.
 }
 
-
-\subsection{Other Shapes}
 \frame
 {
+
+\begin{proof}[Proof of the Conjecture]
+\begin{itemize}
+  \item $n\ge 2$ is fixed
+  \item $\lambda$  complete spiral side length, $\xi$ iteration count
+  \item Spiral is square $\implies \xi n = \lambda^2 \implies n \vert \lambda^2$.
+  \item $p \vert n$ with $p$ prime $\implies p \vert \lambda^2 \implies p \vert \lambda$
+  \item $s$ is greatest square divisor of $n \implies n = q^2_1 q_2$
   \begin{itemize}
-  \item Think of geometrically as filling an area
-  \item Extend square $Ond$ to $d$-dim hypercube by looking at $n \vert \lambda^d$
-  \item Difficult to visualize
+  \item $q_2$ is square-free
+  \item $s = q_1^2$.
+  \end{itemize}
+   
+  \item  $n \vert \lambda^2 \implies q_1^2\vert\lambda^2 \implies q_1|\lambda$ and $\implies q_2 \vert (\frac{\lambda}{q_1})^2$
+  
+  \item $q_2$ is square-free $\implies q_2\vert (\frac{\lambda}{q_1})$ and $\lambda = k q_1 q_2$ for $k\in \mathbb{Z}_{+}$.  
+  \item $n\vert\lambda^2$ for any such $\lambda$, thus $\lambda = k q_1 q_2$ is the side of the $k$-th complete spiral $Ond^k_n$.
+
+  \item $\lambda = \frac{kn}{\sqrt{s}}$ follows since $\sqrt{s} = q_1$
+  \item $\xi = \frac{k^2n}{s}$ follows since $\xi = \frac{\lambda^2}{n}$.  
+  \end{itemize}
+\end{proof}
+}
+
+\frame
+{
+\frametitle{Generalize!}
+
+  \begin{itemize}
+  \item Generalize in dimension: increase $d$
+  \item Generalize in shape
+  \item Think of geometrically: filling an area
+  \begin{itemize}
+  \item more abstractly looking at when $n \vert f(d)$
+  \end{itemize}
   \end{itemize}
 }
-  
+
 \frame
 {
-  \frametitle{Centered Hexagons}
+ \frametitle{Generalize in Dimension}
+  \begin{itemize}
+  \item Generalize to $d$-dim hypercube by looking at $n \vert \lambda^d$
+  \begin{itemize}
+  \item Difficult to visualize
+      \end{itemize}
+
+  \item Can prove a similar conjecture to $d=2$
+   \end{itemize}
+  \begin{conj}
+Let $n\vert \lambda^d$ for $d=2, 3, \ldots$. Let $n = qm^d$ where $m \in \mathbb{N}$ and $q$ is $d$-power 
+free. Let $q$ be defined in terms of it's prime factors, $p_j$, as
+\[
+	q = \prod\limits_{j=1}^{r} p_j^{e_j}\quad \text{with}\ \text{each}\quad e_j < d.
+\]
+then
+\[
+	\lambda = k m \prod p_j \quad k = 1, 2, 3, \ldots
+\]
+\end{conj}
+}
+
+
+\frame
+{
+  \frametitle{Other Shapes: Centered Hexagons}
   \begin{itemize}
   \item Centered hexagonal numbers are $H_d = 3d(d+1)+1$
   \item Investigate $n \vert H_d$
+  \item Not all $n$ will satisfy!
+  \begin{itemize}
+  \item $n=2, \ldots, 6$ don't work but $n = 7$ does
+  \end{itemize}
   \end{itemize}
 \[
   \includegraphics[scale=.45]{images/hex-sp-N7-k34.png}\quad
   \includegraphics[scale=.25]{images/hex-sp-N37-k12.png}
 \]
-  GRAPHIC
+\[
+ HexOnd_{7}^{34}\text{ and }HexOnd_{37}^{12}
+ \]
 }
 
 \frame
 {
-  \frametitle{Triangles}
+\begin{center}
+  \includegraphics[scale=.24]{images/hex-sp-N73-k15.png}  
+ \end{center}
+  }
+  
+\frame
+{
+  \frametitle{Other Shapes: Triangles}
   \begin{itemize}
   \item Triangle numbers are $T_d = \frac{d(d+1)}{2}$
     \item Investigate $n \vert T_d$
  \end{itemize}
-  GRAPHIC
+ \begin{center}
+ \[
+  \includegraphics[scale=.75]{images/tri-sp-N7-k29.png}\quad
+  \includegraphics[scale=.25]{images/tri-sp-N27-k29.png}
+\]
+\[
+ TriOnd_{7}^{29}\text{ and }TriOnd_{27}^{29}
+ \]
+ \end{center}
+}
+
+\frame
+{
+\begin{center}
+\[
+ TriOnd_{36}^{29}\text{ and }TriOnd_{39}^{29}
+ \]
+\[
+  \includegraphics[scale=.25]{images/tri-sp-N36-k29.png} \quad
+  \includegraphics[scale=.45]{images/tri-sp-N39-k29.png}
+  \]
+Note the bias by using right triangle
+ \end{center}
 }
 
 \section{Conclusion}
 \frame{
 \frametitle{So what is all this?}
 \begin{itemize}
-\item Opportunity to show how one can impose definitions and ideas to patterns you see.
-\item From here you can prove conjectures based on observations by playing with these ideas.
-\item Learn to generalize and apply ideas to different contexts
+\item Show how one can impose definitions to patterns you see.
+\item Observations$\rightarrow$Conjecture$\rightarrow$Proof
+\item Learn to generalize
 \end{itemize}
+\begin{center}
+A means to teach how to think mathematically!
+\end{center}
 }
 \frame
 {
@@ -293,14 +440,18 @@ See paper for proof.
   \begin{itemize}
   \item Other 2 dimensional lattice shapes
   \item Non-hypercube shapes in $>2$ dimensions
-  \item Adding $Ond$'s (see visualizations)
+  \item Addition of $Ond$
   \item Random $Ond$: Select $n_0$ from some distribution, cycle through $\mathbb{Z}_{n_0}$ once, choose $n_1$,  cycle through $\mathbb{Z}_{n_1}$, ...
   \end{itemize}
 }
 \frame
 {
   \frametitle{Thank You!}
-  We invite you to please take a paper if you are interested in this topic. For code and visualizations, please go to https://github.com/cwcomplex/modNspirals
+  We invite you to please take a paper if you are interested in this topic. For code and visualizations, please go to:
+  
+  \begin{center}
+  https://github.com/cwcomplex/modNspirals
+  \end{center}
   \begin{itemize}
   \item Robin Young of UMASS-Amherst
   \item Veracode, Inc -- Hackathon!
