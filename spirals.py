@@ -14,7 +14,7 @@ from collections import defaultdict
 import time
 
 
-#gend = {}
+gend = {}
 
 def generateImages(block, maxSquareSize, N, fileprefix):
   im = Image.new("L", (maxSquareSize, maxSquareSize))
@@ -127,7 +127,7 @@ def generateSquare(N, k):
 
       if squareCount == k:
         generateImages(block, maxSquareSize, N, "Ond-N%d-k%d" % (N, squareCount))
-#        gend[N,k] = (root, jj+1)      
+        gend[N,k] = (root, jj+1)      
         del block
         return isTop
 
@@ -202,7 +202,7 @@ def testSpirals(args):
 
 #      # (kN/ldenom, kkN/idenom)
 #      if gend[N,k][0] == (k*N)/ldenom and gend[N,k][1] == (k*k*N)/idenom:
-#        print "[%d, %d]: (%d, %d) ~ PASS ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
+      print "[%d, %d]: (%d, %d) %s" % (N, k, gend[N,k][0], gend[N,k][1], str(primes(N)))
 #      else:
 #        print "[%d, %d]: (%d, %d) ~ FAIL ~ Top=%s" % (N, k, gend[N,k][0], gend[N,k][1], str(isTop[N,k]))
       
@@ -219,7 +219,7 @@ def main():
              (401, 450, 1, 5),
              (451, 500, 1, 5) ]
 
-  inputs = [ (36, 40, 1, 40) ]
+  inputs = [ (3, 9, 4, 8) ]
   for ii in inputs:
     t0 = time.time()
     testSpirals(ii)

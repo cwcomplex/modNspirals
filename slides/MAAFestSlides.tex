@@ -228,7 +228,7 @@ Still unwieldy
 \frame
 {
 \begin{center}
-\includegraphics[scale=.23]{images/Ond-N31-k39.png}
+\includegraphics[scale=.24]{images/Ond-N31-k39.png}
 \end{center}
 }
 
@@ -253,6 +253,9 @@ Still unwieldy
 \includegraphics[scale=.5]{images/sometab.png}
 
 \end{center}
+\begin{itemize}
+\item Included prime factors of $n$ to output to add information
+\end{itemize}
 }
 
 \frame
@@ -262,16 +265,18 @@ Still unwieldy
   
 \begin{center}
 \includegraphics[scale=.5]{images/sometab-box.png}
-
-  Side lengths:  $Ond_3^{4} > Ond_4^{4} < Ond_5^{4}  \implies$ non-linearity
 \end{center}
+
+\begin{itemize}
+\item Side lengths:  $Ond_3^{4} > Ond_4^{4} < Ond_5^{4}  \implies$ non-linearity
+\end{itemize}
 }
 
 
 \frame
 {
   \frametitle{}
-  \begin{conj}%[Length of Sides of $Ond^k_n$]
+  \begin{thm}%[Length of Sides of $Ond^k_n$]
 \label{lenthm}
 \footnotesize
 Let $s$ denote the greatest square divisor of $n$.
@@ -288,7 +293,7 @@ The complete spiral $Ond^k_n$ has the following structure:
 \label{xi}
 \end{equation}
 \end{enumerate}
-\end{conj}
+\end{thm}
 }
 
 \frame
@@ -360,6 +365,10 @@ then
 	\lambda = k m \prod p_j \quad k = 1, 2, 3, \ldots
 \]
 \end{conj}
+\begin{itemize}
+\item Note that $m^d$ is the greatest $d$-power divisor of $n$
+\item Proof is similar to $d=2$ proof.
+\end{itemize}
 }
 
 
@@ -367,11 +376,12 @@ then
 {
   \frametitle{Other Shapes: Centered Hexagons}
   \begin{itemize}
-  \item Centered hexagonal numbers are $H_d = 3d(d+1)+1$
-  \item Investigate $n \vert H_d$
+  \item Centered hexagonal numbers are $CH_d = 3d(d+1)+1$
+  \item Investigate $n \vert CH_d$
   \item Not all $n$ will satisfy!
   \begin{itemize}
-  \item $n=2, \ldots, 6$ don't work but $n = 7$ does
+  \item $n=2, \ldots, 6$ don't work but $n = 7, 13, 19, 31, 37, \ldots$ will
+  \item Seems 7 + multiples of 6 perhaps
   \end{itemize}
   \end{itemize}
 \[
