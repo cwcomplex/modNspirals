@@ -19,6 +19,11 @@
 \newtheorem{thm}{Theorem}[section]
 \def\ZZ{\mathbb{Z}}
 
+%%
+%% ARR CHANGES
+% Last sentence of Intro
+%
+%%
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -34,7 +39,7 @@
 \maketitle
 \section{Introduction}
 
-This note is intended to introduce the process of constructing (mod $n$) spirals and the idea of a complete spiral.  The construction of a (mod $n$) spiral is similar in nature to Ulam's Spiral \cite{Ulam}. The note also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to  further illuminate understanding and interest in these objects. Generalizations to higher dimensions and spirals of other shapes are given. The author's are unaware of other work or literature on this topic, so have no references other than the couple related to code; in part this is why the note has been written and offered to share as it is a candidate for use in classroom learning.
+This note is intended to introduce the process of constructing (mod $n$) spirals and the idea of a complete spiral.  The construction of a (mod $n$) spiral is similar in nature to Ulam's Spiral \cite{Ulam}. The note also introduces a theorem related to patterns seen regarding the lengths of sides, iteration counts, and ending corners of these objects, and provides a proof. This process also provides a deterministic process for discovering the greatest square divisor of integers $n \ge 2$. Grayscale visualizations of these spirals have been generated in order to  further illuminate understanding and interest in these objects. Generalizations to higher dimensions and spirals of other shapes are given. The author's are unaware of other work or literature on this topic, so have no references other than the couple related to code; in part this is why the note has been written. Further this is offered to share as it is a candidate for use in classroom learning to reinforce the process of observing possible patterns, making conjectures, and proving.
 
 
 
@@ -55,6 +60,8 @@ chosen a `direction' by moving from $l_{j-1}$, the next site $l_{j+1}$
 is the site to the right if this is not yet accounted for, or the site
 ahead otherwise.
 
+
+%%% 
 \begin{figure}[h]
 \[  \begin{array}{c}
 \boxed{0}
@@ -129,7 +136,7 @@ $Ond^k_n$, $k = 2,3,\dots$.  The number of times $\ZZ_n$ is used in
 order to complete the $k^{th}$ square is the iteration count.  The
 word ``ond'' is ``spiral'' in Swahili.
 
-REVIEW FIGURE REMOVAL AND PARAGRAPH REMOVAL
+%REVIEW FIGURE REMOVAL AND PARAGRAPH REMOVAL
 %%% THIS RESULTED FROM FIGURE REMOVAL
 %Figure \ref{fig:mod34} shows $Ond_n^k$ for $k=1,2$ and $n=1,2$.  We
 %see that $Ond^1_3$ is a $3\times3$ square and has iteration count 3,
@@ -420,9 +427,8 @@ centered hexagons, in practice, we were able to achieve \emph{Ond} for $n = 7, 1
 A nice property of these hexagons are that they fill the lattice in completely within the borders of the centered hexagon.
 This makes it nice for visualization and follow along with the triangle numbers and square \emph{Ond}, unlike those in 
 the previous section. While there are some different patterns to be seen in these images, they are quite similar in nature
-to the original square lattice images.
+to the original square lattice images. Visualization of these may be found at \cite{chexvis}.
 
-Visualization of these may be found at \cite{chexvis}.
 \section{Summary}
 This note presented the process of constructing (mod n) spirals in a square lattice and proof regarding some 
 notions of patterns found in this construction. Further, we have presented a generalization of the notion of
@@ -435,29 +441,26 @@ The first author recognizes Veracode Inc for providing support and Jared Carlson
 fruitful discussion.
 
 \begin{thebibliography}{1}
-\bibitem{Ulam} Wolfram Mathworld, ``Prime Spirals'',
-  \url{http://mathworld.wolfram.com/PrimeSpiral.html}
-\bibitem{PySquare} A. Reiter,
-  \url{https://github.com/cwcomplex/modNspirals}
-\bibitem{GraySquare} A. Reiter,
-  \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/square}
-\bibitem{TriangleNumbers} Wolfram Mathworld, ``Triangle Numbers'',
-  \url{http://mathworld.wolfram.com/TriangularNumber.html}
-\bibitem{trivis1} A. Reiter, Triangles Visual One-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-oneway}
-\bibitem{trivis2} A. Reiter, Triangles Visual Two-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-twoway}
-\bibitem{trivisspiral} A. Reiter Triangles Visual Spiral, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-spiral}
-\bibitem{oeisCHex} On-line Encyclopedia of Integer Sequences, ``Centered Hexagonal Numbers'',
+\bibitem{PySquare} Reiter, Andrew R. \url{https://github.com/cwcomplex/modNspirals}
+\bibitem{GraySquare} ---  \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/square}
+\bibitem{trivis1} --- Triangles Visual One-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-oneway}
+\bibitem{trivis2} --- Triangles Visual Two-way, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-twoway}
+\bibitem{trivisspiral} --- Triangles Visual Spiral, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/triangles-spiral}
+\bibitem{hexvis} --- Hexagonal Number Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-oneway}
+\bibitem{chexvis} --- Centered Hexagonal Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-spiral}
+
+\bibitem{oeisCHex} On-line Encyclopedia of Integer Sequences (OEIS), ``Centered Hexagonal Numbers'',
  \url{https://oeis.org/A003215}
-\bibitem{chexvis} A. Reiter, Centered Hexagonal Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-spiral}
-\bibitem{HexagonalNumbers} Wolfram Mathworld, ``Hexagonal Numbers'',
-  \url{http://mathworld.wolfram.com/HexagonalNumber.html}
-\bibitem{HexNum} Wolfram Mathworld, ``Hex Numbers'',
-  \url{http://mathworld.wolfram.com/HexNumber.html}
-\bibitem{hexvis} A. Reiter, Hexagonal Number Visual, \url{https://github.com/cwcomplex/modNspirals/tree/master/visual/hexagons-oneway}
-\bibitem{Hepta} Wolfram Mathworld, ``Heptagonal Numbers'',
-  \url{http://mathworld.wolfram.com/HeptagonalNumber.html}
-\bibitem{Polyg} Wolfram Mathworld, ``Polygonal Numbers'',
-  \url{http://mathworld.wolfram.com/PolygonalNumber.html}
+
+
+
+\bibitem{Hepta} Weisstein, Eric W. "Heptagonal Number." From MathWorld--A Wolfram Web Resource. http://mathworld.wolfram.com/HeptagonalNumber.html
+\bibitem{HexNum} --- "Hex Number." From MathWorld--A Wolfram Web Resource. \url{http://mathworld.wolfram.com/HexNumber.html}
+\bibitem{HexagonalNumbers} --- "Hexagonal Number." From MathWorld--A Wolfram Web Resource. http://mathworld.wolfram.com/HexagonalNumber.html
+\bibitem{Polyg} --- "Polygonal Number." From MathWorld--A Wolfram Web Resource. \url{http://mathworld.wolfram.com/PolygonalNumber.html}  
+\bibitem{TriangleNumbers} --- "Triangular Number." From MathWorld--A Wolfram Web Resource. \url{http://mathworld.wolfram.com/TriangularNumber.html}
+\bibitem{Ulam} --- "Prime Spiral." From MathWorld--A Wolfram Web Resource. \url{http://mathworld.wolfram.com/PrimeSpiral.html}
+
 \end{thebibliography}
 
 
