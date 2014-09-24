@@ -3,6 +3,11 @@
 #
 # Not the most pretty code. :-/ nor efficient... but so it goes.
 #
+# After you run and generate, run:
+#	convert <ond.png> -rotate 180 <out.png>
+#
+# As this code is doing things a bit oddly :<D
+#
 # (c) 2014 Andrew Reiter <arr@watson.org>
 #
 
