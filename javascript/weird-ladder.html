@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js">
+	</script>
+    <script src="jquery.base64.js">
+	</script>
+    <script>
+
+//
+// Ideas for this code was grabbed from 
+//	http://www.worldwidewhat.net/2012/07/how-to-draw-bitmaps-using-javascript/
+// Previously implemented in python...
+//
+
+function image(w, h) {
+  this.header = '';
+  this.data = Array();
+  this.width = w;
+  this.height = h;
+  for (var vw = 0; vw < w; vw++) {
+    for (var vh = 0; vh < h; vh++) {
+		this.data[(vh * w) + vw] = zeeColor(1);
+	}
+	}
+}
+function getLittleEndianHex(value) {
+  var result = [];
+  for (var bytes = 4; bytes > 0; bytes--) {
+    result.push(String.fromCharCode(value & 255));
+    value >>= 8;
+  }
+  return result.join('');
+}
+function setImageHeader(img)
+{
+  var numFileBytes = getLittleEndianHex(img.width * img.height);
+  var w = getLittleEndianHex(img.width);
+  var h = getLittleEndianHex(img.height);
+  img.header = 
+    'BM' +                    // Signature
+    numFileBytes +            // size of the file (bytes)*
+    '\x00\x00' +              // reserved
+    '\x00\x00' +              // reserved
+    '\x36\x00\x00\x00' +      // offset of where BMP data lives (54 bytes)
+    '\x28\x00\x00\x00' +      // # remaining bytes in header from here (40)
+    w +                       // the width of the bitmap in pixels*
+    h +                       // the height of the bitmap in pixels*
+    '\x01\x00' +              // the number of color planes (1)
+    '\x20\x00' +              // 32 bits / pixel
+    '\x00\x00\x00\x00' +      // No compression (0)
+    '\x00\x00\x00\x00' +      // size of the BMP data (bytes)*
+    '\x13\x0B\x00\x00' +      // 2835 pixels/meter - horizontal resolution
+    '\x13\x0B\x00\x00' +      // 2835 pixels/meter - the vertical resolution
+    '\x00\x00\x00\x00' +      // # of colors in the palette (keep 0 for 32-bit)
+    '\x00\x00\x00\x00';       // 0 important colors => all colors are important
+}
+
+// WOOP.
+function fillRectangle(img, x, y, w, h, color) {
+  for (var ny = y; ny < y + h; ny++) {
+    for (var nx = x; nx < x + w; nx++) {
+      img.data[(ny * img.width) + nx] = color;
+    }
+  }
+}
+function flipImage(img) {
+  var newImgData = new Array();
+  for(var x = 0; x < img.width; x++) {
+    for(var y = 0; y < img.height; y ++) {
+      var ny = img.height - 1 - y;
+      newImgData[(ny * img.width) + x] = img.data[(y * img.width) + x];
+    }
+  }
+  img.data = newImgData;
+}
+function drawImage() {
+// PRE 
+  var img = new image(210, 210);
+  setImageHeader(img);
+// MEAT
+  fillRectangle(img, 0, 0, img.width, img.height, 
+	String.fromCharCode(0, 255, 255, 0));
+  fillRectangle(img, 10, 10, 90, 90, 
+	String.fromCharCode(100, 100, 100, 0)); // Blue
+  fillRectangle(img, 110, 10, 90, 90,
+	String.fromCharCode(255, 255, 0, 0)); // Green
+  fillRectangle(img, 10, 110, 90, 90,
+	String.fromCharCode(255, 0, 255, 0)); // Red
+// POST 
+  flipImage(img);
+  // If window.btoa is supported, use it since it's often faster
+  if(window.btoa != undefined) {
+    return 'data:image/bmp;base64,' + btoa(img.header + img.data.join(""));
+  }
+  // If not, use our base64 library
+  else {
+    return 'data:image/bmp;base64,' + $.base64.encode(img.header + img.data.join(""));
+  }
+}
+
+function zeeColor(zn) {
+	return String.fromCharCode(zn, zn, zn, 0);
+}
+
+function isPerfectSquare(kb) {
+	var cr = Math.sqrt(kb);
+	if (cr * cr == kb)
+		return 1;
+	return 0;
+}	
+function drawSpiral() {
+	 var myParam = location.search.split('?')[1];
+	// THINGS MAN. THINGS.
+	var things = myParam.split('&');
+	// FAIL CODE BUT WHATEVER :D
+	N = things[0].split('=')[1]; //13;
+	k = things[1].split('=')[1];//]; //3;
+	N = Math.floor(N);
+	k = Math.floor(k);
+	if (k <= 0 || k > 50) {
+		return;
+	}
+	console.log(N);
+	console.log(k);
+	maxBlock = k*k * N;	// HAR.
+	maxIteration = k*k*N;
+	var	img = new image(maxBlock, maxBlock);
+	setImageHeader(img);
+	// Generate [0, ..., n-1]*scale function
+	Zn = $.map($(Array(N)),function(val, i) { kk = i*Math.floor(255/N); return kk; })
+//	for (var z = 0; z < N; z++) {
+//		console.log(Zn[z]);
+//	}
+	x0 = Math.floor(maxBlock / 2);
+	y0 = Math.floor(maxBlock / 2);
+	console.log("maxBlock: "+maxBlock);
+	console.log("x0="+x0);
+	console.log("y0="+y0);
+
+	currentPos = [ x0, y0 ];
+	overallcount = 0;
+	hexcount = 0;
+	dz = [ [0, 1, -1],  [-1, 0, 0],   [0, 1, 0],  [1, 0, 0] ];  
+	console.log("dz.length: "+dz.length);
+	for (var zz = 0; zz < dz.length; zz++) {
+		console.log("entry: "+dz[zz]);
+		for (var xx = 0; xx < dz[zz].length; xx++) {
+			console.log("tubular: "+dz[zz][xx]);
+		}
+	}
+	superfly = 0;
+	midx = 0;
+	movcount = 1;
+	ZnIters = 0;
+	img.data[(currentPos[1] * img.width) + currentPos[0]] = zeeColor(Zn[midx]);
+	superfly += 1;
+	midx += 1;
+	currentPos[0] += 1;
+  	img.data[(currentPos[1] * img.width) +  currentPos[0]] = zeeColor(Zn[midx]);
+	superfly += 1;
+	midx += 1;
+	if (midx == N) {
+	    midx = 0;
+    	ZnIters += 1;
+	}
+
+	while (1) {
+		for (var did = 0; did < dz.length; did++) {
+      		rmc = movcount + dz[did][2];
+			for (var move = 0; move < rmc; move++) {
+        		currentPos[0] += dz[did][0];
+		        currentPos[1] += dz[did][1];
+		        img.data[(currentPos[1] * img.width) +  currentPos[0]] = zeeColor(Zn[midx]);
+				superfly += 1;
+				midx += 1;
+				if (midx == N) {
+					ZnIters += 1;
+					midx = 0;
+				}
+			}
+		}
+		overallcount += 1;
+		if (maxIteration < ZnIters) {
+			console.log("FAILED TO GENERATE A SPIRAL");
+			//flipImage(img);
+			if (window.btoa != undefined) {
+				return 'data:image/bmp;base64,' + btoa(img.header + img.data.join(""));
+			}
+			return 'data:image/bmp;base64,' + $.base64.encode(img.header + img.data.join(""));
+		}
+		movcount += 1;
+		if ((img.data[(currentPos[1] * img.width) +  currentPos[0]] == zeeColor(((N-1) * Math.floor(255/N)))) &&
+			(isPerfectSquare(superfly) == 1)) {
+			hexcount += 1;
+			console.log("Found a spiral: hexcount=\n"+hexcount);
+			if (hexcount == k) {
+				break;
+			}
+			midx = 0;
+		}
+		currentPos[0] += 1;
+		currentPos[1] += 0;
+		img.data[(currentPos[1] * img.width) +  currentPos[0]] = zeeColor(Zn[midx]);
+		superfly += 1;
+    	midx += 1;
+		if (midx == N) {
+			ZnIters += 1;
+			midx = 0;
+		}
+	}	
+	flipImage(img);
+  	if (window.btoa != undefined) {
+		return 'data:image/bmp;base64,' + btoa(img.header + img.data.join(""));
+  	} else {
+		return 'data:image/bmp;base64,' + $.base64.encode(img.header + img.data.join(""));
+	}
+}
+
+$(document).ready(function() {
+  $('#imageContainer').attr('src', drawSpiral());
+});
+    </script>
+  </head>
+	<body>
+    <img id="imageContainer" /><p>
+	<a href="ond.html">Back to ond.html</a>
+	<br>
+	<a href="index.html">Back to index</a>
+  </body>
+</html>
